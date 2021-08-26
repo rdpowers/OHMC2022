@@ -1,0 +1,9 @@
+[submodule "Hardware/Libs/pkl-libs"]
+	path = Hardware/Libs/pkl-libs
+	url = https://github.com/rdpowers/pretty-kicad-libs.git
+[submodule "Hardware/Libs/GaudisKiCadLibrary"]
+	path = Hardware/Libs/GaudisKiCadLibrary
+	url = https://github.com/rdpowers/GaudisKiCadLibrary.git
+[submodule "Swag-Badge"]
+	path = Swag-Badge
+	url = https://github.com/CCHS-Melbourne/Swag-Badge.git

@@ -14,33 +14,165 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 2450 1950 850  1050
+S 7350 3450 850  1050
 U 611E3218
 F0 "Audio" 50
 F1 "Audio.sch" 50
+F2 "ROut_N" O R 8200 4250 50 
+F3 "ROut_P" O R 8200 4350 50 
+F4 "LOut_P" O R 8200 4050 50 
+F5 "LOut_N" O R 8200 4150 50 
+F6 "i2s_SCLK" I L 7350 3650 50 
+F7 "i2s_LRCLK" I L 7350 3750 50 
+F8 "i2s_DOUT" I L 7350 3850 50 
+F9 "i2s_DIN" O L 7350 3950 50 
+F10 "i2c1_SCL" I L 7350 4200 50 
+F11 "i2c1_SDA" B L 7350 4300 50 
+F12 "MCLK" I L 7350 4050 50 
 $EndSheet
 $Sheet
-S 5850 2050 850  1050
+S 5300 3450 1100 2000
 U 611E3335
 F0 "FPGA" 50
 F1 "FPGA.sch" 50
+F2 "i2s_SCLK" O R 6400 3600 50 
+F3 "i2s_LRCLK" O R 6400 3700 50 
+F4 "i2s_DOUT" O R 6400 3800 50 
+F5 "i2s_DIN" I R 6400 3900 50 
+F6 "i2c1_SCL" I R 6400 4150 50 
+F7 "i2c1_SDA" B R 6400 4250 50 
+F8 "MCLK" O R 6400 4000 50 
+F9 "LED_B" O R 6400 5300 50 
+F10 "LED_G" O R 6400 5100 50 
+F11 "LED_R" O R 6400 5200 50 
 $EndSheet
 $Sheet
-S 4000 3750 900  1150
+S 1900 1550 900  1150
 U 611E335F
 F0 "Power" 50
 F1 "Power.sch" 50
 $EndSheet
+$Comp
+L Connector:Conn_01x01_Female J101
+U 1 1 61231125
+P 1250 3800
+F 0 "J101" H 1278 3826 50  0000 L CNN
+F 1 "Antenna1" H 1278 3735 50  0000 L CNN
+F 2 "RocklingLib:Antenna_Mount_M3" H 1250 3800 50  0001 C CNN
+F 3 "~" H 1250 3800 50  0001 C CNN
+	1    1250 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J102
+U 1 1 612313DA
+P 1250 4000
+F 0 "J102" H 1278 4026 50  0000 L CNN
+F 1 "Antenna2" H 1278 3935 50  0000 L CNN
+F 2 "RocklingLib:Antenna_Mount_M3" H 1250 4000 50  0001 C CNN
+F 3 "~" H 1250 4000 50  0001 C CNN
+	1    1250 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L OHMC2022:RockingOverlay Rockling101
+U 1 1 612324D2
+P 10250 800
+F 0 "Rockling101" H 10328 846 50  0000 L CNN
+F 1 "RockingOverlay&Outline" H 10328 755 50  0000 L CNN
+F 2 "RocklingLib:Rockling_54mm_Combined" H 10250 800 50  0001 C CNN
+F 3 "" H 10250 800 50  0001 C CNN
+	1    10250 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 61235DDF
+P 8950 4150
+AR Path="/611E337D/61235DDF" Ref="J?"  Part="1" 
+AR Path="/61235DDF" Ref="J103"  Part="1" 
+F 0 "J103" H 9058 4431 50  0000 C CNN
+F 1 "SpeakerOut" H 9058 4340 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal" H 8950 4150 50  0001 C CNN
+F 3 "~" H 8950 4150 50  0001 C CNN
+	1    8950 4150
+	1    0    0    -1  
+$EndComp
 $Sheet
-S 6200 4100 650  2000
-U 611E337D
-F0 "Connectors" 50
-F1 "Connectors.sch" 50
+S 5450 5850 500  150 
+U 6123BB15
+F0 "TOMUHolder" 50
+F1 "tomu-fpga.sch" 50
 $EndSheet
 $Sheet
-S 1300 2300 550  700 
-U 6121933A
-F0 "AnalogFrontEnd" 50
+S 1900 3700 550  750 
+U 612429E8
+F0 "AnalogueFrontEnd" 50
 F1 "AFE.sch" 50
+F2 "DO_PITCH" O R 2450 3750 50 
+F3 "DO_VOLUME" O R 2450 3850 50 
+F4 "DAC_Latch" I R 2450 4100 50 
+F5 "i2c0_SCL" I R 2450 4200 50 
+F6 "i2c0_SDA" B R 2450 4300 50 
 $EndSheet
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J1
+U 1 1 61238583
+P 9000 2250
+F 0 "J1" H 9050 2667 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 9050 2576 50  0000 C CNN
+F 2 "OHMC2022:PinHeader_2x05_P2.54mm_Vertical" H 9000 2250 50  0001 C CNN
+F 3 "~" H 9000 2250 50  0001 C CNN
+	1    9000 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B_Micro J104
+U 1 1 613848A5
+P 3900 1900
+F 0 "J104" H 3957 2367 50  0000 C CNN
+F 1 "USB_B_Micro" H 3957 2276 50  0000 C CNN
+F 2 "" H 4050 1850 50  0001 C CNN
+F 3 "~" H 4050 1850 50  0001 C CNN
+	1    3900 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 5600 9900 5600
+Wire Wire Line
+	9650 5700 9250 5700
+Wire Wire Line
+	9650 5650 9650 5700
+Wire Wire Line
+	9950 5650 9650 5650
+Wire Wire Line
+	9850 5500 9250 5500
+Wire Wire Line
+	8400 5500 8500 5500
+Wire Wire Line
+	8400 5300 8400 5500
+Text Label 9350 5700 0    50   ~ 0
+LED_R
+Text Label 9350 5600 0    50   ~ 0
+LED_G
+Text Label 9350 5500 0    50   ~ 0
+LED_B
+$Comp
+L tomu-fpga:RGB-LED U?
+U 1 1 613B9514
+P 8850 5750
+AR Path="/6123BB15/613B9514" Ref="U?"  Part="1" 
+AR Path="/613B9514" Ref="U101"  Part="1" 
+F 0 "U101" H 8650 5700 50  0000 C CNN
+F 1 "RGB-LED" H 8750 5600 50  0000 C CNN
+F 2 "tomu-fpga:LED-RGB-5DS-UHD1110-FKA" H 8850 5750 50  0001 C CNN
+F 3 "https://www.cree.com/led-components/media/documents/ds-UHD1110-FKA.pdf" H 8850 5750 50  0001 C CNN
+F 4 "UHD1110-FKA" H 8850 5750 50  0001 C CNN "MPN"
+F 5 "Cree" H 8850 5750 50  0001 C CNN "Manufacturer"
+F 6 "N/A" H -400 2300 50  0001 C CNN "DPN"
+F 7 "CL-505S-X-SD-T" H 8850 5750 50  0001 C CNN "APN"
+F 8 "Citizen" H 8850 5750 50  0001 C CNN "AManufacturer"
+	1    8850 5750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
