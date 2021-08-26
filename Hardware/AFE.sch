@@ -36,17 +36,6 @@ F 3 "" H 2050 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenThereminCC-rescue:MountPad3 Y1
-U 1 1 5712BCA3
-P 850 1800
-F 0 "Y1" H 744 1600 60  0000 C CNN
-F 1 "MountPad3" H 900 1850 60  0000 C CNN
-F 2 "GaudiLabsFootPrints:MountPad3" H 850 1800 60  0001 C CNN
-F 3 "" H 850 1800 60  0000 C CNN
-	1    850  1800
-	-1   0    0    1   
-$EndComp
-$Comp
 L OpenThereminCC-rescue:FILTER L1
 U 1 1 5712E9CB
 P 2100 1800
@@ -265,17 +254,6 @@ F 2 "GaudiLabsFootPrints:SOIC-14_N" H 3200 1800 60  0001 C CNN
 F 3 "" H 3200 1800 60  0000 C CNN
 	6    3200 1800
 	1    0    0    -1  
-$EndComp
-$Comp
-L OpenThereminCC-rescue:MountPad3 Y2
-U 1 1 571F63BE
-P 850 5250
-F 0 "Y2" H 744 5050 60  0000 C CNN
-F 1 "MountPad3" H 900 5300 60  0000 C CNN
-F 2 "GaudiLabsFootPrints:MountPad3" H 850 5250 60  0001 C CNN
-F 3 "" H 850 5250 60  0000 C CNN
-	1    850  5250
-	-1   0    0    1   
 $EndComp
 $Comp
 L OpenThereminCC-rescue:FILTER L2
@@ -610,8 +588,6 @@ Connection ~ 1050 6250
 Wire Wire Line
 	3650 4900 3650 4550
 Wire Wire Line
-	850  5250 850  4250
-Wire Wire Line
 	1700 7000 2200 7000
 Wire Wire Line
 	2550 2350 2550 2400
@@ -822,30 +798,6 @@ F 3 "" H 4950 6700 50  0000 C CNN
 	1    4950 6700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	850  1800 850  800 
-$Comp
-L OpenThereminCC-rescue:TEST_1P GROUND1
-U 1 1 5735D84B
-P 3000 7100
-F 0 "GROUND1" H 2950 7250 50  0000 R CNN
-F 1 "GND_PAD" H 3100 7400 50  0000 R CNN
-F 2 "GaudiLabsFootPrints:MountPad3" H 3200 7100 50  0001 C CNN
-F 3 "" H 3200 7100 50  0000 C CNN
-	1    3000 7100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR011
-U 1 1 5735ECC6
-P 3000 7100
-F 0 "#PWR011" H 3000 6850 50  0001 C CNN
-F 1 "GND" H 3008 6927 50  0000 C CNN
-F 2 "" H 3000 7100 50  0000 C CNN
-F 3 "" H 3000 7100 50  0000 C CNN
-	1    3000 7100
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:VSS #PWR017
 U 1 1 5743F8AA
@@ -899,28 +851,6 @@ Wire Wire Line
 Wire Wire Line
 	2300 2400 2300 2350
 Connection ~ 2550 2400
-$Comp
-L OpenThereminCC-rescue:TEST_1P W1
-U 1 1 57DB2880
-P 5900 7600
-F 0 "W1" V 5800 7650 50  0000 C CNN
-F 1 "FIDUCIAL1" V 5900 8000 50  0000 C CNN
-F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 6100 7600 50  0001 C CNN
-F 3 "" H 6100 7600 50  0000 C CNN
-	1    5900 7600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L OpenThereminCC-rescue:TEST_1P W2
-U 1 1 57DB3B8D
-P 6100 7600
-F 0 "W2" V 6200 7650 50  0000 L CNN
-F 1 "FIDUCIAL2" V 6100 7900 50  0000 L CNN
-F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 6300 7600 50  0001 C CNN
-F 3 "" H 6300 7600 50  0000 C CNN
-	1    6100 7600
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2550 1100 2750 1100
 Wire Wire Line
@@ -1042,4 +972,8 @@ F 3 "~" H 4500 4750 50  0001 C CNN
 	1    4300 4750
 	1    0    0    -1  
 $EndComp
+Text HLabel 900  1800 0    50   UnSpc ~ 0
+PitchAnt
+Text HLabel 900  5250 0    50   UnSpc ~ 0
+VolAnt
 $EndSCHEMATC

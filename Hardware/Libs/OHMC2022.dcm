@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP47CXBX2
+D IC DAC 8BIT V-OUT 10DFN
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MCP47CXBXX-Data-Sheet-DS20006089B.pdf
+$ENDCMP
+#
+$CMP PAM8019KGR
+D IC AMP D/AB STER 3W U-QFN4040-20
+F www.diodes.com/assets/Datasheets/PAM8019.pdf
+$ENDCMP
+#
+#End Doc Library

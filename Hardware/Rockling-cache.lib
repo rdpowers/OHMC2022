@@ -360,18 +360,6 @@ X 2 2 350 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenThereminCC-rescue_MountPad3
-#
-DEF OpenThereminCC-rescue_MountPad3 X 0 40 Y Y 1 F N
-F0 "X" -50 200 60 H V C CNN
-F1 "OpenThereminCC-rescue_MountPad3" -50 350 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-X ~ 1 -200 0 200 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
 # OpenThereminCC-rescue_RES
 #
 DEF OpenThereminCC-rescue_RES R 0 40 Y Y 1 F N
@@ -843,22 +831,6 @@ C 0 100 50 0 1 0 f
 P 3 0 1 0 0 250 -50 250 -50 200 N
 P 3 0 1 0 50 200 0 250 -50 200 N
 P 4 0 1 0 0 150 0 250 50 250 50 200 N
-ENDDRAW
-ENDDEF
-#
-# tomu-fpga_USB-B
-#
-DEF tomu-fpga_USB-B U 0 40 Y Y 1 F N
-F0 "U" 0 0 50 H V C CNN
-F1 "tomu-fpga_USB-B" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S 300 450 -300 50 0 1 0 f
-X VUSB 1 -400 100 100 R 50 50 1 1 w
-X USBDN 2 -400 200 100 R 50 50 1 1 B
-X USBDP 3 -400 300 100 R 50 50 1 1 B
-X GND 4 -400 400 100 R 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #

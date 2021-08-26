@@ -1,0 +1,11 @@
+(fp_lib_table
+  (lib (name tomu-fpga)(type KiCad)(uri ${KIPRJMOD}/Libs/tomu-fpga.pretty)(options "")(descr ""))
+  (lib (name OHMC2022)(type KiCad)(uri ${KIPRJMOD}/Libs/OHMC2022.pretty)(options "")(descr ""))
+  (lib (name Libs)(type KiCad)(uri ${KIPRJMOD}/Libs)(options "")(descr ""))
+  (lib (name GaudiLabsFootPrints)(type KiCad)(uri ${KIPRJMOD}/Libs/GaudisKiCadLibrary/GaudiLabsFootPrints.pretty)(options "")(descr ""))
+  (lib (name SJ-43516-SMT-GR)(type KiCad)(uri ${KIPRJMOD}/Libs/SJ-43516-SMT-GR)(options "")(descr ""))
+  (lib (name pkl_buttons_switches)(type KiCad)(uri ${KIPRJMOD}/Libs/pkl-libs/pkl_buttons_switches.pretty)(options "")(descr ""))
+  (lib (name pkl_mechanical)(type KiCad)(uri ${KIPRJMOD}/Libs/pkl-libs/pkl_mechanical.pretty)(options "")(descr ""))
+  (lib (name pkl_misc)(type KiCad)(uri ${KIPRJMOD}/Libs/pkl-libs/pkl_misc.pretty)(options "")(descr ""))
+  (lib (name RocklingLib)(type KiCad)(uri ${KIPRJMOD}/../Swag-Badge/Rockling-LayoutTest/RocklingLib.pretty)(options "")(descr ""))
+)

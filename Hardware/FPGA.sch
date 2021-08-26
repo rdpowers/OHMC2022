@@ -24,10 +24,16 @@ F 3 "" H 8750 3350 50  0001 C CNN
 	1    6450 3150
 	1    0    0    -1  
 $EndComp
-Text HLabel 7450 3050 2    50   Output ~ 0
+Text HLabel 7550 3050 2    50   Output ~ 0
 LED_B
-Text HLabel 7450 2850 2    50   Output ~ 0
+Text HLabel 7550 2850 2    50   Output ~ 0
 LED_G
-Text HLabel 7450 2950 2    50   Output ~ 0
+Text HLabel 7550 2950 2    50   Output ~ 0
 LED_R
+Wire Wire Line
+	7450 2850 7550 2850
+Wire Wire Line
+	7450 2950 7550 2950
+Wire Wire Line
+	7450 3050 7550 3050
 $EndSCHEMATC
