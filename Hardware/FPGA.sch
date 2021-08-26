@@ -36,4 +36,91 @@ Wire Wire Line
 	7450 2950 7550 2950
 Wire Wire Line
 	7450 3050 7550 3050
+Text HLabel 3200 2400 0    50   BiDi ~ 0
+i2c0_SDA
+Text HLabel 3200 2500 0    50   Input ~ 0
+i2c0_SCL
+Text HLabel 3200 2800 0    50   Input ~ 0
+DAC_Latch
+Text HLabel 3250 3150 0    50   Output ~ 0
+DO_VOLUME
+Text HLabel 3200 3300 0    50   Output ~ 0
+DO_PITCH
+NoConn ~ 9650 2750
+Wire Wire Line
+	9300 2950 9300 2550
+Wire Wire Line
+	10650 2400 10650 2750
+Wire Wire Line
+	8750 2950 9300 2950
+Text Label 9200 2950 2    50   ~ 0
+OSC_IN
+Wire Wire Line
+	9650 2550 9300 2550
+Wire Wire Line
+	10450 2750 10350 2750
+Wire Wire Line
+	10450 2550 10550 2550
+$Comp
+L Device:C_Small C?
+U 1 1 614FF0DF
+P 10450 2650
+F 0 "C?" H 10500 2700 50  0000 L CNN
+F 1 "0201, 100nF, 10V, X5R, 20%" H 10300 2450 50  0000 L CNN
+F 2 "tomu-fpga:C_0201_0603Metric" H 10450 2650 50  0001 C CNN
+F 3 "" H 10450 2650 50  0001 C CNN
+F 4 "ANY" H 5400 550 50  0001 C CNN "MPN"
+F 5 "ANY" H 5400 550 50  0001 C CNN "MYPN"
+F 6 "ANY" H 5400 550 50  0001 C CNN "Manufacturer"
+F 7 "C" H 10450 2650 50  0001 C CNN "Spice_Primitive"
+F 8 "100n" H 10450 2650 50  0001 C CNN "Spice_Model"
+F 9 "Y" H 10450 2650 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    10450 2650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10550 2550 10550 2850
+$Comp
+L power:GND #PWR?
+U 1 1 614FF0E6
+P 10550 2850
+F 0 "#PWR?" H 10550 2600 50  0001 C CNN
+F 1 "GND" H 10555 2677 50  0000 C CNN
+F 2 "" H 10550 2850 50  0001 C CNN
+F 3 "" H 10550 2850 50  0001 C CNN
+	1    10550 2850
+	-1   0    0    -1  
+$EndComp
+Connection ~ 10450 2550
+Wire Wire Line
+	10350 2550 10450 2550
+Connection ~ 10450 2750
+Wire Wire Line
+	10650 2750 10450 2750
+$Comp
+L power:+3V3 #PWR?
+U 1 1 614FF0F0
+P 10650 2400
+F 0 "#PWR?" H 10650 2250 50  0001 C CNN
+F 1 "+3V3" H 10665 2573 50  0000 C CNN
+F 2 "" H 10650 2400 50  0001 C CNN
+F 3 "" H 10650 2400 50  0001 C CNN
+	1    10650 2400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L tomu-fpga:Oscillator U?
+U 1 1 614FF0FA
+P 10000 2500
+F 0 "U?" H 9750 2450 50  0000 C CNN
+F 1 "Crystal Oscillator" H 10150 2450 50  0000 C CNN
+F 2 "tomu-fpga:XTAL-2520" H 10000 2500 50  0001 C CNN
+F 3 "https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf" H 10000 2500 50  0001 C CNN
+F 4 "XC2756CT-ND" H 10000 2500 50  0001 C CNN "MPN"
+F 5 "ECS" H 10000 2500 50  0001 C CNN "Manufacturer"
+F 6 "XC2756CT-ND" H 10000 2500 50  0001 C CNN "DPN"
+F 7 "XTAL OSC XO 48.0000MHZ CMOS SMD" H 5200 150 50  0001 C CNN "Description"
+	1    10000 2500
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC

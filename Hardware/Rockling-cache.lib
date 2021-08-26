@@ -656,23 +656,6 @@ X VSS 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# tomu-fpga_Case
-#
-DEF tomu-fpga_Case XX 0 40 Y Y 1 F N
-F0 "XX" 0 0 50 H V C CNN
-F1 "tomu-fpga_Case" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -50 100 50 50 0 1 0 f
-S 50 50 50 50 0 1 0 N
-P 2 0 1 0 -50 150 -100 100 N
-P 2 0 1 0 0 100 -50 150 N
-P 2 0 1 0 0 100 50 150 N
-P 2 0 1 0 50 150 100 100 N
-ENDDRAW
-ENDDEF
-#
 # tomu-fpga_ICE40UP5K-UWG30
 #
 DEF tomu-fpga_ICE40UP5K-UWG30 U 0 40 Y Y 4 L N
@@ -816,21 +799,6 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 S -50 100 0 0 0 1 0 f
 X ~ 1 -150 50 100 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# tomu-fpga_Touchpad-Note
-#
-DEF tomu-fpga_Touchpad-Note XX 0 40 Y Y 1 F N
-F0 "XX" 0 0 50 H V C CNN
-F1 "tomu-fpga_Touchpad-Note" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 0 100 50 0 1 0 f
-P 3 0 1 0 0 250 -50 250 -50 200 N
-P 3 0 1 0 50 200 0 250 -50 200 N
-P 4 0 1 0 0 150 0 250 50 250 50 200 N
 ENDDRAW
 ENDDEF
 #

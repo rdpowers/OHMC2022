@@ -595,8 +595,6 @@ Wire Wire Line
 	3650 5250 3750 5250
 Wire Wire Line
 	1700 3550 2400 3550
-Text GLabel 8600 4600 2    60   Input ~ 0
-DAC_LATCH
 $Comp
 L OpenThereminCC-rescue:C C20
 U 1 1 5721326C
@@ -920,11 +918,7 @@ Wire Wire Line
 Text GLabel 3750 5250 2    60   Input ~ 0
 VO_VOL
 Text Notes 8150 6350 0    197  ~ 0
-Change DAC to i2c
-Text Notes 4250 5450 0    197  ~ 0
-TEST POINTS!!
-Text Notes 4300 1850 0    197  ~ 0
-TEST POINTS!!
+Changed DAC to i2c
 Text Notes 2400 5900 0    197  ~ 0
 220pF?\n
 $Comp
@@ -976,4 +970,14 @@ Text HLabel 900  1800 0    50   UnSpc ~ 0
 PitchAnt
 Text HLabel 900  5250 0    50   UnSpc ~ 0
 VolAnt
+Text HLabel 4450 1800 2    50   Output ~ 0
+DO_PITCH
+Text HLabel 4200 5250 2    50   Output ~ 0
+DO_VOLUME
+Text HLabel 8650 4200 2    50   BiDi ~ 0
+i2c0_SDA
+Text HLabel 8650 4300 2    50   Input ~ 0
+i2c0_SCL
+Text HLabel 8650 4600 2    50   Input ~ 0
+DAC_Latch
 $EndSCHEMATC
