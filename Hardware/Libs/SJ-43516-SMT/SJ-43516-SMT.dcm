@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SJ-43516-SMT-GR
+D CONN JACK 4COND 3.5MM SMD R/A GREEN
+F https://www.cuidevices.com/product/resource/sj-4351x-smt.pdf
+$ENDCMP
+#
+$CMP SJ-43516-SMT-PI
+D CONN JACK 4COND 3.5MM SMD R/A PINK
+F https://www.cuidevices.com/product/resource/digikeypdf/sj-4351x-smt.pdf
+$ENDCMP
+#
+#End Doc Library

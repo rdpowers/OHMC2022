@@ -5,6 +5,6 @@
   (lib (name OHMC2022)(type Legacy)(uri ${KIPRJMOD}/Libs/OHMC2022.lib)(options "")(descr ""))
   (lib (name OpenThereminCC-rescue)(type Legacy)(uri ${KIPRJMOD}/Reference/OpenThereminCC-rescue.lib)(options "")(descr ""))
   (lib (name GaudiLabsPartsLibrary)(type Legacy)(uri ${KIPRJMOD}/Libs/GaudisKiCadLibrary/GaudiLabsPartsLibrary.lib)(options "")(descr ""))
-  (lib (name SJ-43516-SMT-GR)(type Legacy)(uri ${KIPRJMOD}/Libs/SJ-43516-SMT-GR/SJ-43516-SMT-GR.lib)(options "")(descr ""))
+  (lib (name SJ-43516-SMT)(type Legacy)(uri ${KIPRJMOD}/Libs/SJ-43516-SMT/SJ-43516-SMT.lib)(options "")(descr ""))
   (lib (name pkl_misc)(type Legacy)(uri ${KIPRJMOD}/Libs/pkl-libs/pkl_misc.lib)(options "")(descr ""))
 )
