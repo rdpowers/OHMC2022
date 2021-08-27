@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -93,15 +93,15 @@ $EndComp
 $Comp
 L Connector:Conn_01x04_Male J?
 U 1 1 61235DDF
-P 8950 4150
+P 9650 4200
 AR Path="/611E337D/61235DDF" Ref="J?"  Part="1" 
-AR Path="/61235DDF" Ref="J103"  Part="1" 
-F 0 "J103" H 9058 4431 50  0000 C CNN
-F 1 "SpeakerOut" H 9058 4340 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal" H 8950 4150 50  0001 C CNN
-F 3 "~" H 8950 4150 50  0001 C CNN
-	1    8950 4150
-	1    0    0    -1  
+AR Path="/61235DDF" Ref="J105"  Part="1" 
+F 0 "J105" H 9758 4481 50  0000 C CNN
+F 1 "SpeakerOut" H 9758 4390 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal" H 9650 4200 50  0001 C CNN
+F 3 "~" H 9650 4200 50  0001 C CNN
+	1    9650 4200
+	-1   0    0    -1  
 $EndComp
 $Sheet
 S 5450 5850 500  150 
@@ -110,10 +110,10 @@ F0 "TOMUHolder" 50
 F1 "tomu-fpga.sch" 50
 $EndSheet
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J1
+L Connector_Generic:Conn_02x05_Odd_Even J104
 U 1 1 61238583
 P 9000 2250
-F 0 "J1" H 9050 2667 50  0000 C CNN
+F 0 "J104" H 9050 2667 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 9050 2576 50  0000 C CNN
 F 2 "OHMC2022:PinHeader_2x05_P2.54mm_Vertical" H 9000 2250 50  0001 C CNN
 F 3 "~" H 9000 2250 50  0001 C CNN
@@ -121,10 +121,10 @@ F 3 "~" H 9000 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_B_Micro J104
+L Connector:USB_B_Micro J103
 U 1 1 613848A5
 P 5450 1450
-F 0 "J104" H 5507 1917 50  0000 C CNN
+F 0 "J103" H 5507 1917 50  0000 C CNN
 F 1 "USB_B_Micro" H 5507 1826 50  0000 C CNN
 F 2 "OHMC2022:USB_Micro-B_Molex-105017-0001" H 5600 1400 50  0001 C CNN
 F 3 "~" H 5600 1400 50  0001 C CNN
@@ -210,10 +210,10 @@ F7 "PitchAnt" U L 1900 4750 50
 F8 "VolAnt" U L 1900 4500 50 
 $EndSheet
 $Comp
-L SJ-43516-SMT:SJ-43516-SMT-PI J2
+L SJ-43516-SMT:SJ-43516-SMT-PI J106
 U 1 1 612893B1
 P 10150 3200
-F 0 "J2" H 10700 3650 50  0000 R CNN
+F 0 "J106" H 10700 3650 50  0000 R CNN
 F 1 "HeadphoneOut" H 10700 2700 50  0000 R CNN
 F 2 "SJ-43516-SMT:CUI_SJ-43516-SMT-PI" H 10050 3050 50  0001 L BNN
 F 3 "https://www.cuidevices.com/product/resource/digikeypdf/sj-4351x-smt.pdf" H 10050 3050 50  0001 L BNN
@@ -225,4 +225,10 @@ F 8 "CP-43516SJPICT-ND" H 9772 3039 50  0001 R CNN "DPN"
 	1    10150 3200
 	-1   0    0    -1  
 $EndComp
+$Sheet
+S 3300 6150 500  250 
+U 61291C71
+F0 "bitsyHolder" 50
+F1 "icebreaker-bitsy.sch" 50
+$EndSheet
 $EndSCHEMATC
