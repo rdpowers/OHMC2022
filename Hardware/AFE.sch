@@ -14,24 +14,24 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L OpenThereminCC-rescue:4069 U801
+L OHMC2022:4069.HEF4069UBTT,118 U801
 U 2 1 570FE1BD
 P 3200 4550
 F 0 "U801" H 3200 4865 50  0000 C CNN
 F 1 "4069" H 3200 4774 50  0000 C CNN
-F 2 "GaudiLabsFootPrints:SOIC-14_N" H 3200 4550 60  0001 C CNN
-F 3 "" H 3200 4550 60  0000 C CNN
+F 2 "OHMC2022:TSSOP14" H 3200 4550 60  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF4069UB.pdf" H 3200 4550 60  0001 C CNN
 	2    3200 4550
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenThereminCC-rescue:4069 U801
+L OHMC2022:4069.HEF4069UBTT,118 U801
 U 3 1 570FE343
 P 2050 4550
 F 0 "U801" H 2050 4865 50  0000 C CNN
 F 1 "4069" H 2050 4774 50  0000 C CNN
-F 2 "GaudiLabsFootPrints:SOIC-14_N" H 2050 4550 60  0001 C CNN
-F 3 "" H 2050 4550 60  0000 C CNN
+F 2 "OHMC2022:TSSOP14" H 2050 4550 60  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF4069UB.pdf" H 2050 4550 60  0001 C CNN
 	3    2050 4550
 	1    0    0    -1  
 $EndComp
@@ -41,7 +41,7 @@ U 1 1 5712E9CB
 P 2100 1800
 F 0 "L801" H 2100 2040 50  0000 C CNN
 F 1 "1mH" H 2100 1949 50  0000 C CNN
-F 2 "GaudiLabsFootPrints:COIL" H 2100 1800 50  0001 C CNN
+F 2 "OHMC2022:IND.1812.NL453232T" H 2100 1800 50  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_standard_nl453232_en.pdf" H 2100 1800 50  0001 C CNN
 F 4 "NL453232T-102J-PF " H 2100 1800 50  0001 C CNN "MPN"
 F 5 "810-NL453232T-102JPF" H 2100 1800 50  0001 C CNN "MouserPN"
@@ -104,13 +104,15 @@ F 3 "" H 1550 2450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenThereminCC-rescue:4069 U801
+L OHMC2022:4069.HEF4069UBTT,118 U801
 U 1 1 570FE0DB
 P 3200 5250
 F 0 "U801" H 3250 5100 50  0000 C CNN
 F 1 "4069" H 3450 5150 50  0000 C CNN
-F 2 "GaudiLabsFootPrints:SOIC-14_N" H 3200 5250 60  0001 C CNN
-F 3 "" H 3200 5250 60  0000 C CNN
+F 2 "OHMC2022:TSSOP14" H 3200 5250 60  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF4069UB.pdf" H 3200 5250 60  0001 C CNN
+F 4 "1727-6749-1-ND" H 3200 5250 50  0001 C CNN "DPN"
+F 5 "HEF4069UBTT,118" H 3200 5250 50  0001 C CNN "MPN"
 	1    3200 5250
 	1    0    0    -1  
 $EndComp
@@ -238,24 +240,24 @@ F 3 "" H 1050 3950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenThereminCC-rescue:4069 U801
+L OHMC2022:4069.HEF4069UBTT,118 U801
 U 5 1 571F63B2
 P 3200 1100
 F 0 "U801" H 3200 1415 50  0000 C CNN
 F 1 "4069" H 3200 1324 50  0000 C CNN
-F 2 "GaudiLabsFootPrints:SOIC-14_N" H 3200 1100 60  0001 C CNN
-F 3 "" H 3200 1100 60  0000 C CNN
+F 2 "OHMC2022:TSSOP14" H 3200 1100 60  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF4069UB.pdf" H 3200 1100 60  0001 C CNN
 	5    3200 1100
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenThereminCC-rescue:4069 U801
+L OHMC2022:4069.HEF4069UBTT,118 U801
 U 6 1 571F63B8
 P 3200 1800
 F 0 "U801" H 3200 2115 50  0000 C CNN
 F 1 "4069" H 3200 2024 50  0000 C CNN
-F 2 "GaudiLabsFootPrints:SOIC-14_N" H 3200 1800 60  0001 C CNN
-F 3 "" H 3200 1800 60  0000 C CNN
+F 2 "OHMC2022:TSSOP14" H 3200 1800 60  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF4069UB.pdf" H 3200 1800 60  0001 C CNN
 	6    3200 1800
 	1    0    0    -1  
 $EndComp
@@ -315,13 +317,13 @@ F 3 "" H 1550 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenThereminCC-rescue:4069 U801
+L OHMC2022:4069.HEF4069UBTT,118 U801
 U 4 1 571F63F6
 P 2050 1100
 F 0 "U801" H 2100 950 50  0000 C CNN
 F 1 "4069" H 2300 1000 50  0000 C CNN
-F 2 "GaudiLabsFootPrints:SOIC-14_N" H 2050 1100 60  0001 C CNN
-F 3 "" H 2050 1100 60  0000 C CNN
+F 2 "OHMC2022:TSSOP14" H 2050 1100 60  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF4069UB.pdf" H 2050 1100 60  0001 C CNN
 	4    2050 1100
 	1    0    0    -1  
 $EndComp
@@ -981,7 +983,7 @@ U 1 1 612DCEBA
 P 2100 5250
 F 0 "L802" H 2100 5490 50  0000 C CNN
 F 1 "1mH" H 2100 5399 50  0000 C CNN
-F 2 "GaudiLabsFootPrints:COIL" H 2100 5250 50  0001 C CNN
+F 2 "OHMC2022:IND.1812.NL453232T" H 2100 5250 50  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_standard_nl453232_en.pdf" H 2100 5250 50  0001 C CNN
 F 4 "NL453232T-102J-PF " H 2100 5250 50  0001 C CNN "MPN"
 F 5 "810-NL453232T-102JPF" H 2100 5250 50  0001 C CNN "MouserPN"
@@ -991,4 +993,6 @@ $EndComp
 Connection ~ 1750 5250
 Wire Wire Line
 	1750 5250 1750 5150
+Text Notes 8150 6000 0    197  ~ 0
+Changed 4069 PKG.
 $EndSCHEMATC

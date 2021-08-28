@@ -1,4 +1,4 @@
-19496082023597305
+19500972317868305
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -58863,12 +58863,33 @@ Fish_FSilk
 0
 0
 OHMC2022
+IND.1812.NL453232T
+
+
+0
+2
+2
+OHMC2022
 PinHeader_2x05_P2.54mm_Vertical
 Through hole straight pin header, 2x05, 2.54mm pitch, double rows
 Through hole pin header THT 2x05 2.54mm double row
 0
 10
 10
+OHMC2022
+QFN50P250X350X100-17N
+
+
+0
+17
+17
+OHMC2022
+TSSOP14
+
+
+0
+14
+14
 OHMC2022
 USB_Micro-B_Molex-105017-0001
 http://www.molex.com/pdm_docs/sd/1050170001_sd.pdf
