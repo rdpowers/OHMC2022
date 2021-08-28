@@ -42,7 +42,9 @@ P 2100 1800
 F 0 "L801" H 2100 2040 50  0000 C CNN
 F 1 "1mH" H 2100 1949 50  0000 C CNN
 F 2 "GaudiLabsFootPrints:COIL" H 2100 1800 50  0001 C CNN
-F 3 "" H 2100 1800 50  0000 C CNN
+F 3 "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_standard_nl453232_en.pdf" H 2100 1800 50  0001 C CNN
+F 4 "NL453232T-102J-PF " H 2100 1800 50  0001 C CNN "MPN"
+F 5 "810-NL453232T-102JPF" H 2100 1800 50  0001 C CNN "MouserPN"
 	1    2100 1800
 	1    0    0    -1  
 $EndComp
@@ -162,8 +164,10 @@ U 1 1 571D2B45
 P 1050 2900
 F 0 "D801" H 1100 3050 60  0000 L CNN
 F 1 "BB914" H 1500 2800 60  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 1050 2900 60  0001 C CNN
-F 3 "" H 1050 2900 60  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1050 2900 60  0001 C CNN
+F 3 "https://au.mouser.com/datasheet/2/196/bb914series-84756.pdf" H 1050 2900 60  0001 C CNN
+F 4 "BB 914 E6327 " H 1050 2900 50  0001 C CNN "MPN"
+F 5 "726-BB914E6327 " H 1050 2900 50  0001 C CNN "MouserPN"
 	1    1050 2900
 	1    0    0    -1  
 $EndComp
@@ -253,17 +257,6 @@ F 1 "4069" H 3200 2024 50  0000 C CNN
 F 2 "GaudiLabsFootPrints:SOIC-14_N" H 3200 1800 60  0001 C CNN
 F 3 "" H 3200 1800 60  0000 C CNN
 	6    3200 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenThereminCC-rescue:FILTER L802
-U 1 1 571F63C6
-P 2100 5250
-F 0 "L802" H 2100 5490 50  0000 C CNN
-F 1 "1mH" H 2100 5399 50  0000 C CNN
-F 2 "GaudiLabsFootPrints:COIL" H 2100 5250 50  0001 C CNN
-F 3 "" H 2100 5250 50  0000 C CNN
-	1    2100 5250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -374,17 +367,6 @@ F 1 "470pF" H 850 5600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1088 5550 50  0001 C CNN
 F 3 "" H 1050 5700 50  0000 C CNN
 	1    1050 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenThereminCC-rescue:CapDiode D802
-U 1 1 571F6429
-P 1050 6350
-F 0 "D802" H 1100 6500 60  0000 L CNN
-F 1 "BB914" H 1500 6250 60  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 1050 6350 60  0001 C CNN
-F 3 "" H 1050 6350 60  0000 C CNN
-	1    1050 6350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -555,14 +537,11 @@ Wire Wire Line
 Wire Wire Line
 	2550 4250 2550 4550
 Wire Wire Line
-	1750 5700 1750 5150
+	1750 5700 1750 5250
 Wire Wire Line
 	1750 5150 1600 5150
 Wire Wire Line
 	1550 6050 1550 6100
-Wire Wire Line
-	1050 5850 1050 6250
-Connection ~ 1050 6250
 Wire Wire Line
 	3650 4900 3650 4550
 Wire Wire Line
@@ -862,8 +841,6 @@ Wire Wire Line
 Wire Wire Line
 	1050 7000 1050 7050
 Wire Wire Line
-	1050 6250 1050 6450
-Wire Wire Line
 	3350 7250 3350 7300
 Wire Wire Line
 	3650 7250 4000 7250
@@ -949,9 +926,9 @@ PitchAnt
 Text HLabel 900  5250 0    50   UnSpc ~ 0
 VolAnt
 Text HLabel 4450 1800 2    50   Output ~ 0
-DO_PITCH
+VO_PITCH
 Text HLabel 4200 5250 2    50   Output ~ 0
-DO_VOLUME
+VO_VOLUME
 Text HLabel 8650 4200 2    50   BiDi ~ 0
 i2c0_SDA
 Text HLabel 8650 4300 2    50   Input ~ 0
@@ -980,4 +957,38 @@ F 3 "" H 1000 6700 60  0000 C CNN
 	1    1050 6700
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	1050 5850 1050 6250
+$Comp
+L OpenThereminCC-rescue:CapDiode D802
+U 1 1 612D4FD1
+P 1050 6350
+F 0 "D802" H 1100 6500 60  0000 L CNN
+F 1 "BB914" H 1500 6250 60  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1050 6350 60  0001 C CNN
+F 3 "https://au.mouser.com/datasheet/2/196/bb914series-84756.pdf" H 1050 6350 60  0001 C CNN
+F 4 "BB 914 E6327 " H 1050 6350 50  0001 C CNN "MPN"
+F 5 "726-BB914E6327 " H 1050 6350 50  0001 C CNN "MouserPN"
+	1    1050 6350
+	1    0    0    -1  
+$EndComp
+Connection ~ 1050 6250
+Wire Wire Line
+	1050 6250 1050 6450
+$Comp
+L OpenThereminCC-rescue:FILTER L802
+U 1 1 612DCEBA
+P 2100 5250
+F 0 "L802" H 2100 5490 50  0000 C CNN
+F 1 "1mH" H 2100 5399 50  0000 C CNN
+F 2 "GaudiLabsFootPrints:COIL" H 2100 5250 50  0001 C CNN
+F 3 "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_standard_nl453232_en.pdf" H 2100 5250 50  0001 C CNN
+F 4 "NL453232T-102J-PF " H 2100 5250 50  0001 C CNN "MPN"
+F 5 "810-NL453232T-102JPF" H 2100 5250 50  0001 C CNN "MouserPN"
+	1    2100 5250
+	1    0    0    -1  
+$EndComp
+Connection ~ 1750 5250
+Wire Wire Line
+	1750 5250 1750 5150
 $EndSCHEMATC
