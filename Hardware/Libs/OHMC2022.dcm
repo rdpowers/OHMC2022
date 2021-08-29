@@ -15,4 +15,9 @@ D IC AMP D/AB STER 3W U-QFN4040-20
 F www.diodes.com/assets/Datasheets/PAM8019.pdf
 $ENDCMP
 #
+$CMP RB496EATR
+D DIODE ARRAY SCHOTTKY 20V TSMD5
+F https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb496eatr-e.pdf
+$ENDCMP
+#
 #End Doc Library
