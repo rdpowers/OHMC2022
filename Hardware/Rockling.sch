@@ -264,4 +264,8 @@ F 7 "P16767CT-ND" H 2200 7286 50  0001 C CNN "DPN"
 	1    2200 7150
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1450 4500 1900 4500
+Wire Wire Line
+	1900 4750 1450 4750
 $EndSCHEMATC

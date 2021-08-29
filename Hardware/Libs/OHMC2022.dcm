@@ -1,8 +1,6 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP 4069.HEF4069UBTT,118
-D 300mA low dropout linear regulator, shutdown pin, 3.5V fixed positive output, SOT-23-5
-K linear regulator ldo fixed positive
 F http://www.diodes.com/_files/datasheets/AP131.pdf
 $ENDCMP
 #
