@@ -1,8 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP 4069.HEF4069UBTT,118
-D IC INVERTER 6CH 6-INP 14TSSOP
-F https://assets.nexperia.com/documents/data-sheet/HEF4069UB.pdf
+D 300mA low dropout linear regulator, shutdown pin, 3.5V fixed positive output, SOT-23-5
+K linear regulator ldo fixed positive
+F http://www.diodes.com/_files/datasheets/AP131.pdf
 $ENDCMP
 #
 $CMP Ind-SRN4018
@@ -12,8 +13,15 @@ F https://www.bourns.com/docs/Product-Datasheets/SRN4018.pdf
 $ENDCMP
 #
 $CMP MCP47CXBX2
-D IC DAC 8BIT V-OUT 10DFN
-F https://ww1.microchip.com/downloads/en/DeviceDoc/MCP47CXBXX-Data-Sheet-DS20006089B.pdf
+D 500mA low dropout linear regulator, fixed 5.0V output, SOT-23-5
+K 500mA ultra-low-noise LDO linear voltage regulator fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf
+$ENDCMP
+#
+$CMP MIC5317-2.5YM5
+D IC REG LINEAR 2.5V 150MA SOT23-5
+K linear regulator ldo fixed positive
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MIC5317-High-Performance-Single-150mA-LDO-DS20006195B.pdf
 $ENDCMP
 #
 $CMP PAM8019KGR
@@ -22,8 +30,9 @@ F www.diodes.com/assets/Datasheets/PAM8019.pdf
 $ENDCMP
 #
 $CMP RB496EATR
-D DIODE ARRAY SCHOTTKY 20V TSMD5
-F https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb496eatr-e.pdf
+D 500mA Low drop-out regulator, Fixed Output 5.0V, SOT-23-5
+K REGULATOR LDO 5.0V
+F https://www.exar.com/content/document.ashx?id=22106&languageid=1033&type=Datasheet&partnumber=SPX3819&filename=SPX3819.pdf&part=SPX3819
 $ENDCMP
 #
 #End Doc Library
