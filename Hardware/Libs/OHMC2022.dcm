@@ -6,6 +6,11 @@ K linear regulator ldo fixed positive
 F http://www.diodes.com/_files/datasheets/AP131.pdf
 $ENDCMP
 #
+$CMP EVQ-P7J01P
+D SWITCH TACTILE SPST-NO 0.05A 12V
+F https://s3.amazonaws.com/snapeda/datasheet/EVQ-P7J01P_Panasonic_Electronic_Components.pdf
+$ENDCMP
+#
 $CMP Ind-SRN4018
 D Inductor
 K inductor choke coil reactor magnetic

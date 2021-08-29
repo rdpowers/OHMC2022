@@ -234,4 +234,19 @@ F1 "icebreaker-bitsy.sch" 50
 $EndSheet
 Text Notes 2050 800  0    197  ~ 0
 Need to tie USB & SAO power together somehow.
+$Comp
+L OHMC2022:EVQ-P7J01P SW?
+U 1 1 6130166F
+P 2200 6750
+F 0 "SW?" H 2200 6981 50  0000 C CNN
+F 1 "EVQ-P7J01P" H 2200 6890 50  0000 C CNN
+F 2 "OHMC2022:SW_EVQ-P7J01P" H 2200 6750 50  0001 L BNN
+F 3 "https://s3.amazonaws.com/snapeda/datasheet/EVQ-P7J01P_Panasonic_Electronic_Components.pdf" H 2200 6750 50  0001 L BNN
+F 4 "Panasonic" H 2200 6750 50  0001 L BNN "MANUFACTURER"
+F 5 "Manufacturer Recommendation" H 2200 6750 50  0001 L BNN "STANDARD"
+F 6 "EVQ-P7J01P" H 2200 6885 50  0001 C CNN "MPN"
+F 7 "P16767CT-ND" H 2200 6886 50  0001 C CNN "DPN"
+	1    2200 6750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
