@@ -1,4 +1,4 @@
-18968094222641586
+19504232660463305
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -51505,6 +51505,1315 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
+GaudiLabsFootPrints
+0805G
+
+
+0
+2
+2
+GaudiLabsFootPrints
+A6280
+
+
+0
+16
+16
+GaudiLabsFootPrints
+APPA3010QBC_D
+
+
+0
+3
+2
+GaudiLabsFootPrints
+ARDUINO_MICRO_SMD
+33
+ARDUINO, MICRO
+0
+72
+34
+GaudiLabsFootPrints
+AntennaMountHole
+
+
+0
+1
+1
+GaudiLabsFootPrints
+ArduinoUNO
+
+
+0
+0
+0
+GaudiLabsFootPrints
+Arduino_Micro_Throughole
+Through hole angled pin header, 1x17, 2.54mm pitch, 6mm pin length, single row
+Through hole angled pin header THT 1x17 2.54mm single row
+0
+34
+34
+GaudiLabsFootPrints
+BAT_HOLDER_AAA
+
+
+0
+2
+2
+GaudiLabsFootPrints
+BAT_HOLDER_AAA_DOUBLE
+
+
+0
+4
+4
+GaudiLabsFootPrints
+BAT_HOLDER_AAA_DOUBLE_BITBADGE
+
+
+0
+4
+4
+GaudiLabsFootPrints
+BNC_FEMALE
+
+
+0
+5
+2
+GaudiLabsFootPrints
+Button_Schurter
+
+
+0
+4
+2
+GaudiLabsFootPrints
+C100n_250V
+
+
+0
+2
+2
+GaudiLabsFootPrints
+CA6_VSMD
+
+
+0
+4
+3
+GaudiLabsFootPrints
+CELL_HOLDER_6_8
+
+
+0
+3
+2
+GaudiLabsFootPrints
+COIL
+
+
+0
+2
+2
+GaudiLabsFootPrints
+CR2032_Holder
+
+
+0
+2
+2
+GaudiLabsFootPrints
+C_0805
+Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)
+capacitor 0805
+0
+2
+2
+GaudiLabsFootPrints
+C_1913
+Capacitor SMD 1812, reflow soldering, AVX (see smccp.pdf)
+capacitor 1812
+0
+2
+2
+GaudiLabsFootPrints
+C_2512_HandSoldering
+Resistor SMD 2512, hand soldering
+resistor 2512
+0
+2
+2
+GaudiLabsFootPrints
+C_SMD_12mm
+SMT capacitor, aluminium electrolytic, 10x10
+
+0
+2
+2
+GaudiLabsFootPrints
+D-Pak_TO252AA
+D-Pak, TO252AA, Diode
+D-Pak TO252AA Diode
+0
+3
+3
+GaudiLabsFootPrints
+D2PAK
+D2PAK / TO-263 3-lead smd package
+d2pak d2pak-3 to-263ab to-263
+0
+4
+3
+GaudiLabsFootPrints
+DC_JACK_SMD
+DIP-8_300 smd shape
+smd cms 8dip
+0
+4
+3
+GaudiLabsFootPrints
+DD1718PA
+
+
+0
+5
+5
+GaudiLabsFootPrints
+DIL16
+
+
+0
+16
+16
+GaudiLabsFootPrints
+DIL16_SMD
+
+
+0
+16
+16
+GaudiLabsFootPrints
+DIP-8_W7.62mm
+8-lead dip package, row spacing 7.62 mm (300 mils)
+dil dip 2.54 300
+0
+8
+8
+GaudiLabsFootPrints
+DO-214AA
+
+
+0
+2
+2
+GaudiLabsFootPrints
+Drill2_3
+
+
+0
+0
+0
+GaudiLabsFootPrints
+ESP8266_SMD
+
+
+0
+16
+8
+GaudiLabsFootPrints
+FFC_05_24
+
+
+0
+26
+24
+GaudiLabsFootPrints
+FFC_05_45
+
+
+0
+47
+45
+GaudiLabsFootPrints
+FFC_MOLEX_EASYON_05mm_24
+
+
+0
+26
+24
+GaudiLabsFootPrints
+FFC_MOLEX_EASYON_05mm_25
+
+
+0
+16
+14
+GaudiLabsFootPrints
+FFC_NONZIF_1mm_14
+
+
+0
+16
+14
+GaudiLabsFootPrints
+FFC_NONZIF_1mm_16
+
+
+0
+18
+16
+GaudiLabsFootPrints
+FLUXL_PAD
+SOT89-5, Housing,
+SOT89-5, Housing,
+0
+2
+1
+GaudiLabsFootPrints
+FLUXL_PAD_2_75
+SOT89-5, Housing,
+SOT89-5, Housing,
+0
+2
+1
+GaudiLabsFootPrints
+FLUXL_PAD_2_75_ref2
+SOT89-5, Housing,
+SOT89-5, Housing,
+0
+3
+1
+GaudiLabsFootPrints
+FLUXL_PAD_2_75_res1
+SOT89-5, Housing,
+SOT89-5, Housing,
+0
+2
+1
+GaudiLabsFootPrints
+FLUXL_PAD_2_75_res3
+SOT89-5, Housing,
+SOT89-5, Housing,
+0
+7
+1
+GaudiLabsFootPrints
+FLUXL_PAD_2_75_side
+SOT89-5, Housing,
+SOT89-5, Housing,
+0
+2
+1
+GaudiLabsFootPrints
+FLUXL_PAD_2_75_top
+SOT89-5, Housing,
+SOT89-5, Housing,
+0
+2
+1
+GaudiLabsFootPrints
+FLUXL_PAD_2_75_topleft
+SOT89-5, Housing,
+SOT89-5, Housing,
+0
+2
+1
+GaudiLabsFootPrints
+FLUXL_PAD_2_75_topright
+SOT89-5, Housing,
+SOT89-5, Housing,
+0
+2
+1
+GaudiLabsFootPrints
+FLUXPAD_2_75_4MIL
+
+
+0
+1
+1
+GaudiLabsFootPrints
+FLUXPAD_2_75_4MIL_2
+
+
+0
+0
+0
+GaudiLabsFootPrints
+FLUXPAD_2_75_4MIL_3
+
+
+0
+0
+0
+GaudiLabsFootPrints
+FLUXPAD_2_75_4MIL_4
+
+
+0
+1
+1
+GaudiLabsFootPrints
+FLUXPAD_2_75_4MIL_4_2
+
+
+0
+1
+1
+GaudiLabsFootPrints
+FLUXPAD_2_75_4MIL_4_3
+
+
+0
+1
+1
+GaudiLabsFootPrints
+FLUXPAD_2_75_4MIL_4_4
+
+
+0
+1
+1
+GaudiLabsFootPrints
+FLUXPAD_2_75_4MIL_4_5
+
+
+0
+2
+1
+GaudiLabsFootPrints
+FLUXPAD_2_75_4MIL_4_5_res1
+
+
+0
+2
+1
+GaudiLabsFootPrints
+FLUXPAD_2_75_4MIL_4_5_res2
+
+
+0
+3
+1
+GaudiLabsFootPrints
+FLUXPAD_2_75_4MIL_4_5_res3
+
+
+0
+5
+1
+GaudiLabsFootPrints
+FLUXPAD_2_75_4MIL_4_5_res4
+
+
+0
+2
+1
+GaudiLabsFootPrints
+FLUXPAD_2_75_4MIL_4_5_res5
+
+
+0
+2
+1
+GaudiLabsFootPrints
+FLUXPAD_2_75_4MIL_4_5_side
+
+
+0
+2
+1
+GaudiLabsFootPrints
+FLUXPAD_2_75_4MIL_4_5_top
+
+
+0
+2
+1
+GaudiLabsFootPrints
+FLUXPAD_2_75_4MIL_4_5_topleft
+
+
+0
+2
+1
+GaudiLabsFootPrints
+FLUXPAD_2_75_4MIL_4_5_topright
+
+
+0
+2
+1
+GaudiLabsFootPrints
+FLUXPAD_2_75_4MIL_FINAL
+
+
+0
+2
+1
+GaudiLabsFootPrints
+FLUX_PAD_2_75_4MIL
+
+
+0
+0
+0
+GaudiLabsFootPrints
+Fiducial_1mm_Dia_2.54mm_Outer_CopperBottom
+Circular Fiducial, 1mm bare copper bottom; 2.54mm keepout
+marker
+0
+1
+1
+GaudiLabsFootPrints
+Fiducial_Cooper
+Fiducial, Modern, Copper Bottom, Passermarke,
+Fiducial, Modern, Copper Bottom, Passermarke,
+0
+2
+1
+GaudiLabsFootPrints
+GNDPad
+
+
+0
+3
+1
+GaudiLabsFootPrints
+GreaMotor6mm_Magnet
+
+
+0
+4
+4
+GaudiLabsFootPrints
+HCPL_Optocoupler_SMD
+
+
+0
+8
+8
+GaudiLabsFootPrints
+HeatSink19x13
+
+
+0
+0
+0
+GaudiLabsFootPrints
+HeatSink33x19
+
+
+0
+0
+0
+GaudiLabsFootPrints
+Hole1_3
+
+
+0
+1
+1
+GaudiLabsFootPrints
+IDC-Header_2x17_P2.54mm_Vertical_Lock
+Connector IDC Locked, 10 contacts, compatible header: PANCON HE10 (Series 50, (https://www.reboul.fr/storage/00003af6.pdf)
+connector idc locked
+0
+36
+34
+GaudiLabsFootPrints
+Inductor_18.54x15.24
+Neosid, Inductor,SM-NE95H, Festinduktivitaet, SMD,
+Neosid, Inductor,SM-NE95H, Festinduktivitaet, SMD,
+0
+2
+2
+GaudiLabsFootPrints
+JST_PH_SMD_2mm_8pin
+
+
+0
+10
+8
+GaudiLabsFootPrints
+Jack3_5_Switchcraft_35RASMT4BHNTRX
+
+
+0
+5
+5
+GaudiLabsFootPrints
+JoystickSMD_SKQUSeries
+
+
+0
+6
+6
+GaudiLabsFootPrints
+LCC3_SMD
+
+
+0
+3
+3
+GaudiLabsFootPrints
+LED_SIDE
+Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)
+capacitor 0805
+0
+2
+2
+GaudiLabsFootPrints
+LED_SQUARE_5mm
+
+
+0
+2
+2
+GaudiLabsFootPrints
+LP_T67K
+
+
+0
+2
+2
+GaudiLabsFootPrints
+MSS22d18
+
+
+0
+6
+3
+GaudiLabsFootPrints
+MeasurePad_Square_wHole_2mm
+
+
+0
+2
+1
+GaudiLabsFootPrints
+Measurement_Point_Croki
+Mesurement Point, Square, SMD Pad,  1.5mm x 1.5mm,
+Mesurement Point, Square, SMD Pad, 1.5mm x 1.5mm,
+0
+3
+1
+GaudiLabsFootPrints
+Measurement_Point_Square-SMD-Pad_Rec
+Mesurement Point, Square, SMD Pad,  1.5mm x 1.5mm,
+Mesurement Point, Square, SMD Pad, 1.5mm x 1.5mm,
+0
+2
+1
+GaudiLabsFootPrints
+Measurement_Point_Square-SMD-Pad_Small
+Mesurement Point, Square, SMD Pad,  1.5mm x 1.5mm,
+Mesurement Point, Square, SMD Pad, 1.5mm x 1.5mm,
+0
+1
+1
+GaudiLabsFootPrints
+MiniDimm_06_244_200
+
+
+0
+250
+244
+GaudiLabsFootPrints
+Mini_Dimm_Cartridge_06_244
+
+
+0
+244
+244
+GaudiLabsFootPrints
+MountPad3
+
+
+0
+1
+1
+GaudiLabsFootPrints
+MountingHole2mm
+
+
+0
+1
+1
+GaudiLabsFootPrints
+MountingHoleM3
+Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,
+Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,
+0
+0
+0
+GaudiLabsFootPrints
+MountingHolePad_3mm
+Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,
+Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,
+0
+1
+1
+GaudiLabsFootPrints
+MountingHolePad_3x9mm
+Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,
+Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,
+0
+1
+1
+GaudiLabsFootPrints
+MountingHoleRound3mm
+
+
+0
+1
+1
+GaudiLabsFootPrints
+MountingHole_BitBadge
+Mounting Hole 6mm
+mounting hole 6mm
+0
+7
+1
+GaudiLabsFootPrints
+OLED_096_1
+
+
+0
+32
+30
+GaudiLabsFootPrints
+OLED_096_1_Flip
+
+
+0
+32
+30
+GaudiLabsFootPrints
+OLED_SolderPads
+
+
+0
+30
+30
+GaudiLabsFootPrints
+OvalHole_2x0_8
+
+
+0
+1
+1
+GaudiLabsFootPrints
+Oval_2_1
+
+
+0
+1
+1
+GaudiLabsFootPrints
+Oval_6_3
+
+
+0
+1
+1
+GaudiLabsFootPrints
+P-VQFN16-0303-0.50-001
+
+
+0
+17
+17
+GaudiLabsFootPrints
+PAD_8mmx3_2
+
+
+0
+1
+1
+GaudiLabsFootPrints
+PAD_SMD_3mm
+
+
+0
+1
+1
+GaudiLabsFootPrints
+PAD_SMD_4x2mm
+
+
+0
+1
+1
+GaudiLabsFootPrints
+PAD_SMD_10_55mm
+
+
+0
+1
+1
+GaudiLabsFootPrints
+PAD_ThrougHole_2_5mm_1_2mm
+
+
+0
+1
+1
+GaudiLabsFootPrints
+PAD_ThrougHole_2mm_1mm
+
+
+0
+1
+1
+GaudiLabsFootPrints
+PAD_ThrougHole_2mm_08mm
+
+
+0
+1
+1
+GaudiLabsFootPrints
+PLUG3_5_SMD
+
+
+0
+6
+3
+GaudiLabsFootPrints
+PLUG3_5_SwitchCraft_2B
+
+
+0
+5
+3
+GaudiLabsFootPrints
+POT
+
+
+0
+5
+4
+GaudiLabsFootPrints
+POTI_PCB
+
+
+0
+3
+3
+GaudiLabsFootPrints
+POT_OvalPads
+
+
+0
+5
+4
+GaudiLabsFootPrints
+PQFP-80_14x20mm_Pitch0.8mm
+PQFP80 14x20 / QIP80E CASE 122BS (see ON Semiconductor 122BS.PDF)
+QFP 0.8
+0
+80
+80
+GaudiLabsFootPrints
+PS15NV60
+
+
+0
+6
+3
+GaudiLabsFootPrints
+PUSH_BUTTON_SMD
+
+
+0
+4
+4
+GaudiLabsFootPrints
+PUSH_BUTTON_SMD_NARROW
+
+
+0
+4
+4
+GaudiLabsFootPrints
+PUSH_BUTTON_TL3300D
+
+
+0
+4
+2
+GaudiLabsFootPrints
+Pad4mm_Hole
+
+
+0
+1
+1
+GaudiLabsFootPrints
+Pad4mm_Hole_noMask
+
+
+0
+1
+1
+GaudiLabsFootPrints
+Pad4x8
+
+
+0
+1
+1
+GaudiLabsFootPrints
+Pad_0_3
+
+
+0
+1
+1
+GaudiLabsFootPrints
+Pad_4mm_10mm
+
+
+0
+1
+1
+GaudiLabsFootPrints
+Pads
+40
+
+0
+45
+45
+GaudiLabsFootPrints
+Pads_18
+40
+
+0
+18
+18
+GaudiLabsFootPrints
+Pads_24
+40
+
+0
+24
+24
+GaudiLabsFootPrints
+PinHeader_JST_1x02_P2.54mm_Vertical
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+GaudiLabsFootPrints
+Pin_Header_Straight_2x05_Pitch1.27mm_SMD
+surface-mounted straight pin header, 2x05, 1.27mm pitch, double rows
+Surface mounted pin header SMD 2x05 1.27mm double row
+0
+10
+10
+GaudiLabsFootPrints
+Pin_Header_Straight_2x05_Pitch1.27mm_SMD_NoSolder
+surface-mounted straight pin header, 2x05, 1.27mm pitch, double rows
+Surface mounted pin header SMD 2x05 1.27mm double row
+0
+10
+10
+GaudiLabsFootPrints
+QFN-12_4x4
+
+
+0
+13
+12
+GaudiLabsFootPrints
+RGB_TOPLED
+
+
+0
+6
+6
+GaudiLabsFootPrints
+RU-050707
+
+
+0
+6
+6
+GaudiLabsFootPrints
+R_0805_HeatPad
+Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0805
+0
+3
+3
+GaudiLabsFootPrints
+RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+7
+6
+GaudiLabsFootPrints
+SJ-3502-SMT-TR
+
+
+0
+4
+4
+GaudiLabsFootPrints
+SKRHABE010
+
+
+0
+8
+6
+GaudiLabsFootPrints
+SMD_Array
+
+
+0
+96
+96
+GaudiLabsFootPrints
+SMD_DIP4
+Optocoupler, SMD,  Single Channel, Hand Soldering, like KPC357, LTV35x, PC357
+Optocoupler Single Channel KPC357 LTV35x PC357
+0
+4
+4
+GaudiLabsFootPrints
+SMD_LowZ
+
+
+0
+2
+2
+GaudiLabsFootPrints
+SMD_PA12_Piezzo
+SMT capacitor, aluminium electrolytic, 10x10
+
+0
+2
+2
+GaudiLabsFootPrints
+SMD_Pad_1mm
+
+
+0
+1
+1
+GaudiLabsFootPrints
+SMD_Pinheader_1_OT
+
+
+0
+1
+1
+GaudiLabsFootPrints
+SMD_Pinheader_1_OT_BLANK
+
+
+0
+1
+1
+GaudiLabsFootPrints
+SMD_Pinheader_6
+
+
+0
+6
+6
+GaudiLabsFootPrints
+SMD_Pinheader_6_OT
+
+
+0
+6
+6
+GaudiLabsFootPrints
+SMD_Pinheader_8
+
+
+0
+8
+8
+GaudiLabsFootPrints
+SMD_Pinheader_8_OT
+
+
+0
+8
+8
+GaudiLabsFootPrints
+SO-16-W
+Module CMS SOJ 16 pins tres large
+CMS SOJ
+0
+16
+16
+GaudiLabsFootPrints
+SO08
+
+
+0
+8
+8
+GaudiLabsFootPrints
+SOIC-08_N
+
+
+0
+8
+8
+GaudiLabsFootPrints
+SOIC-14_N
+Module CMS SOJ 14 pins Large
+CMS SOJ
+0
+14
+14
+GaudiLabsFootPrints
+SOIC-16_N
+Module CMS SOJ 14 pins Large
+CMS SOJ
+0
+16
+16
+GaudiLabsFootPrints
+SOT-25
+5-pin SOT23 package
+SOT-23-5
+0
+5
+5
+GaudiLabsFootPrints
+SOT-223
+module CMS SOT223 4 pins
+CMS SOT
+0
+4
+3
+GaudiLabsFootPrints
+SRN1060
+SELF WE-TPC/M
+
+0
+2
+2
+GaudiLabsFootPrints
+SWITCH_MSS23D19
+
+
+0
+8
+8
+GaudiLabsFootPrints
+SWITCH_SLIDE
+
+
+0
+5
+3
+GaudiLabsFootPrints
+SW_PUSH_6mm
+
+
+0
+4
+4
+GaudiLabsFootPrints
+SW_PUSH_BIG
+
+
+0
+4
+4
+GaudiLabsFootPrints
+SW_SPST_KMS221GLFS
+CK components KMR2 tactile switch with ground pin http://www.ckswitches.com/media/1479/kmr2.pdf
+tactile switch kmr2
+0
+4
+2
+GaudiLabsFootPrints
+SensorButton
+
+
+0
+1
+1
+GaudiLabsFootPrints
+SolderPad1_8mm
+
+
+0
+1
+1
+GaudiLabsFootPrints
+SolderPad2mm
+
+
+0
+1
+1
+GaudiLabsFootPrints
+SolderWirePad_2x0_8_oval
+
+
+0
+2
+2
+GaudiLabsFootPrints
+Speaker16mm
+Speaker 16mm
+Neosid, Ms85, Ms85T, SMD Inductor, Festinduktivitaet, SMD,
+0
+26
+3
+GaudiLabsFootPrints
+Switch_On-On
+
+Switch Micro SPST
+0
+3
+3
+GaudiLabsFootPrints
+TOPLED
+
+
+0
+2
+2
+GaudiLabsFootPrints
+TOPLED_R
+
+
+0
+2
+2
+GaudiLabsFootPrints
+TQFP-48_7x7mm_Pitch0.5mm
+48 LEAD TQFP 7x7mm (see MICREL TQFP7x7-48LD-PL-1.pdf)
+QFP 0.5
+0
+48
+48
+GaudiLabsFootPrints
+Throughole_0_8
+
+
+0
+2
+1
+GaudiLabsFootPrints
+Throughole_1_2mm
+
+
+0
+2
+1
+GaudiLabsFootPrints
+TopLed_BitBadge
+
+
+0
+2
+2
+GaudiLabsFootPrints
+TopLed_BitBadge_blink
+
+
+0
+8
+2
+GaudiLabsFootPrints
+UJC-HP-3-SMT-TR
+
+
+0
+10
+7
+GaudiLabsFootPrints
+USB_C_Receptacle_Amphenol_12401610E4-2A
+USB TYPE C, RA RCPT PCB, SMT, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401610E4%7e2A
+USB C Type-C Receptacle SMD
+0
+28
+25
+GaudiLabsFootPrints
+USB_Micro-B_FCI
+Micro USB Type B Receptacle
+USB USB_B USB_micro USB_OTG
+0
+11
+5
+GaudiLabsFootPrints
+WL-SBRW
+
+
+0
+5
+4
+GaudiLabsFootPrints
+conn_SMD_Hole_6
+
+
+0
+6
+6
+GaudiLabsFootPrints
+conn_SMD_Hole_7
+
+
+0
+7
+7
+GaudiLabsFootPrints
+drillhole_0.3
+
+
+0
+0
+0
+GaudiLabsFootPrints
+drillhole_0_5
+
+
+0
+0
+0
+GaudiLabsFootPrints
+drillhole_1
+
+
+0
+0
+0
+GaudiLabsFootPrints
+perforation
+
+
+0
+0
+0
+GaudiLabsFootPrints
+platedhole_0.3
+
+
+0
+1
+0
+GaudiLabsFootPrints
+uSOP10
+
+
+0
+10
+10
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -56139,6 +57448,13 @@ Yellow 5381 Series LED
 0
 2
 2
+Libs
+QFN50P500X500X100-33N
+
+
+0
+33
+33
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -57539,6 +58855,62 @@ net tie
 0
 4
 4
+OHMC2022
+Fish_FSilk
+
+
+0
+0
+0
+OHMC2022
+IND.1812.NL453232T
+
+
+0
+2
+2
+OHMC2022
+PinHeader_2x05_P2.54mm_Vertical
+Through hole straight pin header, 2x05, 2.54mm pitch, double rows
+Through hole pin header THT 2x05 2.54mm double row
+0
+10
+10
+OHMC2022
+QFN50P250X350X100-17N
+
+
+0
+17
+17
+OHMC2022
+SRN4018-4R7M
+
+
+0
+2
+2
+OHMC2022
+TSSOP-14_4.5x5.1_P0.65mm
+TSSOP, 14 Pin (JEDEC MO-153 Var AB-1 https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TSSOP SO
+0
+14
+14
+OHMC2022
+TSSOP14
+
+
+0
+14
+14
+OHMC2022
+USB_Micro-B_Molex-105017-0001
+http://www.molex.com/pdm_docs/sd/1050170001_sd.pdf
+Micro-USB SMD Typ-B
+0
+13
+6
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800
@@ -75025,6 +76397,76 @@ Resistor Radial_Power series Radial pin pitch 7.37mm 10W length 16.1mm width 9mm
 0
 2
 2
+RocklingLib
+Antenna_Mount_M3
+
+
+0
+1
+1
+RocklingLib
+Antenna_Mount_M4
+
+
+0
+1
+1
+RocklingLib
+Rockling Silk 50mm
+
+
+0
+0
+0
+RocklingLib
+Rockling Silk 54mm
+
+
+0
+0
+0
+RocklingLib
+Rockling Silk 55mm
+
+
+0
+0
+0
+RocklingLib
+Rockling Silk 57mm
+
+
+0
+0
+0
+RocklingLib
+Rockling_54mm_Combined
+
+
+0
+0
+0
+RocklingLib
+Rockling_55mm_Combined
+
+
+0
+0
+0
+RocklingLib
+Rockling_57mm_Combined
+
+
+0
+0
+0
+RocklingLib
+SAO_Header_6-Pin
+Through hole straight pin header, 2x03, 2.54mm pitch, double rows
+Through hole pin header THT 2x03 2.54mm double row
+0
+6
+6
 Rotary_Encoder
 RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
 Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
@@ -75081,6 +76523,20 @@ rotary encoder
 0
 5
 4
+SJ-43516-SMT
+CUI_SJ-43516-SMT-GR
+
+
+0
+6
+6
+SJ-43516-SMT
+CUI_SJ-43516-SMT-PI
+
+
+0
+6
+6
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -75529,293 +76985,6 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
-SwagBadge
-Antenna_Mount_M3
-
-
-0
-1
-1
-SwagBadge
-Display_Module_128X64_I2C_SSD1306
-OLED Display Module 128X64 I2C SSD1306
-OLED Display Module 128X64 I2C SSD1306
-0
-4
-4
-SwagBadge
-Display_Module_128X64_I2C_SSD1306_3D
-OLED Display Module 128X64 I2C SSD1306
-OLED Display Module 128X64 I2C SSD1306
-0
-4
-4
-SwagBadge
-Edge_Pad
-Edge Pad
-LCA 2021 CCHS Pad 
-0
-2
-1
-SwagBadge
-Edge_Pad_02
-Edge Pad
-LCA 2021 CCHS Pad 
-0
-1
-1
-SwagBadge
-LOLIN32_Flipped
-LOLIN32 Flipped, with cutout
-LOLIN32 OHMC LCA 2021
-0
-26
-26
-SwagBadge
-LOLIN32_Flipped_NoCut
-LOLIN32 Flipped, with cutout
-LOLIN32 OHMC LCA 2021
-0
-26
-26
-SwagBadge
-LOLIN32_Flipped_SmallCut
-LOLIN32 Flipped, with cutout
-LOLIN32 OHMC LCA 2021
-0
-26
-26
-SwagBadge
-Lanyard_Hole
-Lanyard Bulldog Clip Hole
-LCA 2021 CCHS Lanyard Hole Bulldog Clip
-0
-0
-0
-SwagBadge
-Lanyard_Hole_3mm
-
-
-0
-0
-0
-SwagBadge
-Lanyard_Hole_4mm
-Lanyard Circular Hole
-
-0
-0
-0
-SwagBadge
-LinuxAU_Logo_01
-
-
-0
-0
-0
-SwagBadge
-LinuxAU_Logo_Mask_01
-
-
-0
-0
-0
-SwagBadge
-LinuxAU_Logo_Silk_01
-
-
-0
-0
-0
-SwagBadge
-Logo_LCA2021_01
-
-
-0
-0
-0
-SwagBadge
-Logo_LCA2021_02
-
-
-0
-0
-0
-SwagBadge
-Logo_LCA2021_03
-
-
-0
-0
-0
-SwagBadge
-Logo_LCA2021_04
-
-
-0
-0
-0
-SwagBadge
-Logo_LCA2021_04A
-
-
-0
-0
-0
-SwagBadge
-Logo_LCA2021_05_Smaller
-
-
-0
-0
-0
-SwagBadge
-OLED_25-2mm_Display_Module_128X64_I2C_SSD1306
-OLED Display Module 128X64 I2C SSD1306
-OLED Display Module 128X64 I2C SSD1306
-0
-4
-4
-SwagBadge
-OSHW_Logo_10mm
-
-
-0
-0
-0
-SwagBadge
-Pin_Header_Angled_1x08_Pitch2.54mm
-Through hole angled pin header, 1x08, 2.54mm pitch, 6mm pin length, single row
-LCA2021 CCHS Through hole angled pin header THT 1x08 2.54mm single row
-0
-8
-8
-SwagBadge
-SAO_Header_6-Pin
-Through hole straight pin header, 2x03, 2.54mm pitch, double rows
-Through hole pin header THT 2x03 2.54mm double row
-0
-6
-6
-SwagBadge
-SAO_Header_6-Pin_Oval
-Through hole straight pin header, 2x03, 2.54mm pitch, double rows
-Through hole pin header THT 2x03 2.54mm double row
-0
-6
-6
-SwagBadge
-SAO_Header_10-Pin
-Through hole straight pin header, 2x03, 2.54mm pitch, double rows
-Through hole pin header THT 2x03 2.54mm double row
-0
-10
-10
-SwagBadge
-SAO_Header_10-Pin_0val
-Through hole straight pin header, 2x03, 2.54mm pitch, double rows
-Through hole pin header THT 2x03 2.54mm double row
-0
-10
-10
-SwagBadge
-SPI_Screen_320_x_240
-SPI Screen 320 x 240
-SPI Screen TFT SwagBadge
-0
-8
-8
-SwagBadge
-SW_SPST_3x4mm
-
-
-0
-2
-2
-SwagBadge
-SW_SPST_6x3mm
-
-
-0
-2
-2
-SwagBadge
-SW_SPST_DualFootprint
-
-
-0
-4
-2
-SwagBadge
-Slider Silk Long
-
-
-0
-0
-0
-SwagBadge
-Strain_Pad
-Pad with strain relief hole
-Pad Strain Relief
-0
-3
-1
-SwagBadge
-Stud_Hole_4.8mm
-
-
-0
-0
-0
-SwagBadge
-SwagBadge_Logo
-
-
-0
-0
-0
-SwagBadge
-Touch_Slider
-
-
-0
-2
-2
-SwagBadge
-Touch_Slider_Clearanced
-
-
-0
-2
-2
-SwagBadge
-Tux Silk 135mm
-
-
-0
-0
-0
-SwagBadge
-Tux_Edition_Silk_WithSliders
-
-
-0
-0
-0
-SwagBadge
-sense_long
-
-
-0
-19
-3
-SwagBadge
-sense_short
-
-
-0
-10
-2
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking
@@ -81990,3 +83159,878 @@ varistor SIOV
 0
 2
 2
+pkl_buttons_switches
+SW_SPDT_PCM12
+Ultraminiature Surface Mount Slide Switch
+
+0
+7
+3
+pkl_buttons_switches
+SW_SPST_3x4x2.5
+C&K Components, PTS 810 Series, Microminiature SMT Top Actuated, http://www.ckswitches.com/media/1476/pts810.pdf
+SPST Button Switch
+0
+4
+2
+pkl_buttons_switches
+SW_SPST_KMR2
+CK components KMR2 tactile switch http://www.ckswitches.com/media/1479/kmr2.pdf
+tactile switch kmr2
+0
+4
+2
+pkl_buttons_switches
+SW_SPST_PTS645
+C&K Components SPST SMD PTS645 Series 6mm Tact Switch
+SPST Button Switch
+0
+4
+2
+pkl_buttons_switches
+SW_SPST_SKPM
+Light Touch Switch
+
+0
+2
+2
+pkl_buttons_switches
+Tact_Switch_Side_B3U-3000P
+
+
+0
+2
+2
+pkl_buttons_switches
+Tact_Switch_Side_Boss_B3U-3000P-B
+
+
+0
+2
+2
+pkl_buttons_switches
+Tact_Switch_Side_GND_B3U-3100P
+
+
+0
+3
+3
+pkl_buttons_switches
+Tact_Switch_Side_GND_Boss_B3U-3100P-B
+
+
+0
+3
+3
+pkl_buttons_switches
+Tact_Switch_Top_B3U-1000P
+
+
+0
+2
+2
+pkl_buttons_switches
+Tact_Switch_Top_Boss_B3U-1000P-B
+
+
+0
+2
+2
+pkl_buttons_switches
+Tact_Switch_Top_GND_B3U-1100P
+
+
+0
+3
+3
+pkl_buttons_switches
+Tact_Switch_Top_GND_Boss_B3U-1100P-B
+
+
+0
+3
+3
+pkl_buttons_switches
+Tact_Switch_Top_TH_7.8MM_Snap
+Based on the ALPS SKEY footprint
+
+0
+4
+2
+pkl_housings_bga
+BGA-4-SiT8021
+
+
+0
+4
+4
+pkl_housings_bga
+BGA-24_5x5_6.0x8.0mm
+
+
+0
+24
+24
+pkl_housings_bga
+BGA-64_5x5mm_Pitch0.5mm
+
+
+0
+64
+64
+pkl_housings_bga
+BGA-100_7x7mm_Pitch0.5mm
+
+
+0
+100
+100
+pkl_housings_bga
+BGA-100_8x8mm_Pitch0.8mm
+
+
+0
+100
+100
+pkl_housings_bga
+BGA-144_7x7mm_Pitch0.5mm
+
+
+0
+144
+144
+pkl_housings_bga
+WLCSP-90_4.223x3.969_Pitch0.4mm
+
+
+0
+90
+90
+pkl_housings_dfn_qfn
+DFN-6_1.45x1mm_P0.5mm
+6-Lead Plastic DFN (1.3mm x 1.2mm) 
+DFN 0.4
+0
+6
+6
+pkl_housings_dfn_qfn
+DFN-6_1.45x1mm_Pitch0.5mm-MicroPak
+
+
+0
+6
+6
+pkl_housings_dfn_qfn
+DFN-8-1EP_1.35x1.7mm_Pitch0.4mm
+DC8 Package 8-Lead Plastic DFN (1.35mm x 1.7mm)
+DFN 0.45
+0
+10
+9
+pkl_housings_dfn_qfn
+DFN-8-1EP_3x3mm_Pitch0.65mm
+8-Lead Plastic Dual Flat, No Lead Package (MF) - 3x3x0.9 mm Body [DFN] (see Microchip Packaging Specification 00000049BS.pdf)
+DFN 0.65
+0
+12
+9
+pkl_housings_dfn_qfn
+DFN-8-1EP_8x6mm_Pitch1.27mm
+8-Lead Plastic Dual Flat, No Lead Package (MF) - 8x6x1.27 mm Body [DFN]
+DFN 1.27
+0
+12
+9
+pkl_housings_dfn_qfn
+DFN-8-3x2mm_P0.5mm
+
+DFN 0.5
+0
+8
+8
+pkl_housings_dfn_qfn
+DHVQFN-16_2.5x3.5mm_Pitch0.5mm
+
+
+0
+19
+17
+pkl_housings_dfn_qfn
+LFCSP-6-1EP_2x2mm_Pitch0.65-ADP7118ACPZN-R7
+
+
+0
+8
+7
+pkl_housings_dfn_qfn
+PVQFN-20_4.5x3.5mm_Pitch0.5mm
+
+
+0
+30
+21
+pkl_housings_dfn_qfn
+QFN-16-1EP_3x3mm_Pitch0.5mm
+16-Lead Plastic Quad Flat, No Lead Package (NG) - 3x3x0.9 mm Body [QFN]; (see Microchip Packaging Specification 00000049BS.pdf)
+QFN 0.5
+0
+25
+17
+pkl_housings_dfn_qfn
+QFN-16-1EP_4x4mm_Pitch0.65mm
+16-Lead Plastic Quad Flat, No Lead Package (ML) - 4x4x0.9 mm Body [QFN]; (see Microchip Packaging Specification 00000049BS.pdf)
+QFN 0.65
+0
+25
+17
+pkl_housings_dfn_qfn
+QFN-20-1EP-QC_3x3mm_Pitch0.5mm
+16-Lead Plastic Quad Flat, No Lead Package (NG) - 3x3x0.9 mm Body [QFN]; (see Microchip Packaging Specification 00000049BS.pdf)
+QFN 0.5
+0
+40
+21
+pkl_housings_dfn_qfn
+QFN-20-1EP_4x4mm_Pitch0.5mm
+
+
+0
+30
+21
+pkl_housings_dfn_qfn
+QFN-24_3x3_Pitch0.4mm_new
+
+
+0
+24
+24
+pkl_housings_dfn_qfn
+QFN-24_3x3mm_Pitch0.4mm
+24-Lead Plastic QFN (3mm x 3mm); Pitch 0.4mm
+QFN 0.4
+0
+24
+24
+pkl_housings_dfn_qfn
+QFN-24_3x3mm_Pitch0.4mm_large_pads
+24-Lead Plastic QFN (3mm x 3mm); Pitch 0.4mm
+QFN 0.4
+0
+40
+24
+pkl_housings_dfn_qfn
+QFN-32-1EP_5x5mm_Pitch0.5mm
+UH Package; 32-Lead Plastic QFN (5mm x 5mm); (see Linear Technology QFN_32_05-08-1693.pdf)
+QFN 0.5
+0
+42
+33
+pkl_housings_dfn_qfn
+QFN-32_4x4mm_Pitch0.4mm_large_pads
+32-Lead Plastic QFN (4mm x 4mm); Pitch 0.4mm
+QFN 0.4
+0
+48
+32
+pkl_housings_dfn_qfn
+QFN-32_4x4mm_Pitch0.4mm_th_large_pads
+32-Lead Plastic QFN (4mm x 4mm); Pitch 0.4mm; Thermal Pad
+QFN 0.4
+0
+52
+33
+pkl_housings_dfn_qfn
+QFN-36-1EP_6x6mm_Pitch0.5mm
+
+QFN 0.5
+0
+41
+37
+pkl_housings_dfn_qfn
+QFN-48-1EP_7x7mm_Pitch0.5mm
+UK Package; 48-Lead Plastic QFN (7mm x 7mm); (see Linear Technology QFN_48_05-08-1704.pdf)
+QFN 0.5
+0
+74
+49
+pkl_housings_dfn_qfn
+QFN-48-1EP_8x8mm_Pitch0.5mm
+
+
+0
+74
+49
+pkl_housings_dfn_qfn
+QFN-56-1EP_8x8mm_Pitch0.5mm
+UKG Package; 56-Lead Plastic QFN (8mm x 8mm); (see Linear Technology QFN_52_05-08-1729.pdf)
+QFN 0.5
+0
+82
+57
+pkl_housings_dfn_qfn
+QFN-64-4.45mm1EP_9x9mm_Pitch0.5mm
+FTDI FT2232HQ Footprint Spec
+QFN 0.5
+0
+78
+65
+pkl_housings_power
+SOT-669_LFPAK
+LFPAK www.nxp.com/documents/leaflet/939775016838_LR.pdf
+LFPAK SOT-669 Power-SO8
+0
+19
+3
+pkl_housings_qfp
+LQFP-64_10x10mm_Pitch0.5mm
+64 LEAD LQFP 10x10mm (see MICREL LQFP10x10-64LD-PL-1.pdf)
+QFP 0.5
+0
+64
+64
+pkl_housings_qfp
+LQFP-100_14x14mm_Pitch0.5mm
+LQFP100: plastic low profile quad flat package; 100 leads; body 14 x 14 x 1.4 mm (see NXP sot407-1_po.pdf and sot407-1_fr.pdf)
+QFP 0.5
+0
+100
+100
+pkl_housings_qfp
+TQFP-64-1EP_10x10mm_P0.5mm_EP5x5mm
+
+
+0
+101
+65
+pkl_housings_soic
+SOIC-8_5.3x5.3mm_Pitch1.27mm
+8-Lead Plastic Small Outline (SN) - Wide, 5.20 mm Body [SOIC]
+SOIC 1.27
+0
+8
+8
+pkl_housings_sop
+TSSOP-16_4.4x5mm_Pitch0.65mm
+16-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+SSOP 0.65
+0
+16
+16
+pkl_housings_sop
+VFSOP-8_3x2mm_Pitch0.5mm
+
+
+0
+8
+8
+pkl_housings_sot
+SOT-23-5
+5-pin SOT23 package
+SOT-23-5
+0
+5
+5
+pkl_housings_sot
+SOT-23-6
+6-pin SOT23 package
+SOT-23-6
+0
+6
+6
+pkl_housings_sot
+SOT-666
+Based on DiodesInc and NXP proposed footprints
+
+0
+6
+6
+pkl_housings_sot
+SOT-833-1
+NXP SOT833-1 XSON8 footprint.
+
+0
+8
+8
+pkl_housings_sot
+SOT-996-2
+NXP SOT996-2 XSON8 footprint.
+
+0
+8
+8
+pkl_housings_sot
+SOT-1089
+NXP SOT1089 XSON8 footprint.
+
+0
+8
+8
+pkl_housings_sot
+SOT353
+5-pin SOT353 package
+SOT353
+0
+5
+5
+pkl_mechanical
+MountingHole_3mm
+Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,
+Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,
+0
+1
+0
+pkl_mechanical
+OSHTab
+0.5mm holes and 3mm wide tab
+OSHPark recommended panel tab
+0
+0
+0
+pkl_mechanical
+OSHTab-2mm
+0.5mm holes and 3mm wide tab
+OSHPark recommended panel tab
+0
+0
+0
+pkl_mechanical
+OSHTab-4.45mm
+0.5mm holes and 6.5mm wide tab
+OSHPark recommended panel tab
+0
+0
+0
+pkl_mechanical
+OSHTab-6.5mm
+0.5mm holes and 6.5mm wide tab
+OSHPark recommended panel tab
+0
+0
+0
+pkl_mechanical
+OSHTabSlim-2mm
+0.5mm holes and 3mm wide tab
+OSHPark recommended panel tab
+0
+0
+0
+pkl_misc
+7A
+
+
+0
+2
+2
+pkl_misc
+ABM8
+
+
+0
+4
+3
+pkl_misc
+ABS07
+
+
+0
+2
+2
+pkl_misc
+ASCO
+
+
+0
+4
+4
+pkl_misc
+BATTERY_CLIP_18650
+
+
+0
+6
+2
+pkl_misc
+BLE121LR
+
+
+0
+36
+36
+pkl_misc
+CGGP.25.4.A.02
+GPS & GLONASS 25mm patch antenna
+Antenna, GPS, GLONASS
+0
+2
+1
+pkl_misc
+CGGP.35.3.A.02
+GPS & GLONASS 35mm patch antenna
+Antenna, GPS, GLONASS
+0
+2
+1
+pkl_misc
+ER-TFT028-4-mechanical
+Mechanical footprint - 2.8" TFT with capacitive touch from buydisplay.com (eastrising) ILI9341 & FT6206
+tft 2.8" display capacitive touch
+0
+0
+0
+pkl_misc
+HM-TRP-SMD
+sub GHz transceiver module
+
+0
+9
+9
+pkl_misc
+HM-TRP-TH
+sub GHz transceiver module
+
+0
+9
+9
+pkl_misc
+MAX-7
+https://www2.u-blox.com/images/downloads/Product_Docs/MAX7-NEO7_HardwareIntegrationManual_(UBX-13003704).pdf
+GPS, Module
+0
+54
+18
+pkl_misc
+ML414
+
+
+0
+3
+2
+pkl_misc
+Oscillator_SMD_SCTF_S2DXX-4Pin_2.5x2.0mm
+Miniature Crystal Clock Oscillator Abracon ASDMB series, 2.5x2.0mm package, http://www.abracon.com/Oscillators/ASDMB.pdf
+SMD SMT crystal oscillator
+0
+4
+4
+pkl_misc
+PRQC
+AVX/Kyocera Ceramic Band Resonator
+
+0
+3
+3
+pkl_misc
+Potentiometer_Bourns_3352T_Horizontal
+
+
+0
+3
+3
+pkl_misc
+SCHA4B0419
+ALPS push-push microSD card holder SMD
+
+0
+16
+11
+pkl_misc
+SGGP.18.4.A.02
+
+
+0
+7
+2
+pkl_misc
+SPV1840LR5H-B
+
+
+0
+3
+3
+pkl_misc
+WE_SHC_20x20
+RF Shlield 20mm x 20mm x 3mm
+RF, Shield, Box
+0
+16
+1
+pkl_misc
+ti_20pin_50mil_jtag_smd
+
+
+0
+20
+20
+pkl_misc
+via0305
+
+
+0
+1
+1
+pkl_misc
+via025045
+
+
+0
+1
+1
+tomu-fpga
+C_0201_0603Metric
+Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
+capacitor
+0
+4
+2
+tomu-fpga
+C_0402_1005Metric
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+tomu-fpga
+C_0603_1608Metric
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+tomu-fpga
+C_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+tomu-fpga
+C_0805_2012Metric
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+tomu-fpga
+C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+tomu-fpga
+LED-RGB-5DS-UHD1110-FKA
+
+
+0
+4
+4
+tomu-fpga
+LED_0805_2012Metric
+LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+diode
+0
+3
+2
+tomu-fpga
+LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+LED handsolder
+0
+2
+2
+tomu-fpga
+PinHeader_2x20_P2.54mm_Vertical
+Through hole straight pin header, 2x20, 2.54mm pitch, double rows
+Through hole pin header THT 2x20 2.54mm double row
+0
+40
+40
+tomu-fpga
+Pin_Header_Straight_1x06_Pitch2.54mm
+Through hole straight pin header, 1x06, 2.54mm pitch, single row
+Through hole pin header THT 1x06 2.54mm single row
+0
+6
+6
+tomu-fpga
+QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm
+QFN, 48 Pin (http://www.st.com/resource/en/datasheet/stm32f042k6.pdf (Page 94)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+QFN DFN_QFN
+0
+65
+49
+tomu-fpga
+QFN-48-1EP_7x7mm_Pitch0.5mm
+UK Package; 48-Lead Plastic QFN (7mm x 7mm); (see Linear Technology QFN_48_05-08-1704.pdf)
+QFN 0.5
+0
+64
+49
+tomu-fpga
+R_0201_0603Metric
+Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
+resistor
+0
+4
+2
+tomu-fpga
+R_0402_1005Metric
+Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+tomu-fpga
+R_0805_2012Metric
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+tomu-fpga
+R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+tomu-fpga
+SOIC-8
+
+
+0
+9
+8
+tomu-fpga
+SON50P300X200X60-9N
+
+
+0
+9
+9
+tomu-fpga
+SOT-23-5
+5-pin SOT23 package
+SOT-23-5
+0
+6
+5
+tomu-fpga
+SOT-23-5_HandSoldering
+5-pin SOT23 package
+SOT-23-5 hand-soldering
+0
+5
+5
+tomu-fpga
+TVS-11V
+
+
+0
+2
+2
+tomu-fpga
+TestPoint_Pad_D1.5mm
+SMD pad as test Point, diameter 1.5mm
+test point SMD pad
+0
+1
+1
+tomu-fpga
+Texas_X2SON-4_1x1mm_P0.65mm
+X2SON 5 pin 1x1mm package (Reference Datasheet: http://www.ti.com/lit/ds/sbvs193d/sbvs193d.pdf Reference part: TPS383x) [StepUp generated footprint]
+X2SON
+0
+13
+5
+tomu-fpga
+Touchpads
+
+
+0
+4
+4
+tomu-fpga
+USB-B
+
+
+0
+8
+4
+tomu-fpga
+USB-PCB
+
+
+0
+8
+4
+tomu-fpga
+USON8_2X3MM
+
+
+0
+8
+8
+tomu-fpga
+WLCSP-6
+
+
+0
+6
+6
+tomu-fpga
+WLCSP-20
+
+
+0
+20
+20
+tomu-fpga
+X1-DFN1006-2
+https://datasheet.lcsc.com/szlcsc/Diodes-Incorporated-D5V0L1B2LP3-7_C282418.pdf
+ESD
+0
+2
+2
+tomu-fpga
+XTAL-2520
+
+
+0
+4
+4
+tomu-fpga
+captouch-edge
+
+
+0
+4
+4
+tomu-fpga
+iCE40UP5K-UWG30
+
+
+0
+30
+30
+tomu-fpga
+nothing
+
+
+0
+0
+0
+tomu-fpga
+soldermask-removal
+Removes soldermask for captouch
+
+0
+4
+0
+tomu-fpga
+testpoint
+Mesurement Point, Round, SMD Pad, DM 1.5mm,
+Mesurement Point Round SMD Pad 1.5mm
+0
+1
+1

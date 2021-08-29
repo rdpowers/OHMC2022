@@ -5,6 +5,12 @@ D IC INVERTER 6CH 6-INP 14TSSOP
 F https://assets.nexperia.com/documents/data-sheet/HEF4069UB.pdf
 $ENDCMP
 #
+$CMP Ind-SRN4018
+D Inductor
+K inductor choke coil reactor magnetic
+F https://www.bourns.com/docs/Product-Datasheets/SRN4018.pdf
+$ENDCMP
+#
 $CMP MCP47CXBX2
 D IC DAC 8BIT V-OUT 10DFN
 F https://ww1.microchip.com/downloads/en/DeviceDoc/MCP47CXBXX-Data-Sheet-DS20006089B.pdf
