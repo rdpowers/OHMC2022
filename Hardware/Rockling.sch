@@ -85,7 +85,7 @@ U 1 1 612324D2
 P 10250 800
 F 0 "Rockling101" H 10328 846 50  0000 L CNN
 F 1 "RockingOverlay&Outline" H 10328 755 50  0000 L CNN
-F 2 "RocklingLib:Rockling_54mm_Combined" H 10250 800 50  0001 C CNN
+F 2 "RocklingLib:Rockling_57mm_Combined" H 10250 800 50  0001 C CNN
 F 3 "" H 10250 800 50  0001 C CNN
 	1    10250 800 
 	1    0    0    -1  
@@ -104,7 +104,7 @@ F 3 "~" H 9650 4200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Sheet
-S 5450 5850 500  150 
+S 4650 6150 500  150 
 U 6123BB15
 F0 "TOMUHolder" 50
 F1 "tomu-fpga.sch" 50
@@ -235,10 +235,10 @@ $EndSheet
 Text Notes 2050 800  0    197  ~ 0
 Need to tie USB & SAO power together somehow.
 $Comp
-L OHMC2022:EVQ-P7J01P SW?
+L OHMC2022:EVQ-P7J01P SW101
 U 1 1 6130166F
 P 2200 6750
-F 0 "SW?" H 2200 6981 50  0000 C CNN
+F 0 "SW101" H 2200 6981 50  0000 C CNN
 F 1 "EVQ-P7J01P" H 2200 6890 50  0000 C CNN
 F 2 "OHMC2022:SW_EVQ-P7J01P" H 2200 6750 50  0001 L BNN
 F 3 "https://s3.amazonaws.com/snapeda/datasheet/EVQ-P7J01P_Panasonic_Electronic_Components.pdf" H 2200 6750 50  0001 L BNN
@@ -247,6 +247,21 @@ F 5 "Manufacturer Recommendation" H 2200 6750 50  0001 L BNN "STANDARD"
 F 6 "EVQ-P7J01P" H 2200 6885 50  0001 C CNN "MPN"
 F 7 "P16767CT-ND" H 2200 6886 50  0001 C CNN "DPN"
 	1    2200 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L OHMC2022:EVQ-P7J01P SW102
+U 1 1 6133316C
+P 2200 7150
+F 0 "SW102" H 2200 7381 50  0000 C CNN
+F 1 "EVQ-P7J01P" H 2200 7290 50  0000 C CNN
+F 2 "OHMC2022:SW_EVQ-P7J01P" H 2200 7150 50  0001 L BNN
+F 3 "https://s3.amazonaws.com/snapeda/datasheet/EVQ-P7J01P_Panasonic_Electronic_Components.pdf" H 2200 7150 50  0001 L BNN
+F 4 "Panasonic" H 2200 7150 50  0001 L BNN "MANUFACTURER"
+F 5 "Manufacturer Recommendation" H 2200 7150 50  0001 L BNN "STANDARD"
+F 6 "EVQ-P7J01P" H 2200 7285 50  0001 C CNN "MPN"
+F 7 "P16767CT-ND" H 2200 7286 50  0001 C CNN "DPN"
+	1    2200 7150
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
