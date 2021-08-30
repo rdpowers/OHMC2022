@@ -51,4 +51,15 @@ Text HLabel 7550 3500 2    50   Output ~ 0
 ROut_N
 Text HLabel 7550 3600 2    50   Output ~ 0
 ROut_P
+$Comp
+L power:GND #PWR?
+U 1 1 613B2112
+P 7950 4600
+F 0 "#PWR?" H 7950 4350 50  0001 C CNN
+F 1 "GND" H 7955 4427 50  0000 C CNN
+F 2 "" H 7950 4600 50  0001 C CNN
+F 3 "" H 7950 4600 50  0001 C CNN
+	1    7950 4600
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
