@@ -21,7 +21,7 @@ F1 "Codec.sch" 50
 F2 "i2s_SCLK" I L 4450 2700 50 
 F3 "i2s_LRCLK" I L 4450 2800 50 
 F4 "i2s_DOUT" I L 4450 2900 50 
-F5 "i2s_DIN" O L 4450 3000 50 
+F5 "i2s_DIN" O R 5550 4050 50 
 F6 "i2c1_SCL" I L 4450 3300 50 
 F7 "i2c1_SDA" B L 4450 3400 50 
 F8 "MCLK" I L 4450 3100 50 
@@ -60,6 +60,6 @@ Text HLabel 3950 3300 0    50   Input ~ 0
 i2c1_SCL
 Text HLabel 3950 3400 0    50   Input ~ 0
 i2c1_SDA
-Text HLabel 3950 3000 0    50   Output ~ 0
+Text HLabel 5650 4050 2    50   Output ~ 0
 i2s_DIN
 $EndSCHEMATC
