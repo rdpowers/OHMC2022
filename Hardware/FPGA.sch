@@ -43,9 +43,9 @@ i2c0_SCL
 Text HLabel 3200 2800 0    50   Input ~ 0
 DAC_Latch
 Text HLabel 3250 3150 0    50   Output ~ 0
-DO_VOLUME
+VO_VOLUME
 Text HLabel 3200 3300 0    50   Output ~ 0
-DO_PITCH
+VO_PITCH
 NoConn ~ 9650 2750
 Wire Wire Line
 	9300 2950 9300 2550
