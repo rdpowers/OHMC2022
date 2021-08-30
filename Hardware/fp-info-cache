@@ -1,4 +1,4 @@
-19504232660463305
+19507493161387305
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -58890,6 +58890,20 @@ SRN4018-4R7M
 0
 2
 2
+OHMC2022
+SW_DS01-254-S-02BE
+
+
+0
+4
+4
+OHMC2022
+SW_EVQ-P7J01P
+
+
+0
+4
+4
 OHMC2022
 TSSOP-14_4.5x5.1_P0.65mm
 TSSOP, 14 Pin (JEDEC MO-153 Var AB-1 https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py

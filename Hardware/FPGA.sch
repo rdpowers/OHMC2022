@@ -218,4 +218,22 @@ F 7 "W25Q128JVPIMCT-ND" H 2400 6300 50  0001 C CNN "DPN"
 	1    2400 6300
 	-1   0    0    -1  
 $EndComp
+$Comp
+L pkl_misc:USBLC6-2 U?
+U 1 1 612F1307
+P 2350 1500
+AR Path="/61291C71/612F1307" Ref="U?"  Part="1" 
+AR Path="/612F1307" Ref="U?"  Part="1" 
+AR Path="/611E3335/612F1307" Ref="U504"  Part="1" 
+F 0 "U504" H 2350 1895 60  0000 C CNN
+F 1 "USBLC6-2" H 2350 1785 60  0000 C CNN
+F 2 "pkl_housings_sot:SOT-666" H 2350 1785 60  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/1738051.pdf" H 2350 1500 60  0001 C CNN
+F 4 "tvs-diode-sot666" H 2350 1500 50  0001 C CNN "Key"
+F 5 "E14" H 2350 1500 50  0001 C CNN "Source"
+F 6 "USBLC6-2SC6" H 2350 1500 50  0001 C CNN "MPN"
+F 7 "1269406" H 2350 1500 50  0001 C CNN "E14PN"
+	1    2350 1500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
