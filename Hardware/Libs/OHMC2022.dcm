@@ -1,7 +1,16 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 19-337C_RSBHGHC-A88_4T
+D TRI COLOR PCB TOP VIEW SMD LED R
+F https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/19-337C_RSBHGHC-A88_4T_Rev2_1-25-19.pdf
+$ENDCMP
+#
 $CMP 4069.HEF4069UBTT,118
 F http://www.diodes.com/_files/datasheets/AP131.pdf
+$ENDCMP
+#
+$CMP DS01-254-S-02BE
+F https://www.cuidevices.com/product/resource/digikeypdf/ds01-254.pdf
 $ENDCMP
 #
 $CMP EVQ-P7J01P

@@ -48,36 +48,9 @@ Text HLabel 3200 3300 0    50   Output ~ 0
 VO_PITCH
 NoConn ~ 9650 2750
 Wire Wire Line
-	9300 2950 9300 2550
-Wire Wire Line
 	10650 2400 10650 2750
-Wire Wire Line
-	8750 2950 9300 2950
-Text Label 9200 2950 2    50   ~ 0
+Text Label 9550 2550 2    50   ~ 0
 OSC_IN
-Wire Wire Line
-	9650 2550 9300 2550
-Wire Wire Line
-	10450 2750 10350 2750
-Wire Wire Line
-	10450 2550 10550 2550
-$Comp
-L Device:C_Small C501
-U 1 1 614FF0DF
-P 10450 2650
-F 0 "C501" H 10500 2700 50  0000 L CNN
-F 1 "0201, 100nF, 10V, X5R, 20%" H 10300 2450 50  0000 L CNN
-F 2 "tomu-fpga:C_0201_0603Metric" H 10450 2650 50  0001 C CNN
-F 3 "" H 10450 2650 50  0001 C CNN
-F 4 "ANY" H 5400 550 50  0001 C CNN "MPN"
-F 5 "ANY" H 5400 550 50  0001 C CNN "MYPN"
-F 6 "ANY" H 5400 550 50  0001 C CNN "Manufacturer"
-F 7 "C" H 10450 2650 50  0001 C CNN "Spice_Primitive"
-F 8 "100n" H 10450 2650 50  0001 C CNN "Spice_Model"
-F 9 "Y" H 10450 2650 50  0001 C CNN "Spice_Netlist_Enabled"
-	1    10450 2650
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	10550 2550 10550 2850
 $Comp
@@ -91,12 +64,6 @@ F 3 "" H 10550 2850 50  0001 C CNN
 	1    10550 2850
 	-1   0    0    -1  
 $EndComp
-Connection ~ 10450 2550
-Wire Wire Line
-	10350 2550 10450 2550
-Connection ~ 10450 2750
-Wire Wire Line
-	10650 2750 10450 2750
 $Comp
 L power:+3V3 #PWR0502
 U 1 1 614FF0F0
@@ -113,7 +80,7 @@ L tomu-fpga:Oscillator U503
 U 1 1 614FF0FA
 P 10000 2500
 F 0 "U503" H 9750 2450 50  0000 C CNN
-F 1 "Crystal Oscillator" H 10150 2450 50  0000 C CNN
+F 1 "Crystal Oscillator" H 10250 2450 50  0000 C CNN
 F 2 "tomu-fpga:XTAL-2520" H 10000 2500 50  0001 C CNN
 F 3 "https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf" H 10000 2500 50  0001 C CNN
 F 4 "XC2756CT-ND" H 10000 2500 50  0001 C CNN "MPN"
@@ -123,8 +90,6 @@ F 7 "XTAL OSC XO 48.0000MHZ CMOS SMD" H 5200 150 50  0001 C CNN "Description"
 	1    10000 2500
 	1    0    0    1   
 $EndComp
-Text Label 4450 6100 0    50   ~ 0
-SPI_~CS
 Text Label 3700 6200 0    50   ~ 0
 SPI_SCK
 Text Label 3700 6300 0    50   ~ 0
@@ -135,68 +100,8 @@ Text Label 3700 6500 0    50   ~ 0
 SPI_~WP~-IO2
 Text Label 3700 6600 0    50   ~ 0
 SPI_~HLD~-IO3
-Wire Wire Line
-	3000 6400 3300 6400
-Wire Wire Line
-	3000 6300 3400 6300
-$Comp
-L pkl_misc:pkl_jumper_nc JP?
-U 1 1 612A0D70
-P 4250 6100
-AR Path="/61291C71/612A0D70" Ref="JP?"  Part="1" 
-AR Path="/611E3335/612A0D70" Ref="JP501"  Part="1" 
-F 0 "JP501" H 4250 6200 50  0000 C CNN
-F 1 "Jumper" H 4250 6245 60  0001 C CNN
-F 2 "pkl_jumpers:J_NC_0402_15" H 4250 6100 60  0001 C CNN
-F 3 "" H 4250 6100 60  0000 C CNN
-F 4 "ANY" H 4250 6100 50  0001 C CNN "Source"
-	1    4250 6100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3000 6100 3600 6100
-Wire Wire Line
-	3000 6200 3500 6200
-Wire Wire Line
-	3000 6500 3200 6500
-Wire Wire Line
-	3000 6600 3100 6600
-Wire Wire Line
-	3100 5700 3100 6600
-Connection ~ 3100 6600
-Wire Wire Line
-	3200 5600 3200 6500
-Connection ~ 3200 6500
-Wire Wire Line
-	3500 5300 3500 6200
-Connection ~ 3500 6200
-Wire Wire Line
-	3600 5000 3600 6100
-Wire Wire Line
-	3600 6100 4150 6100
-Wire Wire Line
-	3400 5400 3400 6300
-Connection ~ 3400 6300
-Wire Wire Line
-	3300 5500 3300 6400
-Connection ~ 3300 6400
 Text Label 3700 6100 0    50   ~ 0
-FLASH_~CS
-Wire Wire Line
-	3500 6200 3700 6200
-Wire Wire Line
-	4350 6100 4450 6100
-Wire Wire Line
-	3400 6300 3700 6300
-Wire Wire Line
-	3300 6400 3700 6400
-Wire Wire Line
-	3200 6500 3700 6500
-Wire Wire Line
-	3100 6600 3700 6600
-Connection ~ 3600 6100
-Wire Wire Line
-	1500 6600 1800 6600
+~FLASH_CS
 Wire Wire Line
 	1700 6100 1800 6100
 Text Notes 2100 6450 0    50   ~ 0
@@ -236,4 +141,109 @@ F 7 "1269406" H 2350 1500 50  0001 C CNN "E14PN"
 	1    2350 1500
 	1    0    0    -1  
 $EndComp
+Text HLabel 3250 4100 0    50   Output ~ 0
+BTN_2
+Text HLabel 3250 3950 0    50   Output ~ 0
+BTN_1
+Text HLabel 3250 4550 0    50   Output ~ 0
+DIP_2
+Text HLabel 3250 4400 0    50   Output ~ 0
+DIP_1
+Wire Wire Line
+	3000 6500 3700 6500
+Wire Wire Line
+	3000 6200 3700 6200
+Wire Wire Line
+	3000 6100 3700 6100
+Wire Wire Line
+	3000 6300 3700 6300
+Wire Wire Line
+	3000 6400 3700 6400
+Wire Wire Line
+	3000 6600 3700 6600
+Connection ~ 9650 2550
+Wire Wire Line
+	9650 2550 9700 2550
+Wire Wire Line
+	9550 2550 9650 2550
+$Comp
+L Device:C_Small C?
+U 1 1 61350B96
+P 10450 2650
+AR Path="/611E335F/61350B96" Ref="C?"  Part="1" 
+AR Path="/611E3335/61350B96" Ref="C?"  Part="1" 
+F 0 "C?" H 10565 2832 50  0000 L CNN
+F 1 "0.1uF" H 10565 2741 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10488 2500 50  0001 C CNN
+F 3 "~" H 10450 2650 50  0001 C CNN
+F 4 "C0603C104K5RACAUTO" H 10450 2650 50  0001 C CNN "MPN"
+F 5 "399-6856-1-ND" H 10450 2650 50  0001 C CNN "DPN"
+F 6 "50V" H 10565 2650 50  0000 L CNN "Tol"
+F 7 "0603" H 10565 2559 50  0000 L CNN "Pkg"
+F 8 "X7R" H 10565 2468 50  0000 L CNN "TCoff"
+	1    10450 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 2550 10450 2550
+Wire Wire Line
+	10350 2750 10450 2750
+Connection ~ 10450 2550
+Wire Wire Line
+	10450 2550 10550 2550
+Connection ~ 10450 2750
+Wire Wire Line
+	10450 2750 10650 2750
+$Comp
+L power:GND #PWR?
+U 1 1 613565CE
+P 1700 6700
+F 0 "#PWR?" H 1700 6450 50  0001 C CNN
+F 1 "GND" H 1705 6527 50  0000 C CNN
+F 2 "" H 1700 6700 50  0001 C CNN
+F 3 "" H 1700 6700 50  0001 C CNN
+	1    1700 6700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 6600 1700 6700
+Wire Wire Line
+	1700 5900 1700 6100
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6135A9D4
+P 1700 5900
+F 0 "#PWR?" H 1700 5750 50  0001 C CNN
+F 1 "+3V3" H 1715 6073 50  0000 C CNN
+F 2 "" H 1700 5900 50  0001 C CNN
+F 3 "" H 1700 5900 50  0001 C CNN
+	1    1700 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6135A9DF
+P 1700 6350
+AR Path="/611E335F/6135A9DF" Ref="C?"  Part="1" 
+AR Path="/611E3335/6135A9DF" Ref="C?"  Part="1" 
+F 0 "C?" H 1815 6532 50  0000 L CNN
+F 1 "0.1uF" H 1815 6441 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1738 6200 50  0001 C CNN
+F 3 "~" H 1700 6350 50  0001 C CNN
+F 4 "C0603C104K5RACAUTO" H 1700 6350 50  0001 C CNN "MPN"
+F 5 "399-6856-1-ND" H 1700 6350 50  0001 C CNN "DPN"
+F 6 "50V" H 1815 6350 50  0000 L CNN "Tol"
+F 7 "0603" H 1815 6259 50  0000 L CNN "Pkg"
+F 8 "X7R" H 1815 6168 50  0000 L CNN "TCoff"
+	1    1700 6350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 6100 1700 6250
+Connection ~ 1700 6100
+Wire Wire Line
+	1700 6450 1700 6600
+Connection ~ 1700 6600
+Wire Wire Line
+	1700 6600 1800 6600
 $EndSCHEMATC

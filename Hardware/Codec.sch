@@ -31,4 +31,18 @@ Text HLabel 7100 2850 2    50   Output ~ 0
 LineOut_R
 Text HLabel 7100 2950 2    50   Output ~ 0
 LineOut_L
+Text HLabel 3100 2700 0    50   Input ~ 0
+i2s_SCLK
+Text HLabel 3100 2800 0    50   Input ~ 0
+i2s_LRCLK
+Text HLabel 7100 3750 2    50   Input ~ 0
+i2s_DOUT
+Text HLabel 3100 3100 0    50   Input ~ 0
+MCLK
+Text HLabel 3100 3300 0    50   Input ~ 0
+i2c1_SCL
+Text HLabel 3100 3400 0    50   Input ~ 0
+i2c1_SDA
+Text HLabel 3100 3000 0    50   Output ~ 0
+i2s_DIN
 $EndSCHEMATC

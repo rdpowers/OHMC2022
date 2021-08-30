@@ -35,17 +35,31 @@ F0 "Amplifier" 50
 F1 "Amplifier.sch" 50
 F2 "LineOut_R" I L 6100 2950 50 
 F3 "LineOut_L" I L 6100 3050 50 
-F4 "LOut_P" O R 7250 2950 50 
+F4 "LOut_P" O R 7250 3050 50 
 F5 "LOut_N" O R 7250 3150 50 
-F6 "ROut_N" O R 7250 3550 50 
-F7 "ROut_P" O R 7250 3750 50 
+F6 "ROut_N" O R 7250 3250 50 
+F7 "ROut_P" O R 7250 3350 50 
 $EndSheet
-Text HLabel 9450 3100 2    50   Output ~ 0
+Text HLabel 7400 3050 2    50   Output ~ 0
 LOut_P
-Text HLabel 9450 3200 2    50   Output ~ 0
+Text HLabel 7400 3150 2    50   Output ~ 0
 LOut_N
-Text HLabel 9450 3300 2    50   Output ~ 0
+Text HLabel 7400 3250 2    50   Output ~ 0
 ROut_N
-Text HLabel 9450 3400 2    50   Output ~ 0
+Text HLabel 7400 3350 2    50   Output ~ 0
 ROut_P
+Text HLabel 3950 2700 0    50   Input ~ 0
+i2s_SCLK
+Text HLabel 3950 2800 0    50   Input ~ 0
+i2s_LRCLK
+Text HLabel 3950 2900 0    50   Input ~ 0
+i2s_DOUT
+Text HLabel 3950 3100 0    50   Input ~ 0
+MCLK
+Text HLabel 3950 3300 0    50   Input ~ 0
+i2c1_SCL
+Text HLabel 3950 3400 0    50   Input ~ 0
+i2c1_SDA
+Text HLabel 3950 3000 0    50   Output ~ 0
+i2s_DIN
 $EndSCHEMATC
