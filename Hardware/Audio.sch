@@ -27,6 +27,7 @@ F7 "i2c1_SDA" B L 4450 3400 50
 F8 "MCLK" I L 4450 3100 50 
 F9 "LineOut_R" O R 5550 2950 50 
 F10 "LineOut_L" O R 5550 3050 50 
+F11 "MIC_IN" I L 4450 3650 50 
 $EndSheet
 $Sheet
 S 6100 2500 1150 1800
@@ -62,4 +63,6 @@ Text HLabel 3950 3400 0    50   Input ~ 0
 i2c1_SDA
 Text HLabel 5650 4050 2    50   Output ~ 0
 i2s_DIN
+Text HLabel 3950 3650 0    50   Input ~ 0
+MIC_IN
 $EndSCHEMATC
