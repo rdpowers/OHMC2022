@@ -39,27 +39,55 @@ F 3 "www.diodes.com/assets/Datasheets/PAM8019.pdf" H 4750 900 50  0001 C CNN
 	2    5050 1900
 	1    0    0    -1  
 $EndComp
-Text HLabel 2950 3300 0    50   Input ~ 0
+Text HLabel 3450 3500 0    50   Input ~ 0
 LineOut_R
-Text HLabel 2950 3200 0    50   Input ~ 0
+Text HLabel 3450 3350 0    50   Input ~ 0
 LineOut_L
-Text HLabel 7550 3300 2    50   Output ~ 0
+Text HLabel 7550 3450 2    50   Output ~ 0
 LOut_P
-Text HLabel 7550 3400 2    50   Output ~ 0
+Text HLabel 7550 3750 2    50   Output ~ 0
 LOut_N
-Text HLabel 7550 3500 2    50   Output ~ 0
+Text HLabel 7550 4300 2    50   Output ~ 0
 ROut_N
-Text HLabel 7550 3600 2    50   Output ~ 0
+Text HLabel 7550 4000 2    50   Output ~ 0
 ROut_P
 $Comp
 L power:GND #PWR?
 U 1 1 613B2112
 P 7950 4600
-F 0 "#PWR?" H 7950 4350 50  0001 C CNN
+AR Path="/611E3335/613B2112" Ref="#PWR?"  Part="1" 
+AR Path="/611E3218/611E330D/613B2112" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 7950 4350 50  0001 C CNN
 F 1 "GND" H 7955 4427 50  0000 C CNN
 F 2 "" H 7950 4600 50  0001 C CNN
 F 3 "" H 7950 4600 50  0001 C CNN
 	1    7950 4600
 	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3350 3450 3350
+Wire Wire Line
+	3450 3500 4750 3500
+$Comp
+L Device:R R402
+U 1 1 61464722
+P 6800 4150
+F 0 "R402" H 6870 4196 50  0000 L CNN
+F 1 "DNF" H 6870 4105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6730 4150 50  0001 C CNN
+F 3 "~" H 6800 4150 50  0001 C CNN
+	1    6800 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R401
+U 1 1 61464F1A
+P 6800 3600
+F 0 "R401" H 6870 3646 50  0000 L CNN
+F 1 "DNF" H 6870 3555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6730 3600 50  0001 C CNN
+F 3 "~" H 6800 3600 50  0001 C CNN
+	1    6800 3600
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
