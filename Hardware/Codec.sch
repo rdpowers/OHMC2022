@@ -259,31 +259,17 @@ Wire Wire Line
 $Comp
 L power:+3V3 #PWR?
 U 1 1 6145BB5A
-P 6200 2050
+P 4350 1850
 AR Path="/6123BB15/6145BB5A" Ref="#PWR?"  Part="1" 
 AR Path="/611E335F/6145BB5A" Ref="#PWR?"  Part="1" 
 AR Path="/611E3218/611E32E1/6145BB5A" Ref="#PWR0123"  Part="1" 
-F 0 "#PWR0123" H 6200 1900 50  0001 C CNN
-F 1 "+3V3" H 6215 2223 50  0000 C CNN
-F 2 "" H 6200 2050 50  0001 C CNN
-F 3 "" H 6200 2050 50  0001 C CNN
-	1    6200 2050
+F 0 "#PWR0123" H 4350 1700 50  0001 C CNN
+F 1 "+3V3" H 4365 2023 50  0000 C CNN
+F 2 "" H 4350 1850 50  0001 C CNN
+F 3 "" H 4350 1850 50  0001 C CNN
+	1    4350 1850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6200 2050 6200 2350
-Wire Wire Line
-	6050 2350 6200 2350
-Wire Wire Line
-	6050 2450 6200 2450
-Wire Wire Line
-	6200 2450 6200 2350
-Connection ~ 6200 2350
-Wire Wire Line
-	6050 2550 6200 2550
-Wire Wire Line
-	6200 2550 6200 2450
-Connection ~ 6200 2450
 Wire Wire Line
 	6050 3550 7700 3550
 Wire Wire Line
@@ -296,11 +282,11 @@ Wire Wire Line
 	6250 3950 6250 4000
 Text HLabel 1850 3150 0    50   Input ~ 0
 MIC_IN
-Text HLabel 7700 3150 2    50   Input ~ 0
+Text HLabel 7700 3150 2    50   Output ~ 0
 HP_R
-Text HLabel 7700 3250 2    50   Input ~ 0
+Text HLabel 7700 3250 2    50   Output ~ 0
 HP_L
-Text HLabel 7700 3350 2    50   Input ~ 0
+Text HLabel 7700 3350 2    50   UnSpc ~ 0
 HP_VGND
 Wire Wire Line
 	4450 3250 2800 3250
@@ -347,8 +333,17 @@ Connection ~ 6150 4550
 Wire Wire Line
 	6150 4350 6150 4450
 Connection ~ 6150 4450
-Wire Wire Line
-	6150 4450 6150 4550
 Text Notes 7400 4300 0    197  ~ 0
 VOLUME CONTROL??
+Wire Wire Line
+	4450 2350 4350 2350
+Wire Wire Line
+	4350 2350 4350 1850
+Wire Wire Line
+	4450 2450 4350 2450
+Wire Wire Line
+	4350 2450 4350 2350
+Connection ~ 4350 2350
+Text Notes 7450 4700 0    197  ~ 0
+AGND/VCCA FILTERS?
 $EndSCHEMATC

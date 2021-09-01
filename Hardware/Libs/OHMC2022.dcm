@@ -47,4 +47,9 @@ K REGULATOR LDO 5.0V
 F https://www.exar.com/content/document.ashx?id=22106&languageid=1033&type=Datasheet&partnumber=SPX3819&filename=SPX3819.pdf&part=SPX3819
 $ENDCMP
 #
+$CMP SPU0410LR5H-QB
+D Analog Microphone MEMS (Silicon) Omnidirectional (-38dB ±3dB @ 94dB SPL) Solder Pads
+F https://media.digikey.com/pdf/Data%20Sheets/Knowles%20Acoustics%20PDFs/SPU0410LR5H-QB_RevH_3-27-13.pdf
+$ENDCMP
+#
 #End Doc Library
