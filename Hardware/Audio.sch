@@ -33,24 +33,27 @@ F13 "HP_L" O R 5550 3400 50
 F14 "HP_VGND" U R 5550 3500 50 
 $EndSheet
 $Sheet
-S 6100 2500 1150 1800
+S 7300 2500 1150 1800
 U 611E330D
 F0 "Amplifier" 50
 F1 "Amplifier.sch" 50
-F2 "LineOut_R" I L 6100 2950 50 
-F3 "LineOut_L" I L 6100 3050 50 
-F4 "LOut_P" O R 7250 3050 50 
-F5 "LOut_N" O R 7250 3150 50 
-F6 "ROut_N" O R 7250 3250 50 
-F7 "ROut_P" O R 7250 3350 50 
+F2 "LineOut_R" I L 7300 2950 50 
+F3 "LineOut_L" I L 7300 3050 50 
+F4 "LOut_P" O R 8450 3050 50 
+F5 "LOut_N" O R 8450 3150 50 
+F6 "ROut_N" O R 8450 3250 50 
+F7 "ROut_P" O R 8450 3350 50 
+F8 "AMP_VOL" I L 7300 3800 50 
+F9 "AMP_PL" I L 7300 3950 50 
+F10 "AMP_MUTE" I L 7300 3700 50 
 $EndSheet
-Text HLabel 7400 3050 2    50   Output ~ 0
+Text HLabel 8600 3050 2    50   Output ~ 0
 LOut_P
-Text HLabel 7400 3150 2    50   Output ~ 0
+Text HLabel 8600 3150 2    50   Output ~ 0
 LOut_N
-Text HLabel 7400 3250 2    50   Output ~ 0
+Text HLabel 8600 3250 2    50   Output ~ 0
 ROut_N
-Text HLabel 7400 3350 2    50   Output ~ 0
+Text HLabel 8600 3350 2    50   Output ~ 0
 ROut_P
 Text HLabel 3950 2700 0    50   Input ~ 0
 i2s_SCLK
@@ -83,17 +86,17 @@ Wire Wire Line
 Wire Wire Line
 	5550 4050 5650 4050
 Wire Wire Line
-	5550 3050 6100 3050
+	5550 3050 7300 3050
 Wire Wire Line
-	5550 2950 6100 2950
+	5550 2950 7300 2950
 Wire Wire Line
-	7250 3050 7400 3050
+	8450 3050 8600 3050
 Wire Wire Line
-	7250 3150 7400 3150
+	8450 3150 8600 3150
 Wire Wire Line
-	7250 3250 7400 3250
+	8450 3250 8600 3250
 Wire Wire Line
-	7250 3350 7400 3350
+	8450 3350 8600 3350
 Wire Wire Line
 	3950 2700 4450 2700
 Wire Wire Line
@@ -108,4 +111,16 @@ Wire Wire Line
 	3950 3400 4450 3400
 Wire Wire Line
 	3950 3650 4450 3650
+Text HLabel 7200 3800 0    50   Input ~ 0
+AMP_VOL
+Wire Wire Line
+	7200 3800 7300 3800
+Text HLabel 7200 3950 0    50   Input ~ 0
+AMP_PL
+Wire Wire Line
+	7200 3950 7300 3950
+Text HLabel 7200 3700 0    50   Input ~ 0
+AMP_MUTE
+Wire Wire Line
+	7200 3700 7300 3700
 $EndSCHEMATC

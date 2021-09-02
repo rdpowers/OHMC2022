@@ -1,4 +1,4 @@
-19515645481318305
+19518906703340305
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -58863,6 +58863,13 @@ OHMC2022
 6
 6
 OHMC2022
+DualNFet.SOT563.EM6K34T2CR
+
+
+0
+6
+6
+OHMC2022
 Fish_FSilk
 
 
@@ -58918,6 +58925,13 @@ SW_EVQ-P7J01P
 0
 4
 4
+OHMC2022
+SlideSwitch.SW_GF-123-0054
+
+
+0
+2
+2
 OHMC2022
 SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels
 SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip, labeled with numbers

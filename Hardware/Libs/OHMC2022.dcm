@@ -23,6 +23,11 @@ D SWITCH TACTILE SPST-NO 0.05A 12V
 F https://s3.amazonaws.com/snapeda/datasheet/EVQ-P7J01P_Panasonic_Electronic_Components.pdf
 $ENDCMP
 #
+$CMP GF-123-0054
+D SWITCH SLIDE SPST 8.5A 125V
+F https://media.digikey.com/pdf/Data%20Sheets/CW%20Industries%20PDFs/GF-123-0054_Dwg.pdf
+$ENDCMP
+#
 $CMP Ind-SRN4018
 D Inductor
 K inductor choke coil reactor magnetic
@@ -55,6 +60,11 @@ $ENDCMP
 $CMP SPU0410LR5H-QB
 D Analog Microphone MEMS (Silicon) Omnidirectional (-38dB ±3dB @ 94dB SPL) Solder Pads
 F https://media.digikey.com/pdf/Data%20Sheets/Knowles%20Acoustics%20PDFs/SPU0410LR5H-QB_RevH_3-27-13.pdf
+$ENDCMP
+#
+$CMP XZMDKCBDDG45S-9
+D Red, Green, Blue (RGB) 630nm Red, 525nm Green, 465nm Blue LED SMT REAR MOUNT Indication - Discrete 1.95V Red, 3.3V Green, 3.3V Blue 4-SMD, Gull Wing
+F https://www.sunledusa.com/products/spec/XZMDKCBDDG45S-9.pdf
 $ENDCMP
 #
 #End Doc Library

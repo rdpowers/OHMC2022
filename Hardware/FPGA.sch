@@ -143,8 +143,8 @@ F 7 "1269406" H 2350 1500 50  0001 C CNN "E14PN"
 $EndComp
 Text HLabel 1300 4250 0    50   Input ~ 0
 BTN_2
-Text HLabel 1300 4100 0    50   Input ~ 0
-BTN_1
+Text HLabel 1300 3900 0    50   Input ~ 0
+~FPGA_RST
 Text HLabel 1300 4700 0    50   Input ~ 0
 DIP_2
 Text HLabel 1300 4550 0    50   Input ~ 0
@@ -425,8 +425,6 @@ Text Label 1400 4550 0    50   ~ 0
 DIP_1
 Text Label 1400 4700 0    50   ~ 0
 DIP_2
-Text Label 1400 4100 0    50   ~ 0
-BTN_1
 Text Label 1400 4250 0    50   ~ 0
 BTN_2
 $Comp
@@ -463,10 +461,64 @@ F 6 "" H 9800 4150 50  0001 C CNN "DPN"
 	1    9800 4150
 	0    1    1    0   
 $EndComp
-Text Label 8350 3700 0    50   ~ 0
+Text Label 9050 3400 0    50   ~ 0
 TRRS_Ring2_Switch
-Text Label 8350 3850 0    50   ~ 0
+Text Label 9050 3550 0    50   ~ 0
 TRRS_Sleeve_Switch
-Text Label 8350 4050 0    50   ~ 0
+Text Label 9050 3750 0    50   ~ 0
 TRRS_Sleeve_Switch
+Text HLabel 8950 5150 2    50   Output ~ 0
+AMP_VOL
+Wire Wire Line
+	8950 5150 8850 5150
+Text HLabel 8950 5000 2    50   Output ~ 0
+AMP_PL
+Wire Wire Line
+	8950 5000 8850 5000
+$Comp
+L Device:R_Small R?
+U 1 1 6165C82A
+P 1450 3650
+AR Path="/611E335F/6165C82A" Ref="R?"  Part="1" 
+AR Path="/6165C82A" Ref="R?"  Part="1" 
+AR Path="/611E3335/6165C82A" Ref="R?"  Part="1" 
+F 0 "R?" V 1350 3650 50  0000 L CNN
+F 1 "10K" H 1250 3600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1380 3650 50  0001 C CNN
+F 3 "~" H 1450 3650 50  0001 C CNN
+F 4 "0603" V 1550 3650 50  0000 C CNN "Pkg"
+F 5 "RNCP0603FTD10K0" H 1450 3650 50  0001 C CNN "MPN"
+F 6 "RNCP0603FTD10K0CT-ND" H 1450 3650 50  0001 C CNN "DPN"
+	1    1450 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 3750 1450 3900
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6165C831
+P 1450 3450
+AR Path="/611E3335/6165C831" Ref="#PWR?"  Part="1" 
+AR Path="/6165C831" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1450 3300 50  0001 C CNN
+F 1 "+3V3" H 1465 3623 50  0000 C CNN
+F 2 "" H 1450 3450 50  0001 C CNN
+F 3 "" H 1450 3450 50  0001 C CNN
+	1    1450 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 3450 1450 3550
+Wire Wire Line
+	1300 3900 1450 3900
+Text Label 1450 3900 0    50   ~ 0
+~FPGA_RST
+Text Label 7600 4650 0    50   ~ 0
+~FPGA_RST
+Wire Wire Line
+	7450 4650 7600 4650
+Text HLabel 7600 4550 2    50   Input ~ 0
+CDONE
+Wire Wire Line
+	7600 4550 7450 4550
 $EndSCHEMATC
