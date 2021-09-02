@@ -13,6 +13,11 @@ $CMP DS01-254-S-02BE
 F https://www.cuidevices.com/product/resource/digikeypdf/ds01-254.pdf
 $ENDCMP
 #
+$CMP EM6K34T2CR
+D MOSFET 2N-CH 50V 0.2A EMT6
+F https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/em6k34.pdf
+$ENDCMP
+#
 $CMP EVQ-P7J01P
 D SWITCH TACTILE SPST-NO 0.05A 12V
 F https://s3.amazonaws.com/snapeda/datasheet/EVQ-P7J01P_Panasonic_Electronic_Components.pdf

@@ -103,8 +103,6 @@ F 8 "X7R" H 2215 2968 50  0000 L CNN "TCoff"
 	1    2100 3150
 	0    1    1    0   
 $EndComp
-Text Label 6150 3350 0    50   ~ 0
-HP_VGND
 Wire Wire Line
 	6150 4350 6050 4350
 $Comp
@@ -282,11 +280,11 @@ Wire Wire Line
 	6250 3950 6250 4000
 Text HLabel 1850 3150 0    50   Input ~ 0
 MIC_IN
-Text HLabel 7700 3150 2    50   Output ~ 0
+Text HLabel 6050 3150 2    50   Output ~ 0
 HP_R
-Text HLabel 7700 3250 2    50   Output ~ 0
+Text HLabel 6050 3250 2    50   Output ~ 0
 HP_L
-Text HLabel 7700 3350 2    50   UnSpc ~ 0
+Text HLabel 6050 3350 2    50   UnSpc ~ 0
 HP_VGND
 Wire Wire Line
 	4450 3250 2800 3250

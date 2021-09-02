@@ -68,4 +68,44 @@ Text HLabel 5650 4050 2    50   Output ~ 0
 i2s_DIN
 Text HLabel 3950 3650 0    50   Input ~ 0
 MIC_IN
+Text HLabel 5650 3300 2    50   Output ~ 0
+HP_R
+Text HLabel 5650 3400 2    50   Output ~ 0
+HP_L
+Text HLabel 5650 3500 2    50   UnSpc ~ 0
+HP_VGND
+Wire Wire Line
+	5550 3300 5650 3300
+Wire Wire Line
+	5550 3400 5650 3400
+Wire Wire Line
+	5550 3500 5650 3500
+Wire Wire Line
+	5550 4050 5650 4050
+Wire Wire Line
+	5550 3050 6100 3050
+Wire Wire Line
+	5550 2950 6100 2950
+Wire Wire Line
+	7250 3050 7400 3050
+Wire Wire Line
+	7250 3150 7400 3150
+Wire Wire Line
+	7250 3250 7400 3250
+Wire Wire Line
+	7250 3350 7400 3350
+Wire Wire Line
+	3950 2700 4450 2700
+Wire Wire Line
+	3950 2800 4450 2800
+Wire Wire Line
+	3950 2900 4450 2900
+Wire Wire Line
+	3950 3100 4450 3100
+Wire Wire Line
+	3950 3300 4450 3300
+Wire Wire Line
+	3950 3400 4450 3400
+Wire Wire Line
+	3950 3650 4450 3650
 $EndSCHEMATC

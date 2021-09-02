@@ -38,9 +38,9 @@ Wire Wire Line
 	7450 3050 7550 3050
 Text HLabel 3200 2400 0    50   BiDi ~ 0
 i2c0_SDA
-Text HLabel 3200 2500 0    50   Input ~ 0
+Text HLabel 3200 2500 0    50   Output ~ 0
 i2c0_SCL
-Text HLabel 3200 2800 0    50   Input ~ 0
+Text HLabel 3200 2800 0    50   Output ~ 0
 DAC_Latch
 Text HLabel 3250 3150 0    50   Output ~ 0
 VO_VOLUME
@@ -141,13 +141,13 @@ F 7 "1269406" H 2350 1500 50  0001 C CNN "E14PN"
 	1    2350 1500
 	1    0    0    -1  
 $EndComp
-Text HLabel 1300 4250 0    50   Output ~ 0
+Text HLabel 1300 4250 0    50   Input ~ 0
 BTN_2
-Text HLabel 1300 4100 0    50   Output ~ 0
+Text HLabel 1300 4100 0    50   Input ~ 0
 BTN_1
-Text HLabel 1300 4700 0    50   Output ~ 0
+Text HLabel 1300 4700 0    50   Input ~ 0
 DIP_2
-Text HLabel 1300 4550 0    50   Output ~ 0
+Text HLabel 1300 4550 0    50   Input ~ 0
 DIP_1
 Wire Wire Line
 	3000 6500 3700 6500
@@ -463,4 +463,10 @@ F 6 "" H 9800 4150 50  0001 C CNN "DPN"
 	1    9800 4150
 	0    1    1    0   
 $EndComp
+Text Label 8350 3700 0    50   ~ 0
+TRRS_Ring2_Switch
+Text Label 8350 3850 0    50   ~ 0
+TRRS_Sleeve_Switch
+Text Label 8350 4050 0    50   ~ 0
+TRRS_Sleeve_Switch
 $EndSCHEMATC

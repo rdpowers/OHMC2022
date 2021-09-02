@@ -1,4 +1,4 @@
-19510753916738305
+19515645481318305
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -58919,6 +58919,20 @@ SW_EVQ-P7J01P
 4
 4
 OHMC2022
+SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels
+SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip, labeled with numbers
+solder jumper open
+0
+3
+3
+OHMC2022
+SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm
+SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open
+solder jumper open
+0
+3
+3
+OHMC2022
 TSSOP-14_4.5x5.1_P0.65mm
 TSSOP, 14 Pin (JEDEC MO-153 Var AB-1 https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py
 TSSOP SO
@@ -58938,6 +58952,13 @@ http://www.molex.com/pdm_docs/sd/1050170001_sd.pdf
 Micro-USB SMD Typ-B
 0
 13
+6
+OHMC2022
+XDCR_SPU0410LR5H-QB
+
+
+0
+6
 6
 OptoDevice
 ADNS-9800
