@@ -1329,4 +1329,8 @@ i2c0_5v_SCL
 Wire Wire Line
 	10300 5050 10300 4800
 Connection ~ 10300 4800
+Text HLabel 9950 2150 0    50   Input ~ 0
+DDS_TH_PITCH
+Text HLabel 9950 2300 0    50   Input ~ 0
+DDS_TH_VOL
 $EndSCHEMATC

@@ -40,11 +40,11 @@ Text HLabel 3200 2400 0    50   BiDi ~ 0
 i2c0_SDA
 Text HLabel 3200 2500 0    50   Output ~ 0
 i2c0_SCL
-Text HLabel 3200 2800 0    50   Output ~ 0
+Text HLabel 8000 1650 2    50   Output ~ 0
 DAC_Latch
-Text HLabel 3250 3150 0    50   Output ~ 0
+Text HLabel 8000 2250 2    50   Output ~ 0
 VO_VOLUME
-Text HLabel 3200 3300 0    50   Output ~ 0
+Text HLabel 8000 4050 2    50   Output ~ 0
 VO_PITCH
 NoConn ~ 9650 2750
 Wire Wire Line
@@ -417,12 +417,6 @@ Wire Wire Line
 	4050 2300 4050 2500
 Wire Wire Line
 	4050 2500 3200 2500
-Text Label 1400 4550 0    50   ~ 0
-DIP_1
-Text Label 1400 4700 0    50   ~ 0
-DIP_2
-Text Label 1400 4250 0    50   ~ 0
-BTN_2
 $Comp
 L Device:R_Small R?
 U 1 1 615CF009
@@ -457,12 +451,6 @@ F 6 "" H 9800 4150 50  0001 C CNN "DPN"
 	1    9800 4150
 	0    1    1    0   
 $EndComp
-Text Label 9050 3400 0    50   ~ 0
-TRRS_Ring2_Switch
-Text Label 9050 3550 0    50   ~ 0
-TRRS_Sleeve_Switch
-Text Label 9050 3750 0    50   ~ 0
-TRRS_Sleeve_Switch
 Text HLabel 8950 5150 2    50   Output ~ 0
 AMP_VOL
 Wire Wire Line
@@ -739,8 +727,6 @@ F 3 "" H 7650 850 50  0001 C CNN
 	1    7650 850 
 	-1   0    0    -1  
 $EndComp
-Text Label 4600 1150 0    50   ~ 0
-USB_DET
 Text Label 7550 1750 0    50   ~ 0
 USB_DET
 Wire Wire Line
@@ -779,4 +765,64 @@ Text Label 7550 4250 0    50   ~ 0
 SPI_~HLD~-IO3
 Wire Wire Line
 	7450 4550 8100 4550
+Text Label 1400 4700 0    50   ~ 0
+DIP_2
+Text Label 1400 4550 0    50   ~ 0
+DIP_1
+Text Label 1400 4250 0    50   ~ 0
+BTN_2
+Text HLabel 8450 2650 2    50   Output ~ 0
+i2c1_SCL
+Text HLabel 8450 2550 2    50   BiDi ~ 0
+i2c1_SDA
+Text HLabel 5350 1750 0    50   Input ~ 0
+i2s_DIN
+Text HLabel 5350 1650 0    50   Output ~ 0
+MCLK
+Text HLabel 5350 1850 0    50   Output ~ 0
+i2s_DOUT
+Text HLabel 5350 1550 0    50   Output ~ 0
+i2s_LRCLK
+Text HLabel 5350 1450 0    50   Output ~ 0
+i2s_SCLK
+Wire Wire Line
+	5350 1450 5450 1450
+Wire Wire Line
+	5350 1550 5450 1550
+Wire Wire Line
+	5350 1650 5450 1650
+Wire Wire Line
+	5350 1750 5450 1750
+Wire Wire Line
+	5350 1850 5450 1850
+Text Label 3350 2400 0    50   ~ 0
+i2c0_SDA
+Text Label 3350 2500 0    50   ~ 0
+i2c0_SCL
+Text Label 7550 2050 0    50   ~ 0
+i2c0_SDA
+Text Label 7550 1950 0    50   ~ 0
+i2c0_SCL
+Wire Wire Line
+	7450 1950 7550 1950
+Wire Wire Line
+	7450 2050 7550 2050
+Wire Wire Line
+	8000 4050 7450 4050
+Wire Wire Line
+	8000 2250 7450 2250
+Wire Wire Line
+	8000 1650 7450 1650
+Text HLabel 8000 1850 2    50   Output ~ 0
+DDS_TH_VOL
+Text HLabel 8000 3950 2    50   Output ~ 0
+DDS_TH_PITCH
+Wire Wire Line
+	8000 3950 7450 3950
+Wire Wire Line
+	8000 1850 7450 1850
+Text HLabel 8450 3400 2    50   Input ~ 0
+TRRS_Ring2_Switch
+Text HLabel 8450 3550 2    50   Input ~ 0
+TRRS_Sleeve_Switch
 $EndSCHEMATC
