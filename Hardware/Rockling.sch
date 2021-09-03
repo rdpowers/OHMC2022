@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -922,15 +922,15 @@ POWER LED
 Text Notes 2050 1500 0    197  ~ 0
 BoM Additions
 $Sheet
-S 7600 5500 500  150 
-U 6138E5CE
-F0 "sheet6138E5CB" 50
+S 7750 5400 500  150 
+U 613F8496
+F0 "sheet613F8493" 50
 F1 "tomu-fpga.sch" 50
 $EndSheet
 $Sheet
-S 7600 6000 500  250 
-U 6138E5D0
-F0 "sheet6138E5CC" 50
+S 7750 5900 500  250 
+U 613F8498
+F0 "sheet613F8494" 50
 F1 "icebreaker-bitsy.sch" 50
 $EndSheet
 $EndSCHEMATC
