@@ -123,12 +123,6 @@ F 3 "~" H 10150 4150 50  0001 C CNN
 	1    10150 4150
 	-1   0    0    -1  
 $EndComp
-$Sheet
-S 8150 5500 500  150 
-U 6123BB15
-F0 "TOMUHolder" 50
-F1 "tomu-fpga.sch" 50
-$EndSheet
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J104
 U 1 1 61238583
@@ -210,12 +204,6 @@ F 8 "CP-43516SJPICT-ND" H 9772 3039 50  0001 R CNN "DPN"
 	1    10150 3200
 	-1   0    0    -1  
 $EndComp
-$Sheet
-S 8150 6000 500  250 
-U 61291C71
-F0 "bitsyHolder" 50
-F1 "icebreaker-bitsy.sch" 50
-$EndSheet
 Text Notes 2050 800  0    197  ~ 0
 TESTPOINTS, TESTPOINTS, TESTPOINTS.
 $Comp
@@ -929,4 +917,20 @@ Wire Wire Line
 	6500 5700 6400 5700
 Wire Wire Line
 	6500 5800 6400 5800
+Text Notes 2050 1150 0    197  ~ 0
+POWER LED
+Text Notes 2050 1500 0    197  ~ 0
+BoM Additions
+$Sheet
+S 7600 5500 500  150 
+U 6138E5CE
+F0 "sheet6138E5CB" 50
+F1 "tomu-fpga.sch" 50
+$EndSheet
+$Sheet
+S 7600 6000 500  250 
+U 6138E5D0
+F0 "sheet6138E5CC" 50
+F1 "icebreaker-bitsy.sch" 50
+$EndSheet
 $EndSCHEMATC
