@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 7
+Sheet 7 9
 Title ""
 Date ""
 Rev ""
@@ -1072,10 +1072,10 @@ Wire Wire Line
 Wire Wire Line
 	1050 6900 1050 7000
 $Comp
-L OHMC2022:EM6K34T2CR Q?801
+L OHMC2022:EM6K34T2CR Q801
 U 1 1 613FBC97
 P 10200 4350
-F 0 "Q?801" H 10200 4550 60  0000 C CNN
+F 0 "Q801" H 10200 4550 60  0000 C CNN
 F 1 "EM6K34T2CR" H 10200 4150 60  0000 C CNN
 F 2 "OHMC2022:DualNFet.SOT563.EM6K34T2CR" H 11200 4590 60  0001 C CNN
 F 3 "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/em6k34.pdf" H 10200 4601 60  0001 C CNN
