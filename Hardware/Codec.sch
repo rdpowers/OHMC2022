@@ -108,19 +108,19 @@ Wire Wire Line
 $Comp
 L Device:C_Small C?
 U 1 1 61383D31
-P 6250 4100
+P 6150 4100
 AR Path="/611E335F/61383D31" Ref="C?"  Part="1" 
 AR Path="/611E3218/611E32E1/61383D31" Ref="C306"  Part="1" 
-F 0 "C306" H 6365 4282 50  0000 L CNN
-F 1 "0.1uF" H 6365 4191 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6288 3950 50  0001 C CNN
-F 3 "~" H 6250 4100 50  0001 C CNN
-F 4 "C0603C104K5RACAUTO" H 6250 4100 50  0001 C CNN "MPN"
-F 5 "399-6856-1-ND" H 6250 4100 50  0001 C CNN "DPN"
-F 6 "50V" H 6365 4100 50  0000 L CNN "Tol"
-F 7 "0603" H 6365 4009 50  0000 L CNN "Pkg"
-F 8 "X7R" H 6365 3918 50  0000 L CNN "TCoff"
-	1    6250 4100
+F 0 "C306" H 6265 4282 50  0000 L CNN
+F 1 "DNF" H 6265 4191 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6188 3950 50  0001 C CNN
+F 3 "~" H 6150 4100 50  0001 C CNN
+F 4 "" H 6150 4100 50  0001 C CNN "MPN"
+F 5 "" H 6150 4100 50  0001 C CNN "DPN"
+F 6 "" H 6265 4100 50  0000 L CNN "Tol"
+F 7 "" H 6265 4009 50  0000 L CNN "Pkg"
+F 8 "" H 6265 3918 50  0000 L CNN "TCoff"
+	1    6150 4100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -277,9 +277,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 3750 6700 4000
 Wire Wire Line
-	6100 3950 6250 3950
-Wire Wire Line
-	6250 3950 6250 4000
+	6150 3950 6150 4000
 Text HLabel 1850 3150 0    50   Input ~ 0
 MIC_IN
 Text HLabel 6050 3150 2    50   Output ~ 0
@@ -333,8 +331,6 @@ Connection ~ 6150 4550
 Wire Wire Line
 	6150 4350 6150 4450
 Connection ~ 6150 4450
-Text Notes 7400 4300 0    197  ~ 0
-VOLUME CONTROL??
 Wire Wire Line
 	4450 2350 4350 2350
 Wire Wire Line
@@ -346,4 +342,98 @@ Wire Wire Line
 Connection ~ 4350 2350
 Text Notes 7450 4700 0    197  ~ 0
 AGND/VCCA FILTERS?
+Wire Wire Line
+	6050 4250 6150 4250
+Wire Wire Line
+	6150 4250 6150 4350
+Connection ~ 6150 4350
+$Comp
+L power:GND #PWR?
+U 1 1 616A5FE3
+P 4350 4600
+AR Path="/611E3335/616A5FE3" Ref="#PWR?"  Part="1" 
+AR Path="/611E3218/611E32E1/616A5FE3" Ref="#PWR0179"  Part="1" 
+F 0 "#PWR0179" H 4350 4350 50  0001 C CNN
+F 1 "GND" H 4355 4427 50  0000 C CNN
+F 2 "" H 4350 4600 50  0001 C CNN
+F 3 "" H 4350 4600 50  0001 C CNN
+	1    4350 4600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 4250 4350 4250
+Wire Wire Line
+	4350 4250 4350 4600
+$Comp
+L Jumper:SolderJumper_2_Bridged JP301
+U 1 1 616A9E90
+P 3850 4450
+F 0 "JP301" V 3804 4518 50  0000 L CNN
+F 1 "i2cAddr" V 3850 4100 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 3850 4450 50  0001 C CNN
+F 3 "~" H 3850 4450 50  0001 C CNN
+	1    3850 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3850 4150 3850 4300
+Wire Wire Line
+	3850 4150 4450 4150
+$Comp
+L power:GND #PWR?
+U 1 1 616AB03B
+P 3850 4600
+AR Path="/611E3335/616AB03B" Ref="#PWR?"  Part="1" 
+AR Path="/611E3218/611E32E1/616AB03B" Ref="#PWR0180"  Part="1" 
+F 0 "#PWR0180" H 3850 4350 50  0001 C CNN
+F 1 "GND" H 3855 4427 50  0000 C CNN
+F 2 "" H 3850 4600 50  0001 C CNN
+F 3 "" H 3850 4600 50  0001 C CNN
+	1    3850 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 616AD8A4
+P 6100 1850
+AR Path="/6123BB15/616AD8A4" Ref="#PWR?"  Part="1" 
+AR Path="/611E335F/616AD8A4" Ref="#PWR?"  Part="1" 
+AR Path="/611E3218/611E32E1/616AD8A4" Ref="#PWR0181"  Part="1" 
+F 0 "#PWR0181" H 6100 1700 50  0001 C CNN
+F 1 "+3V3" H 6115 2023 50  0000 C CNN
+F 2 "" H 6100 1850 50  0001 C CNN
+F 3 "" H 6100 1850 50  0001 C CNN
+	1    6100 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 1850 6100 2350
+Wire Wire Line
+	6100 2350 6050 2350
+Wire Wire Line
+	6050 3950 6150 3950
+Text Notes 8000 1550 0    50   ~ 0
+The CPFILT cap value is 0.1uF. If both VDDIO and\nVDDA are <= 3.0 V, the CPFILT pin must be connected \nto a 0.1 uF cap to GND. If either is > 3.0 V, the CPFILT cap MUST NOT be placed.
+Wire Wire Line
+	6150 4200 6150 4250
+Connection ~ 6150 4250
+Text Notes 7500 5350 0    50   ~ 0
+The PAD must be soldered to ground.\nStar the ground pins of the chip, VAG ground, and all\nanalog inputs/outputs to a single point, then to the\nground plane.\n
+$Comp
+L power:GND #PWR?
+U 1 1 616B7426
+P 6700 4600
+AR Path="/611E3335/616B7426" Ref="#PWR?"  Part="1" 
+AR Path="/611E3218/611E32E1/616B7426" Ref="#PWR0182"  Part="1" 
+F 0 "#PWR0182" H 6700 4350 50  0001 C CNN
+F 1 "GND" H 6705 4427 50  0000 C CNN
+F 2 "" H 6700 4600 50  0001 C CNN
+F 3 "" H 6700 4600 50  0001 C CNN
+	1    6700 4600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 4200 6700 4600
+Text Notes 8600 3350 0    50   ~ 0
+ Do not connect HP_VGND to system ground, even\nwhen unused. This is a virtual ground (DC voltage) that\nshould never connect to an actual “0 Volt ground”. Use\nthe widest, shortest trace possible for the HP_VGND.\n
 $EndSCHEMATC
