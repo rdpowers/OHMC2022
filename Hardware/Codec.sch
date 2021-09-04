@@ -105,24 +105,6 @@ F 8 "X7R" H 2215 2968 50  0000 L CNN "TCoff"
 $EndComp
 Wire Wire Line
 	6150 4350 6050 4350
-$Comp
-L Device:C_Small C?
-U 1 1 61383D31
-P 6150 4100
-AR Path="/611E335F/61383D31" Ref="C?"  Part="1" 
-AR Path="/611E3218/611E32E1/61383D31" Ref="C306"  Part="1" 
-F 0 "C306" H 6265 4282 50  0000 L CNN
-F 1 "DNF" H 6265 4191 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6188 3950 50  0001 C CNN
-F 3 "~" H 6150 4100 50  0001 C CNN
-F 4 "" H 6150 4100 50  0001 C CNN "MPN"
-F 5 "" H 6150 4100 50  0001 C CNN "DPN"
-F 6 "" H 6265 4100 50  0000 L CNN "Tol"
-F 7 "" H 6265 4009 50  0000 L CNN "Pkg"
-F 8 "" H 6265 3918 50  0000 L CNN "TCoff"
-	1    6150 4100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4350 3950 4450 3950
 Wire Wire Line
@@ -276,8 +258,6 @@ Wire Wire Line
 	6050 3750 6700 3750
 Wire Wire Line
 	6700 3750 6700 4000
-Wire Wire Line
-	6150 3950 6150 4000
 Text HLabel 1850 3150 0    50   Input ~ 0
 MIC_IN
 Text HLabel 6050 3150 2    50   Output ~ 0
@@ -410,13 +390,8 @@ Wire Wire Line
 	6100 1850 6100 2350
 Wire Wire Line
 	6100 2350 6050 2350
-Wire Wire Line
-	6050 3950 6150 3950
-Text Notes 8000 1550 0    50   ~ 0
+Text Notes 8050 4000 0    50   ~ 0
 The CPFILT cap value is 0.1uF. If both VDDIO and\nVDDA are <= 3.0 V, the CPFILT pin must be connected \nto a 0.1 uF cap to GND. If either is > 3.0 V, the CPFILT cap MUST NOT be placed.
-Wire Wire Line
-	6150 4200 6150 4250
-Connection ~ 6150 4250
 Text Notes 7500 5350 0    50   ~ 0
 The PAD must be soldered to ground.\nStar the ground pins of the chip, VAG ground, and all\nanalog inputs/outputs to a single point, then to the\nground plane.\n
 $Comp
@@ -436,4 +411,7 @@ Wire Wire Line
 	6700 4200 6700 4600
 Text Notes 8600 3350 0    50   ~ 0
  Do not connect HP_VGND to system ground, even\nwhen unused. This is a virtual ground (DC voltage) that\nshould never connect to an actual “0 Volt ground”. Use\nthe widest, shortest trace possible for the HP_VGND.\n
+NoConn ~ 6050 3950
+NoConn ~ 4450 2850
+NoConn ~ 4450 2950
 $EndSCHEMATC
