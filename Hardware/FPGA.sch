@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 9
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -147,14 +147,6 @@ Text HLabel 1300 4550 0    50   Input ~ 0
 DIP_1
 Wire Wire Line
 	3000 6500 3700 6500
-Wire Wire Line
-	3000 6200 3700 6200
-Wire Wire Line
-	3000 6100 3700 6100
-Wire Wire Line
-	3000 6300 3700 6300
-Wire Wire Line
-	3000 6400 3700 6400
 Wire Wire Line
 	3000 6600 3700 6600
 Connection ~ 9650 2550
@@ -831,4 +823,20 @@ Wire Wire Line
 	7450 2050 8000 2050
 Wire Wire Line
 	7450 1950 8000 1950
+Text HLabel 4450 6100 2    50   Input ~ 0
+SPI_~CS
+Text HLabel 4450 6200 2    50   Input ~ 0
+SPI_SCK
+Text HLabel 4450 6300 2    50   Input ~ 0
+SPI_MOSI
+Text HLabel 4450 6400 2    50   Output ~ 0
+SPI_MISO
+Wire Wire Line
+	3000 6400 4450 6400
+Wire Wire Line
+	3000 6300 4450 6300
+Wire Wire Line
+	3000 6200 4450 6200
+Wire Wire Line
+	3000 6100 4450 6100
 $EndSCHEMATC

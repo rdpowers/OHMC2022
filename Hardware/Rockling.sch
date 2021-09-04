@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -49,15 +49,15 @@ F5 "i2s_DIN" I R 6400 3900 50
 F6 "i2c1_SCL" I R 6400 4150 50 
 F7 "i2c1_SDA" B R 6400 4250 50 
 F8 "MCLK" O R 6400 4000 50 
-F9 "LED_B" O R 6400 5300 50 
-F10 "LED_G" O R 6400 5100 50 
-F11 "LED_R" O R 6400 5200 50 
+F9 "LED_B" O R 6400 5500 50 
+F10 "LED_G" O R 6400 5300 50 
+F11 "LED_R" O R 6400 5400 50 
 F12 "i2c0_SDA" B L 5300 4300 50 
 F13 "i2c0_SCL" O L 5300 4200 50 
 F14 "DAC_Latch" O L 5300 4100 50 
 F15 "VO_VOLUME" O L 5300 3850 50 
 F16 "VO_PITCH" O L 5300 3750 50 
-F17 "BTN_2" I L 5300 5500 50 
+F17 "BTN_2" I L 5300 5300 50 
 F18 "DIP_2" I L 5300 5200 50 
 F19 "DIP_1" I L 5300 5100 50 
 F20 "USB_D+" B L 5300 3550 50 
@@ -68,8 +68,12 @@ F24 "~FPGA_RST" I L 5300 4850 50
 F25 "CDONE" I L 5300 4750 50 
 F26 "DDS_TH_VOL" O L 5300 4400 50 
 F27 "DDS_TH_PITCH" O L 5300 4500 50 
-F28 "TRRS_Ring2_Switch" I R 6400 5700 50 
-F29 "TRRS_Sleeve_Switch" I R 6400 5800 50 
+F28 "TRRS_Ring2_Switch" I R 6400 4950 50 
+F29 "TRRS_Sleeve_Switch" I R 6400 5050 50 
+F30 "SPI_~CS" I L 5300 5700 50 
+F31 "SPI_SCK" I L 5300 5800 50 
+F32 "SPI_MOSI" I L 5300 5900 50 
+F33 "SPI_MISO" O R 6400 5700 50 
 $EndSheet
 $Sheet
 S 4250 1400 900  1150
@@ -274,22 +278,22 @@ F 3 "" H 6500 6650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6400 6750 6500 6750
-Text Label 6500 5100 0    50   ~ 0
+Text Label 6500 5300 0    50   ~ 0
 LED_G
 Text Label 5650 6500 0    50   ~ 0
 LED_G
 Wire Wire Line
 	5650 6500 5900 6500
-Text Label 6500 5200 0    50   ~ 0
+Text Label 6500 5400 0    50   ~ 0
 LED_R
-Text Label 6500 5300 0    50   ~ 0
+Text Label 6500 5500 0    50   ~ 0
 LED_B
 Wire Wire Line
+	6400 5500 6500 5500
+Wire Wire Line
+	6400 5400 6500 5400
+Wire Wire Line
 	6400 5300 6500 5300
-Wire Wire Line
-	6400 5200 6500 5200
-Wire Wire Line
-	6400 5100 6500 5100
 Text Label 5650 6750 0    50   ~ 0
 LED_R
 Text Label 5650 7000 0    50   ~ 0
@@ -570,14 +574,14 @@ Text Label 5200 5100 2    50   ~ 0
 DIP_1
 Text Label 5200 5200 2    50   ~ 0
 DIP_2
-Text Label 5200 5500 2    50   ~ 0
+Text Label 5200 5300 2    50   ~ 0
 BTN_2
 Wire Wire Line
 	5200 5100 5300 5100
 Wire Wire Line
 	5200 5200 5300 5200
 Wire Wire Line
-	5200 5500 5300 5500
+	5200 5300 5300 5300
 $Comp
 L OHMC2022:SPU0410LR5H-QB U101
 U 1 1 6132075F
@@ -884,10 +888,10 @@ F 3 "" H 1800 7550 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	1800 7450 1800 7550
-Text Label 7450 1550 0    50   ~ 0
+Text Label 6550 1550 2    50   ~ 0
 ~FPGA_RST
 Wire Wire Line
-	7250 1550 7450 1550
+	6750 1550 6550 1550
 Wire Wire Line
 	1850 7100 1700 7100
 Wire Wire Line
@@ -901,36 +905,95 @@ Wire Wire Line
 	5200 4750 5300 4750
 Wire Wire Line
 	5200 4850 5300 4850
-Text Label 6650 1550 2    50   ~ 0
+Text Label 7350 1550 0    50   ~ 0
 CDONE
 Wire Wire Line
-	6650 1550 6750 1550
+	7350 1550 7250 1550
 Wire Wire Line
 	2500 4400 5300 4400
 Wire Wire Line
 	2500 4500 5300 4500
-Text Label 6500 5700 0    50   ~ 0
+Text Label 6500 4950 0    50   ~ 0
 Ring2_Switch
-Text Label 6500 5800 0    50   ~ 0
+Text Label 6500 5050 0    50   ~ 0
 Sleeve_Switch
 Wire Wire Line
-	6500 5700 6400 5700
+	6500 4950 6400 4950
 Wire Wire Line
-	6500 5800 6400 5800
+	6500 5050 6400 5050
 Text Notes 2050 1150 0    197  ~ 0
 POWER LED
 Text Notes 2050 1500 0    197  ~ 0
 BoM Additions
-$Sheet
-S 7750 5400 500  150 
-U 613F8496
-F0 "sheet613F8493" 50
-F1 "tomu-fpga.sch" 50
-$EndSheet
-$Sheet
-S 7750 5900 500  250 
-U 613F8498
-F0 "sheet613F8494" 50
-F1 "icebreaker-bitsy.sch" 50
-$EndSheet
+$Comp
+L Device:Speaker BoM-Speakers101
+U 1 1 61337901
+P 10450 1200
+F 0 "BoM-Speakers101" H 10620 1196 50  0000 L CNN
+F 1 "Adafruit 1669" H 10620 1105 50  0000 L CNN
+F 2 "" H 10450 1000 50  0001 C CNN
+F 3 "~" H 10440 1150 50  0001 C CNN
+F 4 "1528-1847-ND" H 10450 1200 50  0001 C CNN "DPN"
+F 5 "1669" H 10450 1200 50  0001 C CNN "MPN"
+	1    10450 1200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10250 1200
+NoConn ~ 10250 1300
+Text Label 7350 1650 0    50   ~ 0
+SPI_SCK
+Text Label 6550 1750 2    50   ~ 0
+SPI_MOSI
+Text Label 7350 1750 0    50   ~ 0
+SPI_MISO
+Text Label 6550 1650 2    50   ~ 0
+SPI_~CS
+Wire Wire Line
+	7350 1650 7250 1650
+Wire Wire Line
+	7350 1750 7250 1750
+Wire Wire Line
+	6750 1650 6550 1650
+Wire Wire Line
+	6750 1750 6550 1750
+Text Label 6550 1450 2    50   ~ 0
+i2c0_SDA
+Text Label 7350 1450 0    50   ~ 0
+i2c0_SCL
+Wire Wire Line
+	6550 1450 6750 1450
+Wire Wire Line
+	7250 1450 7350 1450
+$Comp
+L pkl_power:VIN #PWR?
+U 1 1 613F7992
+P 6450 1100
+F 0 "#PWR?" H 6450 950 50  0001 C CNN
+F 1 "VIN" H 6450 1250 50  0000 C CNN
+F 2 "" H 6450 1100 50  0001 C CNN
+F 3 "" H 6450 1100 50  0001 C CNN
+	1    6450 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 1350 6450 1350
+Wire Wire Line
+	6450 1350 6450 1100
+$Comp
+L power:GND #PWR?
+U 1 1 61401546
+P 8000 1650
+AR Path="/612429E8/61401546" Ref="#PWR?"  Part="1" 
+AR Path="/61401546" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8000 1400 50  0001 C CNN
+F 1 "GND" H 8008 1477 50  0000 C CNN
+F 2 "" H 8000 1650 50  0000 C CNN
+F 3 "" H 8000 1650 50  0000 C CNN
+	1    8000 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 1350 8000 1350
+Wire Wire Line
+	8000 1350 8000 1650
 $EndSCHEMATC

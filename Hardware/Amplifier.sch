@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 9
+Sheet 4 7
 Title ""
 Date ""
 Rev ""
@@ -23,6 +23,8 @@ F 0 "U401" H 5400 4865 50  0000 C CNN
 F 1 "PAM8019KGR" H 5400 4774 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 5100 2850 50  0001 C CNN
 F 3 "www.diodes.com/assets/Datasheets/PAM8019.pdf" H 5100 2850 50  0001 C CNN
+F 4 "PAM8019KGR" H 5400 3850 50  0001 C CNN "MPN"
+F 5 "621-PAM8019KGR " H 5400 3850 50  0001 C CNN "MouserPN"
 	1    5400 3850
 	1    0    0    -1  
 $EndComp
