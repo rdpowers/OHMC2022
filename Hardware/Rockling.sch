@@ -14,30 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 7350 3450 900  1600
-U 611E3218
-F0 "Audio" 50
-F1 "Audio.sch" 50
-F2 "ROut_N" O R 8250 4250 50 
-F3 "ROut_P" O R 8250 4350 50 
-F4 "LOut_P" O R 8250 4050 50 
-F5 "LOut_N" O R 8250 4150 50 
-F6 "i2s_SCLK" I L 7350 3600 50 
-F7 "i2s_LRCLK" I L 7350 3700 50 
-F8 "i2s_DOUT" I L 7350 3800 50 
-F9 "i2s_DIN" O L 7350 3900 50 
-F10 "i2c1_SCL" I L 7350 4150 50 
-F11 "i2c1_SDA" B L 7350 4250 50 
-F12 "MCLK" I L 7350 4000 50 
-F13 "MIC_IN" I L 7350 4950 50 
-F14 "HP_R" O R 8250 3700 50 
-F15 "HP_L" O R 8250 3600 50 
-F16 "HP_VGND" U R 8250 3800 50 
-F17 "AMP_VOL" I L 7350 4450 50 
-F18 "AMP_PL" I L 7350 4550 50 
-F19 "AMP_MUTE" I L 7350 4750 50 
-$EndSheet
-$Sheet
 S 5300 3450 1100 2600
 U 611E3335
 F0 "FPGA" 50
@@ -68,8 +44,8 @@ F24 "~FPGA_RST" I L 5300 4850 50
 F25 "CDONE" I L 5300 4750 50 
 F26 "DDS_TH_VOL" O L 5300 4400 50 
 F27 "DDS_TH_PITCH" O L 5300 4500 50 
-F28 "TRRS_Ring2_Switch" I R 6400 4950 50 
-F29 "TRRS_Sleeve_Switch" I R 6400 5050 50 
+F28 "TRRS_Ring1_Switch" I R 6400 4950 50 
+F29 "TRRS_Tip_Switch" I R 6400 5050 50 
 F30 "SPI_~CS" I L 5300 5700 50 
 F31 "SPI_SCK" I L 5300 5800 50 
 F32 "SPI_MOSI" I L 5300 5900 50 
@@ -612,54 +588,32 @@ $EndComp
 $Comp
 L Jumper:SolderJumper_3_Bridged12 JP102
 U 1 1 613073D2
-P 9000 3600
-F 0 "JP102" H 9200 3500 50  0000 C CNN
-F 1 "HP_TRRS" H 8800 3500 50  0000 C CNN
-F 2 "OHMC2022:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels" H 9000 3600 50  0001 C CNN
-F 3 "~" H 9000 3600 50  0001 C CNN
-	1    9000 3600
-	1    0    0    -1  
+P 8600 2850
+F 0 "JP102" H 8800 2750 50  0000 C CNN
+F 1 "HP_TRRS" H 8400 2750 50  0000 C CNN
+F 2 "OHMC2022:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels" H 8600 2850 50  0001 C CNN
+F 3 "~" H 8600 2850 50  0001 C CNN
+	1    8600 2850
+	1    0    0    1   
 $EndComp
-Text Label 9200 2850 0    50   ~ 0
+Text Label 8900 3600 0    50   ~ 0
 Tip
-Text Label 9200 3000 0    50   ~ 0
+Text Label 8900 3150 0    50   ~ 0
 Ring1
-Text Label 9200 3150 0    50   ~ 0
+Text Label 8900 3000 0    50   ~ 0
 Ring2
-Text Label 8900 3300 0    50   ~ 0
-Ring2_Switch
 Text Label 8900 3450 0    50   ~ 0
-Sleeve_Switch
-Text Label 9200 3600 0    50   ~ 0
+Tip_Switch
+Text Label 8900 2850 0    50   ~ 0
 Sleeve
-Wire Wire Line
-	9200 3600 9450 3600
 Wire Wire Line
 	8900 3300 9450 3300
 Wire Wire Line
 	8900 3450 9450 3450
 Wire Wire Line
-	8200 3800 8500 3800
-Wire Wire Line
-	8500 3800 8500 3150
-Wire Wire Line
 	8500 3150 9450 3150
-Wire Wire Line
-	8200 3700 8400 3700
-Wire Wire Line
-	8400 3700 8400 3000
-Wire Wire Line
-	8400 3000 9450 3000
-Wire Wire Line
-	8300 2850 8300 3600
-Wire Wire Line
-	8300 3600 8200 3600
-Wire Wire Line
-	8300 2850 9450 2850
-Text Label 9000 3900 0    50   ~ 0
+Text Label 8600 2550 0    50   ~ 0
 MIC_IN
-Wire Wire Line
-	8600 3600 8800 3600
 Wire Wire Line
 	9950 4050 8200 4050
 Wire Wire Line
@@ -673,8 +627,8 @@ MIC_IN
 Wire Wire Line
 	7050 4950 7350 4950
 Wire Wire Line
-	9000 3750 9000 3900
-Text Label 8600 3600 0    50   ~ 0
+	8600 2700 8600 2550
+Text Label 8200 2850 0    50   ~ 0
 MEMS_IN
 Text Label 6800 4150 0    50   ~ 0
 i2c1_SCL
@@ -892,9 +846,9 @@ Wire Wire Line
 Wire Wire Line
 	2500 4500 5300 4500
 Text Label 6500 4950 0    50   ~ 0
-Ring2_Switch
+Ring1_Switch
 Text Label 6500 5050 0    50   ~ 0
-Sleeve_Switch
+Tip_Switch
 Wire Wire Line
 	6500 4950 6400 4950
 Wire Wire Line
@@ -1014,4 +968,64 @@ Wire Wire Line
 	6500 2150 6900 2150
 Wire Wire Line
 	6500 2400 6900 2400
+Text Label 5200 5700 2    50   ~ 0
+SPI_~CS
+Text Label 5200 5800 2    50   ~ 0
+SPI_SCK
+Text Label 5200 5900 2    50   ~ 0
+SPI_MOSI
+Text Label 6500 5700 0    50   ~ 0
+SPI_MISO
+Wire Wire Line
+	6400 5700 6500 5700
+Wire Wire Line
+	5200 5700 5300 5700
+Wire Wire Line
+	5200 5800 5300 5800
+Wire Wire Line
+	5200 5900 5300 5900
+Text Label 8900 3300 0    50   ~ 0
+Ring1_Switch
+Wire Wire Line
+	8600 3800 8600 3600
+Wire Wire Line
+	8250 3800 8600 3800
+Wire Wire Line
+	8600 3600 9450 3600
+$Sheet
+S 7350 3450 900  1600
+U 611E3218
+F0 "Audio" 50
+F1 "Audio.sch" 50
+F2 "ROut_N" O R 8250 4250 50 
+F3 "ROut_P" O R 8250 4350 50 
+F4 "LOut_P" O R 8250 4050 50 
+F5 "LOut_N" O R 8250 4150 50 
+F6 "i2s_SCLK" I L 7350 3600 50 
+F7 "i2s_LRCLK" I L 7350 3700 50 
+F8 "i2s_DOUT" I L 7350 3800 50 
+F9 "i2s_DIN" O L 7350 3900 50 
+F10 "i2c1_SCL" I L 7350 4150 50 
+F11 "i2c1_SDA" B L 7350 4250 50 
+F12 "MCLK" I L 7350 4000 50 
+F13 "MIC_IN" I L 7350 4950 50 
+F14 "HP_R" O R 8250 3700 50 
+F15 "HP_L" O R 8250 3800 50 
+F16 "HP_VGND" U R 8250 3600 50 
+F17 "AMP_VOL" I L 7350 4450 50 
+F18 "AMP_PL" I L 7350 4550 50 
+F19 "AMP_MUTE" I L 7350 4750 50 
+$EndSheet
+Wire Wire Line
+	8400 3000 9450 3000
+Wire Wire Line
+	8500 3150 8500 3700
+Wire Wire Line
+	8250 3700 8500 3700
+Wire Wire Line
+	8250 3600 8400 3600
+Wire Wire Line
+	8400 3600 8400 3000
+Wire Wire Line
+	8800 2850 9450 2850
 $EndSCHEMATC

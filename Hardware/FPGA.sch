@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 2 7
 Title ""
 Date ""
 Rev ""
@@ -731,9 +731,9 @@ Wire Wire Line
 Wire Wire Line
 	8000 1850 7450 1850
 Text HLabel 5350 1950 0    50   Input ~ 0
-TRRS_Ring2_Switch
+TRRS_Ring1_Switch
 Text HLabel 5350 2150 0    50   Input ~ 0
-TRRS_Sleeve_Switch
+TRRS_Tip_Switch
 Text Label 7550 3650 0    50   ~ 0
 i2c0_SDA
 Text Label 7550 3550 0    50   ~ 0
@@ -775,8 +775,8 @@ L Connector:TestPoint TP?
 U 1 1 616CDFC9
 P 9000 900
 AR Path="/612429E8/616CDFC9" Ref="TP?"  Part="1" 
-AR Path="/611E3335/616CDFC9" Ref="TP?"  Part="1" 
-F 0 "TP?" H 9058 1018 50  0000 L CNN
+AR Path="/611E3335/616CDFC9" Ref="TP501"  Part="1" 
+F 0 "TP501" H 9058 1018 50  0000 L CNN
 F 1 "1v2" H 9058 927 50  0000 L CNN
 F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 9200 900 50  0001 C CNN
 F 3 "~" H 9200 900 50  0001 C CNN
@@ -790,8 +790,8 @@ L Connector:TestPoint TP?
 U 1 1 616D59B5
 P 9600 900
 AR Path="/612429E8/616D59B5" Ref="TP?"  Part="1" 
-AR Path="/611E3335/616D59B5" Ref="TP?"  Part="1" 
-F 0 "TP?" H 9658 1018 50  0000 L CNN
+AR Path="/611E3335/616D59B5" Ref="TP502"  Part="1" 
+F 0 "TP502" H 9658 1018 50  0000 L CNN
 F 1 "2v5" H 9658 927 50  0000 L CNN
 F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 9800 900 50  0001 C CNN
 F 3 "~" H 9800 900 50  0001 C CNN
@@ -803,8 +803,8 @@ L Connector:TestPoint TP?
 U 1 1 616D5D99
 P 10300 900
 AR Path="/612429E8/616D5D99" Ref="TP?"  Part="1" 
-AR Path="/611E3335/616D5D99" Ref="TP?"  Part="1" 
-F 0 "TP?" H 10358 1018 50  0000 L CNN
+AR Path="/611E3335/616D5D99" Ref="TP503"  Part="1" 
+F 0 "TP503" H 10358 1018 50  0000 L CNN
 F 1 "3v3" H 10358 927 50  0000 L CNN
 F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 10500 900 50  0001 C CNN
 F 3 "~" H 10500 900 50  0001 C CNN
@@ -837,8 +837,8 @@ U 1 1 617082A2
 P 9200 5600
 AR Path="/612429E8/617082A2" Ref="Sp?"  Part="1" 
 AR Path="/617082A2" Ref="Sp?"  Part="1" 
-AR Path="/611E3335/617082A2" Ref="Sp?"  Part="1" 
-F 0 "Sp?" H 9150 5750 50  0000 R CNN
+AR Path="/611E3335/617082A2" Ref="Sp501"  Part="1" 
+F 0 "Sp501" H 9150 5750 50  0000 R CNN
 F 1 "49a" H 9150 5650 50  0000 R CNN
 F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 9400 5600 50  0001 C CNN
 F 3 "" H 9400 5600 50  0000 C CNN
@@ -885,8 +885,8 @@ U 1 1 6171C233
 P 9800 5600
 AR Path="/612429E8/6171C233" Ref="Sp?"  Part="1" 
 AR Path="/6171C233" Ref="Sp?"  Part="1" 
-AR Path="/611E3335/6171C233" Ref="Sp?"  Part="1" 
-F 0 "Sp?" H 9750 5750 50  0000 R CNN
+AR Path="/611E3335/6171C233" Ref="Sp503"  Part="1" 
+F 0 "Sp503" H 9750 5750 50  0000 R CNN
 F 1 "50b" H 9750 5650 50  0000 R CNN
 F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 10000 5600 50  0001 C CNN
 F 3 "" H 10000 5600 50  0000 C CNN
@@ -899,8 +899,8 @@ U 1 1 6171C94C
 P 10300 5600
 AR Path="/612429E8/6171C94C" Ref="Sp?"  Part="1" 
 AR Path="/6171C94C" Ref="Sp?"  Part="1" 
-AR Path="/611E3335/6171C94C" Ref="Sp?"  Part="1" 
-F 0 "Sp?" H 10250 5750 50  0000 R CNN
+AR Path="/611E3335/6171C94C" Ref="Sp505"  Part="1" 
+F 0 "Sp505" H 10250 5750 50  0000 R CNN
 F 1 "51a" H 10250 5650 50  0000 R CNN
 F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 10500 5600 50  0001 C CNN
 F 3 "" H 10500 5600 50  0000 C CNN
@@ -917,8 +917,8 @@ U 1 1 617269B8
 P 9200 6000
 AR Path="/612429E8/617269B8" Ref="Sp?"  Part="1" 
 AR Path="/617269B8" Ref="Sp?"  Part="1" 
-AR Path="/611E3335/617269B8" Ref="Sp?"  Part="1" 
-F 0 "Sp?" H 9150 6150 50  0000 R CNN
+AR Path="/611E3335/617269B8" Ref="Sp502"  Part="1" 
+F 0 "Sp502" H 9150 6150 50  0000 R CNN
 F 1 "20a" H 9150 6050 50  0000 R CNN
 F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 9400 6000 50  0001 C CNN
 F 3 "" H 9400 6000 50  0000 C CNN
@@ -931,8 +931,8 @@ U 1 1 617269BE
 P 9800 6000
 AR Path="/612429E8/617269BE" Ref="Sp?"  Part="1" 
 AR Path="/617269BE" Ref="Sp?"  Part="1" 
-AR Path="/611E3335/617269BE" Ref="Sp?"  Part="1" 
-F 0 "Sp?" H 9750 6150 50  0000 R CNN
+AR Path="/611E3335/617269BE" Ref="Sp504"  Part="1" 
+F 0 "Sp504" H 9750 6150 50  0000 R CNN
 F 1 "22a" H 9750 6050 50  0000 R CNN
 F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 10000 6000 50  0001 C CNN
 F 3 "" H 10000 6000 50  0000 C CNN
@@ -949,8 +949,8 @@ U 1 1 617269C6
 P 10300 6000
 AR Path="/612429E8/617269C6" Ref="Sp?"  Part="1" 
 AR Path="/617269C6" Ref="Sp?"  Part="1" 
-AR Path="/611E3335/617269C6" Ref="Sp?"  Part="1" 
-F 0 "Sp?" H 10250 6150 50  0000 R CNN
+AR Path="/611E3335/617269C6" Ref="Sp506"  Part="1" 
+F 0 "Sp506" H 10250 6150 50  0000 R CNN
 F 1 "25b_g3" H 10250 6050 50  0000 R CNN
 F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 10500 6000 50  0001 C CNN
 F 3 "" H 10500 6000 50  0000 C CNN
@@ -959,4 +959,10 @@ F 3 "" H 10500 6000 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	10300 6100 10300 6000
+Wire Wire Line
+	5350 1950 5450 1950
+Wire Wire Line
+	5350 2050 5450 2050
+Wire Wire Line
+	5350 2150 5450 2150
 $EndSCHEMATC
