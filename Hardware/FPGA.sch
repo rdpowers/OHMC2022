@@ -46,46 +46,46 @@ Text HLabel 8000 2250 2    50   Output ~ 0
 VO_VOLUME
 Text HLabel 8000 4050 2    50   Output ~ 0
 VO_PITCH
-NoConn ~ 9650 2750
+NoConn ~ 9100 2550
 Wire Wire Line
-	10650 2400 10650 2750
+	10100 2200 10100 2550
 Wire Wire Line
-	10550 2550 10550 2850
+	10000 2350 10000 2650
 $Comp
 L power:GND #PWR0501
 U 1 1 614FF0E6
-P 10550 2850
-F 0 "#PWR0501" H 10550 2600 50  0001 C CNN
-F 1 "GND" H 10555 2677 50  0000 C CNN
-F 2 "" H 10550 2850 50  0001 C CNN
-F 3 "" H 10550 2850 50  0001 C CNN
-	1    10550 2850
+P 10000 2650
+F 0 "#PWR0501" H 10000 2400 50  0001 C CNN
+F 1 "GND" H 10005 2477 50  0000 C CNN
+F 2 "" H 10000 2650 50  0001 C CNN
+F 3 "" H 10000 2650 50  0001 C CNN
+	1    10000 2650
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR0502
 U 1 1 614FF0F0
-P 10650 2400
-F 0 "#PWR0502" H 10650 2250 50  0001 C CNN
-F 1 "+3V3" H 10665 2573 50  0000 C CNN
-F 2 "" H 10650 2400 50  0001 C CNN
-F 3 "" H 10650 2400 50  0001 C CNN
-	1    10650 2400
+P 10100 2200
+F 0 "#PWR0502" H 10100 2050 50  0001 C CNN
+F 1 "+3V3" H 10115 2373 50  0000 C CNN
+F 2 "" H 10100 2200 50  0001 C CNN
+F 3 "" H 10100 2200 50  0001 C CNN
+	1    10100 2200
 	-1   0    0    -1  
 $EndComp
 $Comp
 L tomu-fpga:Oscillator U503
 U 1 1 614FF0FA
-P 10000 2500
-F 0 "U503" H 9750 2450 50  0000 C CNN
-F 1 "Crystal Oscillator" H 10250 2450 50  0000 C CNN
-F 2 "tomu-fpga:XTAL-2520" H 10000 2500 50  0001 C CNN
-F 3 "https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf" H 10000 2500 50  0001 C CNN
-F 4 "XC2756CT-ND" H 10000 2500 50  0001 C CNN "MPN"
-F 5 "ECS" H 10000 2500 50  0001 C CNN "Manufacturer"
-F 6 "XC2756CT-ND" H 10000 2500 50  0001 C CNN "DPN"
-F 7 "XTAL OSC XO 48.0000MHZ CMOS SMD" H 5200 150 50  0001 C CNN "Description"
-	1    10000 2500
+P 9450 2300
+F 0 "U503" H 9200 2250 50  0000 C CNN
+F 1 "Crystal Oscillator" H 9700 2250 50  0000 C CNN
+F 2 "tomu-fpga:XTAL-2520" H 9450 2300 50  0001 C CNN
+F 3 "https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf" H 9450 2300 50  0001 C CNN
+F 4 "XC2756CT-ND" H 9450 2300 50  0001 C CNN "MPN"
+F 5 "ECS" H 9450 2300 50  0001 C CNN "Manufacturer"
+F 6 "XC2756CT-ND" H 9450 2300 50  0001 C CNN "DPN"
+F 7 "XTAL OSC XO 48.0000MHZ CMOS SMD" H 4650 -50 50  0001 C CNN "Description"
+	1    9450 2300
 	1    0    0    1   
 $EndComp
 Text Label 3700 6200 0    50   ~ 0
@@ -149,39 +149,34 @@ Wire Wire Line
 	3000 6500 3700 6500
 Wire Wire Line
 	3000 6600 3700 6600
-Connection ~ 9650 2550
-Wire Wire Line
-	9650 2550 9700 2550
-Wire Wire Line
-	9550 2550 9650 2550
 $Comp
 L Device:C_Small C?
 U 1 1 61350B96
-P 10450 2650
+P 9900 2450
 AR Path="/611E335F/61350B96" Ref="C?"  Part="1" 
 AR Path="/611E3335/61350B96" Ref="C502"  Part="1" 
-F 0 "C502" H 10565 2832 50  0000 L CNN
-F 1 "0.1uF" H 10565 2741 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 10488 2500 50  0001 C CNN
-F 3 "~" H 10450 2650 50  0001 C CNN
-F 4 "C0603C104K5RACAUTO" H 10450 2650 50  0001 C CNN "MPN"
-F 5 "399-6856-1-ND" H 10450 2650 50  0001 C CNN "DPN"
-F 6 "50V" H 10565 2650 50  0000 L CNN "Tol"
-F 7 "0603" H 10565 2559 50  0000 L CNN "Pkg"
-F 8 "X7R" H 10565 2468 50  0000 L CNN "TCoff"
-	1    10450 2650
+F 0 "C502" H 10015 2632 50  0000 L CNN
+F 1 "0.1uF" H 10015 2541 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9938 2300 50  0001 C CNN
+F 3 "~" H 9900 2450 50  0001 C CNN
+F 4 "C0603C104K5RACAUTO" H 9900 2450 50  0001 C CNN "MPN"
+F 5 "399-6856-1-ND" H 9900 2450 50  0001 C CNN "DPN"
+F 6 "50V" H 10015 2450 50  0000 L CNN "Tol"
+F 7 "0603" H 10015 2359 50  0000 L CNN "Pkg"
+F 8 "X7R" H 10015 2268 50  0000 L CNN "TCoff"
+	1    9900 2450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10350 2550 10450 2550
+	9800 2350 9900 2350
 Wire Wire Line
-	10350 2750 10450 2750
-Connection ~ 10450 2550
+	9800 2550 9900 2550
+Connection ~ 9900 2350
 Wire Wire Line
-	10450 2550 10550 2550
-Connection ~ 10450 2750
+	9900 2350 10000 2350
+Connection ~ 9900 2550
 Wire Wire Line
-	10450 2750 10650 2750
+	9900 2550 10100 2550
 $Comp
 L power:GND #PWR0108
 U 1 1 613565CE
@@ -655,12 +650,10 @@ Text Label 7550 1750 0    50   ~ 0
 USB_DET
 Wire Wire Line
 	7550 1750 7450 1750
-Text Label 9550 2550 2    50   ~ 0
+Text Label 9000 2350 2    50   ~ 0
 OSC_IN
 Text Label 7600 2350 0    50   ~ 0
 OSC_IN
-Wire Wire Line
-	7450 2350 7600 2350
 Wire Wire Line
 	5450 3650 5350 3650
 Wire Wire Line
@@ -777,4 +770,193 @@ Wire Wire Line
 	1300 4550 1400 4550
 Wire Wire Line
 	1300 4700 1400 4700
+$Comp
+L Connector:TestPoint TP?
+U 1 1 616CDFC9
+P 9000 900
+AR Path="/612429E8/616CDFC9" Ref="TP?"  Part="1" 
+AR Path="/611E3335/616CDFC9" Ref="TP?"  Part="1" 
+F 0 "TP?" H 9058 1018 50  0000 L CNN
+F 1 "1v2" H 9058 927 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 9200 900 50  0001 C CNN
+F 3 "~" H 9200 900 50  0001 C CNN
+	1    9000 900 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9000 900  9000 850 
+$Comp
+L Connector:TestPoint TP?
+U 1 1 616D59B5
+P 9600 900
+AR Path="/612429E8/616D59B5" Ref="TP?"  Part="1" 
+AR Path="/611E3335/616D59B5" Ref="TP?"  Part="1" 
+F 0 "TP?" H 9658 1018 50  0000 L CNN
+F 1 "2v5" H 9658 927 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 9800 900 50  0001 C CNN
+F 3 "~" H 9800 900 50  0001 C CNN
+	1    9600 900 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 616D5D99
+P 10300 900
+AR Path="/612429E8/616D5D99" Ref="TP?"  Part="1" 
+AR Path="/611E3335/616D5D99" Ref="TP?"  Part="1" 
+F 0 "TP?" H 10358 1018 50  0000 L CNN
+F 1 "3v3" H 10358 927 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 10500 900 50  0001 C CNN
+F 3 "~" H 10500 900 50  0001 C CNN
+	1    10300 900 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9600 900  9600 850 
+Wire Wire Line
+	10300 900  10300 850 
+$Comp
+L OpenThereminCC-rescue:TEST_1P GROUND?
+U 1 1 616E599D
+P 8600 5600
+AR Path="/612429E8/616E599D" Ref="GROUND?"  Part="1" 
+AR Path="/616E599D" Ref="GROUND?"  Part="1" 
+AR Path="/611E3335/616E599D" Ref="Sp1"  Part="1" 
+F 0 "Sp1" H 8550 5750 50  0000 R CNN
+F 1 "44b" H 8550 5650 50  0000 R CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 8800 5600 50  0001 C CNN
+F 3 "" H 8800 5600 50  0000 C CNN
+	1    8600 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 2350 7450 2350
+$Comp
+L OpenThereminCC-rescue:TEST_1P Sp?
+U 1 1 617082A2
+P 9200 5600
+AR Path="/612429E8/617082A2" Ref="Sp?"  Part="1" 
+AR Path="/617082A2" Ref="Sp?"  Part="1" 
+AR Path="/611E3335/617082A2" Ref="Sp?"  Part="1" 
+F 0 "Sp?" H 9150 5750 50  0000 R CNN
+F 1 "49a" H 9150 5650 50  0000 R CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 9400 5600 50  0001 C CNN
+F 3 "" H 9400 5600 50  0000 C CNN
+	1    9200 5600
+	1    0    0    -1  
+$EndComp
+Text Label 7450 2150 0    50   ~ 0
+Spare_44b
+Text Label 7450 2450 0    50   ~ 0
+Spare_48b
+Text Label 7450 2550 0    50   ~ 0
+Spare_49a
+Text Label 7450 2650 0    50   ~ 0
+Spare_50b
+Text Label 7450 2750 0    50   ~ 0
+Spare_51a
+Text Label 7450 3750 0    50   ~ 0
+Spare_20a
+Text Label 7450 3850 0    50   ~ 0
+Spare_22a
+Text Label 7450 4150 0    50   ~ 0
+Spare_25b_g3
+Text Label 10300 6100 0    50   ~ 0
+Spare_25b_g3
+Text Label 9800 6100 0    50   ~ 0
+Spare_22a
+Text Label 9200 6100 0    50   ~ 0
+Spare_20a
+Text Label 10300 5700 0    50   ~ 0
+Spare_51a
+Text Label 9800 5700 0    50   ~ 0
+Spare_50b
+Text Label 9200 5700 0    50   ~ 0
+Spare_49a
+Text Label 8600 5700 0    50   ~ 0
+Spare_44b
+Wire Wire Line
+	8600 5700 8600 5600
+Wire Wire Line
+	9200 5600 9200 5700
+$Comp
+L OpenThereminCC-rescue:TEST_1P Sp?
+U 1 1 6171C233
+P 9800 5600
+AR Path="/612429E8/6171C233" Ref="Sp?"  Part="1" 
+AR Path="/6171C233" Ref="Sp?"  Part="1" 
+AR Path="/611E3335/6171C233" Ref="Sp?"  Part="1" 
+F 0 "Sp?" H 9750 5750 50  0000 R CNN
+F 1 "50b" H 9750 5650 50  0000 R CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 10000 5600 50  0001 C CNN
+F 3 "" H 10000 5600 50  0000 C CNN
+	1    9800 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenThereminCC-rescue:TEST_1P Sp?
+U 1 1 6171C94C
+P 10300 5600
+AR Path="/612429E8/6171C94C" Ref="Sp?"  Part="1" 
+AR Path="/6171C94C" Ref="Sp?"  Part="1" 
+AR Path="/611E3335/6171C94C" Ref="Sp?"  Part="1" 
+F 0 "Sp?" H 10250 5750 50  0000 R CNN
+F 1 "51a" H 10250 5650 50  0000 R CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 10500 5600 50  0001 C CNN
+F 3 "" H 10500 5600 50  0000 C CNN
+	1    10300 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 5700 9800 5600
+Wire Wire Line
+	10300 5700 10300 5600
+$Comp
+L OpenThereminCC-rescue:TEST_1P Sp?
+U 1 1 617269B8
+P 9200 6000
+AR Path="/612429E8/617269B8" Ref="Sp?"  Part="1" 
+AR Path="/617269B8" Ref="Sp?"  Part="1" 
+AR Path="/611E3335/617269B8" Ref="Sp?"  Part="1" 
+F 0 "Sp?" H 9150 6150 50  0000 R CNN
+F 1 "20a" H 9150 6050 50  0000 R CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 9400 6000 50  0001 C CNN
+F 3 "" H 9400 6000 50  0000 C CNN
+	1    9200 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenThereminCC-rescue:TEST_1P Sp?
+U 1 1 617269BE
+P 9800 6000
+AR Path="/612429E8/617269BE" Ref="Sp?"  Part="1" 
+AR Path="/617269BE" Ref="Sp?"  Part="1" 
+AR Path="/611E3335/617269BE" Ref="Sp?"  Part="1" 
+F 0 "Sp?" H 9750 6150 50  0000 R CNN
+F 1 "22a" H 9750 6050 50  0000 R CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 10000 6000 50  0001 C CNN
+F 3 "" H 10000 6000 50  0000 C CNN
+	1    9800 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 6100 9200 6000
+Wire Wire Line
+	9800 6000 9800 6100
+$Comp
+L OpenThereminCC-rescue:TEST_1P Sp?
+U 1 1 617269C6
+P 10300 6000
+AR Path="/612429E8/617269C6" Ref="Sp?"  Part="1" 
+AR Path="/617269C6" Ref="Sp?"  Part="1" 
+AR Path="/611E3335/617269C6" Ref="Sp?"  Part="1" 
+F 0 "Sp?" H 10250 6150 50  0000 R CNN
+F 1 "25b_g3" H 10250 6050 50  0000 R CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 10500 6000 50  0001 C CNN
+F 3 "" H 10500 6000 50  0000 C CNN
+	1    10300 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 6100 10300 6000
 $EndSCHEMATC

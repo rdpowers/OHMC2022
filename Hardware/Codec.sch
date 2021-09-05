@@ -350,7 +350,7 @@ U 1 1 616A9E90
 P 3850 4450
 F 0 "JP301" V 3804 4518 50  0000 L CNN
 F 1 "i2cAddr" V 3850 4100 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 3850 4450 50  0001 C CNN
+F 2 "OHMC2022:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 3850 4450 50  0001 C CNN
 F 3 "~" H 3850 4450 50  0001 C CNN
 	1    3850 4450
 	0    1    1    0   

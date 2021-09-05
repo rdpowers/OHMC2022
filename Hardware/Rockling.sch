@@ -601,12 +601,12 @@ $EndComp
 $Comp
 L Jumper:SolderJumper_3_Open JP101
 U 1 1 6130417D
-P 8150 2450
-F 0 "JP101" H 8150 2655 50  0000 C CNN
-F 1 "SolderJumper_3_Open" H 8150 2564 50  0000 C CNN
-F 2 "OHMC2022:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 8150 2450 50  0001 C CNN
-F 3 "~" H 8150 2450 50  0001 C CNN
-	1    8150 2450
+P 9200 1350
+F 0 "JP101" H 9200 1555 50  0000 C CNN
+F 1 "SolderJumper_3_Open" H 9200 1464 50  0000 C CNN
+F 2 "OHMC2022:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9200 1350 50  0001 C CNN
+F 3 "~" H 9200 1350 50  0001 C CNN
+	1    9200 1350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -704,28 +704,6 @@ Wire Wire Line
 	2500 4200 5300 4200
 Wire Wire Line
 	2500 4300 5300 4300
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP103
-U 1 1 613E4A63
-P 6050 2200
-F 0 "JP103" H 6250 2100 50  0000 C CNN
-F 1 "i2c1-0_SCL" H 5850 2100 50  0000 C CNN
-F 2 "OHMC2022:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels" H 6050 2200 50  0001 C CNN
-F 3 "~" H 6050 2200 50  0001 C CNN
-	1    6050 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP104
-U 1 1 613E57AC
-P 6050 2550
-F 0 "JP104" H 6250 2450 50  0000 C CNN
-F 1 "i2c1-0_SDA" H 5850 2450 50  0000 C CNN
-F 2 "OHMC2022:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels" H 6050 2550 50  0001 C CNN
-F 3 "~" H 6050 2550 50  0001 C CNN
-	1    6050 2550
-	1    0    0    -1  
-$EndComp
 $Comp
 L OHMC2022:XZMDKCBDDG45S-9 D101
 U 1 1 614F3B0D
@@ -998,4 +976,42 @@ Wire Wire Line
 	7250 1350 8000 1350
 Wire Wire Line
 	8000 1350 8000 1650
+Text Label 7300 2150 0    50   ~ 0
+i2c0_SCL
+Wire Wire Line
+	7100 2150 7300 2150
+Text Label 7300 2400 0    50   ~ 0
+i2c0_SDA
+Wire Wire Line
+	7100 2400 7300 2400
+$Comp
+L Device:Jumper_NO_Small JP103
+U 1 1 6164DE10
+P 7000 2150
+F 0 "JP103" H 7000 2335 50  0000 C CNN
+F 1 "i2c1-0_SCL" H 7000 2244 50  0000 C CNN
+F 2 "OHMC2022:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7000 2150 50  0001 C CNN
+F 3 "~" H 7000 2150 50  0001 C CNN
+	1    7000 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP104
+U 1 1 6164E442
+P 7000 2400
+F 0 "JP104" H 7000 2585 50  0000 C CNN
+F 1 "i2c1-0_SDA" H 7000 2494 50  0000 C CNN
+F 2 "OHMC2022:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7000 2400 50  0001 C CNN
+F 3 "~" H 7000 2400 50  0001 C CNN
+	1    7000 2400
+	1    0    0    -1  
+$EndComp
+Text Label 6500 2150 0    50   ~ 0
+i2c1_SCL
+Text Label 6500 2400 0    50   ~ 0
+i2c1_SDA
+Wire Wire Line
+	6500 2150 6900 2150
+Wire Wire Line
+	6500 2400 6900 2400
 $EndSCHEMATC

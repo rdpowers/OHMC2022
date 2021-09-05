@@ -571,8 +571,6 @@ Wire Wire Line
 	2550 2000 2550 2050
 Wire Wire Line
 	2550 2400 2550 2550
-Text Notes 8150 6350 0    197  ~ 0
-Changed DAC to i2c
 $Comp
 L OHMC2022:MCP47CXBX2 U802
 U 1 1 612D4DB3
@@ -612,9 +610,9 @@ Text HLabel 900  1800 0    50   UnSpc ~ 0
 PitchAnt
 Text HLabel 900  5250 0    50   UnSpc ~ 0
 VolAnt
-Text HLabel 4450 1800 2    50   Output ~ 0
+Text HLabel 4950 1800 2    50   Output ~ 0
 VO_PITCH
-Text HLabel 4200 5250 2    50   Output ~ 0
+Text HLabel 4700 5250 2    50   Output ~ 0
 VO_VOLUME
 Text HLabel 8050 4200 2    50   BiDi ~ 0
 i2c0_SDA
@@ -654,8 +652,6 @@ $EndComp
 Connection ~ 1750 5250
 Wire Wire Line
 	1750 5250 1750 5150
-Text Notes 8150 6000 0    197  ~ 0
-Changed 4069 PKG.
 Wire Wire Line
 	900  1800 1550 1800
 Wire Wire Line
@@ -664,12 +660,12 @@ Wire Wire Line
 	3650 5250 3800 5250
 Connection ~ 3800 5250
 Wire Wire Line
-	3800 5250 4200 5250
+	3800 5250 4700 5250
 Wire Wire Line
 	3650 1800 3850 1800
 Connection ~ 3850 1800
 Wire Wire Line
-	3850 1800 4450 1800
+	3850 1800 4950 1800
 Wire Wire Line
 	6750 4500 6900 4500
 Wire Wire Line
@@ -1231,4 +1227,12 @@ Wire Wire Line
 	2550 1550 2550 1800
 Wire Wire Line
 	2550 4950 2550 5250
+Text Label 4200 5250 0    50   ~ 0
+VO_VOLUME
+Text Label 6250 5300 0    50   ~ 0
+VO_VOLUME
+Text Label 4450 1800 0    50   ~ 0
+VO_PITCH
+Text Label 6700 5600 2    50   ~ 0
+VO_PITCH
 $EndSCHEMATC
