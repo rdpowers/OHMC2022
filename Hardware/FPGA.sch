@@ -42,7 +42,7 @@ Text HLabel 1250 3000 0    50   Output ~ 0
 i2c0_SCL
 Text HLabel 8000 1650 2    50   Output ~ 0
 DAC_Latch
-Text HLabel 8000 2450 2    50   Output ~ 0
+Text HLabel 8000 2250 2    50   Output ~ 0
 VO_VOLUME
 Text HLabel 8000 4050 2    50   Output ~ 0
 VO_PITCH
@@ -135,7 +135,7 @@ F 5 "E14" H 2350 1500 50  0001 C CNN "Source"
 F 6 "USBLC6-2SC6" H 2350 1500 50  0001 C CNN "MPN"
 F 7 "1269406" H 2350 1500 50  0001 C CNN "E14PN"
 	1    2350 1500
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Text HLabel 1300 4250 0    50   Input ~ 0
 BTN_2
@@ -726,7 +726,7 @@ i2c0_SCL
 Wire Wire Line
 	8000 4050 7450 4050
 Wire Wire Line
-	8000 2450 7450 2450
+	8000 2250 7450 2250
 Wire Wire Line
 	8000 1650 7450 1650
 Text HLabel 8000 1850 2    50   Output ~ 0
@@ -771,4 +771,10 @@ Wire Wire Line
 	3000 6200 4450 6200
 Wire Wire Line
 	3000 6100 4450 6100
+Wire Wire Line
+	1300 4250 1400 4250
+Wire Wire Line
+	1300 4550 1400 4550
+Wire Wire Line
+	1300 4700 1400 4700
 $EndSCHEMATC

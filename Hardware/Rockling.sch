@@ -223,7 +223,7 @@ F 5 "Manufacturer Recommendation" H 2250 7450 50  0001 L BNN "STANDARD"
 F 6 "EVQ-P7J01P" H 2250 7585 50  0001 C CNN "MPN"
 F 7 "P16767CT-ND" H 2250 7586 50  0001 C CNN "DPN"
 	1    2250 7450
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L OHMC2022:EVQ-P7J01P SW102
@@ -238,7 +238,7 @@ F 5 "Manufacturer Recommendation" H 2250 7100 50  0001 L BNN "STANDARD"
 F 6 "EVQ-P7J01P" H 2250 7235 50  0001 C CNN "MPN"
 F 7 "P16767CT-ND" H 2250 7236 50  0001 C CNN "DPN"
 	1    2250 7100
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	1450 4600 1900 4600
