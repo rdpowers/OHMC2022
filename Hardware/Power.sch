@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 7
+Sheet 3 7
 Title ""
 Date ""
 Rev ""
@@ -1643,15 +1643,15 @@ Wire Wire Line
 $Comp
 L power:VBUS #PWR?
 U 1 1 614E2688
-P 1300 2650
+P 1300 3200
 AR Path="/61291C71/614E2688" Ref="#PWR?"  Part="1" 
 AR Path="/614E2688" Ref="#PWR?"  Part="1" 
 AR Path="/611E335F/614E2688" Ref="#PWR0131"  Part="1" 
-F 0 "#PWR0131" H 1300 2500 50  0001 C CNN
-F 1 "VBUS" H 1300 2800 50  0000 C CNN
-F 2 "" H 1300 2650 50  0001 C CNN
-F 3 "" H 1300 2650 50  0001 C CNN
-	1    1300 2650
+F 0 "#PWR0131" H 1300 3050 50  0001 C CNN
+F 1 "VBUS" H 1300 3350 50  0000 C CNN
+F 2 "" H 1300 3200 50  0001 C CNN
+F 3 "" H 1300 3200 50  0001 C CNN
+	1    1300 3200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1671,7 +1671,7 @@ $EndComp
 Wire Wire Line
 	1350 3550 1300 3550
 Wire Wire Line
-	1300 3550 1300 2650
+	1300 3550 1300 3200
 $Comp
 L pkl_power:VIN #PWR0132
 U 1 1 614ED626
@@ -2206,4 +2206,57 @@ F 3 "" H 3650 4750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3650 4400 3650 4750
+Wire Wire Line
+	650  4000 650  4150
+Wire Wire Line
+	650  4150 950  4150
+$Comp
+L pkl_power:VIN #PWR?
+U 1 1 61405D3E
+P 1550 4600
+F 0 "#PWR?" H 1550 4450 50  0001 C CNN
+F 1 "VIN" H 1550 4750 50  0000 C CNN
+F 2 "" H 1550 4600 50  0001 C CNN
+F 3 "" H 1550 4600 50  0001 C CNN
+	1    1550 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP?
+U 1 1 6141A32E
+P 1350 4600
+AR Path="/6141A32E" Ref="JP?"  Part="1" 
+AR Path="/611E335F/6141A32E" Ref="JP?"  Part="1" 
+F 0 "JP?" H 1350 4785 50  0000 C CNN
+F 1 "Backfeed" H 1350 4694 50  0000 C CNN
+F 2 "OHMC2022:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 1350 4600 50  0001 C CNN
+F 3 "~" H 1350 4600 50  0001 C CNN
+	1    1350 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1350 4700 1350 4800
+Wire Wire Line
+	1350 4800 1550 4800
+Wire Wire Line
+	1550 4800 1550 4600
+Wire Wire Line
+	1250 4150 1350 4150
+Wire Wire Line
+	1350 4150 1350 4500
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6142215D
+P 650 4000
+AR Path="/6123BB15/6142215D" Ref="#PWR?"  Part="1" 
+AR Path="/611E335F/6142215D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 650 3850 50  0001 C CNN
+F 1 "+3V3" H 665 4173 50  0000 C CNN
+F 2 "" H 650 4000 50  0001 C CNN
+F 3 "" H 650 4000 50  0001 C CNN
+	1    650  4000
+	1    0    0    -1  
+$EndComp
+Text Notes 1000 5000 0    50   ~ 0
+Don't do this.\n(Do it. Do IT!)
 $EndSCHEMATC
