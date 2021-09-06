@@ -577,12 +577,12 @@ $EndComp
 $Comp
 L Jumper:SolderJumper_3_Open JP101
 U 1 1 6130417D
-P 9200 1350
-F 0 "JP101" H 9200 1555 50  0000 C CNN
-F 1 "SolderJumper_3_Open" H 9200 1464 50  0000 C CNN
-F 2 "OHMC2022:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9200 1350 50  0001 C CNN
-F 3 "~" H 9200 1350 50  0001 C CNN
-	1    9200 1350
+P 4300 3300
+F 0 "JP101" H 4300 3505 50  0000 C CNN
+F 1 "SolderJumper_3_Open" H 4300 3414 50  0000 C CNN
+F 2 "OHMC2022:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 4300 3300 50  0001 C CNN
+F 3 "~" H 4300 3300 50  0001 C CNN
+	1    4300 3300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1028,4 +1028,95 @@ Wire Wire Line
 	8400 3600 8400 3000
 Wire Wire Line
 	8800 2850 9450 2850
+$Comp
+L power:+1V2 #PWR?
+U 1 1 61471DC0
+P 8450 750
+AR Path="/6123BB15/61471DC0" Ref="#PWR?"  Part="1" 
+AR Path="/611E335F/61471DC0" Ref="#PWR?"  Part="1" 
+AR Path="/611E3335/61471DC0" Ref="#PWR?"  Part="1" 
+AR Path="/61471DC0" Ref="#PWR0166"  Part="1" 
+F 0 "#PWR0166" H 8450 600 50  0001 C CNN
+F 1 "+1V2" H 8465 923 50  0000 C CNN
+F 2 "" H 8450 750 50  0001 C CNN
+F 3 "" H 8450 750 50  0001 C CNN
+	1    8450 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+2V5 #PWR?
+U 1 1 61471DC6
+P 8750 750
+AR Path="/6123BB15/61471DC6" Ref="#PWR?"  Part="1" 
+AR Path="/611E335F/61471DC6" Ref="#PWR?"  Part="1" 
+AR Path="/611E3335/61471DC6" Ref="#PWR?"  Part="1" 
+AR Path="/61471DC6" Ref="#PWR0167"  Part="1" 
+F 0 "#PWR0167" H 8750 600 50  0001 C CNN
+F 1 "+2V5" H 8765 923 50  0000 C CNN
+F 2 "" H 8750 750 50  0001 C CNN
+F 3 "" H 8750 750 50  0001 C CNN
+	1    8750 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61471DCC
+P 9050 750
+AR Path="/611E3335/61471DCC" Ref="#PWR?"  Part="1" 
+AR Path="/61471DCC" Ref="#PWR0168"  Part="1" 
+F 0 "#PWR0168" H 9050 600 50  0001 C CNN
+F 1 "+3V3" H 9065 923 50  0000 C CNN
+F 2 "" H 9050 750 50  0001 C CNN
+F 3 "" H 9050 750 50  0001 C CNN
+	1    9050 750 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61471DD2
+P 8450 800
+AR Path="/612429E8/61471DD2" Ref="TP?"  Part="1" 
+AR Path="/611E3335/61471DD2" Ref="TP?"  Part="1" 
+AR Path="/61471DD2" Ref="TP101"  Part="1" 
+F 0 "TP101" H 8508 918 50  0000 L CNN
+F 1 "1v2" H 8508 827 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 8650 800 50  0001 C CNN
+F 3 "~" H 8650 800 50  0001 C CNN
+	1    8450 800 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8450 800  8450 750 
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61471DD9
+P 8750 800
+AR Path="/612429E8/61471DD9" Ref="TP?"  Part="1" 
+AR Path="/611E3335/61471DD9" Ref="TP?"  Part="1" 
+AR Path="/61471DD9" Ref="TP102"  Part="1" 
+F 0 "TP102" H 8808 918 50  0000 L CNN
+F 1 "2v5" H 8808 827 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 8950 800 50  0001 C CNN
+F 3 "~" H 8950 800 50  0001 C CNN
+	1    8750 800 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61471DDF
+P 9050 800
+AR Path="/612429E8/61471DDF" Ref="TP?"  Part="1" 
+AR Path="/611E3335/61471DDF" Ref="TP?"  Part="1" 
+AR Path="/61471DDF" Ref="TP103"  Part="1" 
+F 0 "TP103" H 9108 918 50  0000 L CNN
+F 1 "3v3" H 9108 827 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 9250 800 50  0001 C CNN
+F 3 "~" H 9250 800 50  0001 C CNN
+	1    9050 800 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8750 800  8750 750 
+Wire Wire Line
+	9050 800  9050 750 
 $EndSCHEMATC
