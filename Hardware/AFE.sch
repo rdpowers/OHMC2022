@@ -21,6 +21,9 @@ F 0 "U801" H 3200 4865 50  0000 C CNN
 F 1 "4069.HEF4069UBTT,118" H 3200 4774 50  0000 C CNN
 F 2 "OHMC2022:TSSOP14" H 3200 4550 60  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/HEF4069UB.pdf" H 3200 4550 60  0001 C CNN
+F 4 "1727-6749-1-ND" H 3200 4550 50  0001 C CNN "DPN"
+F 5 "Digi-Key" H 3200 4550 50  0001 C CNN "Supplier 1"
+F 6 "1727-6749-1-ND" H 3200 4550 50  0001 C CNN "Supplier Part Number 1"
 	2    3200 4550
 	1    0    0    -1  
 $EndComp
@@ -34,6 +37,8 @@ F 2 "OHMC2022:TSSOP14" H 2050 4550 60  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/HEF4069UB.pdf" H 2050 4550 60  0001 C CNN
 F 4 "1727-6749-1-ND" H 2050 4550 50  0001 C CNN "DPN"
 F 5 "HEF4069UBTT,118" H 2050 4550 50  0001 C CNN "MPN"
+F 6 "Digi-Key" H 2050 4550 50  0001 C CNN "Supplier 1"
+F 7 "1727-6749-1-ND" H 2050 4550 50  0001 C CNN "Supplier Part Number 1"
 	3    2050 4550
 	1    0    0    -1  
 $EndComp
@@ -47,6 +52,8 @@ F 2 "OHMC2022:IND.1812.NL453232T" H 2100 1800 50  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_standard_nl453232_en.pdf" H 2100 1800 50  0001 C CNN
 F 4 "NL453232T-102J-PF " H 2100 1800 50  0001 C CNN "MPN"
 F 5 "810-NL453232T-102JPF" H 2100 1800 50  0001 C CNN "MouserPN"
+F 6 "Mouser" H 2100 1800 50  0001 C CNN "Supplier 1"
+F 7 "810-NL453232T-102JPF" H 2100 1800 50  0001 C CNN "Supplier Part Number 1"
 	1    2100 1800
 	1    0    0    -1  
 $EndComp
@@ -115,6 +122,8 @@ F 2 "OHMC2022:TSSOP14" H 3200 5250 60  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/HEF4069UB.pdf" H 3200 5250 60  0001 C CNN
 F 4 "1727-6749-1-ND" H 3200 5250 50  0001 C CNN "DPN"
 F 5 "HEF4069UBTT,118" H 3200 5250 50  0001 C CNN "MPN"
+F 6 "Digi-Key" H 3200 5250 50  0001 C CNN "Supplier 1"
+F 7 "1727-6749-1-ND" H 3200 5250 50  0001 C CNN "Supplier Part Number 1"
 	1    3200 5250
 	1    0    0    -1  
 $EndComp
@@ -161,6 +170,8 @@ F 2 "Package_TO_SOT_SMD:SOT-23" H 1050 2900 60  0001 C CNN
 F 3 "https://au.mouser.com/datasheet/2/196/bb914series-84756.pdf" H 1050 2900 60  0001 C CNN
 F 4 "BB 914 E6327 " H 1050 2900 50  0001 C CNN "MPN"
 F 5 "726-BB914E6327 " H 1050 2900 50  0001 C CNN "MouserPN"
+F 6 "Mouser" H 1050 2900 50  0001 C CNN "Supplier 1"
+F 7 "726-BB914E6327" H 1050 2900 50  0001 C CNN "Supplier Part Number 1"
 	1    1050 2900
 	1    0    0    -1  
 $EndComp
@@ -205,6 +216,9 @@ F 0 "U801" H 3200 1415 50  0000 C CNN
 F 1 "4069.HEF4069UBTT,118" H 3200 1324 50  0000 C CNN
 F 2 "OHMC2022:TSSOP14" H 3200 1100 60  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/HEF4069UB.pdf" H 3200 1100 60  0001 C CNN
+F 4 "1727-6749-1-ND" H 3200 1100 50  0001 C CNN "DPN"
+F 5 "Digi-Key" H 3200 1100 50  0001 C CNN "Supplier 1"
+F 6 "1727-6749-1-ND" H 3200 1100 50  0001 C CNN "Supplier Part Number 1"
 	5    3200 1100
 	1    0    0    -1  
 $EndComp
@@ -216,6 +230,9 @@ F 0 "U801" H 3200 2115 50  0000 C CNN
 F 1 "4069.HEF4069UBTT,118" H 3200 2024 50  0000 C CNN
 F 2 "OHMC2022:TSSOP14" H 3200 1800 60  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/HEF4069UB.pdf" H 3200 1800 60  0001 C CNN
+F 4 "1727-6749-1-ND" H 3200 1800 50  0001 C CNN "DPN"
+F 5 "Digi-Key" H 3200 1800 50  0001 C CNN "Supplier 1"
+F 6 "1727-6749-1-ND" H 3200 1800 50  0001 C CNN "Supplier Part Number 1"
 	6    3200 1800
 	1    0    0    -1  
 $EndComp
@@ -271,6 +288,9 @@ F 0 "U801" H 2100 950 50  0000 C CNN
 F 1 "4069.HEF4069UBTT,118" H 2300 1000 50  0000 C CNN
 F 2 "OHMC2022:TSSOP14" H 2050 1100 60  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/HEF4069UB.pdf" H 2050 1100 60  0001 C CNN
+F 4 "1727-6749-1-ND" H 2050 1100 50  0001 C CNN "DPN"
+F 5 "Digi-Key" H 2050 1100 50  0001 C CNN "Supplier 1"
+F 6 "1727-6749-1-ND" H 2050 1100 50  0001 C CNN "Supplier Part Number 1"
 	4    2050 1100
 	1    0    0    -1  
 $EndComp
@@ -581,6 +601,8 @@ F 2 "Package_DFN_QFN:DFN-10-1EP_3x3mm_P0.5mm_EP1.55x2.48mm" H 7450 3950 50  0001
 F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP47CXBXX-Data-Sheet-DS20006089B.pdf" H 7300 4250 50  0001 C CNN
 F 4 "MCP47CMB02-E/MF-ND" H 7900 5000 50  0001 C CNN "DPN"
 F 5 "MCP47CMB02-E/MF" H 7850 4850 50  0001 C CNN "MPN"
+F 6 "Digi-Key" H 7450 4400 50  0001 C CNN "Supplier 1"
+F 7 "MCP47CMB02-E/MF-ND" H 7450 4400 50  0001 C CNN "Supplier Part Number 1"
 	1    7450 4400
 	1    0    0    -1  
 $EndComp
@@ -632,6 +654,8 @@ F 2 "Package_TO_SOT_SMD:SOT-23" H 1050 6350 60  0001 C CNN
 F 3 "https://au.mouser.com/datasheet/2/196/bb914series-84756.pdf" H 1050 6350 60  0001 C CNN
 F 4 "BB 914 E6327 " H 1050 6350 50  0001 C CNN "MPN"
 F 5 "726-BB914E6327 " H 1050 6350 50  0001 C CNN "MouserPN"
+F 6 "Mouser" H 1050 6350 50  0001 C CNN "Supplier 1"
+F 7 "726-BB914E6327" H 1050 6350 50  0001 C CNN "Supplier Part Number 1"
 	1    1050 6350
 	1    0    0    -1  
 $EndComp
@@ -646,6 +670,8 @@ F 2 "OHMC2022:IND.1812.NL453232T" H 2100 5250 50  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_standard_nl453232_en.pdf" H 2100 5250 50  0001 C CNN
 F 4 "NL453232T-102J-PF " H 2100 5250 50  0001 C CNN "MPN"
 F 5 "810-NL453232T-102JPF" H 2100 5250 50  0001 C CNN "MouserPN"
+F 6 "Mouser" H 2100 5250 50  0001 C CNN "Supplier 1"
+F 7 "810-NL453232T-102JPF" H 2100 5250 50  0001 C CNN "Supplier Part Number 1"
 	1    2100 5250
 	1    0    0    -1  
 $EndComp
@@ -682,6 +708,8 @@ F 2 "OHMC2022:TSSOP14" H 9000 1350 60  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/HEF4069UB.pdf" H 9000 1350 60  0001 C CNN
 F 4 "HEF4069UBTT,118" H 9000 1350 50  0001 C CNN "MPN"
 F 5 "1727-6749-1-ND" H 9000 1350 50  0001 C CNN "DPN"
+F 6 "Digi-Key" H 9000 1350 50  0001 C CNN "Supplier 1"
+F 7 "1727-6749-1-ND" H 9000 1350 50  0001 C CNN "Supplier Part Number 1"
 	7    9000 1350
 	1    0    0    -1  
 $EndComp
@@ -747,6 +775,8 @@ F 3 "~" H 1450 3550 50  0001 C CNN
 F 4 "0603" H 1450 3550 50  0001 C CNN "Pkg"
 F 5 "ESR03EZPJ104" H 1450 3550 50  0001 C CNN "MPN"
 F 6 "RHM100KDCT-ND" H 1450 3550 50  0001 C CNN "DPN"
+F 7 "Digi-Key" H 1450 3550 50  0001 C CNN "Supplier 1"
+F 8 "RHM100KDCT-ND" H 1450 3550 50  0001 C CNN "Supplier Part Number 1"
 	1    1450 3550
 	0    -1   -1   0   
 $EndComp
@@ -767,6 +797,8 @@ F 3 "~" H 1050 3300 50  0001 C CNN
 F 4 "0603" H 1050 3300 50  0001 C CNN "Pkg"
 F 5 "ESR03EZPJ104" H 1050 3300 50  0001 C CNN "MPN"
 F 6 "RHM100KDCT-ND" H 1050 3300 50  0001 C CNN "DPN"
+F 7 "Digi-Key" H 1050 3300 50  0001 C CNN "Supplier 1"
+F 8 "RHM100KDCT-ND" H 1050 3300 50  0001 C CNN "Supplier Part Number 1"
 	1    1050 3300
 	1    0    0    -1  
 $EndComp
@@ -787,6 +819,8 @@ F 3 "~" H 6250 1200 50  0001 C CNN
 F 4 "0603" H 6250 1200 50  0001 C CNN "Pkg"
 F 5 "ESR03EZPJ104" H 6250 1200 50  0001 C CNN "MPN"
 F 6 "RHM100KDCT-ND" H 6250 1200 50  0001 C CNN "DPN"
+F 7 "Digi-Key" H 6250 1200 50  0001 C CNN "Supplier 1"
+F 8 "RHM100KDCT-ND" H 6250 1200 50  0001 C CNN "Supplier Part Number 1"
 	1    6250 1200
 	0    -1   -1   0   
 $EndComp
@@ -807,6 +841,8 @@ F 3 "~" H 1550 7000 50  0001 C CNN
 F 4 "0603" H 1550 7000 50  0001 C CNN "Pkg"
 F 5 "ESR03EZPJ104" H 1550 7000 50  0001 C CNN "MPN"
 F 6 "RHM100KDCT-ND" H 1550 7000 50  0001 C CNN "DPN"
+F 7 "Digi-Key" H 1550 7000 50  0001 C CNN "Supplier 1"
+F 8 "RHM100KDCT-ND" H 1550 7000 50  0001 C CNN "Supplier Part Number 1"
 	1    1550 7000
 	0    -1   -1   0   
 $EndComp
@@ -827,6 +863,8 @@ F 3 "~" H 1050 6750 50  0001 C CNN
 F 4 "0603" H 1050 6750 50  0001 C CNN "Pkg"
 F 5 "ESR03EZPJ104" H 1050 6750 50  0001 C CNN "MPN"
 F 6 "RHM100KDCT-ND" H 1050 6750 50  0001 C CNN "DPN"
+F 7 "Digi-Key" H 1050 6750 50  0001 C CNN "Supplier 1"
+F 8 "RHM100KDCT-ND" H 1050 6750 50  0001 C CNN "Supplier Part Number 1"
 	1    1050 6750
 	1    0    0    -1  
 $EndComp
@@ -1047,6 +1085,8 @@ F 5 "399-6856-1-ND" H 6250 5800 50  0001 C CNN "DPN"
 F 6 "50V" H 6365 5800 50  0000 L CNN "Tol"
 F 7 "0603" H 6365 5709 50  0000 L CNN "Pkg"
 F 8 "X7R" H 6365 5618 50  0000 L CNN "TCoff"
+F 9 "Digi-Key" H 6250 5800 50  0001 C CNN "Supplier 1"
+F 10 "399-6856-1-ND" H 6250 5800 50  0001 C CNN "Supplier Part Number 1"
 	1    6250 5800
 	1    0    0    -1  
 $EndComp
@@ -1066,6 +1106,8 @@ F 5 "399-6856-1-ND" H 6650 5800 50  0001 C CNN "DPN"
 F 6 "50V" H 6765 5800 50  0000 L CNN "Tol"
 F 7 "0603" H 6765 5709 50  0000 L CNN "Pkg"
 F 8 "X7R" H 6765 5618 50  0000 L CNN "TCoff"
+F 9 "Digi-Key" H 6650 5800 50  0001 C CNN "Supplier 1"
+F 10 "399-6856-1-ND" H 6650 5800 50  0001 C CNN "Supplier Part Number 1"
 	1    6650 5800
 	1    0    0    -1  
 $EndComp
@@ -1089,6 +1131,8 @@ F 5 "399-6856-1-ND" H 6900 1350 50  0001 C CNN "DPN"
 F 6 "50V" H 7015 1350 50  0000 L CNN "Tol"
 F 7 "0603" H 7015 1259 50  0000 L CNN "Pkg"
 F 8 "X7R" H 7015 1168 50  0000 L CNN "TCoff"
+F 9 "Digi-Key" H 6900 1350 50  0001 C CNN "Supplier 1"
+F 10 "399-6856-1-ND" H 6900 1350 50  0001 C CNN "Supplier Part Number 1"
 	1    6900 1350
 	1    0    0    -1  
 $EndComp
@@ -1108,6 +1152,8 @@ F 5 "399-6856-1-ND" H 7500 1350 50  0001 C CNN "DPN"
 F 6 "50V" H 7615 1350 50  0000 L CNN "Tol"
 F 7 "0603" H 7615 1259 50  0000 L CNN "Pkg"
 F 8 "X7R" H 7615 1168 50  0000 L CNN "TCoff"
+F 9 "Digi-Key" H 7500 1350 50  0001 C CNN "Supplier 1"
+F 10 "399-6856-1-ND" H 7500 1350 50  0001 C CNN "Supplier Part Number 1"
 	1    7500 1350
 	1    0    0    -1  
 $EndComp
@@ -1137,6 +1183,8 @@ F 5 "399-6856-1-ND" H 5950 1400 50  0001 C CNN "DPN"
 F 6 "50V" H 6065 1400 50  0000 L CNN "Tol"
 F 7 "0603" H 6065 1309 50  0000 L CNN "Pkg"
 F 8 "X7R" H 6065 1218 50  0000 L CNN "TCoff"
+F 9 "Digi-Key" H 5950 1400 50  0001 C CNN "Supplier 1"
+F 10 "399-6856-1-ND" H 5950 1400 50  0001 C CNN "Supplier Part Number 1"
 	1    5950 1400
 	-1   0    0    -1  
 $EndComp
@@ -1159,6 +1207,8 @@ F 5 "399-6856-1-ND" H 1050 7200 50  0001 C CNN "DPN"
 F 6 "50V" H 1165 7200 50  0000 L CNN "Tol"
 F 7 "0603" H 1165 7109 50  0000 L CNN "Pkg"
 F 8 "X7R" H 1165 7018 50  0000 L CNN "TCoff"
+F 9 "Digi-Key" H 1050 7200 50  0001 C CNN "Supplier 1"
+F 10 "399-6856-1-ND" H 1050 7200 50  0001 C CNN "Supplier Part Number 1"
 	1    1050 7200
 	-1   0    0    -1  
 $EndComp
@@ -1182,6 +1232,8 @@ F 5 "399-6856-1-ND" H 1050 3750 50  0001 C CNN "DPN"
 F 6 "50V" H 1165 3750 50  0000 L CNN "Tol"
 F 7 "0603" H 1165 3659 50  0000 L CNN "Pkg"
 F 8 "X7R" H 1165 3568 50  0000 L CNN "TCoff"
+F 9 "Digi-Key" H 1050 3750 50  0001 C CNN "Supplier 1"
+F 10 "399-6856-1-ND" H 1050 3750 50  0001 C CNN "Supplier Part Number 1"
 	1    1050 3750
 	-1   0    0    -1  
 $EndComp
