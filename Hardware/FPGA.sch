@@ -336,10 +336,6 @@ Text Label 3900 1400 0    50   ~ 0
 USB_D_P
 Text Label 3900 1600 0    50   ~ 0
 USB_D_N
-Wire Wire Line
-	1750 2900 1250 2900
-Wire Wire Line
-	1750 3000 1250 3000
 Text HLabel 5350 2050 0    50   Output ~ 0
 AMP_VOL
 Text HLabel 8000 3450 2    50   Output ~ 0
@@ -386,7 +382,7 @@ Text Label 7600 4650 0    50   ~ 0
 ~FPGA_RST
 Wire Wire Line
 	7450 4650 7600 4650
-Text HLabel 8100 4550 2    50   Input ~ 0
+Text HLabel 8100 4550 2    50   Output ~ 0
 CDONE
 $Comp
 L Device:R_Small R?
@@ -980,4 +976,76 @@ Wire Wire Line
 	8850 3250 8850 3300
 Wire Wire Line
 	7450 3250 8850 3250
+$Comp
+L Device:R_Small R?
+U 1 1 61378D09
+P 1850 2750
+AR Path="/611E335F/61378D09" Ref="R?"  Part="1" 
+AR Path="/61378D09" Ref="R?"  Part="1" 
+AR Path="/611E3335/61378D09" Ref="R?"  Part="1" 
+F 0 "R?" H 1909 2796 50  0000 L CNN
+F 1 "DNF" H 1909 2705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1780 2750 50  0001 C CNN
+F 3 "~" H 1850 2750 50  0001 C CNN
+F 4 "0402" H 2000 2900 50  0000 C CNN "Pkg"
+F 5 "" H 1850 2750 50  0001 C CNN "MPN"
+F 6 "" H 1850 2750 50  0001 C CNN "DPN"
+	1    1850 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 61378D12
+P 2150 2750
+AR Path="/611E335F/61378D12" Ref="R?"  Part="1" 
+AR Path="/61378D12" Ref="R?"  Part="1" 
+AR Path="/611E3335/61378D12" Ref="R?"  Part="1" 
+F 0 "R?" H 2209 2796 50  0000 L CNN
+F 1 "DNF" H 2209 2705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2080 2750 50  0001 C CNN
+F 3 "~" H 2150 2750 50  0001 C CNN
+F 4 "0402" H 2300 2900 50  0000 C CNN "Pkg"
+F 5 "" H 2150 2750 50  0001 C CNN "MPN"
+F 6 "" H 2150 2750 50  0001 C CNN "DPN"
+	1    2150 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 2900 1850 2850
+Wire Wire Line
+	1250 2900 1850 2900
+Wire Wire Line
+	2150 3000 2150 2850
+Wire Wire Line
+	1250 3000 2150 3000
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6138654A
+P 1850 2500
+AR Path="/611E3335/6138654A" Ref="#PWR?"  Part="1" 
+AR Path="/6138654A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1850 2350 50  0001 C CNN
+F 1 "+3V3" H 1865 2673 50  0000 C CNN
+F 2 "" H 1850 2500 50  0001 C CNN
+F 3 "" H 1850 2500 50  0001 C CNN
+	1    1850 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61386D0E
+P 2150 2500
+AR Path="/611E3335/61386D0E" Ref="#PWR?"  Part="1" 
+AR Path="/61386D0E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2150 2350 50  0001 C CNN
+F 1 "+3V3" H 2165 2673 50  0000 C CNN
+F 2 "" H 2150 2500 50  0001 C CNN
+F 3 "" H 2150 2500 50  0001 C CNN
+	1    2150 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 2500 2150 2650
+Wire Wire Line
+	1850 2500 1850 2650
 $EndSCHEMATC
