@@ -848,8 +848,6 @@ F 8 "RHM100KDCT-ND" H 1550 7000 50  0001 C CNN "Supplier Part Number 1"
 $EndComp
 Wire Wire Line
 	1700 7000 2250 7000
-Wire Wire Line
-	1050 7000 1350 7000
 $Comp
 L Device:R_US R?
 U 1 1 6166C1B1
@@ -1370,4 +1368,6 @@ Wire Wire Line
 Connection ~ 9250 4600
 Wire Wire Line
 	9250 4600 9250 4700
+Wire Wire Line
+	1050 7000 1400 7000
 $EndSCHEMATC
