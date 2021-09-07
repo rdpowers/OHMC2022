@@ -113,7 +113,7 @@ AR Path="/611E3335/612A0D93" Ref="U501"  Part="1"
 F 0 "U501" H 2400 6700 50  0000 C CNN
 F 1 "W25Q128JVxxM" H 2400 6600 50  0000 C CNN
 F 2 "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm" H 2400 6300 50  0001 C CNN
-F 3 "" H 2400 6300 50  0001 C CNN
+F 3 "https://www.winbond.com/resource-files/w25q128jv%20revf%2003272018%20plus.pdf" H 2400 6300 50  0001 C CNN
 F 4 "ANY" H 2400 6300 50  0001 C CNN "Source"
 F 5 "eeprom-wson8-w25q128" H -5500 -1650 50  0001 C CNN "Key"
 F 6 "W25Q128JVPIQ" H 2400 6300 50  0001 C CNN "MPN"
@@ -1074,4 +1074,57 @@ Wire Wire Line
 	2150 2500 2150 2650
 Wire Wire Line
 	1850 2500 1850 2650
+$Comp
+L Device:C C?
+U 1 1 6148289E
+P 3550 4350
+AR Path="/611E335F/6148289E" Ref="C?"  Part="1" 
+AR Path="/611E3335/6148289E" Ref="C204"  Part="1" 
+F 0 "C204" H 3665 4532 50  0000 L CNN
+F 1 "0.1uF" H 3665 4441 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3588 4200 50  0001 C CNN
+F 3 "~" H 3550 4350 50  0001 C CNN
+F 4 "C0603C104K5RACAUTO" H 3550 4350 50  0001 C CNN "MPN"
+F 5 "399-6856-1-ND" H 3550 4350 50  0001 C CNN "DPN"
+F 6 "50V" H 3665 4350 50  0000 L CNN "Tol"
+F 7 "0603" H 3665 4259 50  0000 L CNN "Pkg"
+F 8 "X7R" H 3665 4168 50  0000 L CNN "TCoff"
+F 9 "Digi-Key" H 3550 4350 50  0001 C CNN "Supplier 1"
+F 10 "399-6856-1-ND" H 3550 4350 50  0001 C CNN "Supplier Part Number 1"
+	1    3550 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V2 #PWR?
+U 1 1 614828A4
+P 3550 4150
+AR Path="/6123BB15/614828A4" Ref="#PWR?"  Part="1" 
+AR Path="/611E335F/614828A4" Ref="#PWR?"  Part="1" 
+AR Path="/611E3335/614828A4" Ref="#PWR0201"  Part="1" 
+F 0 "#PWR0201" H 3550 4000 50  0001 C CNN
+F 1 "+1V2" H 3565 4323 50  0000 C CNN
+F 2 "" H 3550 4150 50  0001 C CNN
+F 3 "" H 3550 4150 50  0001 C CNN
+	1    3550 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 4150 3550 4200
+$Comp
+L power:GND #PWR0202
+U 1 1 614828AB
+P 3550 4600
+AR Path="/611E3335/614828AB" Ref="#PWR0202"  Part="1" 
+AR Path="/611E335F/614828AB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0202" H 3550 4350 50  0001 C CNN
+F 1 "GND" H 3555 4427 50  0000 C CNN
+F 2 "" H 3550 4600 50  0001 C CNN
+F 3 "" H 3550 4600 50  0001 C CNN
+	1    3550 4600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 4600 3550 4500
+Text Notes 1800 6900 0    50   ~ 0
+Note:\nThe metal pad area on the bottom center of the package is not connected to any internal electrical signals. It can be\nleft floating or connected to the device ground (GND pin). Avoid placement of exposed PCB vias under the pad.
 $EndSCHEMATC
