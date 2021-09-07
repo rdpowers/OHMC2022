@@ -831,10 +831,6 @@ Text Label 6500 2150 0    50   ~ 0
 i2c1_SCL
 Text Label 6500 2400 0    50   ~ 0
 i2c1_SDA
-Wire Wire Line
-	6500 2150 6900 2150
-Wire Wire Line
-	6500 2400 6900 2400
 Text Label 5200 5700 2    50   ~ 0
 SPI_~CS
 Text Label 5200 5800 2    50   ~ 0
@@ -947,7 +943,7 @@ AR Path="/611E3335/61471DD2" Ref="TP?"  Part="1"
 AR Path="/61471DD2" Ref="TP101"  Part="1" 
 F 0 "TP101" H 8508 918 50  0000 L CNN
 F 1 "1v2" H 8508 827 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 8650 800 50  0001 C CNN
+F 2 "OHMC2022:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 8650 800 50  0001 C CNN
 F 3 "~" H 8650 800 50  0001 C CNN
 	1    8450 800 
 	-1   0    0    1   
@@ -963,7 +959,7 @@ AR Path="/611E3335/61471DD9" Ref="TP?"  Part="1"
 AR Path="/61471DD9" Ref="TP102"  Part="1" 
 F 0 "TP102" H 8808 918 50  0000 L CNN
 F 1 "2v5" H 8808 827 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 8950 800 50  0001 C CNN
+F 2 "OHMC2022:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 8950 800 50  0001 C CNN
 F 3 "~" H 8950 800 50  0001 C CNN
 	1    8750 800 
 	-1   0    0    1   
@@ -977,7 +973,7 @@ AR Path="/611E3335/61471DDF" Ref="TP?"  Part="1"
 AR Path="/61471DDF" Ref="TP103"  Part="1" 
 F 0 "TP103" H 9108 918 50  0000 L CNN
 F 1 "3v3" H 9108 827 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 9250 800 50  0001 C CNN
+F 2 "OHMC2022:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 9250 800 50  0001 C CNN
 F 3 "~" H 9250 800 50  0001 C CNN
 	1    9050 800 
 	-1   0    0    1   
@@ -995,7 +991,7 @@ AR Path="/611E3335/614DAE1E" Ref="TP?"  Part="1"
 AR Path="/614DAE1E" Ref="TP1"  Part="1" 
 F 0 "TP1" H 6608 2968 50  0000 L CNN
 F 1 "SCLK" H 6608 2877 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 6750 2850 50  0001 C CNN
+F 2 "OHMC2022:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 6750 2850 50  0001 C CNN
 F 3 "~" H 6750 2850 50  0001 C CNN
 	1    6550 2850
 	1    0    0    -1  
@@ -1009,7 +1005,7 @@ AR Path="/611E3335/614DBD9B" Ref="TP?"  Part="1"
 AR Path="/614DBD9B" Ref="TP5"  Part="1" 
 F 0 "TP5" H 7208 2968 50  0000 L CNN
 F 1 "MCLK" H 7208 2877 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 7350 2850 50  0001 C CNN
+F 2 "OHMC2022:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 7350 2850 50  0001 C CNN
 F 3 "~" H 7350 2850 50  0001 C CNN
 	1    7150 2850
 	1    0    0    -1  
@@ -1023,7 +1019,7 @@ AR Path="/611E3335/614DC95D" Ref="TP?"  Part="1"
 AR Path="/614DC95D" Ref="TP2"  Part="1" 
 F 0 "TP2" H 6758 3168 50  0000 L CNN
 F 1 "LRCLK" H 6758 3077 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 6900 3050 50  0001 C CNN
+F 2 "OHMC2022:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 6900 3050 50  0001 C CNN
 F 3 "~" H 6900 3050 50  0001 C CNN
 	1    6700 3050
 	1    0    0    -1  
@@ -1037,7 +1033,7 @@ AR Path="/611E3335/614DD5FE" Ref="TP?"  Part="1"
 AR Path="/614DD5FE" Ref="TP4"  Part="1" 
 F 0 "TP4" H 7058 3168 50  0000 L CNN
 F 1 "DIN" H 7058 3077 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 7200 3050 50  0001 C CNN
+F 2 "OHMC2022:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 7200 3050 50  0001 C CNN
 F 3 "~" H 7200 3050 50  0001 C CNN
 	1    7000 3050
 	1    0    0    -1  
@@ -1051,7 +1047,7 @@ AR Path="/611E3335/614FCB43" Ref="TP?"  Part="1"
 AR Path="/614FCB43" Ref="TP3"  Part="1" 
 F 0 "TP3" H 6908 2968 50  0000 L CNN
 F 1 "DOUT" H 6908 2877 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 7050 2850 50  0001 C CNN
+F 2 "OHMC2022:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 7050 2850 50  0001 C CNN
 F 3 "~" H 7050 2850 50  0001 C CNN
 	1    6850 2850
 	1    0    0    -1  
@@ -1308,29 +1304,33 @@ Wire Wire Line
 $Comp
 L Connector:TestPoint TP?
 U 1 1 61384833
-P 7850 2200
+P 6400 2150
 AR Path="/612429E8/61384833" Ref="TP?"  Part="1" 
 AR Path="/611E3335/61384833" Ref="TP?"  Part="1" 
-AR Path="/61384833" Ref="TP?"  Part="1" 
-F 0 "TP?" H 7908 2318 50  0000 L CNN
-F 1 "MCLK" H 7908 2227 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 8050 2200 50  0001 C CNN
-F 3 "~" H 8050 2200 50  0001 C CNN
-	1    7850 2200
-	1    0    0    -1  
+AR Path="/61384833" Ref="TP104"  Part="1" 
+F 0 "TP104" H 6458 2268 50  0000 L CNN
+F 1 "i2c1_SCL" H 6458 2177 50  0000 L CNN
+F 2 "OHMC2022:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 6600 2150 50  0001 C CNN
+F 3 "~" H 6600 2150 50  0001 C CNN
+	1    6400 2150
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP?
 U 1 1 61384DBA
-P 8050 2450
+P 6400 2400
 AR Path="/612429E8/61384DBA" Ref="TP?"  Part="1" 
 AR Path="/611E3335/61384DBA" Ref="TP?"  Part="1" 
-AR Path="/61384DBA" Ref="TP?"  Part="1" 
-F 0 "TP?" H 8108 2568 50  0000 L CNN
-F 1 "MCLK" H 8108 2477 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 8250 2450 50  0001 C CNN
-F 3 "~" H 8250 2450 50  0001 C CNN
-	1    8050 2450
-	1    0    0    -1  
+AR Path="/61384DBA" Ref="TP105"  Part="1" 
+F 0 "TP105" H 6458 2518 50  0000 L CNN
+F 1 "i2c1_SDA" H 6458 2427 50  0000 L CNN
+F 2 "OHMC2022:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 6600 2400 50  0001 C CNN
+F 3 "~" H 6600 2400 50  0001 C CNN
+	1    6400 2400
+	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	6400 2400 6900 2400
+Wire Wire Line
+	6400 2150 6900 2150
 $EndSCHEMATC

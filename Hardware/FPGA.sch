@@ -711,7 +711,7 @@ AR Path="/616E599D" Ref="GROUND?"  Part="1"
 AR Path="/611E3335/616E599D" Ref="Sp1"  Part="1" 
 F 0 "Sp1" H 8550 5750 50  0000 R CNN
 F 1 "44b" H 8550 5650 50  0000 R CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 8800 5600 50  0001 C CNN
+F 2 "OHMC2022:TestPoint_THTPad_Value_Drill1.0mm" H 8800 5600 50  0001 C CNN
 F 3 "" H 8800 5600 50  0000 C CNN
 	1    8600 5600
 	1    0    0    -1  
@@ -727,7 +727,7 @@ AR Path="/617082A2" Ref="Sp?"  Part="1"
 AR Path="/611E3335/617082A2" Ref="Sp501"  Part="1" 
 F 0 "Sp501" H 9150 5750 50  0000 R CNN
 F 1 "49a" H 9150 5650 50  0000 R CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 9400 5600 50  0001 C CNN
+F 2 "OHMC2022:TestPoint_THTPad_Value_Drill1.0mm" H 9400 5600 50  0001 C CNN
 F 3 "" H 9400 5600 50  0000 C CNN
 	1    9200 5600
 	1    0    0    -1  
@@ -775,7 +775,7 @@ AR Path="/6171C233" Ref="Sp?"  Part="1"
 AR Path="/611E3335/6171C233" Ref="Sp503"  Part="1" 
 F 0 "Sp503" H 9750 5750 50  0000 R CNN
 F 1 "50b" H 9750 5650 50  0000 R CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 10000 5600 50  0001 C CNN
+F 2 "OHMC2022:TestPoint_THTPad_Value_Drill1.0mm" H 10000 5600 50  0001 C CNN
 F 3 "" H 10000 5600 50  0000 C CNN
 	1    9800 5600
 	1    0    0    -1  
@@ -789,7 +789,7 @@ AR Path="/6171C94C" Ref="Sp?"  Part="1"
 AR Path="/611E3335/6171C94C" Ref="Sp505"  Part="1" 
 F 0 "Sp505" H 10250 5750 50  0000 R CNN
 F 1 "51a" H 10250 5650 50  0000 R CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 10500 5600 50  0001 C CNN
+F 2 "OHMC2022:TestPoint_THTPad_Value_Drill1.0mm" H 10500 5600 50  0001 C CNN
 F 3 "" H 10500 5600 50  0000 C CNN
 	1    10300 5600
 	1    0    0    -1  
@@ -807,7 +807,7 @@ AR Path="/617269B8" Ref="Sp?"  Part="1"
 AR Path="/611E3335/617269B8" Ref="Sp502"  Part="1" 
 F 0 "Sp502" H 9150 6150 50  0000 R CNN
 F 1 "20a" H 9150 6050 50  0000 R CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 9400 6000 50  0001 C CNN
+F 2 "OHMC2022:TestPoint_THTPad_Value_Drill1.0mm" H 9400 6000 50  0001 C CNN
 F 3 "" H 9400 6000 50  0000 C CNN
 	1    9200 6000
 	1    0    0    -1  
@@ -821,7 +821,7 @@ AR Path="/617269BE" Ref="Sp?"  Part="1"
 AR Path="/611E3335/617269BE" Ref="Sp504"  Part="1" 
 F 0 "Sp504" H 9750 6150 50  0000 R CNN
 F 1 "22a" H 9750 6050 50  0000 R CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 10000 6000 50  0001 C CNN
+F 2 "OHMC2022:TestPoint_THTPad_Value_Drill1.0mm" H 10000 6000 50  0001 C CNN
 F 3 "" H 10000 6000 50  0000 C CNN
 	1    9800 6000
 	1    0    0    -1  
@@ -839,7 +839,7 @@ AR Path="/617269C6" Ref="Sp?"  Part="1"
 AR Path="/611E3335/617269C6" Ref="Sp506"  Part="1" 
 F 0 "Sp506" H 10250 6150 50  0000 R CNN
 F 1 "25b_g3" H 10250 6050 50  0000 R CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 10500 6000 50  0001 C CNN
+F 2 "OHMC2022:TestPoint_THTPad_Value_Drill1.0mm" H 10500 6000 50  0001 C CNN
 F 3 "" H 10500 6000 50  0000 C CNN
 	1    10300 6000
 	1    0    0    -1  
