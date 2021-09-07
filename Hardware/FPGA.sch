@@ -742,8 +742,6 @@ Text Label 7450 2650 0    50   ~ 0
 Spare_50b
 Text Label 7450 2750 0    50   ~ 0
 Spare_51a
-Text Label 7450 3750 0    50   ~ 0
-Spare_20a
 Text Label 7450 3850 0    50   ~ 0
 Spare_22a
 Text Label 7450 4150 0    50   ~ 0
@@ -752,8 +750,6 @@ Text Label 10300 6100 0    50   ~ 0
 Spare_25b_g3
 Text Label 9800 6100 0    50   ~ 0
 Spare_22a
-Text Label 9200 6100 0    50   ~ 0
-Spare_20a
 Text Label 10300 5700 0    50   ~ 0
 Spare_51a
 Text Label 9800 5700 0    50   ~ 0
@@ -800,20 +796,6 @@ Wire Wire Line
 	10300 5700 10300 5600
 $Comp
 L OpenThereminCC-rescue:TEST_1P Sp?
-U 1 1 617269B8
-P 9200 6000
-AR Path="/612429E8/617269B8" Ref="Sp?"  Part="1" 
-AR Path="/617269B8" Ref="Sp?"  Part="1" 
-AR Path="/611E3335/617269B8" Ref="Sp502"  Part="1" 
-F 0 "Sp502" H 9150 6150 50  0000 R CNN
-F 1 "20a" H 9150 6050 50  0000 R CNN
-F 2 "OHMC2022:TestPoint_THTPad_Value_Drill1.0mm" H 9400 6000 50  0001 C CNN
-F 3 "" H 9400 6000 50  0000 C CNN
-	1    9200 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L OpenThereminCC-rescue:TEST_1P Sp?
 U 1 1 617269BE
 P 9800 6000
 AR Path="/612429E8/617269BE" Ref="Sp?"  Part="1" 
@@ -826,8 +808,6 @@ F 3 "" H 10000 6000 50  0000 C CNN
 	1    9800 6000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9200 6100 9200 6000
 Wire Wire Line
 	9800 6000 9800 6100
 $Comp
@@ -1127,4 +1107,8 @@ Wire Wire Line
 	3550 4600 3550 4500
 Text Notes 1800 6900 0    50   ~ 0
 Note:\nThe metal pad area on the bottom center of the package is not connected to any internal electrical signals. It can be\nleft floating or connected to the device ground (GND pin). Avoid placement of exposed PCB vias under the pad.
+Text Label 7550 3750 0    50   ~ 0
+BTN_2
+Wire Wire Line
+	7550 3750 7450 3750
 $EndSCHEMATC
