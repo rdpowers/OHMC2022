@@ -300,8 +300,6 @@ F 3 "" H 1650 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 1250 1650 1250
-Wire Wire Line
 	1200 1850 1200 2150
 NoConn ~ 1500 1650
 $Comp
@@ -775,7 +773,7 @@ $EndComp
 Wire Wire Line
 	6750 1350 6450 1350
 Wire Wire Line
-	6450 1350 6450 1100
+	6450 1350 6450 1300
 $Comp
 L power:GND #PWR?
 U 1 1 61401546
@@ -1407,7 +1405,6 @@ Wire Wire Line
 	2000 1100 2000 1250
 Wire Wire Line
 	2000 1250 1650 1250
-Connection ~ 1650 1250
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 61744951
@@ -1425,4 +1422,27 @@ Wire Wire Line
 	1550 2150 1200 2150
 Text Notes 1600 2050 0    50   ~ 0
 Is this right? (PWR FLAG)\n
+$Comp
+L power:PWR_FLAG #FLG0108
+U 1 1 61805A86
+P 6200 1200
+AR Path="/61805A86" Ref="#FLG0108"  Part="1" 
+AR Path="/611E335F/61805A86" Ref="#FLG?"  Part="1" 
+F 0 "#FLG0108" H 6200 1275 50  0001 C CNN
+F 1 "PWR_FLAG" H 6200 1373 50  0000 C CNN
+F 2 "" H 6200 1200 50  0001 C CNN
+F 3 "~" H 6200 1200 50  0001 C CNN
+	1    6200 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 1200 6200 1300
+Wire Wire Line
+	6200 1300 6450 1300
+Connection ~ 6450 1300
+Wire Wire Line
+	6450 1300 6450 1100
+Wire Wire Line
+	1500 1250 1650 1250
+Connection ~ 1650 1250
 $EndSCHEMATC

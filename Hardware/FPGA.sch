@@ -721,27 +721,23 @@ Wire Wire Line
 $Comp
 L OpenThereminCC-rescue:TEST_1P Sp?
 U 1 1 617082A2
-P 9200 5600
+P 9800 4750
 AR Path="/612429E8/617082A2" Ref="Sp?"  Part="1" 
 AR Path="/617082A2" Ref="Sp?"  Part="1" 
-AR Path="/611E3335/617082A2" Ref="Sp501"  Part="1" 
-F 0 "Sp501" H 9150 5750 50  0000 R CNN
-F 1 "49a" H 9150 5650 50  0000 R CNN
-F 2 "OHMC2022:TestPoint_THTPad_Value_Drill1.0mm" H 9400 5600 50  0001 C CNN
-F 3 "" H 9400 5600 50  0000 C CNN
-	1    9200 5600
+AR Path="/611E3335/617082A2" Ref="Sp505"  Part="1" 
+F 0 "Sp505" H 9750 4900 50  0000 R CNN
+F 1 "48b" H 9750 4800 50  0000 R CNN
+F 2 "OHMC2022:TestPoint_THTPad_Value_Drill1.0mm" H 10000 4750 50  0001 C CNN
+F 3 "" H 10000 4750 50  0000 C CNN
+	1    9800 4750
 	1    0    0    -1  
 $EndComp
 Text Label 7450 2150 0    50   ~ 0
 Spare_44b
 Text Label 7450 2450 0    50   ~ 0
 Spare_48b
-Text Label 7450 2550 0    50   ~ 0
-Spare_49a
 Text Label 7450 2650 0    50   ~ 0
 Spare_50b
-Text Label 7450 2750 0    50   ~ 0
-Spare_51a
 Text Label 7450 3850 0    50   ~ 0
 Spare_22a
 Text Label 7450 4150 0    50   ~ 0
@@ -750,50 +746,46 @@ Text Label 10300 6100 0    50   ~ 0
 Spare_25b_g3
 Text Label 9800 6100 0    50   ~ 0
 Spare_22a
-Text Label 10300 5700 0    50   ~ 0
-Spare_51a
-Text Label 9800 5700 0    50   ~ 0
+Text Label 9100 5700 0    50   ~ 0
 Spare_50b
-Text Label 9200 5700 0    50   ~ 0
-Spare_49a
 Text Label 8600 5700 0    50   ~ 0
 Spare_44b
 Wire Wire Line
 	8600 5700 8600 5600
 Wire Wire Line
-	9200 5600 9200 5700
+	9800 4750 9800 4850
 $Comp
 L OpenThereminCC-rescue:TEST_1P Sp?
 U 1 1 6171C233
-P 9800 5600
+P 9100 5600
 AR Path="/612429E8/6171C233" Ref="Sp?"  Part="1" 
 AR Path="/6171C233" Ref="Sp?"  Part="1" 
 AR Path="/611E3335/6171C233" Ref="Sp503"  Part="1" 
-F 0 "Sp503" H 9750 5750 50  0000 R CNN
-F 1 "50b" H 9750 5650 50  0000 R CNN
-F 2 "OHMC2022:TestPoint_THTPad_Value_Drill1.0mm" H 10000 5600 50  0001 C CNN
-F 3 "" H 10000 5600 50  0000 C CNN
-	1    9800 5600
+F 0 "Sp503" H 9050 5750 50  0000 R CNN
+F 1 "50b" H 9050 5650 50  0000 R CNN
+F 2 "OHMC2022:TestPoint_THTPad_Value_Drill1.0mm" H 9300 5600 50  0001 C CNN
+F 3 "" H 9300 5600 50  0000 C CNN
+	1    9100 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L OpenThereminCC-rescue:TEST_1P Sp?
 U 1 1 6171C94C
-P 10300 5600
+P 10400 4750
 AR Path="/612429E8/6171C94C" Ref="Sp?"  Part="1" 
 AR Path="/6171C94C" Ref="Sp?"  Part="1" 
-AR Path="/611E3335/6171C94C" Ref="Sp505"  Part="1" 
-F 0 "Sp505" H 10250 5750 50  0000 R CNN
-F 1 "51a" H 10250 5650 50  0000 R CNN
-F 2 "OHMC2022:TestPoint_THTPad_Value_Drill1.0mm" H 10500 5600 50  0001 C CNN
-F 3 "" H 10500 5600 50  0000 C CNN
-	1    10300 5600
+AR Path="/611E3335/6171C94C" Ref="Sp501"  Part="1" 
+F 0 "Sp501" H 10350 4900 50  0000 R CNN
+F 1 "51a" H 10350 4800 50  0000 R CNN
+F 2 "OHMC2022:TestPoint_THTPad_Value_Drill1.0mm" H 10600 4750 50  0001 C CNN
+F 3 "" H 10600 4750 50  0000 C CNN
+	1    10400 4750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9800 5700 9800 5600
+	9100 5700 9100 5600
 Wire Wire Line
-	10300 5700 10300 5600
+	10400 4850 10400 4750
 $Comp
 L OpenThereminCC-rescue:TEST_1P Sp?
 U 1 1 617269BE
@@ -1111,4 +1103,16 @@ Text Label 7550 3750 0    50   ~ 0
 BTN_2
 Wire Wire Line
 	7550 3750 7450 3750
+Text Label 8000 2550 0    50   ~ 0
+DIP_1
+Wire Wire Line
+	8000 2550 7450 2550
+Text Label 8000 2750 0    50   ~ 0
+DIP_2
+Wire Wire Line
+	8000 2750 7450 2750
+Text Label 9800 4850 0    50   ~ 0
+Spare_48b
+Text Label 10400 4850 0    50   ~ 0
+DIP_2
 $EndSCHEMATC
