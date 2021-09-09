@@ -394,7 +394,6 @@ Wire Wire Line
 Text Notes 8600 3350 0    50   ~ 0
  Do not connect HP_VGND to system ground, even\nwhen unused. This is a virtual ground (DC voltage) that\nshould never connect to an actual “0 Volt ground”. Use\nthe widest, shortest trace possible for the HP_VGND.\n
 NoConn ~ 6050 3950
-NoConn ~ 4450 2850
 NoConn ~ 4450 2950
 $Comp
 L Device:Ferrite_Bead_Small FB601
@@ -599,4 +598,8 @@ $EndComp
 Wire Wire Line
 	7150 1500 7150 1650
 Connection ~ 7150 1650
+Text HLabel 1850 2850 0    50   Input ~ 0
+LINE_IN_R
+Wire Wire Line
+	4450 2850 1850 2850
 $EndSCHEMATC

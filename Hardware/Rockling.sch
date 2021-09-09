@@ -509,12 +509,12 @@ $Comp
 L Jumper:SolderJumper_3_Bridged12 JP102
 U 1 1 613073D2
 P 8600 2850
-F 0 "JP102" H 8800 2750 50  0000 C CNN
+F 0 "JP102" H 8450 2650 50  0000 C CNN
 F 1 "HP_TRRS" H 8400 2750 50  0000 C CNN
 F 2 "OHMC2022:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels" H 8600 2850 50  0001 C CNN
 F 3 "~" H 8600 2850 50  0001 C CNN
 	1    8600 2850
-	1    0    0    1   
+	-1   0    0    1   
 $EndComp
 Text Label 8900 3600 0    50   ~ 0
 Tip
@@ -715,7 +715,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 5050 6400 5050
 Text Notes 1600 3100 0    197  ~ 0
-BoM Additions?
+BoM Additions? Antennas?
 $Comp
 L Device:Speaker BoM-Speakers101
 U 1 1 61337901
@@ -849,30 +849,6 @@ Wire Wire Line
 	8250 3800 8600 3800
 Wire Wire Line
 	8600 3600 9450 3600
-$Sheet
-S 7350 3450 900  1600
-U 611E3218
-F0 "Audio" 50
-F1 "Audio.sch" 50
-F2 "ROut_N" O R 8250 4250 50 
-F3 "ROut_P" O R 8250 4350 50 
-F4 "LOut_P" O R 8250 4050 50 
-F5 "LOut_N" O R 8250 4150 50 
-F6 "i2s_SCLK" I L 7350 3600 50 
-F7 "i2s_LRCLK" I L 7350 3700 50 
-F8 "i2s_DOUT" I L 7350 3800 50 
-F9 "i2s_DIN" O L 7350 3900 50 
-F10 "i2c1_SCL" I L 7350 4150 50 
-F11 "i2c1_SDA" B L 7350 4250 50 
-F12 "MCLK" I L 7350 4000 50 
-F13 "MIC_IN" I L 7350 4950 50 
-F14 "HP_R" O R 8250 3700 50 
-F15 "HP_L" O R 8250 3800 50 
-F16 "HP_VGND" U R 8250 3600 50 
-F17 "AMP_VOL" I L 7350 4450 50 
-F18 "AMP_PL" I L 7350 4550 50 
-F19 "AMP_MUTE" I L 7350 4750 50 
-$EndSheet
 Wire Wire Line
 	8400 3000 9450 3000
 Wire Wire Line
@@ -1412,4 +1388,52 @@ Wire Wire Line
 	6450 1300 6450 1100
 Wire Wire Line
 	1500 1250 1650 1250
+Text Notes 9050 2400 0    50   ~ 0
+Are TRRS switches OK to wire back to FPGA directly? \nCan we do anything useful with them - \ndoes plug detect work or would we need to be making \nnoise through speakers to have that work?
+$Sheet
+S 7350 3450 900  1900
+U 611E3218
+F0 "Audio" 50
+F1 "Audio.sch" 50
+F2 "ROut_N" O R 8250 4250 50 
+F3 "ROut_P" O R 8250 4350 50 
+F4 "LOut_P" O R 8250 4050 50 
+F5 "LOut_N" O R 8250 4150 50 
+F6 "i2s_SCLK" I L 7350 3600 50 
+F7 "i2s_LRCLK" I L 7350 3700 50 
+F8 "i2s_DOUT" I L 7350 3800 50 
+F9 "i2s_DIN" O L 7350 3900 50 
+F10 "i2c1_SCL" I L 7350 4150 50 
+F11 "i2c1_SDA" B L 7350 4250 50 
+F12 "MCLK" I L 7350 4000 50 
+F13 "MIC_IN" I L 7350 4950 50 
+F14 "HP_R" O R 8250 3700 50 
+F15 "HP_L" O R 8250 3800 50 
+F16 "HP_VGND" U R 8250 3600 50 
+F17 "AMP_VOL" I L 7350 4450 50 
+F18 "AMP_PL" I L 7350 4550 50 
+F19 "AMP_MUTE" I L 7350 4750 50 
+F20 "LINE_IN_R" I L 7350 5100 50 
+$EndSheet
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 613C139D
+P 8100 2850
+F 0 "JP?" H 8100 3062 50  0000 C CNN
+F 1 "XOR MIC_IN" H 8100 2971 50  0000 C CNN
+F 2 "OHMC2022:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 8100 2850 50  0001 C CNN
+F 3 "~" H 8100 2850 50  0001 C CNN
+	1    8100 2850
+	1    0    0    -1  
+$EndComp
+Text Label 7050 5100 0    50   ~ 0
+LINE_IN
+Wire Wire Line
+	7050 5100 7350 5100
+Text Label 7700 2850 0    50   ~ 0
+LINE_IN
+Wire Wire Line
+	7700 2850 8000 2850
+Text Notes 7750 2450 0    50   ~ 0
+Probably don't connect \nboth Mic_In & Line_In to MEMS
 $EndSCHEMATC
