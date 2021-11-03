@@ -1116,4 +1116,84 @@ Text Label 9800 4850 0    50   ~ 0
 Spare_48b
 Text Label 10400 4850 0    50   ~ 0
 DIP_2
+Text Label 7550 1950 0    50   ~ 0
+i2c1_SCL
+Text Label 7550 2050 0    50   ~ 0
+i2c1_SDA
+Text Label 9450 1650 2    50   ~ 0
+i2c1_SCL
+Text Label 9450 1750 2    50   ~ 0
+i2c1_SDA
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6187E6DC
+P 10100 1100
+F 0 "#PWR?" H 10100 950 50  0001 C CNN
+F 1 "+3V3" H 10115 1273 50  0000 C CNN
+F 2 "" H 10100 1100 50  0001 C CNN
+F 3 "" H 10100 1100 50  0001 C CNN
+	1    10100 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 61888D2A
+P 9850 1450
+AR Path="/611E335F/61888D2A" Ref="R?"  Part="1" 
+AR Path="/61888D2A" Ref="R?"  Part="1" 
+AR Path="/611E3335/61888D2A" Ref="R?"  Part="1" 
+F 0 "R?" H 9650 1550 50  0000 L CNN
+F 1 "4K7" H 9650 1400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9780 1450 50  0001 C CNN
+F 3 "~" H 9850 1450 50  0001 C CNN
+F 4 "0603" V 9950 1450 50  0000 C CNN "Pkg"
+F 5 "" H 9850 1450 50  0001 C CNN "MPN"
+F 6 "" H 9850 1450 50  0001 C CNN "DPN"
+F 7 "Digi-Key" H 9850 1450 50  0001 C CNN "Supplier 1"
+F 8 "" H 9850 1450 50  0001 C CNN "Supplier Part Number 1"
+	1    9850 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6188A8F7
+P 10100 1450
+AR Path="/611E335F/6188A8F7" Ref="R?"  Part="1" 
+AR Path="/6188A8F7" Ref="R?"  Part="1" 
+AR Path="/611E3335/6188A8F7" Ref="R?"  Part="1" 
+F 0 "R?" H 10150 1300 50  0000 L CNN
+F 1 "4K7" H 10150 1200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10030 1450 50  0001 C CNN
+F 3 "~" H 10100 1450 50  0001 C CNN
+F 4 "0603" V 10200 1450 50  0000 C CNN "Pkg"
+F 5 "" H 10100 1450 50  0001 C CNN "MPN"
+F 6 "" H 10100 1450 50  0001 C CNN "DPN"
+F 7 "Digi-Key" H 10100 1450 50  0001 C CNN "Supplier 1"
+F 8 "" H 10100 1450 50  0001 C CNN "Supplier Part Number 1"
+	1    10100 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6188BE26
+P 9850 1100
+F 0 "#PWR?" H 9850 950 50  0001 C CNN
+F 1 "+3V3" H 9865 1273 50  0000 C CNN
+F 2 "" H 9850 1100 50  0001 C CNN
+F 3 "" H 9850 1100 50  0001 C CNN
+	1    9850 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 1100 9850 1350
+Wire Wire Line
+	10100 1100 10100 1350
+Wire Wire Line
+	10100 1550 10100 1750
+Wire Wire Line
+	10100 1750 9450 1750
+Wire Wire Line
+	9450 1650 9850 1650
+Wire Wire Line
+	9850 1650 9850 1550
 $EndSCHEMATC
