@@ -619,9 +619,9 @@ VO_PITCH
 Text HLabel 4700 5250 2    50   Output ~ 0
 VO_VOLUME
 Text HLabel 8050 4200 2    50   BiDi ~ 0
-i2c0_SDA
+i2c1_SDA
 Text HLabel 8050 4300 2    50   Input ~ 0
-i2c0_SCL
+i2c1_SCL
 Text HLabel 8150 4600 2    50   Input ~ 0
 DAC_Latch
 Wire Wire Line
