@@ -375,8 +375,6 @@ Connection ~ 1550 2250
 Wire Wire Line
 	2500 1100 2550 1100
 Wire Wire Line
-	1750 2250 1550 2250
-Wire Wire Line
 	1050 1900 1300 1900
 Connection ~ 1300 1900
 Wire Wire Line
@@ -404,9 +402,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 800  2550 1100
 Wire Wire Line
-	1750 2250 1750 1700
-Wire Wire Line
-	1750 1700 1600 1700
+	1700 2250 1700 1700
 Wire Wire Line
 	1550 2600 1550 2650
 Wire Wire Line
@@ -428,8 +424,6 @@ Wire Wire Line
 Connection ~ 1550 5700
 Wire Wire Line
 	2500 4550 2550 4550
-Wire Wire Line
-	1750 5700 1550 5700
 Wire Wire Line
 	1050 5350 1300 5350
 Connection ~ 1300 5350
@@ -459,10 +453,6 @@ Wire Wire Line
 	1600 4250 1750 4250
 Wire Wire Line
 	2550 4250 2550 4550
-Wire Wire Line
-	1750 5700 1750 5250
-Wire Wire Line
-	1750 5150 1600 5150
 Wire Wire Line
 	1550 6050 1550 6100
 Wire Wire Line
@@ -675,9 +665,6 @@ F 7 "810-NL453232T-102JPF" H 2100 5250 50  0001 C CNN "Supplier Part Number 1"
 	1    2100 5250
 	1    0    0    -1  
 $EndComp
-Connection ~ 1750 5250
-Wire Wire Line
-	1750 5250 1750 5150
 Wire Wire Line
 	900  1800 1550 1800
 Wire Wire Line
@@ -1370,4 +1357,14 @@ Wire Wire Line
 	9250 4600 9250 4700
 Wire Wire Line
 	1050 7000 1400 7000
+Wire Wire Line
+	1700 5150 1700 5700
+Wire Wire Line
+	1700 5150 1600 5150
+Wire Wire Line
+	1700 5700 1550 5700
+Wire Wire Line
+	1700 1700 1600 1700
+Wire Wire Line
+	1700 2250 1550 2250
 $EndSCHEMATC
