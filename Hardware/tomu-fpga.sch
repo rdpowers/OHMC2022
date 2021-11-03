@@ -1,0 +1,1993 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 9
+Title "Fomu"
+Date "2019-04-09"
+Rev "PVT1"
+Comp "Foosn PTE Ltd."
+Comment1 "Fomu - An FPGA in your USB port"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	1950 3350 2050 3350
+$Comp
+L power:GND #PWR0715
+U 1 1 5BD6F362
+P 2300 3650
+AR Path="/6123BB15/5BD6F362" Ref="#PWR0715"  Part="1" 
+AR Path="/6138E5CE/5BD6F362" Ref="#PWR0173"  Part="1" 
+F 0 "#PWR?" H 2300 3400 50  0001 C CNN
+F 1 "GND" H 2305 3477 50  0000 C CNN
+F 2 "" H 2300 3650 50  0001 C CNN
+F 3 "" H 2300 3650 50  0001 C CNN
+	1    2300 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 2250 2050 2250
+Wire Wire Line
+	2050 2250 2050 2350
+$Comp
+L power:GND #PWR0714
+U 1 1 5BD6F3CD
+P 2300 2550
+AR Path="/6123BB15/5BD6F3CD" Ref="#PWR0714"  Part="1" 
+AR Path="/6138E5CE/5BD6F3CD" Ref="#PWR0174"  Part="1" 
+F 0 "#PWR?" H 2300 2300 50  0001 C CNN
+F 1 "GND" H 2305 2377 50  0000 C CNN
+F 2 "" H 2300 2550 50  0001 C CNN
+F 3 "" H 2300 2550 50  0001 C CNN
+	1    2300 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0713
+U 1 1 5BD6F47F
+P 2300 1450
+AR Path="/6123BB15/5BD6F47F" Ref="#PWR0713"  Part="1" 
+AR Path="/6138E5CE/5BD6F47F" Ref="#PWR0175"  Part="1" 
+F 0 "#PWR?" H 2300 1200 50  0001 C CNN
+F 1 "GND" H 2305 1277 50  0000 C CNN
+F 2 "" H 2300 1450 50  0001 C CNN
+F 3 "" H 2300 1450 50  0001 C CNN
+	1    2300 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 3200 2350 3100
+$Comp
+L power:+2V5 #PWR0716
+U 1 1 5BD6F58B
+P 2350 3100
+AR Path="/6123BB15/5BD6F58B" Ref="#PWR0716"  Part="1" 
+AR Path="/6138E5CE/5BD6F58B" Ref="#PWR0176"  Part="1" 
+F 0 "#PWR?" H 2350 2950 50  0001 C CNN
+F 1 "+2V5" H 2365 3273 50  0000 C CNN
+F 2 "" H 2350 3100 50  0001 C CNN
+F 3 "" H 2350 3100 50  0001 C CNN
+	1    2350 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C709
+U 1 1 5BD6F643
+P 2500 3350
+AR Path="/6123BB15/5BD6F643" Ref="C709"  Part="1" 
+AR Path="/6138E5CE/5BD6F643" Ref="C?"  Part="1" 
+F 0 "C?" H 2250 3350 50  0000 L CNN
+F 1 "0201, 1uF, 10V, X5R, 20%" H 2250 3250 50  0000 L CNN
+F 2 "tomu-fpga:C_0201_0603Metric" H 2500 3350 50  0001 C CNN
+F 3 "" H 2500 3350 50  0001 C CNN
+F 4 "ANY" H 0   -300 50  0001 C CNN "MPN"
+F 5 "ANY" H 0   -300 50  0001 C CNN "MYPN"
+F 6 "ANY" H 0   -300 50  0001 C CNN "Manufacturer"
+F 7 "1u" H 0   0   50  0001 C CNN "Spice_Model"
+F 8 "Y" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 9 "C" H 0   0   50  0001 C CNN "Spice_Primitive"
+	1    2500 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 3200 2500 3200
+Wire Wire Line
+	2500 3200 2500 3250
+Connection ~ 2350 3200
+Wire Wire Line
+	2500 3450 2500 3600
+Wire Wire Line
+	2500 3600 2300 3600
+Wire Wire Line
+	2050 3350 2050 3450
+$Comp
+L Device:C_Small C708
+U 1 1 5BD6FE8F
+P 2500 2250
+AR Path="/6123BB15/5BD6FE8F" Ref="C708"  Part="1" 
+AR Path="/6138E5CE/5BD6FE8F" Ref="C?"  Part="1" 
+F 0 "C?" H 2600 2300 50  0000 L CNN
+F 1 "0201, 1uF, 10V, X5R, 20%" H 2600 2200 50  0000 L CNN
+F 2 "tomu-fpga:C_0201_0603Metric" H 2500 2250 50  0001 C CNN
+F 3 "" H 2500 2250 50  0001 C CNN
+F 4 "ANY" H 0   -300 50  0001 C CNN "MPN"
+F 5 "ANY" H 0   -300 50  0001 C CNN "MYPN"
+F 6 "ANY" H 0   -300 50  0001 C CNN "Manufacturer"
+F 7 "1u" H 0   0   50  0001 C CNN "Spice_Model"
+F 8 "Y" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 9 "C" H 0   0   50  0001 C CNN "Spice_Primitive"
+	1    2500 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0712
+U 1 1 5BD6FEE3
+P 2250 2000
+AR Path="/6123BB15/5BD6FEE3" Ref="#PWR0712"  Part="1" 
+AR Path="/6138E5CE/5BD6FEE3" Ref="#PWR0177"  Part="1" 
+F 0 "#PWR?" H 2250 1850 50  0001 C CNN
+F 1 "+3V3" H 2265 2173 50  0000 C CNN
+F 2 "" H 2250 2000 50  0001 C CNN
+F 3 "" H 2250 2000 50  0001 C CNN
+	1    2250 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V2 #PWR0711
+U 1 1 5BD6FF3E
+P 2250 900
+AR Path="/6123BB15/5BD6FF3E" Ref="#PWR0711"  Part="1" 
+AR Path="/6138E5CE/5BD6FF3E" Ref="#PWR0178"  Part="1" 
+F 0 "#PWR?" H 2250 750 50  0001 C CNN
+F 1 "+1V2" H 2265 1073 50  0000 C CNN
+F 2 "" H 2250 900 50  0001 C CNN
+F 3 "" H 2250 900 50  0001 C CNN
+	1    2250 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C707
+U 1 1 5BD700C8
+P 2500 1150
+AR Path="/6123BB15/5BD700C8" Ref="C707"  Part="1" 
+AR Path="/6138E5CE/5BD700C8" Ref="C?"  Part="1" 
+F 0 "C?" H 2600 1200 50  0000 L CNN
+F 1 "0201, 1uF, 10V, X5R, 20%" H 2600 1100 50  0000 L CNN
+F 2 "tomu-fpga:C_0201_0603Metric" H 2500 1150 50  0001 C CNN
+F 3 "" H 2500 1150 50  0001 C CNN
+F 4 "ANY" H 0   -300 50  0001 C CNN "MPN"
+F 5 "ANY" H 0   -300 50  0001 C CNN "MYPN"
+F 6 "ANY" H 0   -300 50  0001 C CNN "Manufacturer"
+F 7 "1u" H 0   0   50  0001 C CNN "Spice_Model"
+F 8 "Y" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 9 "C" H 0   0   50  0001 C CNN "Spice_Primitive"
+	1    2500 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 1000 2500 1050
+Wire Wire Line
+	2250 900  2250 1000
+Connection ~ 2250 1000
+Wire Wire Line
+	2250 1000 2500 1000
+Wire Wire Line
+	2500 1400 2500 1250
+Wire Wire Line
+	2500 2350 2500 2500
+Wire Wire Line
+	1950 2100 2000 2100
+Wire Wire Line
+	2500 2100 2500 2150
+Wire Wire Line
+	2250 2000 2250 2100
+Connection ~ 2250 2100
+Wire Wire Line
+	2250 2100 2500 2100
+Wire Wire Line
+	1300 3450 1350 3450
+Wire Wire Line
+	1350 1000 1300 1000
+Wire Wire Line
+	1300 1000 1300 1250
+Wire Wire Line
+	1300 1250 1350 1250
+Wire Wire Line
+	1100 3200 1100 3100
+Wire Wire Line
+	1150 2100 1150 2000
+$Comp
+L power:+5V #PWR0708
+U 1 1 5BD76AB3
+P 1150 2000
+AR Path="/6123BB15/5BD76AB3" Ref="#PWR0708"  Part="1" 
+AR Path="/6138E5CE/5BD76AB3" Ref="#PWR0179"  Part="1" 
+F 0 "#PWR?" H 1150 1850 50  0001 C CNN
+F 1 "+5V" H 1165 2173 50  0000 C CNN
+F 2 "" H 1150 2000 50  0001 C CNN
+F 3 "" H 1150 2000 50  0001 C CNN
+	1    1150 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0707
+U 1 1 5BD76AEF
+P 1100 3100
+AR Path="/6123BB15/5BD76AEF" Ref="#PWR0707"  Part="1" 
+AR Path="/6138E5CE/5BD76AEF" Ref="#PWR0180"  Part="1" 
+F 0 "#PWR?" H 1100 2950 50  0001 C CNN
+F 1 "+5V" H 1115 3273 50  0000 C CNN
+F 2 "" H 1100 3100 50  0001 C CNN
+F 3 "" H 1100 3100 50  0001 C CNN
+	1    1100 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  3200 900  3300
+Wire Wire Line
+	900  3200 1100 3200
+$Comp
+L Device:C_Small C703
+U 1 1 5BD7909F
+P 900 3400
+AR Path="/6123BB15/5BD7909F" Ref="C703"  Part="1" 
+AR Path="/6138E5CE/5BD7909F" Ref="C?"  Part="1" 
+F 0 "C?" H 950 3300 50  0000 L CNN
+F 1 "0201, 1uF, 10V, X5R, 20%" H 950 3200 50  0000 L CNN
+F 2 "tomu-fpga:C_0201_0603Metric" H 900 3400 50  0001 C CNN
+F 3 "" H 900 3400 50  0001 C CNN
+F 4 "ANY" H 900 3400 50  0001 C CNN "MPN"
+F 5 "ANY" H 900 3400 50  0001 C CNN "Manufacturer"
+F 6 "ANY" H 0   -300 50  0001 C CNN "MYPN"
+F 7 "1u" H 0   0   50  0001 C CNN "Spice_Model"
+F 8 "Y" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 9 "C" H 0   0   50  0001 C CNN "Spice_Primitive"
+	1    900  3400
+	1    0    0    -1  
+$EndComp
+Connection ~ 1100 3200
+$Comp
+L power:GND #PWR0703
+U 1 1 5BD7D5E7
+P 900 3650
+AR Path="/6123BB15/5BD7D5E7" Ref="#PWR0703"  Part="1" 
+AR Path="/6138E5CE/5BD7D5E7" Ref="#PWR0181"  Part="1" 
+F 0 "#PWR?" H 900 3400 50  0001 C CNN
+F 1 "GND" H 905 3477 50  0000 C CNN
+F 2 "" H 900 3650 50  0001 C CNN
+F 3 "" H 900 3650 50  0001 C CNN
+	1    900  3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  3650 900  3500
+$Comp
+L Device:C_Small C701
+U 1 1 5BD80E21
+P 900 1200
+AR Path="/6123BB15/5BD80E21" Ref="C701"  Part="1" 
+AR Path="/6138E5CE/5BD80E21" Ref="C?"  Part="1" 
+F 0 "C?" H 950 1100 50  0000 L CNN
+F 1 "0201, 1uF, 10V, X5R, 20%" H 950 1000 50  0000 L CNN
+F 2 "tomu-fpga:C_0201_0603Metric" H 900 1200 50  0001 C CNN
+F 3 "" H 900 1200 50  0001 C CNN
+F 4 "ANY" H 900 1200 50  0001 C CNN "MPN"
+F 5 "ANY" H 900 1200 50  0001 C CNN "Manufacturer"
+F 6 "ANY" H 0   -300 50  0001 C CNN "MYPN"
+F 7 "C" H 900 1200 50  0001 C CNN "Spice_Primitive"
+F 8 "1u" H 900 1200 50  0001 C CNN "Spice_Model"
+F 9 "Y" H 900 1200 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    900  1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0706
+U 1 1 5BD80E55
+P 1100 900
+AR Path="/6123BB15/5BD80E55" Ref="#PWR0706"  Part="1" 
+AR Path="/6138E5CE/5BD80E55" Ref="#PWR0182"  Part="1" 
+F 0 "#PWR?" H 1100 750 50  0001 C CNN
+F 1 "+5V" H 1115 1073 50  0000 C CNN
+F 2 "" H 1100 900 50  0001 C CNN
+F 3 "" H 1100 900 50  0001 C CNN
+	1    1100 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 900  1100 1000
+Wire Wire Line
+	1100 1000 1300 1000
+Connection ~ 1300 1000
+Wire Wire Line
+	1100 1000 900  1000
+Wire Wire Line
+	900  1000 900  1100
+Connection ~ 1100 1000
+$Comp
+L power:GND #PWR0701
+U 1 1 5BD84FE4
+P 900 1450
+AR Path="/6123BB15/5BD84FE4" Ref="#PWR0701"  Part="1" 
+AR Path="/6138E5CE/5BD84FE4" Ref="#PWR0183"  Part="1" 
+F 0 "#PWR?" H 900 1200 50  0001 C CNN
+F 1 "GND" H 905 1277 50  0000 C CNN
+F 2 "" H 900 1450 50  0001 C CNN
+F 3 "" H 900 1450 50  0001 C CNN
+	1    900  1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  1450 900  1300
+$Comp
+L power:GND #PWR0702
+U 1 1 5BD86186
+P 900 2550
+AR Path="/6123BB15/5BD86186" Ref="#PWR0702"  Part="1" 
+AR Path="/6138E5CE/5BD86186" Ref="#PWR0184"  Part="1" 
+F 0 "#PWR?" H 900 2300 50  0001 C CNN
+F 1 "GND" H 905 2377 50  0000 C CNN
+F 2 "" H 900 2550 50  0001 C CNN
+F 3 "" H 900 2550 50  0001 C CNN
+	1    900  2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C702
+U 1 1 5BD861AF
+P 900 2300
+AR Path="/6123BB15/5BD861AF" Ref="C702"  Part="1" 
+AR Path="/6138E5CE/5BD861AF" Ref="C?"  Part="1" 
+F 0 "C?" H 950 2200 50  0000 L CNN
+F 1 "0201, 1uF, 10V, X5R, 20%" H 950 2100 50  0000 L CNN
+F 2 "tomu-fpga:C_0201_0603Metric" H 900 2300 50  0001 C CNN
+F 3 "" H 900 2300 50  0001 C CNN
+F 4 "ANY" H 900 2300 50  0001 C CNN "MPN"
+F 5 "ANY" H 900 2300 50  0001 C CNN "Manufacturer"
+F 6 "ANY" H 0   -300 50  0001 C CNN "MYPN"
+F 7 "1u" H 0   0   50  0001 C CNN "Spice_Model"
+F 8 "Y" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 9 "C" H 0   0   50  0001 C CNN "Spice_Primitive"
+	1    900  2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  2550 900  2400
+Wire Wire Line
+	900  2200 900  2100
+Wire Wire Line
+	900  2100 1150 2100
+Connection ~ 1150 2100
+Wire Wire Line
+	8700 2000 8850 2000
+$Comp
+L power:GND #PWR0726
+U 1 1 5BD8C8EF
+P 8850 2050
+AR Path="/6123BB15/5BD8C8EF" Ref="#PWR0726"  Part="1" 
+AR Path="/6138E5CE/5BD8C8EF" Ref="#PWR0185"  Part="1" 
+F 0 "#PWR?" H 8850 1800 50  0001 C CNN
+F 1 "GND" H 8855 1877 50  0000 C CNN
+F 2 "" H 8850 2050 50  0001 C CNN
+F 3 "" H 8850 2050 50  0001 C CNN
+	1    8850 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0725
+U 1 1 5BD8C948
+P 8850 1100
+AR Path="/6123BB15/5BD8C948" Ref="#PWR0725"  Part="1" 
+AR Path="/6138E5CE/5BD8C948" Ref="#PWR0186"  Part="1" 
+F 0 "#PWR?" H 8850 950 50  0001 C CNN
+F 1 "+5V" H 8700 1150 50  0000 C CNN
+F 2 "" H 8850 1100 50  0001 C CNN
+F 3 "" H 8850 1100 50  0001 C CNN
+	1    8850 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R706
+U 1 1 5BDB00B1
+P 9400 1900
+AR Path="/6123BB15/5BDB00B1" Ref="R706"  Part="1" 
+AR Path="/6138E5CE/5BDB00B1" Ref="R?"  Part="1" 
+F 0 "R?" V 9400 1900 50  0000 C CNN
+F 1 "0201, 22ohm, 1/16W, 1%" V 9500 1900 50  0000 C CNN
+F 2 "tomu-fpga:R_0201_0603Metric" H 9400 1900 50  0001 C CNN
+F 3 "" H 9400 1900 50  0001 C CNN
+F 4 "ANY" H 650 100 50  0001 C CNN "MPN"
+F 5 "ANY" H 650 100 50  0001 C CNN "MYPN"
+F 6 "ANY" H 650 100 50  0001 C CNN "Manufacturer"
+F 7 "R" H 9400 1900 50  0001 C CNN "Spice_Primitive"
+F 8 "22" H 9400 1900 50  0001 C CNN "Spice_Model"
+F 9 "Y" H 9400 1900 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    9400 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R705
+U 1 1 5BDB01D9
+P 9400 1800
+AR Path="/6123BB15/5BDB01D9" Ref="R705"  Part="1" 
+AR Path="/6138E5CE/5BDB01D9" Ref="R?"  Part="1" 
+F 0 "R?" V 9400 1800 50  0000 C CNN
+F 1 "0201, 22ohm, 1/16W, 1%" V 9300 1800 50  0000 C CNN
+F 2 "tomu-fpga:R_0201_0603Metric" H 9400 1800 50  0001 C CNN
+F 3 "" H 9400 1800 50  0001 C CNN
+F 4 "ANY" H 650 100 50  0001 C CNN "MPN"
+F 5 "ANY" H 650 100 50  0001 C CNN "MYPN"
+F 6 "ANY" H 650 100 50  0001 C CNN "Manufacturer"
+F 7 "R" H 9400 1800 50  0001 C CNN "Spice_Primitive"
+F 8 "22" H 9400 1800 50  0001 C CNN "Spice_Model"
+F 9 "Y" H 9400 1800 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    9400 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9500 1800 9800 1800
+Wire Wire Line
+	8850 1700 8700 1700
+$Comp
+L Device:R_Small R704
+U 1 1 5BDC6632
+P 9150 2400
+AR Path="/6123BB15/5BDC6632" Ref="R704"  Part="1" 
+AR Path="/6138E5CE/5BDC6632" Ref="R?"  Part="1" 
+F 0 "R?" V 9150 2400 50  0000 C CNN
+F 1 "0201, 1.5k, 1/16W, 1%" V 9250 2250 50  0000 C CNN
+F 2 "tomu-fpga:R_0201_0603Metric" H 9150 2400 50  0001 C CNN
+F 3 "" H 9150 2400 50  0001 C CNN
+F 4 "ANY" H 650 200 50  0001 C CNN "MPN"
+F 5 "ANY" H 650 200 50  0001 C CNN "MYPN"
+F 6 "ANY" H 650 200 50  0001 C CNN "Manufacturer"
+F 7 "R" H 9150 2400 50  0001 C CNN "Spice_Primitive"
+F 8 "1.5k" H 9150 2400 50  0001 C CNN "Spice_Model"
+F 9 "Y" H 9150 2400 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    9150 2400
+	0    1    1    0   
+$EndComp
+Text Label 9250 2400 0    50   ~ 0
+PU_CTRL_USBP
+$Comp
+L power:+3V3 #PWR0721
+U 1 1 5BE34C74
+P 6450 950
+AR Path="/6123BB15/5BE34C74" Ref="#PWR0721"  Part="1" 
+AR Path="/6138E5CE/5BE34C74" Ref="#PWR0187"  Part="1" 
+F 0 "#PWR?" H 6450 800 50  0001 C CNN
+F 1 "+3V3" H 6465 1123 50  0000 C CNN
+F 2 "" H 6450 950 50  0001 C CNN
+F 3 "" H 6450 950 50  0001 C CNN
+	1    6450 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L tomu-fpga:PADS SW701
+U 1 1 5BE44C19
+P 5300 1200
+AR Path="/6123BB15/5BE44C19" Ref="SW701"  Part="1" 
+AR Path="/6138E5CE/5BE44C19" Ref="SW?"  Part="1" 
+F 0 "SW?" V 5550 1500 50  0000 C CNN
+F 1 "Captouch Pads" V 5450 1300 50  0000 C CNN
+F 2 "tomu-fpga:captouch-edge" H 5350 1200 50  0001 C CNN
+F 3 "" H 5350 1200 50  0001 C CNN
+F 4 "DNP" H 5300 1200 50  0001 C CNN "MPN"
+F 5 "DNP" H 5300 1200 50  0001 C CNN "Manufacturer"
+F 6 "DNP" H 5300 1200 50  0001 C CNN "MYPN"
+F 7 "PCB-etched captouch pads" H -200 -1000 50  0001 C CNN "Description"
+F 8 "X" V 5300 1200 50  0001 C CNN "DNP"
+	1    5300 1200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5850 2050 5250 2050
+$Comp
+L power:GND #PWR0732
+U 1 1 5BE564F6
+P 10850 5400
+AR Path="/6123BB15/5BE564F6" Ref="#PWR0732"  Part="1" 
+AR Path="/6138E5CE/5BE564F6" Ref="#PWR0188"  Part="1" 
+F 0 "#PWR?" H 10850 5150 50  0001 C CNN
+F 1 "GND" H 10855 5227 50  0000 C CNN
+F 2 "" H 10850 5400 50  0001 C CNN
+F 3 "" H 10850 5400 50  0001 C CNN
+	1    10850 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10850 5200 10850 5400
+$Comp
+L power:+2V5 #PWR0727
+U 1 1 5BE5AC1B
+P 9300 5450
+AR Path="/6123BB15/5BE5AC1B" Ref="#PWR0727"  Part="1" 
+AR Path="/6138E5CE/5BE5AC1B" Ref="#PWR0189"  Part="1" 
+F 0 "#PWR?" H 9300 5300 50  0001 C CNN
+F 1 "+2V5" H 9315 5623 50  0000 C CNN
+F 2 "" H 9300 5450 50  0001 C CNN
+F 3 "" H 9300 5450 50  0001 C CNN
+	1    9300 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 1100 8850 1300
+Wire Notes Line
+	7300 4000 11100 4000
+Wire Notes Line
+	11100 4000 11100 6400
+Wire Notes Line
+	11100 6400 7300 6400
+Wire Notes Line
+	7300 6400 7300 4000
+Text Notes 7350 4100 0    50   ~ 0
+FPGA Power Input
+Wire Notes Line
+	600  600  3700 600 
+Wire Notes Line
+	3700 600  3700 4050
+Wire Notes Line
+	3700 4050 600  4050
+Wire Notes Line
+	600  4050 600  600 
+Text Notes 650  4000 0    50   ~ 0
+PCB Power Regulation
+Wire Notes Line
+	11100 600  11100 3750
+Wire Notes Line
+	11100 3750 7800 3750
+Wire Notes Line
+	7800 3750 7800 600 
+Wire Notes Line
+	7800 600  11100 600 
+Text Notes 7850 3700 0    50   ~ 0
+User I/O
+Wire Wire Line
+	8850 2000 8850 2050
+Wire Notes Line
+	4100 600  7150 600 
+Wire Notes Line
+	7150 600  7150 3000
+Wire Notes Line
+	7150 3000 4100 3000
+Wire Notes Line
+	4100 3000 4100 600 
+Text Notes 4150 2950 0    50   ~ 0
+Captouch Input
+$Comp
+L Device:R_Small R701
+U 1 1 5C0F3302
+P 2550 5150
+AR Path="/6123BB15/5C0F3302" Ref="R701"  Part="1" 
+AR Path="/6138E5CE/5C0F3302" Ref="R?"  Part="1" 
+F 0 "R?" V 2550 5150 50  0000 C CNN
+F 1 "0201, 10k, 1/16W" H 2150 5150 50  0000 C CNN
+F 2 "tomu-fpga:R_0201_0603Metric" H 2550 5150 50  0001 C CNN
+F 3 "" H 2550 5150 50  0001 C CNN
+F 4 "ANY" H 2550 5150 50  0001 C CNN "MPN"
+F 5 "ANY" H 2550 5150 50  0001 C CNN "Manufacturer"
+F 6 "ANY" H -1000 150 50  0001 C CNN "MYPN"
+F 7 "R" H 2550 5150 50  0001 C CNN "Spice_Primitive"
+F 8 "10k" H 2550 5150 50  0001 C CNN "Spice_Model"
+F 9 "Y" H 2550 5150 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    2550 5150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2550 4850 2550 5050
+Wire Notes Line
+	600  7450 4300 7450
+Wire Notes Line
+	4300 7450 4300 4250
+Text Notes 650  4400 0    50   ~ 0
+Boot and Reset
+Wire Wire Line
+	1150 2100 1350 2100
+Wire Wire Line
+	1100 3200 1350 3200
+Wire Wire Line
+	1300 3450 1300 2900
+Text Notes 2500 1950 0    50   ~ 0
+Power sequencing:\n1) 1.2V (VCC/VCCPLL)\n2) 3.3V (SPI_VCCIO1)\n3) 2.5V (VPP_2V5)\nSubsequent rails activate\nafter previous rail goes >0.5V
+Wire Wire Line
+	2000 1000 2000 1800
+Wire Wire Line
+	2000 1800 1300 1800
+Connection ~ 2000 1000
+Wire Wire Line
+	2000 2100 2000 2900
+Wire Wire Line
+	2000 2900 1300 2900
+Connection ~ 2000 2100
+Wire Wire Line
+	1950 1000 2000 1000
+Wire Wire Line
+	2300 1450 2300 1400
+Connection ~ 2300 1400
+Wire Wire Line
+	2300 1400 2500 1400
+Wire Wire Line
+	2300 3650 2300 3600
+Connection ~ 2300 3600
+Wire Wire Line
+	2300 2550 2300 2500
+Connection ~ 2300 2500
+Wire Wire Line
+	2300 2500 2500 2500
+Wire Wire Line
+	2050 3600 2300 3600
+Wire Wire Line
+	1950 3200 2350 3200
+Wire Wire Line
+	2050 2500 2300 2500
+Wire Wire Line
+	2000 2100 2250 2100
+Wire Wire Line
+	2050 1400 2300 1400
+Wire Wire Line
+	2000 1000 2250 1000
+$Comp
+L power:+3V3 #PWR0717
+U 1 1 5C488914
+P 3850 6900
+AR Path="/6123BB15/5C488914" Ref="#PWR0717"  Part="1" 
+AR Path="/6138E5CE/5C488914" Ref="#PWR0190"  Part="1" 
+F 0 "#PWR?" H 3850 6750 50  0001 C CNN
+F 1 "+3V3" H 3865 7073 50  0000 C CNN
+F 2 "" H 3850 6900 50  0001 C CNN
+F 3 "" H 3850 6900 50  0001 C CNN
+	1    3850 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R702
+U 1 1 5C493DB2
+P 3600 7250
+AR Path="/6123BB15/5C493DB2" Ref="R702"  Part="1" 
+AR Path="/6138E5CE/5C493DB2" Ref="R?"  Part="1" 
+F 0 "R?" V 3600 7250 50  0000 C CNN
+F 1 "0201, 10k, 1/16W" V 3500 7350 50  0000 C CNN
+F 2 "tomu-fpga:R_0201_0603Metric" H 3600 7250 50  0001 C CNN
+F 3 "" H 3600 7250 50  0001 C CNN
+F 4 "ANY" H -1400 400 50  0001 C CNN "MPN"
+F 5 "ANY" H -1400 400 50  0001 C CNN "MYPN"
+F 6 "ANY" H -1400 400 50  0001 C CNN "Manufacturer"
+F 7 "R" H 3600 7250 50  0001 C CNN "Spice_Primitive"
+F 8 "10k" H 3600 7250 50  0001 C CNN "Spice_Model"
+F 9 "Y" H 3600 7250 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    3600 7250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C712
+U 1 1 5C52D560
+P 9500 5700
+AR Path="/6123BB15/5C52D560" Ref="C712"  Part="1" 
+AR Path="/6138E5CE/5C52D560" Ref="C?"  Part="1" 
+F 0 "C?" H 9250 5700 50  0000 L CNN
+F 1 "0201, 100nF, 10V, X5R, 20%" H 8800 5600 50  0000 L CNN
+F 2 "tomu-fpga:C_0201_0603Metric" H 9500 5700 50  0001 C CNN
+F 3 "" H 9500 5700 50  0001 C CNN
+F 4 "ANY" H 350 250 50  0001 C CNN "MPN"
+F 5 "ANY" H 350 250 50  0001 C CNN "MYPN"
+F 6 "ANY" H 350 250 50  0001 C CNN "Manufacturer"
+F 7 "100n" H 0   0   50  0001 C CNN "Spice_Model"
+F 8 "Y" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 9 "C" H 0   0   50  0001 C CNN "Spice_Primitive"
+	1    9500 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0729
+U 1 1 5C5F2015
+P 9500 6150
+AR Path="/6123BB15/5C5F2015" Ref="#PWR0729"  Part="1" 
+AR Path="/6138E5CE/5C5F2015" Ref="#PWR0191"  Part="1" 
+F 0 "#PWR?" H 9500 5900 50  0001 C CNN
+F 1 "GND" H 9505 5977 50  0000 C CNN
+F 2 "" H 9500 6150 50  0001 C CNN
+F 3 "" H 9500 6150 50  0001 C CNN
+	1    9500 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0730
+U 1 1 5C7EE938
+P 10050 1550
+AR Path="/6123BB15/5C7EE938" Ref="#PWR0730"  Part="1" 
+AR Path="/6138E5CE/5C7EE938" Ref="#PWR0192"  Part="1" 
+F 0 "#PWR?" H 10050 1400 50  0001 C CNN
+F 1 "+3V3" H 9900 1600 50  0000 C CNN
+F 2 "" H 10050 1550 50  0001 C CNN
+F 3 "" H 10050 1550 50  0001 C CNN
+	1    10050 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C715
+U 1 1 5C7EE93E
+P 10200 1300
+AR Path="/6123BB15/5C7EE93E" Ref="C715"  Part="1" 
+AR Path="/6138E5CE/5C7EE93E" Ref="C?"  Part="1" 
+F 0 "C?" H 9950 1300 50  0000 L CNN
+F 1 "0201, 1uF, 10V, X5R, 20%" H 9350 1400 50  0000 L CNN
+F 2 "tomu-fpga:C_0201_0603Metric" H 10200 1300 50  0001 C CNN
+F 3 "" H 10200 1300 50  0001 C CNN
+F 4 "ANY" H 950 450 50  0001 C CNN "MPN"
+F 5 "ANY" H 950 450 50  0001 C CNN "MYPN"
+F 6 "ANY" H 950 450 50  0001 C CNN "Manufacturer"
+F 7 "1u" H 300 350 50  0001 C CNN "Spice_Model"
+F 8 "Y" H 300 350 50  0001 C CNN "Spice_Netlist_Enabled"
+F 9 "C" H 300 350 50  0001 C CNN "Spice_Primitive"
+	1    10200 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C717
+U 1 1 5C7EE94A
+P 10650 1300
+AR Path="/6123BB15/5C7EE94A" Ref="C717"  Part="1" 
+AR Path="/6138E5CE/5C7EE94A" Ref="C?"  Part="1" 
+F 0 "C?" H 10750 1300 50  0000 L CNN
+F 1 "0201, 100nF, 10V, X5R, 20%" H 9950 1200 50  0000 L CNN
+F 2 "tomu-fpga:C_0201_0603Metric" H 10650 1300 50  0001 C CNN
+F 3 "" H 10650 1300 50  0001 C CNN
+F 4 "ANY" H 700 450 50  0001 C CNN "MPN"
+F 5 "ANY" H 700 450 50  0001 C CNN "MYPN"
+F 6 "ANY" H 700 450 50  0001 C CNN "Manufacturer"
+F 7 "100n" H 50  350 50  0001 C CNN "Spice_Model"
+F 8 "Y" H 50  350 50  0001 C CNN "Spice_Netlist_Enabled"
+F 9 "C" H 50  350 50  0001 C CNN "Spice_Primitive"
+	1    10650 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0733
+U 1 1 5C881269
+P 10900 950
+AR Path="/6123BB15/5C881269" Ref="#PWR0733"  Part="1" 
+AR Path="/6138E5CE/5C881269" Ref="#PWR0193"  Part="1" 
+F 0 "#PWR?" H 10900 700 50  0001 C CNN
+F 1 "GND" H 10905 777 50  0000 C CNN
+F 2 "" H 10900 950 50  0001 C CNN
+F 3 "" H 10900 950 50  0001 C CNN
+	1    10900 950 
+	1    0    0    -1  
+$EndComp
+Connection ~ 10250 1450
+$Comp
+L power:+3V3 #PWR0710
+U 1 1 5C8902A4
+P 1700 4500
+AR Path="/6123BB15/5C8902A4" Ref="#PWR0710"  Part="1" 
+AR Path="/6138E5CE/5C8902A4" Ref="#PWR0194"  Part="1" 
+F 0 "#PWR?" H 1700 4350 50  0001 C CNN
+F 1 "+3V3" H 1715 4673 50  0000 C CNN
+F 2 "" H 1700 4500 50  0001 C CNN
+F 3 "" H 1700 4500 50  0001 C CNN
+	1    1700 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C705
+U 1 1 5C8902AA
+P 1200 4800
+AR Path="/6123BB15/5C8902AA" Ref="C705"  Part="1" 
+AR Path="/6138E5CE/5C8902AA" Ref="C?"  Part="1" 
+F 0 "C?" H 1300 4800 50  0000 L CNN
+F 1 "0201, 1uF, 10V, X5R, 20%" H 1000 4900 50  0000 L CNN
+F 2 "tomu-fpga:C_0201_0603Metric" H 1200 4800 50  0001 C CNN
+F 3 "" H 1200 4800 50  0001 C CNN
+F 4 "ANY" H -3500 350 50  0001 C CNN "MPN"
+F 5 "ANY" H -3500 350 50  0001 C CNN "MYPN"
+F 6 "ANY" H -3500 350 50  0001 C CNN "Manufacturer"
+F 7 "1u" H 100 50  50  0001 C CNN "Spice_Model"
+F 8 "Y" H 100 50  50  0001 C CNN "Spice_Netlist_Enabled"
+F 9 "C" H 100 50  50  0001 C CNN "Spice_Primitive"
+	1    1200 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C706
+U 1 1 5C8902B6
+P 1900 5000
+AR Path="/6123BB15/5C8902B6" Ref="C706"  Part="1" 
+AR Path="/6138E5CE/5C8902B6" Ref="C?"  Part="1" 
+F 0 "C?" H 1700 5000 50  0000 L CNN
+F 1 "0201, 100nF, 10V, X5R, 20%" H 1200 4900 50  0000 L CNN
+F 2 "tomu-fpga:C_0201_0603Metric" H 1900 5000 50  0001 C CNN
+F 3 "" H 1900 5000 50  0001 C CNN
+F 4 "ANY" H -3500 550 50  0001 C CNN "MPN"
+F 5 "ANY" H -3500 550 50  0001 C CNN "MYPN"
+F 6 "ANY" H -3500 550 50  0001 C CNN "Manufacturer"
+F 7 "100n" H 0   -150 50  0001 C CNN "Spice_Model"
+F 8 "Y" H 0   -150 50  0001 C CNN "Spice_Netlist_Enabled"
+F 9 "C" H 0   -150 50  0001 C CNN "Spice_Primitive"
+	1    1900 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C714
+U 1 1 5BDC7C63
+P 10050 4750
+AR Path="/6123BB15/5BDC7C63" Ref="C714"  Part="1" 
+AR Path="/6138E5CE/5BDC7C63" Ref="C?"  Part="1" 
+F 0 "C?" V 10150 4800 50  0000 L CNN
+F 1 "0402, 10uF, 6.3V, X5R, 20%" V 9950 4200 50  0000 L CNN
+F 2 "tomu-fpga:C_0402_1005Metric" H 10050 4750 50  0001 C CNN
+F 3 "" H 10050 4750 50  0001 C CNN
+F 4 "ANY" H 7550 2200 50  0001 C CNN "MPN"
+F 5 "ANY" H 7550 2200 50  0001 C CNN "MYPN"
+F 6 "ANY" H 7550 2200 50  0001 C CNN "Manufacturer"
+F 7 "1u" H 1500 150 50  0001 C CNN "Spice_Model"
+F 8 "Y" H 1500 150 50  0001 C CNN "Spice_Netlist_Enabled"
+F 9 "C" H 1500 150 50  0001 C CNN "Spice_Primitive"
+	1    10050 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C713
+U 1 1 5BDC7CFF
+P 10050 4300
+AR Path="/6123BB15/5BDC7CFF" Ref="C713"  Part="1" 
+AR Path="/6138E5CE/5BDC7CFF" Ref="C?"  Part="1" 
+F 0 "C?" V 10100 4400 50  0000 L CNN
+F 1 "0201, 100nF, 10V, X5R, 20%" V 9950 3800 50  0000 L CNN
+F 2 "tomu-fpga:C_0201_0603Metric" H 10050 4300 50  0001 C CNN
+F 3 "" H 10050 4300 50  0001 C CNN
+F 4 "ANY" H 10050 4300 50  0001 C CNN "MPN"
+F 5 "ANY" H 10050 4300 50  0001 C CNN "Manufacturer"
+F 6 "ANY" H 9150 1700 50  0001 C CNN "MYPN"
+F 7 "1u" H 2500 -450 50  0001 C CNN "Spice_Model"
+F 8 "Y" H 2500 -450 50  0001 C CNN "Spice_Netlist_Enabled"
+F 9 "C" H 2500 -450 50  0001 C CNN "Spice_Primitive"
+	1    10050 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0731
+U 1 1 5BDC8269
+P 10800 4800
+AR Path="/6123BB15/5BDC8269" Ref="#PWR0731"  Part="1" 
+AR Path="/6138E5CE/5BDC8269" Ref="#PWR0195"  Part="1" 
+F 0 "#PWR?" H 10800 4550 50  0001 C CNN
+F 1 "GND" H 10805 4627 50  0000 C CNN
+F 2 "" H 10800 4800 50  0001 C CNN
+F 3 "" H 10800 4800 50  0001 C CNN
+	1    10800 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C716
+U 1 1 5BECED7C
+P 10300 5800
+AR Path="/6123BB15/5BECED7C" Ref="C716"  Part="1" 
+AR Path="/6138E5CE/5BECED7C" Ref="C?"  Part="1" 
+F 0 "C?" H 10400 5800 50  0000 L CNN
+F 1 "0201, 1uF, 10V, X5R, 20%" H 9650 5700 50  0000 L CNN
+F 2 "tomu-fpga:C_0201_0603Metric" H 10300 5800 50  0001 C CNN
+F 3 "" H 10300 5800 50  0001 C CNN
+F 4 "ANY" H 2500 700 50  0001 C CNN "MPN"
+F 5 "ANY" H 2500 700 50  0001 C CNN "MYPN"
+F 6 "ANY" H 2500 700 50  0001 C CNN "Manufacturer"
+F 7 "1u" H 300 0   50  0001 C CNN "Spice_Model"
+F 8 "Y" H 300 0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 9 "C" H 300 0   50  0001 C CNN "Spice_Primitive"
+	1    10300 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 5800 9500 6100
+Wire Wire Line
+	9300 5450 9500 5450
+Connection ~ 9500 5450
+Wire Wire Line
+	9500 5450 9500 5550
+Connection ~ 9500 5550
+Wire Wire Line
+	9500 5550 9500 5600
+Connection ~ 9500 6100
+Wire Wire Line
+	9500 6100 9500 6150
+$Comp
+L tomu-fpga:ICE40UP5K-UWG30 U705
+U 3 1 5C122A3A
+P 6450 1750
+AR Path="/6123BB15/5C122A3A" Ref="U705"  Part="3" 
+AR Path="/6138E5CE/5C122A3A" Ref="U?"  Part="3" 
+F 0 "U?" H 6050 1200 50  0000 L CNN
+F 1 "ICE40UP5K-UWG30" H 6050 1100 50  0000 L CNN
+F 2 "tomu-fpga:iCE40UP5K-UWG30" H 6450 400 50  0001 C CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra" H 6050 2750 50  0001 C CNN
+F 4 "ICE40UP5K-UWG30ITR" H 400 -900 50  0001 C CNN "MPN"
+F 5 " 	ICE40UP5K-UWG30ITR-ND " H 400 -900 50  0001 C CNN "DPN"
+F 6 "Lattice" H 400 -900 50  0001 C CNN "Manufacturer"
+F 7 "ICE40-ULTRAPLUS, 5280 LUTS, 1.2V" H 200 -300 50  0001 C CNN "Description"
+	3    6450 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L tomu-fpga:ICE40UP5K-UWG30 U705
+U 4 1 5C122B60
+P 10200 4800
+AR Path="/6123BB15/5C122B60" Ref="U705"  Part="4" 
+AR Path="/6138E5CE/5C122B60" Ref="U?"  Part="4" 
+F 0 "U?" H 9850 4250 50  0000 C CNN
+F 1 "ICE40UP5K-UWG30" H 10150 4150 50  0000 C CNN
+F 2 "tomu-fpga:iCE40UP5K-UWG30" H 10200 3450 50  0001 C CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra" H 9800 5800 50  0001 C CNN
+F 4 "ICE40UP5K-UWG30ITR" H 550 -300 50  0001 C CNN "MPN"
+F 5 " 	ICE40UP5K-UWG30ITR-ND " H 550 -300 50  0001 C CNN "DPN"
+F 6 "Lattice" H 550 -300 50  0001 C CNN "Manufacturer"
+F 7 "ICE40-ULTRAPLUS, 5280 LUTS, 1.2V" H 200 -400 50  0001 C CNN "Description"
+	4    10200 4800
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	600  4250 4300 4250
+Wire Wire Line
+	1900 5100 1900 5150
+Wire Wire Line
+	1900 5150 1500 5150
+Connection ~ 1500 5150
+Wire Wire Line
+	1500 5150 1500 5250
+Wire Wire Line
+	1200 5150 1500 5150
+Wire Wire Line
+	1200 4900 1200 5150
+Wire Wire Line
+	1200 4700 1200 4600
+Connection ~ 1700 4600
+Wire Wire Line
+	1900 4600 1900 4850
+Connection ~ 2550 4850
+Wire Wire Line
+	1700 4600 1900 4600
+Wire Wire Line
+	5850 1850 5750 1850
+Wire Wire Line
+	1700 4500 1700 4600
+Wire Wire Line
+	1900 4850 2550 4850
+Connection ~ 1900 4850
+Wire Wire Line
+	1900 4850 1900 4900
+Wire Wire Line
+	8700 1900 9000 1900
+Connection ~ 9000 1900
+Wire Wire Line
+	9000 1900 9150 1900
+Wire Wire Line
+	9050 2400 9000 2400
+Wire Wire Line
+	9000 2400 9000 1900
+Text Label 9300 5000 0    50   ~ 0
+VCCPLL
+Wire Wire Line
+	9500 5200 9600 5200
+Text Label 9550 1900 0    50   ~ 0
+ICE_USBP
+Text Label 9550 1800 0    50   ~ 0
+ICE_USBN
+Wire Wire Line
+	9500 1900 9650 1900
+Wire Wire Line
+	5850 1950 5050 1950
+Wire Wire Line
+	5150 1850 5150 1400
+Wire Wire Line
+	5050 1950 5050 1400
+Wire Wire Line
+	4950 1400 4950 2150
+Wire Wire Line
+	4950 2150 5850 2150
+$Comp
+L tomu-fpga:ICE40UP5K-UWG30 U705
+U 1 1 5C1225F9
+P 10400 2400
+AR Path="/6123BB15/5C1225F9" Ref="U705"  Part="1" 
+AR Path="/6138E5CE/5C1225F9" Ref="U?"  Part="1" 
+F 0 "U?" H 10100 1250 50  0000 L CNN
+F 1 "ICE40UP5K-UWG30" H 10100 1150 50  0000 L CNN
+F 2 "tomu-fpga:iCE40UP5K-UWG30" H 10400 1050 50  0001 C CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra" H 10000 3400 50  0001 C CNN
+F 4 "ICE40UP5K-UWG30ITR" H 650 100 50  0001 C CNN "MPN"
+F 5 " 	ICE40UP5K-UWG30ITR-ND " H 650 100 50  0001 C CNN "DPN"
+F 6 "Lattice" H 650 100 50  0001 C CNN "Manufacturer"
+F 7 "ICE40-ULTRAPLUS, 5280 LUTS, 1.2V" H 0   0   50  0001 C CNN "Description"
+	1    10400 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 1900 9650 2200
+$Comp
+L tomu-fpga:LDO-X2SON U701
+U 1 1 5BF1A34B
+P 1650 1300
+AR Path="/6123BB15/5BF1A34B" Ref="U701"  Part="1" 
+AR Path="/6138E5CE/5BF1A34B" Ref="U?"  Part="1" 
+F 0 "U?" H 1650 1850 50  0000 C CNN
+F 1 "LDO-X2SON-1.2V" H 1650 1750 50  0000 C CNN
+F 2 "tomu-fpga:Texas_X2SON-4_1x1mm_P0.65mm" H 1650 1300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lp5907.pdf" H 1650 1300 50  0001 C CNN
+F 4 "MIC5504-1.2YMT" H 0   0   50  0001 C CNN "AMPN"
+F 5 "Microchip" H 0   0   50  0001 C CNN "AManufacturer"
+F 6 "576-4305-1-ND" H 0   0   50  0001 C CNN "APN"
+F 7 "LP5907SNX-1.2/NOPB" H 0   0   50  0001 C CNN "MPN"
+F 8 "TI" H 0   0   50  0001 C CNN "Manufacturer"
+	1    1650 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 1250 2050 1250
+Connection ~ 2050 1250
+Wire Wire Line
+	2050 1250 2050 1400
+Wire Wire Line
+	1950 1150 2050 1150
+Wire Wire Line
+	2050 1150 2050 1250
+$Comp
+L tomu-fpga:LDO-X2SON U702
+U 1 1 5BF61C95
+P 1650 2400
+AR Path="/6123BB15/5BF61C95" Ref="U702"  Part="1" 
+AR Path="/6138E5CE/5BF61C95" Ref="U?"  Part="1" 
+F 0 "U?" H 1650 2925 50  0000 C CNN
+F 1 "LDO-X2SON-3.3V" H 1650 2834 50  0000 C CNN
+F 2 "tomu-fpga:Texas_X2SON-4_1x1mm_P0.65mm" H 1650 2400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lp5907.pdf" H 1650 2400 50  0001 C CNN
+F 4 "MIC5504-3.3YMT" H 0   1100 50  0001 C CNN "AMPN"
+F 5 "Microchip" H 0   1100 50  0001 C CNN "AManufacturer"
+F 6 "576-4305-1-ND" H 0   1100 50  0001 C CNN "APN"
+F 7 "LP5907SNX-3.3/NOPB" H 0   1100 50  0001 C CNN "MPN"
+F 8 "TI" H 0   1100 50  0001 C CNN "Manufacturer"
+F 9 "296-39066-2-ND " H 1650 2400 50  0001 C CNN "DPN"
+	1    1650 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 2350 2050 2350
+Connection ~ 2050 2350
+Wire Wire Line
+	2050 2350 2050 2500
+Wire Wire Line
+	1350 2350 1300 2350
+Wire Wire Line
+	1300 1800 1300 2350
+$Comp
+L tomu-fpga:LDO-X2SON U703
+U 1 1 5BFAB7F1
+P 1650 3500
+AR Path="/6123BB15/5BFAB7F1" Ref="U703"  Part="1" 
+AR Path="/6138E5CE/5BFAB7F1" Ref="U?"  Part="1" 
+F 0 "U?" H 1650 4025 50  0000 C CNN
+F 1 "LDO-X2SON-2.5V" H 1650 3934 50  0000 C CNN
+F 2 "tomu-fpga:Texas_X2SON-4_1x1mm_P0.65mm" H 1650 3500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lp5907.pdf" H 1650 3500 50  0001 C CNN
+F 4 "MIC5504-2.5YMT" H 0   2200 50  0001 C CNN "AMPN"
+F 5 "Microchip" H 0   2200 50  0001 C CNN "AManufacturer"
+F 6 "576-4305-1-ND" H 0   2200 50  0001 C CNN "APN"
+F 7 "LP5907SNX-2.5/NOPB" H 0   2200 50  0001 C CNN "MPN"
+F 8 "TI" H 0   2200 50  0001 C CNN "Manufacturer"
+F 9 "296-40371-2-ND" H 1650 3500 50  0001 C CNN "DPN"
+	1    1650 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 3450 2050 3450
+Connection ~ 2050 3450
+Wire Wire Line
+	2050 3450 2050 3600
+$Comp
+L tomu-fpga:Testpoint TP702
+U 1 1 5C03018F
+P 5250 4500
+AR Path="/6123BB15/5C03018F" Ref="TP702"  Part="1" 
+AR Path="/6138E5CE/5C03018F" Ref="TP?"  Part="1" 
+F 0 "TP?" H 5400 4550 50  0000 C CNN
+F 1 "Testpoint" H 5700 4550 50  0000 C CNN
+F 2 "tomu-fpga:testpoint" H 5250 4500 50  0001 C CNN
+F 3 "" H 5250 4500 50  0001 C CNN
+F 4 "X" H 0   0   50  0001 C CNN "DNP"
+	1    5250 4500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 4550 5850 4550
+Text Label 5450 4550 0    50   ~ 0
+SPI_MOSI
+Text Label 5450 4700 0    50   ~ 0
+SPI_MISO
+$Comp
+L tomu-fpga:Testpoint TP703
+U 1 1 5C042DE8
+P 5250 4650
+AR Path="/6123BB15/5C042DE8" Ref="TP703"  Part="1" 
+AR Path="/6138E5CE/5C042DE8" Ref="TP?"  Part="1" 
+F 0 "TP?" H 5400 4700 50  0000 C CNN
+F 1 "Testpoint" H 5700 4700 50  0000 C CNN
+F 2 "tomu-fpga:testpoint" H 5250 4650 50  0001 C CNN
+F 3 "" H 5250 4650 50  0001 C CNN
+F 4 "X" H 0   0   50  0001 C CNN "DNP"
+	1    5250 4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 4700 5850 4700
+$Comp
+L tomu-fpga:Testpoint TP704
+U 1 1 5C068EF3
+P 5250 4800
+AR Path="/6123BB15/5C068EF3" Ref="TP704"  Part="1" 
+AR Path="/6138E5CE/5C068EF3" Ref="TP?"  Part="1" 
+F 0 "TP?" H 5400 4850 50  0000 C CNN
+F 1 "Testpoint" H 5700 4850 50  0000 C CNN
+F 2 "tomu-fpga:testpoint" H 5250 4800 50  0001 C CNN
+F 3 "" H 5250 4800 50  0001 C CNN
+F 4 "X" H 0   0   50  0001 C CNN "DNP"
+	1    5250 4800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 4850 5850 4850
+$Comp
+L tomu-fpga:Testpoint TP705
+U 1 1 5C068EFC
+P 5250 4950
+AR Path="/6123BB15/5C068EFC" Ref="TP705"  Part="1" 
+AR Path="/6138E5CE/5C068EFC" Ref="TP?"  Part="1" 
+F 0 "TP?" H 5400 5000 50  0000 C CNN
+F 1 "Testpoint" H 5700 5000 50  0000 C CNN
+F 2 "tomu-fpga:testpoint" H 5250 4950 50  0001 C CNN
+F 3 "" H 5250 4950 50  0001 C CNN
+F 4 "X" H 0   0   50  0001 C CNN "DNP"
+	1    5250 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 5000 5850 5000
+Text Label 5450 4850 0    50   ~ 0
+SPI_CS
+Text Label 5450 5000 0    50   ~ 0
+SPI_CLK
+Text Label 5450 5150 0    50   ~ 0
+SPI_IO2
+Text Label 5450 5300 0    50   ~ 0
+SPI_IO3
+$Comp
+L tomu-fpga:Testpoint TP706
+U 1 1 5C07C50C
+P 5250 5100
+AR Path="/6123BB15/5C07C50C" Ref="TP706"  Part="1" 
+AR Path="/6138E5CE/5C07C50C" Ref="TP?"  Part="1" 
+F 0 "TP?" H 5400 5150 50  0000 C CNN
+F 1 "Testpoint" H 5700 5150 50  0000 C CNN
+F 2 "tomu-fpga:testpoint" H 5250 5100 50  0001 C CNN
+F 3 "" H 5250 5100 50  0001 C CNN
+F 4 "X" H 0   0   50  0001 C CNN "DNP"
+	1    5250 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L tomu-fpga:Testpoint TP707
+U 1 1 5C07C63D
+P 5250 5250
+AR Path="/6123BB15/5C07C63D" Ref="TP707"  Part="1" 
+AR Path="/6138E5CE/5C07C63D" Ref="TP?"  Part="1" 
+F 0 "TP?" H 5400 5300 50  0000 C CNN
+F 1 "Testpoint" H 5700 5300 50  0000 C CNN
+F 2 "tomu-fpga:testpoint" H 5250 5250 50  0001 C CNN
+F 3 "" H 5250 5250 50  0001 C CNN
+F 4 "X" H 0   0   50  0001 C CNN "DNP"
+	1    5250 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 5150 5850 5150
+Wire Wire Line
+	5400 5300 5850 5300
+Text Label 5450 5450 0    50   ~ 0
+CRESET
+$Comp
+L tomu-fpga:Testpoint TP708
+U 1 1 5C0A39C6
+P 5250 5400
+AR Path="/6123BB15/5C0A39C6" Ref="TP708"  Part="1" 
+AR Path="/6138E5CE/5C0A39C6" Ref="TP?"  Part="1" 
+F 0 "TP?" H 5400 5450 50  0000 C CNN
+F 1 "Testpoint" H 5700 5450 50  0000 C CNN
+F 2 "tomu-fpga:testpoint" H 5250 5400 50  0001 C CNN
+F 3 "" H 5250 5400 50  0001 C CNN
+F 4 "X" H 0   0   50  0001 C CNN "DNP"
+	1    5250 5400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 5450 5850 5450
+Text Label 5450 5600 0    50   ~ 0
+CDONE
+$Comp
+L tomu-fpga:Testpoint TP709
+U 1 1 5C0B4DBE
+P 5250 5550
+AR Path="/6123BB15/5C0B4DBE" Ref="TP709"  Part="1" 
+AR Path="/6138E5CE/5C0B4DBE" Ref="TP?"  Part="1" 
+F 0 "TP?" H 5400 5600 50  0000 C CNN
+F 1 "Testpoint" H 5700 5600 50  0000 C CNN
+F 2 "tomu-fpga:testpoint" H 5250 5550 50  0001 C CNN
+F 3 "" H 5250 5550 50  0001 C CNN
+F 4 "X" H 0   0   50  0001 C CNN "DNP"
+	1    5250 5550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 5600 5850 5600
+$Comp
+L tomu-fpga:Testpoint TP701
+U 1 1 5C0C6529
+P 5250 4350
+AR Path="/6123BB15/5C0C6529" Ref="TP701"  Part="1" 
+AR Path="/6138E5CE/5C0C6529" Ref="TP?"  Part="1" 
+F 0 "TP?" H 5400 4400 50  0000 C CNN
+F 1 "Testpoint" H 5700 4400 50  0000 C CNN
+F 2 "tomu-fpga:testpoint" H 5250 4350 50  0001 C CNN
+F 3 "" H 5250 4350 50  0001 C CNN
+F 4 "X" H 0   0   50  0001 C CNN "DNP"
+	1    5250 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L tomu-fpga:Testpoint TP712
+U 1 1 5C0C65AF
+P 5250 6000
+AR Path="/6123BB15/5C0C65AF" Ref="TP712"  Part="1" 
+AR Path="/6138E5CE/5C0C65AF" Ref="TP?"  Part="1" 
+F 0 "TP?" H 5400 6050 50  0000 C CNN
+F 1 "Testpoint" H 5700 6050 50  0000 C CNN
+F 2 "tomu-fpga:testpoint" H 5250 6000 50  0001 C CNN
+F 3 "" H 5250 6000 50  0001 C CNN
+F 4 "X" H 0   0   50  0001 C CNN "DNP"
+	1    5250 6000
+	-1   0    0    1   
+$EndComp
+Text Label 5450 4400 0    50   ~ 0
++5V
+Text Label 5450 6050 0    50   ~ 0
+GND
+Text Label 5450 5900 0    50   ~ 0
+USB_P
+Text Label 5450 5750 0    50   ~ 0
+USB_N
+$Comp
+L tomu-fpga:Testpoint TP710
+U 1 1 5C0EA6CF
+P 5250 5700
+AR Path="/6123BB15/5C0EA6CF" Ref="TP710"  Part="1" 
+AR Path="/6138E5CE/5C0EA6CF" Ref="TP?"  Part="1" 
+F 0 "TP?" H 5400 5750 50  0000 C CNN
+F 1 "Testpoint" H 5700 5750 50  0000 C CNN
+F 2 "tomu-fpga:testpoint" H 5250 5700 50  0001 C CNN
+F 3 "" H 5250 5700 50  0001 C CNN
+F 4 "X" H 0   0   50  0001 C CNN "DNP"
+	1    5250 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L tomu-fpga:Testpoint TP711
+U 1 1 5C0EA757
+P 5250 5850
+AR Path="/6123BB15/5C0EA757" Ref="TP711"  Part="1" 
+AR Path="/6138E5CE/5C0EA757" Ref="TP?"  Part="1" 
+F 0 "TP?" H 5400 5900 50  0000 C CNN
+F 1 "Testpoint" H 5700 5900 50  0000 C CNN
+F 2 "tomu-fpga:testpoint" H 5250 5850 50  0001 C CNN
+F 3 "" H 5250 5850 50  0001 C CNN
+F 4 "X" H 0   0   50  0001 C CNN "DNP"
+	1    5250 5850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 5750 5850 5750
+Wire Wire Line
+	5400 5900 5850 5900
+Wire Wire Line
+	6000 4400 6000 4250
+Wire Wire Line
+	5400 4400 6000 4400
+$Comp
+L power:+5V #PWR0719
+U 1 1 5C17A30E
+P 6000 4250
+AR Path="/6123BB15/5C17A30E" Ref="#PWR0719"  Part="1" 
+AR Path="/6138E5CE/5C17A30E" Ref="#PWR0196"  Part="1" 
+F 0 "#PWR?" H 6000 4100 50  0001 C CNN
+F 1 "+5V" H 6015 4423 50  0000 C CNN
+F 2 "" H 6000 4250 50  0001 C CNN
+F 3 "" H 6000 4250 50  0001 C CNN
+	1    6000 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 6050 6000 6250
+Wire Wire Line
+	5400 6050 6000 6050
+$Comp
+L power:GND #PWR0720
+U 1 1 5C18C8A3
+P 6000 6250
+AR Path="/6123BB15/5C18C8A3" Ref="#PWR0720"  Part="1" 
+AR Path="/6138E5CE/5C18C8A3" Ref="#PWR0197"  Part="1" 
+F 0 "#PWR?" H 6000 6000 50  0001 C CNN
+F 1 "GND" H 6005 6077 50  0000 C CNN
+F 2 "" H 6000 6250 50  0001 C CNN
+F 3 "" H 6000 6250 50  0001 C CNN
+	1    6000 6250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2650 5950
+Wire Wire Line
+	8700 1800 9250 1800
+Wire Wire Line
+	3700 7250 3850 7250
+Wire Wire Line
+	3850 7250 3850 6900
+$Comp
+L tomu-fpga:ICE40UP5K-UWG30 U705
+U 2 1 5C122971
+P 3250 6500
+AR Path="/6123BB15/5C122971" Ref="U705"  Part="2" 
+AR Path="/6138E5CE/5C122971" Ref="U?"  Part="2" 
+F 0 "U?" H 2900 5950 50  0000 C CNN
+F 1 "ICE40UP5K-UWG30" H 3150 5850 50  0000 C CNN
+F 2 "tomu-fpga:iCE40UP5K-UWG30" H 3250 5150 50  0001 C CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra" H 2850 7500 50  0001 C CNN
+F 4 "ICE40UP5K-UWG30ITR" H 3250 6500 50  0001 C CNN "MPN"
+F 5 "Lattice" H 3250 6500 50  0001 C CNN "Manufacturer"
+F 6 " 	ICE40UP5K-UWG30ITR-ND " H 3250 6500 50  0001 C CNN "DPN"
+F 7 "ICE40-ULTRAPLUS, 5280 LUTS, 1.2V" H 100 450 50  0001 C CNN "Description"
+	2    3250 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 6150 2550 6150
+Wire Wire Line
+	2550 5250 2550 6150
+Wire Wire Line
+	3400 5300 3400 4850
+Wire Wire Line
+	2550 4850 3400 4850
+Wire Wire Line
+	10800 5200 10850 5200
+Wire Wire Line
+	9500 5200 9500 5450
+Wire Wire Line
+	10800 5100 10850 5100
+Wire Wire Line
+	10850 5100 10850 5200
+Connection ~ 10850 5200
+Wire Wire Line
+	9850 2500 9650 2500
+Wire Wire Line
+	9650 2500 9650 2400
+Wire Wire Line
+	9250 2400 9650 2400
+Text Label 5250 1800 1    50   ~ 0
+TOUCH_4
+Text Label 5150 1800 1    50   ~ 0
+TOUCH_3
+Text Label 5050 1800 1    50   ~ 0
+TOUCH_2
+Text Label 4950 1800 1    50   ~ 0
+TOUCH_1
+NoConn ~ 9850 2400
+Wire Notes Line
+	4550 4000 6800 4000
+Wire Notes Line
+	6800 4000 6800 6500
+Wire Notes Line
+	6800 6500 4550 6500
+Wire Notes Line
+	4550 6500 4550 4000
+Text Notes 6400 4100 0    50   ~ 0
+Test Pads
+Wire Notes Line
+	7150 3100 7150 3800
+Wire Notes Line
+	7150 3800 4100 3800
+Wire Notes Line
+	4100 3800 4100 3100
+Wire Notes Line
+	4100 3100 7150 3100
+Text Notes 4150 3750 0    50   ~ 0
+Manufacturing Notes
+Wire Wire Line
+	5250 1400 5250 2050
+NoConn ~ 2650 6350
+Wire Wire Line
+	9850 2200 9650 2200
+Wire Wire Line
+	9850 2300 9800 2300
+Wire Wire Line
+	9800 1800 9800 2300
+Text Label 8800 1900 0    50   ~ 0
+USB_P
+Text Label 8800 1800 0    50   ~ 0
+USB_N
+Wire Wire Line
+	10250 1450 10450 1450
+Wire Wire Line
+	1200 4600 1700 4600
+Wire Wire Line
+	10200 1400 10200 1450
+Wire Wire Line
+	10200 1450 10250 1450
+Wire Wire Line
+	10650 1450 10650 1400
+Wire Wire Line
+	10200 1200 10200 1150
+Wire Wire Line
+	10200 1150 10450 1150
+Wire Wire Line
+	10650 1200 10650 1150
+$Comp
+L Device:D_Small D701
+U 1 1 5C0AD27F
+P 4650 2450
+AR Path="/6123BB15/5C0AD27F" Ref="D701"  Part="1" 
+AR Path="/6138E5CE/5C0AD27F" Ref="D?"  Part="1" 
+F 0 "D?" V 4550 2450 50  0000 L CNN
+F 1 "D5V0L1B2LP3-7" V 4750 2150 50  0000 L CNN
+F 2 "tomu-fpga:X1-DFN1006-2" V 4650 2450 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/D5V0L1B2LP3.pdf" V 4650 2450 50  0001 C CNN
+F 4 "Diodes Incorporated" V 4650 2450 50  0001 C CNN "Manufacturer"
+F 5 "D5V0L1B2LP3-7" V 4650 2450 50  0001 C CNN "MPN"
+	1    4650 2450
+	0    1    1    0   
+$EndComp
+Connection ~ 4950 2150
+$Comp
+L power:GND #PWR0718
+U 1 1 5C0C6907
+P 5300 2750
+AR Path="/6123BB15/5C0C6907" Ref="#PWR0718"  Part="1" 
+AR Path="/6138E5CE/5C0C6907" Ref="#PWR0198"  Part="1" 
+F 0 "#PWR?" H 5300 2500 50  0001 C CNN
+F 1 "GND" H 5305 2577 50  0000 C CNN
+F 2 "" H 5300 2750 50  0001 C CNN
+F 3 "" H 5300 2750 50  0001 C CNN
+	1    5300 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2750 5300 2600
+Connection ~ 5300 2600
+Wire Wire Line
+	5300 2600 5750 2600
+$Comp
+L Device:D_Small D702
+U 1 1 5C0F0E57
+P 5050 2350
+AR Path="/6123BB15/5C0F0E57" Ref="D702"  Part="1" 
+AR Path="/6138E5CE/5C0F0E57" Ref="D?"  Part="1" 
+F 0 "D?" V 4950 2350 50  0000 L CNN
+F 1 "D5V0L1B2LP3-7" V 5150 2050 50  0000 L CNN
+F 2 "tomu-fpga:X1-DFN1006-2" V 5050 2350 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/D5V0L1B2LP3.pdf" V 5050 2350 50  0001 C CNN
+F 4 "Diodes Incorporated" V 5050 2350 50  0001 C CNN "Manufacturer"
+F 5 "D5V0L1B2LP3-7" V 5050 2350 50  0001 C CNN "MPN"
+	1    5050 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4950 2150 4650 2150
+Wire Wire Line
+	4650 2150 4650 2350
+Wire Wire Line
+	4650 2600 4650 2550
+Wire Wire Line
+	4650 2600 5050 2600
+Wire Wire Line
+	5050 2250 5050 1950
+Connection ~ 5050 1950
+Wire Wire Line
+	5050 2450 5050 2600
+Connection ~ 5050 2600
+Wire Wire Line
+	5050 2600 5250 2600
+$Comp
+L Device:D_Small D703
+U 1 1 5C1671C0
+P 5250 2300
+AR Path="/6123BB15/5C1671C0" Ref="D703"  Part="1" 
+AR Path="/6138E5CE/5C1671C0" Ref="D?"  Part="1" 
+F 0 "D?" V 5204 2368 50  0000 L CNN
+F 1 "D5V0L1B2LP3-7" V 5300 2200 50  0000 L CNN
+F 2 "tomu-fpga:X1-DFN1006-2" V 5250 2300 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/D5V0L1B2LP3.pdf" V 5250 2300 50  0001 C CNN
+F 4 "Diodes Incorporated" V 5250 2300 50  0001 C CNN "Manufacturer"
+F 5 "D5V0L1B2LP3-7" V 5250 2300 50  0001 C CNN "MPN"
+	1    5250 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 2400 5250 2600
+Connection ~ 5250 2600
+Wire Wire Line
+	5250 2600 5300 2600
+Wire Wire Line
+	5250 2200 5250 2050
+Connection ~ 5250 2050
+$Comp
+L Device:D_Small D704
+U 1 1 5C182AF1
+P 5750 2400
+AR Path="/6123BB15/5C182AF1" Ref="D704"  Part="1" 
+AR Path="/6138E5CE/5C182AF1" Ref="D?"  Part="1" 
+F 0 "D?" V 5850 2400 50  0000 L CNN
+F 1 "D5V0L1B2LP3-7" V 5950 2400 50  0000 L CNN
+F 2 "tomu-fpga:X1-DFN1006-2" V 5750 2400 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/D5V0L1B2LP3.pdf" V 5750 2400 50  0001 C CNN
+F 4 "Diodes Incorporated" V 5750 2400 50  0001 C CNN "Manufacturer"
+F 5 "D5V0L1B2LP3-7" V 5750 2400 50  0001 C CNN "MPN"
+	1    5750 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5750 2300 5750 1850
+Connection ~ 5750 1850
+Wire Wire Line
+	5750 1850 5150 1850
+Wire Wire Line
+	5750 2500 5750 2600
+$Comp
+L Device:D_Small D706
+U 1 1 5C1C9C2F
+P 9150 1500
+AR Path="/6123BB15/5C1C9C2F" Ref="D706"  Part="1" 
+AR Path="/6138E5CE/5C1C9C2F" Ref="D?"  Part="1" 
+F 0 "D?" V 9050 1550 50  0000 L CNN
+F 1 "D5V0L1B2LP3-7" V 9150 1550 50  0000 L CNN
+F 2 "tomu-fpga:X1-DFN1006-2" V 9150 1500 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/D5V0L1B2LP3.pdf" V 9150 1500 50  0001 C CNN
+F 4 "Diodes Incorporated" V 9150 1500 50  0001 C CNN "Manufacturer"
+F 5 "D5V0L1B2LP3-7" V 9150 1500 50  0001 C CNN "MPN"
+	1    9150 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9150 1600 9150 1900
+Connection ~ 9150 1900
+Wire Wire Line
+	9150 1900 9300 1900
+$Comp
+L Device:D_Small D707
+U 1 1 5C1D8578
+P 9250 1500
+AR Path="/6123BB15/5C1D8578" Ref="D707"  Part="1" 
+AR Path="/6138E5CE/5C1D8578" Ref="D?"  Part="1" 
+F 0 "D?" V 9350 1500 50  0000 L CNN
+F 1 "D5V0L1B2LP3-7" V 9350 850 50  0000 L CNN
+F 2 "tomu-fpga:X1-DFN1006-2" V 9250 1500 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/D5V0L1B2LP3.pdf" V 9250 1500 50  0001 C CNN
+F 4 "Diodes Incorporated" V 9250 1500 50  0001 C CNN "Manufacturer"
+F 5 "D5V0L1B2LP3-7" V 9250 1500 50  0001 C CNN "MPN"
+	1    9250 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9250 1600 9250 1800
+Connection ~ 9250 1800
+Wire Wire Line
+	9250 1800 9300 1800
+Wire Wire Line
+	9150 1400 9150 1300
+Wire Wire Line
+	9150 1300 9250 1300
+Wire Wire Line
+	9400 1300 9400 1450
+Wire Wire Line
+	9250 1400 9250 1300
+Connection ~ 9250 1300
+Wire Wire Line
+	9250 1300 9400 1300
+$Comp
+L power:GND #PWR0728
+U 1 1 5C204D0E
+P 9400 1450
+AR Path="/6123BB15/5C204D0E" Ref="#PWR0728"  Part="1" 
+AR Path="/6138E5CE/5C204D0E" Ref="#PWR0199"  Part="1" 
+F 0 "#PWR?" H 9400 1200 50  0001 C CNN
+F 1 "GND" H 9405 1277 50  0000 C CNN
+F 2 "" H 9400 1450 50  0001 C CNN
+F 3 "" H 9400 1450 50  0001 C CNN
+	1    9400 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D705
+U 1 1 5C2141E6
+P 9000 1300
+AR Path="/6123BB15/5C2141E6" Ref="D705"  Part="1" 
+AR Path="/6138E5CE/5C2141E6" Ref="D?"  Part="1" 
+F 0 "D?" H 9050 1400 50  0000 L CNN
+F 1 "VCUT05E1-SD0" H 8400 1400 50  0000 L CNN
+F 2 "tomu-fpga:TVS-11V" V 9000 1300 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85900/vcut05e1-sd0.pdf" V 9000 1300 50  0001 C CNN
+F 4 "Vishay Semiconductor Diodes Division" V 9000 1300 50  0001 C CNN "Manufacturer"
+F 5 "VCUT05E1-SD0-G4-08" V 9000 1300 50  0001 C CNN "MPN"
+	1    9000 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 1300 8850 1300
+Connection ~ 8850 1300
+Wire Wire Line
+	8850 1300 8850 1700
+Wire Wire Line
+	9100 1300 9150 1300
+Connection ~ 9150 1300
+Wire Wire Line
+	6450 950  6450 1250
+Wire Wire Line
+	10450 1600 10450 1450
+Connection ~ 10450 1450
+Wire Wire Line
+	10450 1450 10650 1450
+Connection ~ 10450 1150
+Wire Wire Line
+	10450 1150 10650 1150
+$Comp
+L power:+1V2 #PWR0722
+U 1 1 5BFB12D2
+P 8250 4400
+AR Path="/6123BB15/5BFB12D2" Ref="#PWR0722"  Part="1" 
+AR Path="/6138E5CE/5BFB12D2" Ref="#PWR0200"  Part="1" 
+F 0 "#PWR?" H 8250 4250 50  0001 C CNN
+F 1 "+1V2" H 8265 4573 50  0000 C CNN
+F 2 "" H 8250 4400 50  0001 C CNN
+F 3 "" H 8250 4400 50  0001 C CNN
+	1    8250 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R703
+U 1 1 5BFB144B
+P 8800 4750
+AR Path="/6123BB15/5BFB144B" Ref="R703"  Part="1" 
+AR Path="/6138E5CE/5BFB144B" Ref="R?"  Part="1" 
+F 0 "R?" V 8800 4750 50  0000 C CNN
+F 1 "0201, 100ohm, 1/16W, 1%" V 8900 4700 50  0000 C CNN
+F 2 "tomu-fpga:R_0201_0603Metric" H 8800 4750 50  0001 C CNN
+F 3 "" H 8800 4750 50  0001 C CNN
+F 4 "ANY" H 300 2550 50  0001 C CNN "MPN"
+F 5 "ANY" H 300 2550 50  0001 C CNN "MYPN"
+F 6 "ANY" H 300 2550 50  0001 C CNN "Manufacturer"
+F 7 "R" H 8800 4750 50  0001 C CNN "Spice_Primitive"
+F 8 "1.5k" H 8800 4750 50  0001 C CNN "Spice_Model"
+F 9 "Y" H 8800 4750 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    8800 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9950 4300 9400 4300
+Wire Wire Line
+	9400 4300 9400 4500
+Wire Wire Line
+	9200 5000 9600 5000
+Wire Wire Line
+	9400 4750 9950 4750
+Connection ~ 9400 4750
+Wire Wire Line
+	9200 5000 9200 4750
+Wire Wire Line
+	9200 4750 9400 4750
+Wire Wire Line
+	8900 4750 9200 4750
+Connection ~ 9200 4750
+Wire Wire Line
+	8700 4750 8250 4750
+Wire Wire Line
+	8250 4400 8250 4750
+Wire Wire Line
+	10150 4300 10800 4300
+Wire Wire Line
+	10800 4300 10800 4750
+Wire Wire Line
+	10150 4750 10800 4750
+Wire Wire Line
+	10800 4750 10800 4800
+Connection ~ 10800 4750
+$Comp
+L Device:C_Small C711
+U 1 1 5C5E5A07
+P 8850 5400
+AR Path="/6123BB15/5C5E5A07" Ref="C711"  Part="1" 
+AR Path="/6138E5CE/5C5E5A07" Ref="C?"  Part="1" 
+F 0 "C?" H 8950 5400 50  0000 L CNN
+F 1 "0201, 100nF, 10V, X5R, 20%" H 8150 5300 50  0000 L CNN
+F 2 "tomu-fpga:C_0201_0603Metric" H 8850 5400 50  0001 C CNN
+F 3 "" H 8850 5400 50  0001 C CNN
+F 4 "ANY" H 200 100 50  0001 C CNN "MPN"
+F 5 "ANY" H 200 100 50  0001 C CNN "MYPN"
+F 6 "ANY" H 200 100 50  0001 C CNN "Manufacturer"
+F 7 "100n" H 0   0   50  0001 C CNN "Spice_Model"
+F 8 "Y" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 9 "C" H 0   0   50  0001 C CNN "Spice_Primitive"
+	1    8850 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 5500 8850 5600
+Wire Wire Line
+	8850 5600 8600 5600
+Wire Wire Line
+	8600 5600 8600 5700
+$Comp
+L power:GND #PWR0724
+U 1 1 5C5B4C14
+P 8600 5700
+AR Path="/6123BB15/5C5B4C14" Ref="#PWR0724"  Part="1" 
+AR Path="/6138E5CE/5C5B4C14" Ref="#PWR0201"  Part="1" 
+F 0 "#PWR?" H 8600 5450 50  0001 C CNN
+F 1 "GND" H 8605 5527 50  0000 C CNN
+F 2 "" H 8600 5700 50  0001 C CNN
+F 3 "" H 8600 5700 50  0001 C CNN
+	1    8600 5700
+	1    0    0    -1  
+$EndComp
+Connection ~ 8600 5600
+Wire Wire Line
+	7950 5600 8600 5600
+Wire Wire Line
+	7950 5600 7950 5400
+$Comp
+L Device:C_Small C710
+U 1 1 5C64A110
+P 7950 5300
+AR Path="/6123BB15/5C64A110" Ref="C710"  Part="1" 
+AR Path="/6138E5CE/5C64A110" Ref="C?"  Part="1" 
+F 0 "C?" H 8050 5300 50  0000 L CNN
+F 1 "0201, 1uF, 10V, X5R, 20%" H 7350 5200 50  0000 L CNN
+F 2 "tomu-fpga:C_0201_0603Metric" H 7950 5300 50  0001 C CNN
+F 3 "" H 7950 5300 50  0001 C CNN
+F 4 "ANY" H 150 200 50  0001 C CNN "MPN"
+F 5 "ANY" H 150 200 50  0001 C CNN "MYPN"
+F 6 "ANY" H 150 200 50  0001 C CNN "Manufacturer"
+F 7 "1u" H 0   100 50  0001 C CNN "Spice_Model"
+F 8 "Y" H 0   100 50  0001 C CNN "Spice_Netlist_Enabled"
+F 9 "C" H 0   100 50  0001 C CNN "Spice_Primitive"
+	1    7950 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 5100 7950 5200
+$Comp
+L power:+1V2 #PWR0723
+U 1 1 5C1102B3
+P 8350 5000
+AR Path="/6123BB15/5C1102B3" Ref="#PWR0723"  Part="1" 
+AR Path="/6138E5CE/5C1102B3" Ref="#PWR0202"  Part="1" 
+F 0 "#PWR?" H 8350 4850 50  0001 C CNN
+F 1 "+1V2" H 8365 5173 50  0000 C CNN
+F 2 "" H 8350 5000 50  0001 C CNN
+F 3 "" H 8350 5000 50  0001 C CNN
+	1    8350 5000
+	1    0    0    -1  
+$EndComp
+Connection ~ 8850 5100
+Wire Wire Line
+	8850 5100 8850 5300
+Wire Wire Line
+	8850 5100 9600 5100
+Wire Wire Line
+	7950 5100 8350 5100
+Wire Wire Line
+	8350 5000 8350 5100
+Connection ~ 8350 5100
+Wire Wire Line
+	8350 5100 8850 5100
+Text Notes 9700 4450 0    50   ~ 0
+VCCPLL Filter Network
+Wire Wire Line
+	10300 5550 10300 5700
+Wire Wire Line
+	9500 5550 10300 5550
+Wire Wire Line
+	10300 5900 10300 6100
+Wire Wire Line
+	9500 6100 10300 6100
+$Comp
+L power:PWR_FLAG #FLG0701
+U 1 1 5C20D4AA
+P 9400 4500
+AR Path="/6123BB15/5C20D4AA" Ref="#FLG0701"  Part="1" 
+AR Path="/6138E5CE/5C20D4AA" Ref="#FLG0101"  Part="1" 
+F 0 "#FLG?" H 9400 4575 50  0001 C CNN
+F 1 "PWR_FLAG" V 9400 4628 50  0000 L CNN
+F 2 "" H 9400 4500 50  0001 C CNN
+F 3 "~" H 9400 4500 50  0001 C CNN
+	1    9400 4500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9400 4500
+Wire Wire Line
+	9400 4500 9400 4750
+Wire Wire Line
+	10250 1450 10250 1650
+Wire Wire Line
+	10900 950  10900 800 
+Wire Wire Line
+	10900 800  10450 800 
+Wire Wire Line
+	10450 800  10450 1150
+Wire Wire Line
+	10050 1650 10250 1650
+Wire Wire Line
+	10050 1550 10050 1650
+Wire Wire Line
+	9650 2700 9850 2700
+Wire Wire Line
+	9850 2800 9550 2800
+Wire Wire Line
+	9550 2800 9550 2600
+Wire Wire Line
+	9650 2700 9650 2750
+Wire Wire Line
+	9600 2700 9600 2600
+Wire Wire Line
+	9600 2600 9850 2600
+Wire Wire Line
+	2650 6250 2300 6250
+Text Notes 1150 7400 0    50   ~ 0
+To program SPI flash, put FPGA in RESET\nTo program FPGA, keep SPI_IO3 LOW
+Wire Wire Line
+	3500 7250 2400 7250
+Wire Wire Line
+	950  6450 950  6700
+Wire Wire Line
+	950  6450 1050 6450
+Text Label 2300 6950 0    50   ~ 0
+SPI_CS
+Wire Wire Line
+	2650 6450 2300 6450
+Wire Wire Line
+	2650 6550 2300 6550
+Wire Wire Line
+	2300 6650 2650 6650
+Wire Wire Line
+	2650 6750 2300 6750
+Wire Wire Line
+	2300 6850 2650 6850
+Wire Wire Line
+	2300 6950 2400 6950
+Connection ~ 950  6450
+Wire Wire Line
+	950  6400 950  6450
+$Comp
+L tomu-fpga:SPI-Flash U704
+U 1 1 5C1645BF
+P 1650 7000
+AR Path="/6123BB15/5C1645BF" Ref="U704"  Part="1" 
+AR Path="/6138E5CE/5C1645BF" Ref="U?"  Part="1" 
+F 0 "U?" H 1675 7815 50  0000 C CNN
+F 1 "SPI Flash" H 1675 7724 50  0000 C CNN
+F 2 "tomu-fpga:SON50P300X200X60-9N" H 1450 7000 50  0001 C CNN
+F 3 "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf" H 1450 7000 50  0001 C CNN
+F 4 "1970-1011-6-ND" H -450 -1450 50  0001 C CNN "DPN"
+F 5 "GD25Q16CEIGR" H -450 -1450 50  0001 C CNN "MPN"
+F 6 "GigaDevice Semiconductor (HK) Limited" H -450 -1450 50  0001 C CNN "Manufacturer"
+F 7 "IC FLASH 128M SPI 133MHZ 8SOIC" H 0   0   50  0001 C CNN "Description"
+F 8 "MX25R1635FZUIH0" H 1650 7000 50  0001 C CNN "APN"
+F 9 "Macronix" H 1650 7000 50  0001 C CNN "AManufacturer"
+	1    1650 7000
+	1    0    0    -1  
+$EndComp
+Text Label 2300 6250 0    50   ~ 0
+CDONE
+Text Label 2300 6450 0    50   ~ 0
+SPI_IO3
+Text Label 2300 6550 0    50   ~ 0
+SPI_IO2
+Text Label 2300 6850 0    50   ~ 0
+SPI_CLK
+Text Label 2300 6750 0    50   ~ 0
+SPI_MISO
+Text Label 2550 5700 1    50   ~ 0
+CRESET
+Text Label 2300 6650 0    50   ~ 0
+SPI_MOSI
+$Comp
+L power:GND #PWR0709
+U 1 1 5C8902C6
+P 1500 5250
+AR Path="/6123BB15/5C8902C6" Ref="#PWR0709"  Part="1" 
+AR Path="/6138E5CE/5C8902C6" Ref="#PWR0203"  Part="1" 
+F 0 "#PWR?" H 1500 5000 50  0001 C CNN
+F 1 "GND" H 1650 5200 50  0000 C CNN
+F 2 "" H 1500 5250 50  0001 C CNN
+F 3 "" H 1500 5250 50  0001 C CNN
+	1    1500 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 7250 2400 6950
+Wire Notes Line
+	600  4250 600  7450
+Connection ~ 2400 6950
+Wire Wire Line
+	2650 6950 2400 6950
+Wire Wire Line
+	950  6950 1000 6950
+Wire Wire Line
+	950  6900 950  6950
+$Comp
+L Device:C_Small C704
+U 1 1 5BE02A6F
+P 950 6800
+AR Path="/6123BB15/5BE02A6F" Ref="C704"  Part="1" 
+AR Path="/6138E5CE/5BE02A6F" Ref="C?"  Part="1" 
+F 0 "C?" H 1000 6900 50  0000 L CNN
+F 1 "0201, 100nF, 10V, X5R, 20%" V 800 6200 50  0000 L CNN
+F 2 "tomu-fpga:C_0201_0603Metric" H 950 6800 50  0001 C CNN
+F 3 "" H 950 6800 50  0001 C CNN
+F 4 "ANY" H -550 0   50  0001 C CNN "MPN"
+F 5 "ANY" H -550 0   50  0001 C CNN "MYPN"
+F 6 "ANY" H -550 0   50  0001 C CNN "Manufacturer"
+F 7 "100n" H 0   0   50  0001 C CNN "Spice_Model"
+F 8 "Y" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 9 "C" H 0   0   50  0001 C CNN "Spice_Primitive"
+	1    950  6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0704
+U 1 1 5BDFD76F
+P 950 6400
+AR Path="/6123BB15/5BDFD76F" Ref="#PWR0704"  Part="1" 
+AR Path="/6138E5CE/5BDFD76F" Ref="#PWR0204"  Part="1" 
+F 0 "#PWR?" H 950 6250 50  0001 C CNN
+F 1 "+3V3" H 965 6573 50  0000 C CNN
+F 2 "" H 950 6400 50  0001 C CNN
+F 3 "" H 950 6400 50  0001 C CNN
+	1    950  6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0705
+U 1 1 5BDFD708
+P 1000 7100
+AR Path="/6123BB15/5BDFD708" Ref="#PWR0705"  Part="1" 
+AR Path="/6138E5CE/5BDFD708" Ref="#PWR0205"  Part="1" 
+F 0 "#PWR?" H 1000 6850 50  0001 C CNN
+F 1 "GND" H 1005 6927 50  0000 C CNN
+F 2 "" H 1000 7100 50  0001 C CNN
+F 3 "" H 1000 7100 50  0001 C CNN
+	1    1000 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 6950 1000 7100
+Connection ~ 1000 6950
+Wire Wire Line
+	1050 6950 1000 6950
+Wire Wire Line
+	8950 2700 9600 2700
+Wire Wire Line
+	9350 2800 8950 2800
+Wire Wire Line
+	9350 2750 9350 2800
+Wire Wire Line
+	9650 2750 9350 2750
+Wire Wire Line
+	9550 2600 8950 2600
+Text Label 9050 2800 0    50   ~ 0
+LED_R
+Text Label 9050 2700 0    50   ~ 0
+LED_G
+Text Label 9050 2600 0    50   ~ 0
+LED_B
+$EndSCHEMATC

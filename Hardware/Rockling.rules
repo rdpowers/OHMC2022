@@ -1,0 +1,179 @@
+
+(rules PCB Rockling
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 8687)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.4)
+    )
+    (layer_rule In1.Cu
+      (active off)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.4)
+    )
+    (layer_rule In2.Cu
+      (active off)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.4)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.7)
+    )
+  )
+  (rule
+    (width 152.4)
+    (clear 152.6)
+    (clear 76.2 (type smd_to_turn_gap))
+    (clear 200.2 (type default_Power))
+    (clear 38.2 (type smd_smd))
+    (clear 200.2 (type smd_Power))
+    (clear 200.2 (type "kicad_default"_Power))
+    (clear 200.2 (type Power_Power))
+  )
+  (padstack "Via[0-3]_600:300_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-3]_550:250_um"
+    (shape
+      (circle F.Cu 550.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 550.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 550.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 550.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-3]_550:300_um"
+    (shape
+      (circle F.Cu 550.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 550.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 550.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 550.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-3]_600:300_um" "Via[0-3]_600:300_um" default
+  )
+  (via 
+    "Via[0-3]_550:250_um" "Via[0-3]_550:250_um" default
+  )
+  (via 
+    "Via[0-3]_550:300_um" "Via[0-3]_550:300_um" default
+  )
+  (via 
+    "Via[0-3]_600:300_um-kicad_default" "Via[0-3]_600:300_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_550:250_um-kicad_default" "Via[0-3]_550:250_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_550:300_um-kicad_default" "Via[0-3]_550:300_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_600:300_um-Power" "Via[0-3]_600:300_um" Power
+  )
+  (via 
+    "Via[0-3]_550:250_um-Power" "Via[0-3]_550:250_um" Power
+  )
+  (via 
+    "Via[0-3]_550:300_um-Power" "Via[0-3]_550:300_um" Power
+  )
+  (via_rule
+    default "Via[0-3]_550:250_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-3]_600:300_um-kicad_default"
+  )
+  (via_rule
+    Power "Via[0-3]_600:300_um-Power"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 152.4)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    GND "Net-(U301-Pad14)" "Net-(U301-Pad13)" "Net-(J103-Pad4)" "Net-(U601-Pad11)" "Net-(U601-Pad5)" "Net-(U602-Pad4)" "Net-(U801-Pad1)"
+    "Net-(U801-Pad10)" "/LED_G" "/LED_B" "/LED_R" "Net-(U401-Pad14)" "Net-(U401-Pad12)" "Net-(U401-Pad3)" "Net-(U401-Pad2)"
+    "/FPGA/OSC_IN" "Net-(C801-Pad2)" "Net-(C802-Pad1)" "Net-(C803-Pad2)" "Net-(C804-Pad1)" "Net-(C807-Pad2)" "Net-(C811-Pad1)" "Net-(C812-Pad1)"
+    "Net-(J103-Pad6)" "Net-(J105-Pad4)" "Net-(J105-Pad3)" "Net-(J105-Pad2)" "Net-(J105-Pad1)" "Net-(R805-Pad1)" "Net-(R806-Pad1)" "/FPGA/SPI_~HLD~-IO3"
+    "/FPGA/SPI_~WP~-IO2" "Net-(U503-Pad1)" "Net-(C607-Pad1)" "Net-(D601-Pad2)" "Net-(L601-Pad1)" "Net-(L602-Pad1)" /AnalogueFrontEnd/PitchAnt /AnalogueFrontEnd/VolAnt
+    "/AnalogueFrontEnd/VO_PITCH" "/AnalogueFrontEnd/VO_VOLUME" "/AnalogueFrontEnd/i2c0_SDA" "/AnalogueFrontEnd/i2c0_SCL" "/AnalogueFrontEnd/DAC_Latch" "Net-(C301-Pad1)" "Net-(C304-Pad1)" "Net-(C307-Pad1)"
+    /Power/FB2 /Power/FB1 "Net-(C308-Pad1)" "Net-(C309-Pad1)" "/Audio/Amplifier/LineOut_L" "/Audio/Amplifier/LineOut_R" "/USB_D+" "/USB_D-"
+    "/FPGA/USB_DET" "Net-(R501-Pad1)" "/FPGA/USB_D_P" "/FPGA/USB_D_N" "Net-(R503-Pad1)" "Net-(R104-Pad2)" "Net-(R105-Pad2)" "Net-(R106-Pad2)"
+    "/DIP_2" "/DIP_1" "/BTN_2" "/MIC_IN" "/Audio/ROut_P" "/Audio/ROut_N" "/Audio/LOut_N" "/Audio/LOut_P"
+    /Ring1 /Ring2 /Sleeve /Tip "/MEMS_IN" "/i2c1_SCL" "/i2c1_SDA" "/Audio/i2s_DIN"
+    "/Audio/i2s_DOUT" "/Audio/i2s_SCLK" "/Audio/i2s_LRCLK" /Audio/MCLK "Net-(C401-Pad1)" "Net-(C402-Pad1)" "Net-(C404-Pad1)" "/Audio/AMP_VOL"
+    "/Audio/AMP_PL" "/AMP_MUTE" "/~FPGA_RST" /CDONE "Net-(C503-Pad1)" "/AnalogueFrontEnd/DDS_TH_PITCH" "/AnalogueFrontEnd/DDS_TH_VOL" "/SPI_MISO"
+    "/SPI_MOSI" "/SPI_SCK" "/SPI_~CS" "/i2c0_SCL" "/i2c0_SDA" "Net-(C601-Pad2)" /AnalogueFrontEnd/Vref "Net-(D602-Pad5)"
+    "Net-(D602-Pad4)" "Net-(D602-Pad2)" "Net-(R701-Pad2)" "Net-(R702-Pad1)" /AnalogueFrontEnd/VOutA /AnalogueFrontEnd/VOutB "Net-(U603-Pad6)" "Net-(JP301-Pad1)"
+    "Net-(U301-Pad18)" "Net-(R804-Pad1)" "/FPGA/Spare_44b" "/FPGA/Spare_49a" "/FPGA/Spare_20a" "/FPGA/Spare_50b" "/FPGA/Spare_22a" "/FPGA/Spare_51a"
+    "/FPGA/Spare_25b_g3" "/FPGA/Spare_48b" "/Tip_Switch" "/Ring1_Switch" "/Audio/Codec/Codec_VDDA" /FPGA/MCLK "/FPGA/i2s_DIN" "Net-(P1-Pad2)"
+    "Net-(C1-Pad1)" "Net-(R1-Pad1)" "Net-(D1-Pad2)" "Net-(JP401-Pad2)" "Net-(JP402-Pad2)" "Net-(C306-Pad1)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 152.4)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Power
+    +3V3 +5V +1V2 +2V5 VIN VBUS VCCQ
+    (clearance_class Power)
+    (via_rule Power)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

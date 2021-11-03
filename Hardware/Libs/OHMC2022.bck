@@ -1,0 +1,70 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 19-337C_RSBHGHC-A88_4T
+D TRI COLOR PCB TOP VIEW SMD LED R
+F https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/19-337C_RSBHGHC-A88_4T_Rev2_1-25-19.pdf
+$ENDCMP
+#
+$CMP 19-337C_RSBHGHC-A88_4T_copy
+D TRI COLOR PCB TOP VIEW SMD LED R
+F https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/19-337C_RSBHGHC-A88_4T_Rev2_1-25-19.pdf
+$ENDCMP
+#
+$CMP 4069.HEF4069UBTT,118
+F http://www.diodes.com/_files/datasheets/AP131.pdf
+$ENDCMP
+#
+$CMP DS01-254-S-02BE
+F https://www.cuidevices.com/product/resource/digikeypdf/ds01-254.pdf
+$ENDCMP
+#
+$CMP EM6K34T2CR
+D MOSFET 2N-CH 50V 0.2A EMT6
+F https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/em6k34.pdf
+$ENDCMP
+#
+$CMP EVQ-P7J01P
+D SWITCH TACTILE SPST-NO 0.05A 12V
+F https://s3.amazonaws.com/snapeda/datasheet/EVQ-P7J01P_Panasonic_Electronic_Components.pdf
+$ENDCMP
+#
+$CMP Ind-SRN4018
+D Inductor
+K inductor choke coil reactor magnetic
+F https://www.bourns.com/docs/Product-Datasheets/SRN4018.pdf
+$ENDCMP
+#
+$CMP MCP47CXBX2
+D 500mA low dropout linear regulator, fixed 5.0V output, SOT-23-5
+K 500mA ultra-low-noise LDO linear voltage regulator fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf
+$ENDCMP
+#
+$CMP MIC5317-2.5YM5
+D IC REG LINEAR 2.5V 150MA SOT23-5
+K linear regulator ldo fixed positive
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MIC5317-High-Performance-Single-150mA-LDO-DS20006195B.pdf
+$ENDCMP
+#
+$CMP PAM8019KGR
+D IC AMP D/AB STER 3W U-QFN4040-20
+F www.diodes.com/assets/Datasheets/PAM8019.pdf
+$ENDCMP
+#
+$CMP RB496EATR
+D 500mA Low drop-out regulator, Fixed Output 5.0V, SOT-23-5
+K REGULATOR LDO 5.0V
+F https://www.exar.com/content/document.ashx?id=22106&languageid=1033&type=Datasheet&partnumber=SPX3819&filename=SPX3819.pdf&part=SPX3819
+$ENDCMP
+#
+$CMP SPU0410LR5H-QB
+D Analog Microphone MEMS (Silicon) Omnidirectional (-38dB ±3dB @ 94dB SPL) Solder Pads
+F https://media.digikey.com/pdf/Data%20Sheets/Knowles%20Acoustics%20PDFs/SPU0410LR5H-QB_RevH_3-27-13.pdf
+$ENDCMP
+#
+$CMP XZMDKCBDDG45S-9
+D Red, Green, Blue (RGB) 630nm Red, 525nm Green, 465nm Blue LED SMT REAR MOUNT Indication - Discrete 1.95V Red, 3.3V Green, 3.3V Blue 4-SMD, Gull Wing
+F https://www.sunledusa.com/products/spec/XZMDKCBDDG45S-9.pdf
+$ENDCMP
+#
+#End Doc Library

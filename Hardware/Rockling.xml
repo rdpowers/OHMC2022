@@ -1,0 +1,3752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/bob/Git/CCHS/OHMC2022/Hardware/Rockling.sch</source>
+    <date>Fri 10 Sep 2021 09:18:57 AEST</date>
+    <tool>Eeschema 5.1.10-88a1d61d58~88~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Rockling.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/FPGA/" tstamps="/611E3335/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>FPGA.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Power/" tstamps="/611E335F/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Power.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/AnalogueFrontEnd/" tstamps="/612429E8/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>AFE.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Audio/" tstamps="/611E3218/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Audio.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Audio/Codec/" tstamps="/611E3218/611E32E1/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Codec.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/Audio/Amplifier/" tstamps="/611E3218/611E330D/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Amplifier.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J101">
+      <value>Antenna1</value>
+      <footprint>RocklingLib:Antenna_Mount_M4</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61231125</tstamp>
+    </comp>
+    <comp ref="J102">
+      <value>Antenna2</value>
+      <footprint>RocklingLib:Antenna_Mount_M4</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612313DA</tstamp>
+    </comp>
+    <comp ref="Rockling101">
+      <value>RockingOverlay&amp;Outline</value>
+      <footprint>RocklingLib:Rockling_57mm_Combined</footprint>
+      <libsource lib="OHMC2022" part="RockingOverlay" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612324D2</tstamp>
+    </comp>
+    <comp ref="J105">
+      <value>SpeakerOut</value>
+      <footprint>Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61235DDF</tstamp>
+    </comp>
+    <comp ref="J104">
+      <value>Conn_02x05_Odd_Even</value>
+      <footprint>OHMC2022:PinHeader_2x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61238583</tstamp>
+    </comp>
+    <comp ref="J103">
+      <value>USB_B_Micro</value>
+      <footprint>OHMC2022:USB_Micro-B_Molex-105017-0001</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">105017-0001</field>
+        <field name="MouserPN">538-105017-0001 </field>
+        <field name="Supplier 1">Mouser</field>
+        <field name="Supplier Part Number 1">538-105017-0001</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613848A5</tstamp>
+    </comp>
+    <comp ref="GROUND101">
+      <value>GND_PAD</value>
+      <footprint>TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm</footprint>
+      <libsource lib="OpenThereminCC-rescue" part="TEST_1P" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6145B203</tstamp>
+    </comp>
+    <comp ref="J106">
+      <value>HeadphoneOut</value>
+      <footprint>SJ-43516-SMT:CUI_SJ-43516-SMT-PI</footprint>
+      <datasheet>https://www.cuidevices.com/product/resource/digikeypdf/sj-4351x-smt.pdf</datasheet>
+      <fields>
+        <field name="DPN">CP-43516SJPICT-ND</field>
+        <field name="MANUFACTURER">CUI INC</field>
+        <field name="MPN">SJ-43516-SMT-TR-PI</field>
+        <field name="PART_REV">1.02</field>
+        <field name="STANDARD">MANUFACTURER RECOMMENDATIONS</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">CP-43516SJPICT-ND</field>
+      </fields>
+      <libsource lib="SJ-43516-SMT" part="SJ-43516-SMT-PI" description="CONN JACK 4COND 3.5MM SMD R/A PINK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612893B1</tstamp>
+    </comp>
+    <comp ref="SW102">
+      <value>EVQ-P7J01P</value>
+      <footprint>OHMC2022:SW_EVQ-P7J01P</footprint>
+      <datasheet>https://s3.amazonaws.com/snapeda/datasheet/EVQ-P7J01P_Panasonic_Electronic_Components.pdf</datasheet>
+      <fields>
+        <field name="DPN">P16767CT-ND</field>
+        <field name="MANUFACTURER">Panasonic</field>
+        <field name="MPN">EVQ-P7J01P</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">P16767CT-ND</field>
+      </fields>
+      <libsource lib="OHMC2022" part="EVQ-P7J01P" description="SWITCH TACTILE SPST-NO 0.05A 12V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6133316C</tstamp>
+    </comp>
+    <comp ref="S101">
+      <value>DIP2</value>
+      <footprint>OHMC2022:SW_DS01-254-S-02BE</footprint>
+      <datasheet>https://www.cuidevices.com/product/resource/ds01-254.pdf</datasheet>
+      <fields>
+        <field name="DPN">2223-DS01-254-S-02BE-ND</field>
+        <field name="MANUFACTURER">CUI</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">7.0mm</field>
+        <field name="MPN">DS01-254-S-02BE</field>
+        <field name="PARTREV">1.0</field>
+        <field name="STANDARD">Manufacturer recommendations</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">2223-DS01-254-S-02BE-ND</field>
+      </fields>
+      <libsource lib="OHMC2022" part="DS01-254-S-02BE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612FC1D3</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">CR0603-JW-105ELFCT-ND</field>
+        <field name="MPN">CR0603-JW-105ELF</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">CR0603-JW-105ELFCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614B5660</tstamp>
+    </comp>
+    <comp ref="R105">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">RNCP0603FTD10K0CT-ND</field>
+        <field name="MPN">RNCP0603FTD10K0</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">RNCP0603FTD10K0CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6155AD8E</tstamp>
+    </comp>
+    <comp ref="R106">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">RNCP0603FTD10K0CT-ND</field>
+        <field name="MPN">RNCP0603FTD10K0</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">RNCP0603FTD10K0CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61562CBA</tstamp>
+    </comp>
+    <comp ref="R104">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">RNCP0603FTD10K0CT-ND</field>
+        <field name="MPN">RNCP0603FTD10K0</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">RNCP0603FTD10K0CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61562CC3</tstamp>
+    </comp>
+    <comp ref="U101">
+      <value>SPU0410LR5H-QB</value>
+      <footprint>OHMC2022:XDCR_SPU0410LR5H-QB</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Knowles%20Acoustics%20PDFs/SPU0410LR5H-QB_RevH_3-27-13.pdf</datasheet>
+      <fields>
+        <field name="DPN">423-SPU0410LR5H-QBCT-ND</field>
+        <field name="MANUFACTURER">KNOWLES</field>
+        <field name="MPN">SPU0410LR5H-QB</field>
+        <field name="PARTREV">H</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">423-SPU0410LR5H-QBCT-ND</field>
+      </fields>
+      <libsource lib="OHMC2022" part="SPU0410LR5H-QB" description="Analog Microphone MEMS (Silicon) Omnidirectional (-38dB ±3dB @ 94dB SPL) Solder Pads"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6132075F</tstamp>
+    </comp>
+    <comp ref="JP102">
+      <value>HP_TRRS</value>
+      <footprint>OHMC2022:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613073D2</tstamp>
+    </comp>
+    <comp ref="R109">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">RNCP0603FTD10K0CT-ND</field>
+        <field name="MPN">RNCP0603FTD10K0</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">RNCP0603FTD10K0CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615E7C22</tstamp>
+    </comp>
+    <comp ref="BoM-Speakers101">
+      <value>Adafruit 1669</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">1528-1847-ND</field>
+        <field name="MPN">1669</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">1528-1847-ND</field>
+      </fields>
+      <libsource lib="Device" part="Speaker" description="Speaker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61337901</tstamp>
+    </comp>
+    <comp ref="JP103">
+      <value>i2c1-0_SCL</value>
+      <footprint>OHMC2022:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper_NO_Small" description="Jumper, normally open, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6164DE10</tstamp>
+    </comp>
+    <comp ref="JP104">
+      <value>i2c1-0_SDA</value>
+      <footprint>OHMC2022:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper_NO_Small" description="Jumper, normally open, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6164E442</tstamp>
+    </comp>
+    <comp ref="TP101">
+      <value>1v2</value>
+      <footprint>OHMC2022:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61471DD2</tstamp>
+    </comp>
+    <comp ref="TP102">
+      <value>2v5</value>
+      <footprint>OHMC2022:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61471DD9</tstamp>
+    </comp>
+    <comp ref="TP103">
+      <value>3v3</value>
+      <footprint>OHMC2022:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61471DDF</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>SCLK</value>
+      <footprint>OHMC2022:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614DAE1E</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>MCLK</value>
+      <footprint>OHMC2022:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614DBD9B</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>LRCLK</value>
+      <footprint>OHMC2022:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614DC95D</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>DIN</value>
+      <footprint>OHMC2022:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614DD5FE</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>DOUT</value>
+      <footprint>OHMC2022:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614FCB43</tstamp>
+    </comp>
+    <comp ref="D101">
+      <value>XZMDKCBDDG45S-9</value>
+      <footprint>OHMC2022:PLCC-4-XZMDKCBDDG45S-9</footprint>
+      <datasheet>https://www.sunledusa.com/products/spec/XZMDKCBDDG45S-9.pdf</datasheet>
+      <fields>
+        <field name="DPN">1497-1257-1-ND</field>
+        <field name="MANUFACTURER">SunLED</field>
+        <field name="MPN">XZMDKCBDDG45S-9</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">1497-1257-1-ND</field>
+      </fields>
+      <libsource lib="OHMC2022" part="XZMDKCBDDG45S-9" description="Red, Green, Blue (RGB) 630nm Red, 525nm Green, 465nm Blue LED SMT REAR MOUNT Indication - Discrete 1.95V Red, 3.3V Green, 3.3V Blue 4-SMD, Gull Wing"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614F3B0D</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>MUTE</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615B688D</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Pkg">0603</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615DB84D</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">399-6856-1-ND</field>
+        <field name="MPN">C0603C104K5RACAUTO</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">399-6856-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6161BCCA</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Pkg">0603</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615E1A47</tstamp>
+    </comp>
+    <comp ref="SW101">
+      <value>EVQ-P7J01P</value>
+      <footprint>OHMC2022:SW_EVQ-P7J01P</footprint>
+      <datasheet>https://s3.amazonaws.com/snapeda/datasheet/EVQ-P7J01P_Panasonic_Electronic_Components.pdf</datasheet>
+      <fields>
+        <field name="DPN">P16767CT-ND</field>
+        <field name="MANUFACTURER">Panasonic</field>
+        <field name="MPN">EVQ-P7J01P</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">P16767CT-ND</field>
+      </fields>
+      <libsource lib="OHMC2022" part="EVQ-P7J01P" description="SWITCH TACTILE SPST-NO 0.05A 12V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6130166F</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>2K2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616681D2</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616776F0</tstamp>
+    </comp>
+    <comp ref="TP104">
+      <value>i2c1_SCL</value>
+      <footprint>OHMC2022:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61384833</tstamp>
+    </comp>
+    <comp ref="TP105">
+      <value>i2c1_SDA</value>
+      <footprint>OHMC2022:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61384DBA</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>2K2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616AE2AA</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616AE2B7</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>XOR MIC_IN</value>
+      <footprint>OHMC2022:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper_NC_Small" description="Jumper, normally closed, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613C139D</tstamp>
+    </comp>
+    <comp ref="U502">
+      <value>ICE40UP5K-SG48</value>
+      <footprint>tomu-fpga:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm</footprint>
+      <libsource lib="pkl_lattice" part="ICE40UP5K-SG48" description=""/>
+      <sheetpath names="/FPGA/" tstamps="/611E3335/"/>
+      <tstamp>61224EB1</tstamp>
+    </comp>
+    <comp ref="U503">
+      <value>Crystal Oscillator</value>
+      <footprint>tomu-fpga:XTAL-2520</footprint>
+      <datasheet>https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf</datasheet>
+      <fields>
+        <field name="DPN">XC2756CT-ND</field>
+        <field name="Description">XTAL OSC XO 48.0000MHZ CMOS SMD</field>
+        <field name="MPN">ECS-2520MV-480-BN-TR</field>
+        <field name="Manufacturer">ECS</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">XC2756CT-ND</field>
+      </fields>
+      <libsource lib="tomu-fpga" part="Oscillator" description=""/>
+      <sheetpath names="/FPGA/" tstamps="/611E3335/"/>
+      <tstamp>614FF0FA</tstamp>
+    </comp>
+    <comp ref="U501">
+      <value>W25Q128JVxxM</value>
+      <footprint>Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm</footprint>
+      <datasheet>https://www.winbond.com/resource-files/w25q128jv%20revf%2003272018%20plus.pdf</datasheet>
+      <fields>
+        <field name="DPN">W25Q128JVPIQ-ND</field>
+        <field name="Key">eeprom-wson8-w25q128</field>
+        <field name="MPN">W25Q128JVPIQ</field>
+        <field name="Source">ANY</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">W25Q128JVPIQ-ND</field>
+      </fields>
+      <libsource lib="pkl_memory" part="W25Q" description=""/>
+      <sheetpath names="/FPGA/" tstamps="/611E3335/"/>
+      <tstamp>612A0D93</tstamp>
+    </comp>
+    <comp ref="U504">
+      <value>USBLC6-2</value>
+      <footprint>pkl_housings_sot:SOT-666</footprint>
+      <datasheet>https://www.farnell.com/datasheets/1738051.pdf</datasheet>
+      <fields>
+        <field name="E14PN">1269406</field>
+        <field name="Key">tvs-diode-sot666</field>
+        <field name="MPN">USBLC6-2SC6</field>
+        <field name="Source">E14</field>
+      </fields>
+      <libsource lib="pkl_misc" part="USBLC6-2" description=""/>
+      <sheetpath names="/FPGA/" tstamps="/611E3335/"/>
+      <tstamp>612F1307</tstamp>
+    </comp>
+    <comp ref="C502">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">399-6856-1-ND</field>
+        <field name="MPN">C0603C104K5RACAUTO</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">399-6856-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">50V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/FPGA/" tstamps="/611E3335/"/>
+      <tstamp>61350B96</tstamp>
+    </comp>
+    <comp ref="C501">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">399-6856-1-ND</field>
+        <field name="MPN">C0603C104K5RACAUTO</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">399-6856-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">50V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/FPGA/" tstamps="/611E3335/"/>
+      <tstamp>6135A9DF</tstamp>
+    </comp>
+    <comp ref="R502">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">A130081CT-ND</field>
+        <field name="MPN">CRGCQ0603J22R</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">A130081CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/FPGA/" tstamps="/611E3335/"/>
+      <tstamp>61492D03</tstamp>
+    </comp>
+    <comp ref="R501">
+      <value>1K5</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">A130092CT-ND</field>
+        <field name="MPN">CRGCQ0603J1K5</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">A130092CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/FPGA/" tstamps="/611E3335/"/>
+      <tstamp>61492D0B</tstamp>
+    </comp>
+    <comp ref="R503">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">A130081CT-ND</field>
+        <field name="MPN">CRGCQ0603J22R</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">A130081CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/FPGA/" tstamps="/611E3335/"/>
+      <tstamp>61492D13</tstamp>
+    </comp>
+    <comp ref="R508">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">RNCP0603FTD10K0CT-ND</field>
+        <field name="MPN">RNCP0603FTD10K0</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">RNCP0603FTD10K0CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/FPGA/" tstamps="/611E3335/"/>
+      <tstamp>6165C82A</tstamp>
+    </comp>
+    <comp ref="R509">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Pkg">0603</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/FPGA/" tstamps="/611E3335/"/>
+      <tstamp>6171709C</tstamp>
+    </comp>
+    <comp ref="C504">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">490-3896-1-ND</field>
+        <field name="MPN">GRM188R60J106ME47D</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">490-3896-1-ND</field>
+        <field name="Tol">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/FPGA/" tstamps="/611E3335/"/>
+      <tstamp>61722BBF</tstamp>
+    </comp>
+    <comp ref="C503">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">399-6856-1-ND</field>
+        <field name="MPN">C0603C104K5RACAUTO</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">399-6856-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/FPGA/" tstamps="/611E3335/"/>
+      <tstamp>61722BCA</tstamp>
+    </comp>
+    <comp ref="Sp1">
+      <value>44b</value>
+      <footprint>OHMC2022:TestPoint_THTPad_Value_Drill1.0mm</footprint>
+      <libsource lib="OpenThereminCC-rescue" part="TEST_1P" description=""/>
+      <sheetpath names="/FPGA/" tstamps="/611E3335/"/>
+      <tstamp>616E599D</tstamp>
+    </comp>
+    <comp ref="Sp505">
+      <value>48b</value>
+      <footprint>OHMC2022:TestPoint_THTPad_Value_Drill1.0mm</footprint>
+      <libsource lib="OpenThereminCC-rescue" part="TEST_1P" description=""/>
+      <sheetpath names="/FPGA/" tstamps="/611E3335/"/>
+      <tstamp>617082A2</tstamp>
+    </comp>
+    <comp ref="Sp503">
+      <value>50b</value>
+      <footprint>OHMC2022:TestPoint_THTPad_Value_Drill1.0mm</footprint>
+      <libsource lib="OpenThereminCC-rescue" part="TEST_1P" description=""/>
+      <sheetpath names="/FPGA/" tstamps="/611E3335/"/>
+      <tstamp>6171C233</tstamp>
+    </comp>
+    <comp ref="Sp501">
+      <value>51a</value>
+      <footprint>OHMC2022:TestPoint_THTPad_Value_Drill1.0mm</footprint>
+      <libsource lib="OpenThereminCC-rescue" part="TEST_1P" description=""/>
+      <sheetpath names="/FPGA/" tstamps="/611E3335/"/>
+      <tstamp>6171C94C</tstamp>
+    </comp>
+    <comp ref="Sp504">
+      <value>22a</value>
+      <footprint>OHMC2022:TestPoint_THTPad_Value_Drill1.0mm</footprint>
+      <libsource lib="OpenThereminCC-rescue" part="TEST_1P" description=""/>
+      <sheetpath names="/FPGA/" tstamps="/611E3335/"/>
+      <tstamp>617269BE</tstamp>
+    </comp>
+    <comp ref="Sp506">
+      <value>25b_g3</value>
+      <footprint>OHMC2022:TestPoint_THTPad_Value_Drill1.0mm</footprint>
+      <libsource lib="OpenThereminCC-rescue" part="TEST_1P" description=""/>
+      <sheetpath names="/FPGA/" tstamps="/611E3335/"/>
+      <tstamp>617269C6</tstamp>
+    </comp>
+    <comp ref="C201">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">399-6856-1-ND</field>
+        <field name="MPN">C0603C104K5RACAUTO</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">399-6856-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">50V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/FPGA/" tstamps="/611E3335/"/>
+      <tstamp>61497B20</tstamp>
+    </comp>
+    <comp ref="C202">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">399-6856-1-ND</field>
+        <field name="MPN">C0603C104K5RACAUTO</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">399-6856-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">50V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/FPGA/" tstamps="/611E3335/"/>
+      <tstamp>614A8458</tstamp>
+    </comp>
+    <comp ref="C203">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">399-6856-1-ND</field>
+        <field name="MPN">C0603C104K5RACAUTO</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">399-6856-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">50V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/FPGA/" tstamps="/611E3335/"/>
+      <tstamp>614B4980</tstamp>
+    </comp>
+    <comp ref="R201">
+      <value>DNF</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Pkg">0402</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/FPGA/" tstamps="/611E3335/"/>
+      <tstamp>61378D09</tstamp>
+    </comp>
+    <comp ref="R202">
+      <value>DNF</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Pkg">0402</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/FPGA/" tstamps="/611E3335/"/>
+      <tstamp>61378D12</tstamp>
+    </comp>
+    <comp ref="C204">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">399-6856-1-ND</field>
+        <field name="MPN">C0603C104K5RACAUTO</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">399-6856-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/FPGA/" tstamps="/611E3335/"/>
+      <tstamp>6148289E</tstamp>
+    </comp>
+    <comp ref="U601">
+      <value>PAM2306AYPAA</value>
+      <footprint>Package_DFN_QFN:WDFN-12-1EP_3x3mm_P0.45mm_EP1.7x2.5mm</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/PAM2306.pdf</datasheet>
+      <fields>
+        <field name="DPN">PAM2306AYPAADICT-ND</field>
+        <field name="MPN">PAM2306AYPAA</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">PAM2306AYPAADICT-ND</field>
+      </fields>
+      <libsource lib="Regulator_Switching" part="PAM2306AYPAA" description="1A, Dual Step-Down DC/DC-Converter, Out1 ADJ, Out2 ADJ, 1.5MHz, W-DFN3x3"/>
+      <sheetpath names="/Power/" tstamps="/611E335F/"/>
+      <tstamp>6123983C</tstamp>
+    </comp>
+    <comp ref="C609">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">490-3896-1-ND</field>
+        <field name="MPN">GRM188R60J106ME47D</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">490-3896-1-ND</field>
+        <field name="Tol">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/611E335F/"/>
+      <tstamp>612D586D</tstamp>
+    </comp>
+    <comp ref="C610">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">490-3896-1-ND</field>
+        <field name="MPN">GRM188R60J106ME47D</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">490-3896-1-ND</field>
+        <field name="Tol">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/611E335F/"/>
+      <tstamp>612D6875</tstamp>
+    </comp>
+    <comp ref="R605">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">RHM100KDCT-ND</field>
+        <field name="MPN">ESR03EZPJ104</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">RHM100KDCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power/" tstamps="/611E335F/"/>
+      <tstamp>612D89D6</tstamp>
+    </comp>
+    <comp ref="R604">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">RHM100KDCT-ND</field>
+        <field name="MPN">ESR03EZPJ104</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">RHM100KDCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power/" tstamps="/611E335F/"/>
+      <tstamp>612D8F67</tstamp>
+    </comp>
+    <comp ref="R603">
+      <value>120K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">311-120KGRCT-ND</field>
+        <field name="MPN">RC0603JR-07120KL</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">311-120KGRCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power/" tstamps="/611E335F/"/>
+      <tstamp>612DA096</tstamp>
+    </comp>
+    <comp ref="L602">
+      <value>4.7uH</value>
+      <footprint>OHMC2022:SRN4018-4R7M</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/SRN4018.pdf</datasheet>
+      <fields>
+        <field name="DPN">SRN4018-4R7MCT-ND</field>
+        <field name="MPN">SRN4018-4R7M</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">SRN4018-4R7MCT-ND</field>
+      </fields>
+      <libsource lib="OHMC2022" part="Ind-SRN4018" description="Inductor"/>
+      <sheetpath names="/Power/" tstamps="/611E335F/"/>
+      <tstamp>612D1BE0</tstamp>
+    </comp>
+    <comp ref="L601">
+      <value>4.7uH</value>
+      <footprint>OHMC2022:SRN4018-4R7M</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/SRN4018.pdf</datasheet>
+      <fields>
+        <field name="DPN">SRN4018-4R7MCT-ND</field>
+        <field name="MPN">SRN4018-4R7M</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">SRN4018-4R7MCT-ND</field>
+      </fields>
+      <libsource lib="OHMC2022" part="Ind-SRN4018" description="Inductor"/>
+      <sheetpath names="/Power/" tstamps="/611E335F/"/>
+      <tstamp>612CEAFC</tstamp>
+    </comp>
+    <comp ref="C601">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">490-3896-1-ND</field>
+        <field name="MPN">GRM188R60J106ME47D</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">490-3896-1-ND</field>
+        <field name="Tol">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/611E335F/"/>
+      <tstamp>613F36D2</tstamp>
+    </comp>
+    <comp ref="R608">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">311-0.0GRCT-ND</field>
+        <field name="MPN">RC0603JR-070RL</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">311-0.0GRCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Power/" tstamps="/611E335F/"/>
+      <tstamp>614E382E</tstamp>
+    </comp>
+    <comp ref="C605">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">587-3352-1-ND</field>
+        <field name="MPN">GMK107AB7105KAHT</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">587-3352-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">35V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/611E335F/"/>
+      <tstamp>614F0B9E</tstamp>
+    </comp>
+    <comp ref="R609">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">311-0.0GRCT-ND</field>
+        <field name="MPN">RC0603JR-070RL</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">311-0.0GRCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Power/" tstamps="/611E335F/"/>
+      <tstamp>614EED40</tstamp>
+    </comp>
+    <comp ref="D601">
+      <value>RB496EATR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb496eatr-e.pdf</datasheet>
+      <fields>
+        <field name="DPN">RB496EACT-ND</field>
+        <field name="MPN">RB496EATR</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">RB496EACT-ND</field>
+      </fields>
+      <libsource lib="OHMC2022" part="RB496EATR" description="500mA Low drop-out regulator, Fixed Output 5.0V, SOT-23-5"/>
+      <sheetpath names="/Power/" tstamps="/611E335F/"/>
+      <tstamp>612B9AAD</tstamp>
+    </comp>
+    <comp ref="D602">
+      <value>RB496EATR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rb496eatr-e.pdf</datasheet>
+      <fields>
+        <field name="DPN">RB496EACT-ND</field>
+        <field name="MPN">RB496EATR</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">RB496EACT-ND</field>
+      </fields>
+      <libsource lib="OHMC2022" part="RB496EATR" description="500mA Low drop-out regulator, Fixed Output 5.0V, SOT-23-5"/>
+      <sheetpath names="/Power/" tstamps="/611E335F/"/>
+      <tstamp>6152F7C6</tstamp>
+    </comp>
+    <comp ref="C603">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">399-6856-1-ND</field>
+        <field name="MPN">C0603C104K5RACAUTO</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">399-6856-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/611E335F/"/>
+      <tstamp>6141D0FD</tstamp>
+    </comp>
+    <comp ref="C604">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">587-3352-1-ND</field>
+        <field name="MPN">GMK107AB7105KAHT</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">587-3352-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">35V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/611E335F/"/>
+      <tstamp>6141CBB6</tstamp>
+    </comp>
+    <comp ref="C602">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">587-3352-1-ND</field>
+        <field name="MPN">GMK107AB7105KAHT</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">587-3352-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">35V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/611E335F/"/>
+      <tstamp>6141A228</tstamp>
+    </comp>
+    <comp ref="U602">
+      <value>MIC5317-2.5YM5</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/MIC5317-High-Performance-Single-150mA-LDO-DS20006195B.pdf</datasheet>
+      <fields>
+        <field name="DPN">MIC5317-2.5YM5-CT-ND</field>
+        <field name="MPN">MIC5317-2.5YM5-TR</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">MIC5317-2.5YM5-CT-ND</field>
+      </fields>
+      <libsource lib="OHMC2022" part="MIC5317-2.5YM5" description="IC REG LINEAR 2.5V 150MA SOT23-5"/>
+      <sheetpath names="/Power/" tstamps="/611E335F/"/>
+      <tstamp>612ED753</tstamp>
+    </comp>
+    <comp ref="R601">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">RHM100KDCT-ND</field>
+        <field name="MPN">ESR03EZPJ104</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">RHM100KDCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/Power/" tstamps="/611E335F/"/>
+      <tstamp>612EE9BF</tstamp>
+    </comp>
+    <comp ref="U603">
+      <value>SiP32431DR3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
+      <datasheet>https://www.vishay.com/docs/66597/sip32431.pdf</datasheet>
+      <fields>
+        <field name="DPN">SIP32431DR3-T1GE3CT-ND</field>
+        <field name="MPN">SIP32431DR3-T1GE3</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">SIP32431DR3-T1GE3CT-ND</field>
+      </fields>
+      <libsource lib="Power_Management" part="SiP32431DR3" description="10 pA, Ultra Low Leakage and Quiescent Current, Load Switch with Reverse Blocking, High Enable, SC-70-6"/>
+      <sheetpath names="/Power/" tstamps="/611E335F/"/>
+      <tstamp>615CC64C</tstamp>
+    </comp>
+    <comp ref="C607">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">587-3352-1-ND</field>
+        <field name="MPN">GMK107AB7105KAHT</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">587-3352-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">35V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/611E335F/"/>
+      <tstamp>612DE99A</tstamp>
+    </comp>
+    <comp ref="R610">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">CR0603-JW-105ELFCT-ND</field>
+        <field name="MPN">CR0603-JW-105ELF</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">CR0603-JW-105ELFCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Power/" tstamps="/611E335F/"/>
+      <tstamp>61513F81</tstamp>
+    </comp>
+    <comp ref="R612">
+      <value>536K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">311-536KHRCT-ND</field>
+        <field name="MPN">RC0603FR-07536KL</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">311-536KHRCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Power/" tstamps="/611E335F/"/>
+      <tstamp>61646B47</tstamp>
+    </comp>
+    <comp ref="R606">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">RHM100KDCT-ND</field>
+        <field name="MPN">ESR03EZPJ104</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">RHM100KDCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/Power/" tstamps="/611E335F/"/>
+      <tstamp>61667848</tstamp>
+    </comp>
+    <comp ref="JP302">
+      <value>Backfeed</value>
+      <footprint>OHMC2022:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper_NO_Small" description="Jumper, normally open, small symbol"/>
+      <sheetpath names="/Power/" tstamps="/611E335F/"/>
+      <tstamp>6141A32E</tstamp>
+    </comp>
+    <comp ref="C310">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">399-6856-1-ND</field>
+        <field name="MPN">C0603C104K5RACAUTO</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">399-6856-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/611E335F/"/>
+      <tstamp>61476322</tstamp>
+    </comp>
+    <comp ref="C303">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">399-6856-1-ND</field>
+        <field name="MPN">C0603C104K5RACAUTO</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">399-6856-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/611E335F/"/>
+      <tstamp>61491D89</tstamp>
+    </comp>
+    <comp ref="C306">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">399-6856-1-ND</field>
+        <field name="MPN">C0603C104K5RACAUTO</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">399-6856-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/611E335F/"/>
+      <tstamp>614AD8E8</tstamp>
+    </comp>
+    <comp ref="R302">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">311-0.0GRCT-ND</field>
+        <field name="MPN">RC0603JR-070RL</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">311-0.0GRCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Power/" tstamps="/611E335F/"/>
+      <tstamp>614C9935</tstamp>
+    </comp>
+    <comp ref="U801">
+      <value>4069.HEF4069UBTT,118</value>
+      <footprint>OHMC2022:TSSOP14</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/HEF4069UB.pdf</datasheet>
+      <fields>
+        <field name="DPN">1727-6749-1-ND</field>
+        <field name="MPN">HEF4069UBTT,118</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">1727-6749-1-ND</field>
+      </fields>
+      <libsource lib="OHMC2022" part="4069.HEF4069UBTT,118" description=""/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>570FE1BD</tstamp>
+    </comp>
+    <comp ref="L801">
+      <value>1mH</value>
+      <footprint>OHMC2022:IND.1812.NL453232T</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_standard_nl453232_en.pdf</datasheet>
+      <fields>
+        <field name="MPN">NL453232T-102J-PF </field>
+        <field name="MouserPN">810-NL453232T-102JPF</field>
+        <field name="Supplier 1">Mouser</field>
+        <field name="Supplier Part Number 1">810-NL453232T-102JPF</field>
+      </fields>
+      <libsource lib="OpenThereminCC-rescue" part="FILTER" description=""/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>5712E9CB</tstamp>
+    </comp>
+    <comp ref="R805">
+      <value>4.7M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="OpenThereminCC-rescue" part="RES" description=""/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>5713FD88</tstamp>
+    </comp>
+    <comp ref="C813">
+      <value>220pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>571462BC</tstamp>
+    </comp>
+    <comp ref="C808">
+      <value>150pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>5713D6B3</tstamp>
+    </comp>
+    <comp ref="C807">
+      <value>150pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>5714179D</tstamp>
+    </comp>
+    <comp ref="C805">
+      <value>not assembled</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>571D001C</tstamp>
+    </comp>
+    <comp ref="C801">
+      <value>470pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>571D015A</tstamp>
+    </comp>
+    <comp ref="D801">
+      <value>BB914</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://au.mouser.com/datasheet/2/196/bb914series-84756.pdf</datasheet>
+      <fields>
+        <field name="MPN">BB 914 E6327 </field>
+        <field name="MouserPN">726-BB914E6327 </field>
+        <field name="Supplier 1">Mouser</field>
+        <field name="Supplier Part Number 1">726-BB914E6327</field>
+      </fields>
+      <libsource lib="OpenThereminCC-rescue" part="CapDiode" description=""/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>571D2B45</tstamp>
+    </comp>
+    <comp ref="R806">
+      <value>4.7M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="OpenThereminCC-rescue" part="RES" description=""/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>571F63D2</tstamp>
+    </comp>
+    <comp ref="C810">
+      <value>150pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>571F63F0</tstamp>
+    </comp>
+    <comp ref="C809">
+      <value>150pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>571F6402</tstamp>
+    </comp>
+    <comp ref="C806">
+      <value>10pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>571F6414</tstamp>
+    </comp>
+    <comp ref="C803">
+      <value>470pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>571F641A</tstamp>
+    </comp>
+    <comp ref="C811">
+      <value>not assembled</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>57C61628</tstamp>
+    </comp>
+    <comp ref="C812">
+      <value>not assembled</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>57C61C0D</tstamp>
+    </comp>
+    <comp ref="U802">
+      <value>MCP47CXBX2</value>
+      <footprint>Package_DFN_QFN:DFN-10-1EP_3x3mm_P0.5mm_EP1.55x2.48mm</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/MCP47CXBXX-Data-Sheet-DS20006089B.pdf</datasheet>
+      <fields>
+        <field name="DPN">MCP47CMB02-E/MF-ND</field>
+        <field name="MPN">MCP47CMB02-E/MF</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">MCP47CMB02-E/MF-ND</field>
+      </fields>
+      <libsource lib="OHMC2022" part="MCP47CXBX2" description="500mA low dropout linear regulator, fixed 5.0V output, SOT-23-5"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>612D4DB3</tstamp>
+    </comp>
+    <comp ref="TP801">
+      <value>PITCH</value>
+      <footprint>OHMC2022:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>613208C5</tstamp>
+    </comp>
+    <comp ref="TP802">
+      <value>VOL</value>
+      <footprint>OHMC2022:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>613273AC</tstamp>
+    </comp>
+    <comp ref="D802">
+      <value>BB914</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://au.mouser.com/datasheet/2/196/bb914series-84756.pdf</datasheet>
+      <fields>
+        <field name="MPN">BB 914 E6327 </field>
+        <field name="MouserPN">726-BB914E6327 </field>
+        <field name="Supplier 1">Mouser</field>
+        <field name="Supplier Part Number 1">726-BB914E6327</field>
+      </fields>
+      <libsource lib="OpenThereminCC-rescue" part="CapDiode" description=""/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>612D4FD1</tstamp>
+    </comp>
+    <comp ref="L802">
+      <value>1mH</value>
+      <footprint>OHMC2022:IND.1812.NL453232T</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_standard_nl453232_en.pdf</datasheet>
+      <fields>
+        <field name="MPN">NL453232T-102J-PF </field>
+        <field name="MouserPN">810-NL453232T-102JPF</field>
+        <field name="Supplier 1">Mouser</field>
+        <field name="Supplier Part Number 1">810-NL453232T-102JPF</field>
+      </fields>
+      <libsource lib="OpenThereminCC-rescue" part="FILTER" description=""/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>612DCEBA</tstamp>
+    </comp>
+    <comp ref="R810">
+      <value>DNF</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Pkg">0402</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>615EAAD7</tstamp>
+    </comp>
+    <comp ref="R811">
+      <value>DNF</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Pkg">0402</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>615EAAE0</tstamp>
+    </comp>
+    <comp ref="R803">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">RHM100KDCT-ND</field>
+        <field name="MPN">ESR03EZPJ104</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">RHM100KDCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>61624C4C</tstamp>
+    </comp>
+    <comp ref="R801">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">RHM100KDCT-ND</field>
+        <field name="MPN">ESR03EZPJ104</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">RHM100KDCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>6163B087</tstamp>
+    </comp>
+    <comp ref="R809">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">RHM100KDCT-ND</field>
+        <field name="MPN">ESR03EZPJ104</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">RHM100KDCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>616468EF</tstamp>
+    </comp>
+    <comp ref="R804">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">RHM100KDCT-ND</field>
+        <field name="MPN">ESR03EZPJ104</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">RHM100KDCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>6165DF0B</tstamp>
+    </comp>
+    <comp ref="R802">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">RHM100KDCT-ND</field>
+        <field name="MPN">ESR03EZPJ104</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">RHM100KDCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>6166C1B1</tstamp>
+    </comp>
+    <comp ref="R701">
+      <value>DNF</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Pkg">0402</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>614FE799</tstamp>
+    </comp>
+    <comp ref="R702">
+      <value>DNF</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Pkg">0402</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>614FEE62</tstamp>
+    </comp>
+    <comp ref="C814">
+      <value>220pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>6140A531</tstamp>
+    </comp>
+    <comp ref="C820">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">399-6856-1-ND</field>
+        <field name="MPN">C0603C104K5RACAUTO</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">399-6856-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">50V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>6141F7B2</tstamp>
+    </comp>
+    <comp ref="C822">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">399-6856-1-ND</field>
+        <field name="MPN">C0603C104K5RACAUTO</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">399-6856-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">50V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>61425D54</tstamp>
+    </comp>
+    <comp ref="C815">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">399-6856-1-ND</field>
+        <field name="MPN">C0603C104K5RACAUTO</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">399-6856-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">50V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>61442746</tstamp>
+    </comp>
+    <comp ref="C816">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">399-6856-1-ND</field>
+        <field name="MPN">C0603C104K5RACAUTO</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">399-6856-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">50V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>614487EB</tstamp>
+    </comp>
+    <comp ref="C701">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">399-6856-1-ND</field>
+        <field name="MPN">C0603C104K5RACAUTO</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">399-6856-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">50V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>6147F313</tstamp>
+    </comp>
+    <comp ref="C804">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">399-6856-1-ND</field>
+        <field name="MPN">C0603C104K5RACAUTO</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">399-6856-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">50V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>6148AA42</tstamp>
+    </comp>
+    <comp ref="C802">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">399-6856-1-ND</field>
+        <field name="MPN">C0603C104K5RACAUTO</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">399-6856-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">50V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>6149CF2E</tstamp>
+    </comp>
+    <comp ref="R807">
+      <value>2K2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>614D8F8A</tstamp>
+    </comp>
+    <comp ref="R808">
+      <value>2K2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>614DE19E</tstamp>
+    </comp>
+    <comp ref="JP401">
+      <value>DAC_A0</value>
+      <footprint>OHMC2022:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="SolderJumper_3_Open" description="Solder Jumper, 3-pole, open"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>61714625</tstamp>
+    </comp>
+    <comp ref="JP402">
+      <value>DAC_A1</value>
+      <footprint>OHMC2022:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="SolderJumper_3_Open" description="Solder Jumper, 3-pole, open"/>
+      <sheetpath names="/AnalogueFrontEnd/" tstamps="/612429E8/"/>
+      <tstamp>61720361</tstamp>
+    </comp>
+    <comp ref="C302">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">587-3352-1-ND</field>
+        <field name="MPN">GMK107AB7105KAHT</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">587-3352-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">35V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Audio/Codec/" tstamps="/611E3218/611E32E1/"/>
+      <tstamp>6137DB9E</tstamp>
+    </comp>
+    <comp ref="C305">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">399-6856-1-ND</field>
+        <field name="MPN">C0603C104K5RACAUTO</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">399-6856-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Audio/Codec/" tstamps="/611E3218/611E32E1/"/>
+      <tstamp>6137E467</tstamp>
+    </comp>
+    <comp ref="C301">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">399-6856-1-ND</field>
+        <field name="MPN">C0603C104K5RACAUTO</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">399-6856-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Audio/Codec/" tstamps="/611E3218/611E32E1/"/>
+      <tstamp>6137E7B9</tstamp>
+    </comp>
+    <comp ref="U301">
+      <value>SGTL5000XNAA3</value>
+      <footprint>Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.65x3.65mm_ThermalVias</footprint>
+      <datasheet>https://www.nxp.com/docs/en/data-sheet/SGTL5000.pdf</datasheet>
+      <fields>
+        <field name="DPN">SGTL5000XNAA3-ND</field>
+        <field name="MANUFACTURER">Freescale Semiconductor</field>
+        <field name="MPN">SGTL5000XNAA3</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">SGTL5000XNAA3-ND</field>
+      </fields>
+      <libsource lib="SGTL5000XNAA" part="SGTL5000XNAA3" description=""/>
+      <sheetpath names="/Audio/Codec/" tstamps="/611E3218/611E32E1/"/>
+      <tstamp>61232CBC</tstamp>
+    </comp>
+    <comp ref="C307">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">399-6856-1-ND</field>
+        <field name="MPN">C0603C104K5RACAUTO</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">399-6856-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">50V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Audio/Codec/" tstamps="/611E3218/611E32E1/"/>
+      <tstamp>61393087</tstamp>
+    </comp>
+    <comp ref="C304">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">587-3352-1-ND</field>
+        <field name="MPN">GMK107AB7105KAHT</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">587-3352-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">35V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Audio/Codec/" tstamps="/611E3218/611E32E1/"/>
+      <tstamp>61395780</tstamp>
+    </comp>
+    <comp ref="R301">
+      <value>2K2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Audio/Codec/" tstamps="/611E3218/611E32E1/"/>
+      <tstamp>6144AA4D</tstamp>
+    </comp>
+    <comp ref="C309">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">587-3352-1-ND</field>
+        <field name="MPN">GMK107AB7105KAHT</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">587-3352-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">35V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Audio/Codec/" tstamps="/611E3218/611E32E1/"/>
+      <tstamp>61454CD6</tstamp>
+    </comp>
+    <comp ref="C308">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">587-3352-1-ND</field>
+        <field name="MPN">GMK107AB7105KAHT</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">587-3352-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">35V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Audio/Codec/" tstamps="/611E3218/611E32E1/"/>
+      <tstamp>61454CE1</tstamp>
+    </comp>
+    <comp ref="JP301">
+      <value>i2cAddr</value>
+      <footprint>OHMC2022:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <sheetpath names="/Audio/Codec/" tstamps="/611E3218/611E32E1/"/>
+      <tstamp>616A9E90</tstamp>
+    </comp>
+    <comp ref="FB601">
+      <value>600</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">490-1014-1-ND</field>
+        <field name="MPN">BLM18AG601SN1D</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">490-1014-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
+      <sheetpath names="/Audio/Codec/" tstamps="/611E3218/611E32E1/"/>
+      <tstamp>61433A72</tstamp>
+    </comp>
+    <comp ref="C611">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">587-3352-1-ND</field>
+        <field name="MPN">GMK107AB7105KAHT</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">587-3352-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">35V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Audio/Codec/" tstamps="/611E3218/611E32E1/"/>
+      <tstamp>6143A1BC</tstamp>
+    </comp>
+    <comp ref="C608">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">587-3352-1-ND</field>
+        <field name="MPN">GMK107AB7105KAHT</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">587-3352-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">35V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Audio/Codec/" tstamps="/611E3218/611E32E1/"/>
+      <tstamp>6143AE76</tstamp>
+    </comp>
+    <comp ref="C606">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">399-6856-1-ND</field>
+        <field name="MPN">C0603C104K5RACAUTO</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">399-6856-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Audio/Codec/" tstamps="/611E3218/611E32E1/"/>
+      <tstamp>61442973</tstamp>
+    </comp>
+    <comp ref="R602">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">A130081CT-ND</field>
+        <field name="MPN">CRGCQ0603J22R</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">A130081CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Audio/Codec/" tstamps="/611E3218/611E32E1/"/>
+      <tstamp>61421EF9</tstamp>
+    </comp>
+    <comp ref="U401">
+      <value>PAM8019KGR</value>
+      <footprint>Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</footprint>
+      <datasheet>www.diodes.com/assets/Datasheets/PAM8019.pdf</datasheet>
+      <fields>
+        <field name="MPN">PAM8019KGR</field>
+        <field name="MouserPN">621-PAM8019KGR</field>
+        <field name="Supplier 1">Mouser</field>
+        <field name="Supplier Part Number 1">621-PAM8019KGR</field>
+      </fields>
+      <libsource lib="OHMC2022" part="PAM8019KGR" description="IC AMP D/AB STER 3W U-QFN4040-20"/>
+      <sheetpath names="/Audio/Amplifier/" tstamps="/611E3218/611E330D/"/>
+      <tstamp>61360BAE</tstamp>
+    </comp>
+    <comp ref="R402">
+      <value>DNF</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Audio/Amplifier/" tstamps="/611E3218/611E330D/"/>
+      <tstamp>61464722</tstamp>
+    </comp>
+    <comp ref="R401">
+      <value>DNF</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Audio/Amplifier/" tstamps="/611E3218/611E330D/"/>
+      <tstamp>61464F1A</tstamp>
+    </comp>
+    <comp ref="C404">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">587-3352-1-ND</field>
+        <field name="MPN">GMK107AB7105KAHT</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">587-3352-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">35V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Audio/Amplifier/" tstamps="/611E3218/611E330D/"/>
+      <tstamp>6151ECAF</tstamp>
+    </comp>
+    <comp ref="C405">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">587-3352-1-ND</field>
+        <field name="MPN">GMK107AB7105KAHT</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">587-3352-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">35V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Audio/Amplifier/" tstamps="/611E3218/611E330D/"/>
+      <tstamp>6152197B</tstamp>
+    </comp>
+    <comp ref="R404">
+      <value>DNF</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Pkg">0402</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Audio/Amplifier/" tstamps="/611E3218/611E330D/"/>
+      <tstamp>6152ADF7</tstamp>
+    </comp>
+    <comp ref="R403">
+      <value>DNF</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Pkg">0402</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Audio/Amplifier/" tstamps="/611E3218/611E330D/"/>
+      <tstamp>6152C774</tstamp>
+    </comp>
+    <comp ref="R405">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">RNCP0603FTD10K0CT-ND</field>
+        <field name="MPN">RNCP0603FTD10K0</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">RNCP0603FTD10K0CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Audio/Amplifier/" tstamps="/611E3218/611E330D/"/>
+      <tstamp>61538AA5</tstamp>
+    </comp>
+    <comp ref="R406">
+      <value>DNF</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Pkg">0402</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Audio/Amplifier/" tstamps="/611E3218/611E330D/"/>
+      <tstamp>6152A281</tstamp>
+    </comp>
+    <comp ref="C401">
+      <value>DNF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Pkg">0402</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Audio/Amplifier/" tstamps="/611E3218/611E330D/"/>
+      <tstamp>6153D75F</tstamp>
+    </comp>
+    <comp ref="C402">
+      <value>DNF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Pkg">0402</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Audio/Amplifier/" tstamps="/611E3218/611E330D/"/>
+      <tstamp>61545853</tstamp>
+    </comp>
+    <comp ref="C403">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">399-6856-1-ND</field>
+        <field name="MPN">C0603C104K5RACAUTO</field>
+        <field name="Pkg">0603</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">399-6856-1-ND</field>
+        <field name="TCoff">X7R</field>
+        <field name="Tol">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Audio/Amplifier/" tstamps="/611E3218/611E330D/"/>
+      <tstamp>6157AAF5</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x01_Female">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <aliases>
+        <alias>USB_B_Mini</alias>
+      </aliases>
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Ferrite_Bead_Small">
+      <description>Ferrite bead, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">Ferrite_Bead_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Jumper_NC_Small">
+      <description>Jumper, normally closed, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged*</fp>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NC_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Jumper_NO_Small">
+      <description>Jumper, normally open, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NO_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small_US">
+      <description>Resistor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Speaker">
+      <description>Speaker</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">LS</field>
+        <field name="Value">Speaker</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Bridged">
+      <description>Solder Jumper, 2-pole, closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Bridged</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_3_Bridged12">
+      <description>3-pole Solder Jumper, pins 1+2 closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_3_Bridged12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="input"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_3_Open">
+      <description>Solder Jumper, 3-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_3_Open</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="input"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OHMC2022" part="4069.HEF4069UBTT,118">
+      <docs>http://www.diodes.com/_files/datasheets/AP131.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">4069.HEF4069UBTT,118</field>
+        <field name="Footprint">OHMC2022:TSSOP14</field>
+        <field name="MPN">HEF4069UBTT,118</field>
+        <field name="DPN">1727-6749-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="output"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="VSS" type="power_in"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="output"/>
+        <pin num="11" name="~" type="input"/>
+        <pin num="12" name="~" type="output"/>
+        <pin num="13" name="~" type="input"/>
+        <pin num="14" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="OHMC2022" part="DS01-254-S-02BE">
+      <docs>https://www.cuidevices.com/product/resource/digikeypdf/ds01-254.pdf</docs>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">DS01-254-S-02BE</field>
+        <field name="Footprint">SW_DS01-254-S-02BE</field>
+        <field name="STANDARD">Manufacturer recommendations</field>
+        <field name="PARTREV">1.0</field>
+        <field name="MANUFACTURER">CUI</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">7.0mm</field>
+      </fields>
+      <pins>
+        <pin num="1A" name="~" type="passive"/>
+        <pin num="1B" name="~" type="passive"/>
+        <pin num="2A" name="~" type="passive"/>
+        <pin num="2B" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OHMC2022" part="EVQ-P7J01P">
+      <description>SWITCH TACTILE SPST-NO 0.05A 12V</description>
+      <docs>https://s3.amazonaws.com/snapeda/datasheet/EVQ-P7J01P_Panasonic_Electronic_Components.pdf</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">EVQ-P7J01P</field>
+        <field name="Footprint">OHMC2022:SW_EVQ-P7J01P</field>
+        <field name="MANUFACTURER">Panasonic</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+        <field name="MPN">EVQ-P7J01P</field>
+        <field name="DPN">P16767CT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1_1" name="~" type="passive"/>
+        <pin num="1_2" name="~" type="passive"/>
+        <pin num="2_1" name="~" type="passive"/>
+        <pin num="2_2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OHMC2022" part="Ind-SRN4018">
+      <description>Inductor</description>
+      <docs>https://www.bourns.com/docs/Product-Datasheets/SRN4018.pdf</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">Ind-SRN4018</field>
+        <field name="Footprint">OHMC2022:SRN4018-4R7M</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OHMC2022" part="MCP47CXBX2">
+      <description>500mA low dropout linear regulator, fixed 5.0V output, SOT-23-5</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP47CXBX2</field>
+        <field name="Footprint">Package_DFN_QFN:DFN-10-1EP_3x3mm_P0.5mm_EP1.55x2.48mm</field>
+        <field name="DPN">MCP47CMB02-E/MF-ND</field>
+        <field name="MPN">MCP47CMB02-E/MF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vdd" type="power_in"/>
+        <pin num="2" name="A0" type="input"/>
+        <pin num="3" name="Vref" type="input"/>
+        <pin num="4" name="VOut0" type="output"/>
+        <pin num="5" name="VOut1" type="output"/>
+        <pin num="6" name="~LAT0~/HVC" type="input"/>
+        <pin num="7" name="Vss" type="power_in"/>
+        <pin num="8" name="A1" type="input"/>
+        <pin num="9" name="SCL" type="input"/>
+        <pin num="10" name="SDA" type="BiDi"/>
+        <pin num="11" name="EP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="OHMC2022" part="MIC5317-2.5YM5">
+      <description>IC REG LINEAR 2.5V 150MA SOT23-5</description>
+      <docs>https://ww1.microchip.com/downloads/en/DeviceDoc/MIC5317-High-Performance-Single-150mA-LDO-DS20006195B.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC5317-2.5YM5</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="MPN">MIC5317-2.5YM5-TR</field>
+        <field name="DPN">MIC5317-2.5YM5-CT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="OHMC2022" part="PAM8019KGR">
+      <description>IC AMP D/AB STER 3W U-QFN4040-20</description>
+      <docs>www.diodes.com/assets/Datasheets/PAM8019.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PAM8019KGR</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ROut_N" type="output"/>
+        <pin num="2" name="HPRout" type="output"/>
+        <pin num="3" name="~SD" type="input"/>
+        <pin num="4" name="Bypass" type="input"/>
+        <pin num="5" name="Rin" type="input"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="Lin" type="input"/>
+        <pin num="8" name="Volume" type="input"/>
+        <pin num="9" name="Mute" type="input"/>
+        <pin num="10" name="HP/~SPK" type="input"/>
+        <pin num="11" name="PwrLim" type="input"/>
+        <pin num="12" name="UVP" type="input"/>
+        <pin num="13" name="VDD" type="power_in"/>
+        <pin num="14" name="HPLout" type="output"/>
+        <pin num="15" name="LOut_N" type="output"/>
+        <pin num="16" name="VDD" type="power_in"/>
+        <pin num="17" name="LOut_P" type="output"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="ROut_P" type="output"/>
+        <pin num="20" name="VDD" type="power_in"/>
+        <pin num="21" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="OHMC2022" part="RB496EATR">
+      <description>500mA Low drop-out regulator, Fixed Output 5.0V, SOT-23-5</description>
+      <docs>https://www.exar.com/content/document.ashx?id=22106&amp;languageid=1033&amp;type=Datasheet&amp;partnumber=SPX3819&amp;filename=SPX3819.pdf&amp;part=SPX3819</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">RB496EATR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="MPN">RB496EATR</field>
+        <field name="DPN">RB496EACT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="NC" type="NotConnected"/>
+        <pin num="3" name="A2" type="passive"/>
+        <pin num="4" name="K2" type="passive"/>
+        <pin num="5" name="K1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OHMC2022" part="RockingOverlay">
+      <fields>
+        <field name="Reference">Rockling</field>
+        <field name="Value">RockingOverlay</field>
+      </fields>
+    </libpart>
+    <libpart lib="OHMC2022" part="SPU0410LR5H-QB">
+      <description>Analog Microphone MEMS (Silicon) Omnidirectional (-38dB ±3dB @ 94dB SPL) Solder Pads</description>
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Knowles%20Acoustics%20PDFs/SPU0410LR5H-QB_RevH_3-27-13.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SPU0410LR5H-QB</field>
+        <field name="Footprint">OHMC2022:XDCR_SPU0410LR5H-QB</field>
+        <field name="PARTREV">H</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MANUFACTURER">KNOWLES</field>
+        <field name="MPN">SPU0410LR5H-QB</field>
+        <field name="DPN">423-SPU0410LR5H-QBCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUTPUT" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="OHMC2022" part="XZMDKCBDDG45S-9">
+      <description>Red, Green, Blue (RGB) 630nm Red, 525nm Green, 465nm Blue LED SMT REAR MOUNT Indication - Discrete 1.95V Red, 3.3V Green, 3.3V Blue 4-SMD, Gull Wing</description>
+      <docs>https://www.sunledusa.com/products/spec/XZMDKCBDDG45S-9.pdf</docs>
+      <fields>
+        <field name="Reference">D?</field>
+        <field name="Value">XZMDKCBDDG45S-9</field>
+        <field name="Footprint">OHMC2022:PLCC-4-XZMDKCBDDG45S-9</field>
+        <field name="MANUFACTURER">SunLED</field>
+        <field name="MPN">XZMDKCBDDG45S-9</field>
+        <field name="DPN">1497-1257-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="R" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+        <pin num="4" name="G" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenThereminCC-rescue" part="CapDiode">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CapDiode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenThereminCC-rescue" part="FILTER">
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FILTER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenThereminCC-rescue" part="RES">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RES</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenThereminCC-rescue" part="TEST_1P">
+      <fields>
+        <field name="Reference">W</field>
+        <field name="Value">TEST_1P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Management" part="SiP32431DR3">
+      <description>10 pA, Ultra Low Leakage and Quiescent Current, Load Switch with Reverse Blocking, High Enable, SC-70-6</description>
+      <docs>http://www.vishay.com.hk/docs/66597/sip32431.pdf</docs>
+      <footprints>
+        <fp>*SC?70*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SiP32431DR3</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="passive"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="ON" type="input"/>
+        <pin num="4" name="IN" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="NC" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="PAM2306AYPAA">
+      <aliases>
+        <alias>PAM2306AYPCB</alias>
+        <alias>PAM2306AYPKB</alias>
+        <alias>PAM2306AYPKE</alias>
+        <alias>PAM2306DYPAA</alias>
+        <alias>PAM2306AYPBB</alias>
+        <alias>PAM2306AYPBK</alias>
+      </aliases>
+      <description>1A, Dual Step-Down DC/DC-Converter, Out1 ADJ, Out2 ADJ, 1.5MHz, W-DFN3x3</description>
+      <docs>https://www.diodes.com/assets/Datasheets/PAM2306.pdf</docs>
+      <footprints>
+        <fp>WDFN*3x3mm?P0.45mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PAM2306AYPAA</field>
+        <field name="Footprint">Package_DFN_QFN:WDFN-12-1EP_3x3mm_P0.45mm_EP1.7x2.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN2" type="power_in"/>
+        <pin num="2" name="LX2" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="FB1" type="input"/>
+        <pin num="5" name="NC1" type="NotConnected"/>
+        <pin num="6" name="EN1" type="input"/>
+        <pin num="7" name="VIN1" type="power_in"/>
+        <pin num="8" name="LX1" type="output"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="FB2" type="input"/>
+        <pin num="11" name="NC2" type="NotConnected"/>
+        <pin num="12" name="EN2" type="input"/>
+        <pin num="13" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SGTL5000XNAA" part="SGTL5000XNAA3">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SGTL5000XNAA3</field>
+        <field name="Footprint">QFN50P500X500X100-33N</field>
+        <field name="MANUFACTURER">Freescale Semiconductor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="HP_R" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="HP_VGND" type="power_out"/>
+        <pin num="5" name="VDDA" type="power_in"/>
+        <pin num="6" name="HP_L" type="output"/>
+        <pin num="7" name="AGND" type="power_in"/>
+        <pin num="10" name="VAG" type="input"/>
+        <pin num="11" name="LINEOUT_R" type="output"/>
+        <pin num="12" name="LINEOUT_L" type="output"/>
+        <pin num="13" name="LINEIN_R" type="input"/>
+        <pin num="14" name="LINEIN_L" type="input"/>
+        <pin num="15" name="MIC" type="input"/>
+        <pin num="16" name="MIC_BIAS" type="input"/>
+        <pin num="18" name="CPFILT" type="passive"/>
+        <pin num="20" name="VDDIO" type="power_in"/>
+        <pin num="21" name="SYS_MCLK" type="input"/>
+        <pin num="23" name="I2S_LRCLK" type="input"/>
+        <pin num="24" name="I2S_SCLK" type="input"/>
+        <pin num="25" name="I2S_DOUT" type="output"/>
+        <pin num="26" name="I2S_DIN" type="input"/>
+        <pin num="27" name="CTRL_DATA" type="input"/>
+        <pin num="29" name="CTRL_CLK" type="input"/>
+        <pin num="30" name="VDDD" type="power_in"/>
+        <pin num="31" name="CTRL_ADR0_CS" type="input"/>
+        <pin num="32" name="CTRL_MODE" type="input"/>
+        <pin num="33" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SJ-43516-SMT" part="SJ-43516-SMT-PI">
+      <description>CONN JACK 4COND 3.5MM SMD R/A PINK</description>
+      <docs>https://www.cuidevices.com/product/resource/digikeypdf/sj-4351x-smt.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SJ-43516-SMT-PI</field>
+        <field name="Footprint">CUI_SJ-43516-SMT-GR</field>
+        <field name="PART_REV">1.02</field>
+        <field name="STANDARD">MANUFACTURER RECOMMENDATIONS</field>
+        <field name="MANUFACTURER">CUI INC</field>
+        <field name="MPN">SJ-43516-SMT-TR-PI</field>
+        <field name="DPN">CP-43516SJPICT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pkl_lattice" part="ICE40UP5K-SG48">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ICE40UP5K-SG48</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCCIO_2" type="passive"/>
+        <pin num="2" name="IOB_6A" type="passive"/>
+        <pin num="3" name="IOB_9B" type="passive"/>
+        <pin num="4" name="IOB_8A" type="passive"/>
+        <pin num="5" name="VCC" type="passive"/>
+        <pin num="6" name="IOB_13B" type="passive"/>
+        <pin num="7" name="CDONE" type="passive"/>
+        <pin num="8" name="CRESET_B" type="passive"/>
+        <pin num="9" name="IOB_16A" type="passive"/>
+        <pin num="10" name="IOB_18A" type="passive"/>
+        <pin num="11" name="IOB_20A" type="passive"/>
+        <pin num="12" name="IOB_22A" type="passive"/>
+        <pin num="13" name="IOB_24A" type="passive"/>
+        <pin num="14" name="IOB_32a_SPI_SO" type="passive"/>
+        <pin num="15" name="IOB_34a_SPI_SCK" type="passive"/>
+        <pin num="16" name="IOB_35b_SPI_CSN" type="passive"/>
+        <pin num="17" name="IOB_33b_SPI_SI" type="passive"/>
+        <pin num="18" name="IOB_31B" type="passive"/>
+        <pin num="19" name="IOB_29B" type="passive"/>
+        <pin num="20" name="IOB_25B_G3" type="passive"/>
+        <pin num="21" name="IOB_23B" type="passive"/>
+        <pin num="22" name="SPI_VCCIO1" type="passive"/>
+        <pin num="23" name="IOT_37A" type="passive"/>
+        <pin num="24" name="VPP_2V5" type="passive"/>
+        <pin num="25" name="IOT_36B" type="passive"/>
+        <pin num="26" name="IOT_39A" type="passive"/>
+        <pin num="27" name="IOT_38B" type="passive"/>
+        <pin num="28" name="IOT_41A" type="passive"/>
+        <pin num="29" name="VCCPLL" type="passive"/>
+        <pin num="30" name="VCC" type="passive"/>
+        <pin num="31" name="IOT_42B" type="passive"/>
+        <pin num="32" name="IOT_43A" type="passive"/>
+        <pin num="33" name="VCCIO_0" type="passive"/>
+        <pin num="34" name="IOT_44B" type="passive"/>
+        <pin num="35" name="IOT_46B_G0" type="passive"/>
+        <pin num="36" name="IOT_48B" type="passive"/>
+        <pin num="37" name="IOT_45A_G1" type="passive"/>
+        <pin num="38" name="IOT_50B" type="passive"/>
+        <pin num="39" name="RGB0" type="passive"/>
+        <pin num="40" name="RGB1" type="passive"/>
+        <pin num="41" name="RGB2" type="passive"/>
+        <pin num="42" name="IOT_51A" type="passive"/>
+        <pin num="43" name="IOT_49A" type="passive"/>
+        <pin num="44" name="IOB_3B_G6" type="passive"/>
+        <pin num="45" name="IOB_5B" type="passive"/>
+        <pin num="46" name="IOB_0A" type="passive"/>
+        <pin num="47" name="IOB_2A" type="passive"/>
+        <pin num="48" name="IOB_4A" type="passive"/>
+        <pin num="49" name="PAD/GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pkl_memory" part="W25Q">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">W25Q</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~CS" type="passive"/>
+        <pin num="2" name="DO/IO1" type="passive"/>
+        <pin num="3" name="~WP~/IO2" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="DI/IO0" type="passive"/>
+        <pin num="6" name="CLK" type="passive"/>
+        <pin num="7" name="~HLD~/~RST~/IO3" type="passive"/>
+        <pin num="8" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pkl_misc" part="USBLC6-2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USBLC6-2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IO1" type="BiDi"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="IO2" type="BiDi"/>
+        <pin num="4" name="IO2" type="BiDi"/>
+        <pin num="5" name="VBUS" type="power_in"/>
+        <pin num="6" name="IO1" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="tomu-fpga" part="Oscillator">
+      <footprints>
+        <fp>oscillator</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Oscillator</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OE" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="4" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/usr/share/kicad/library/Jumper.lib</uri>
+    </library>
+    <library logical="OHMC2022">
+      <uri>/home/bob/Git/CCHS/OHMC2022/Hardware/Libs/OHMC2022.lib</uri>
+    </library>
+    <library logical="OpenThereminCC-rescue">
+      <uri>/home/bob/Git/CCHS/OHMC2022/Hardware/Reference/OpenThereminCC-rescue.lib</uri>
+    </library>
+    <library logical="Power_Management">
+      <uri>/usr/share/kicad/library/Power_Management.lib</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>/usr/share/kicad/library/Regulator_Switching.lib</uri>
+    </library>
+    <library logical="SGTL5000XNAA">
+      <uri>/home/bob/Git/CCHS/OHMC2022/Hardware/Libs/SGTL5000XNAA3.lib</uri>
+    </library>
+    <library logical="SJ-43516-SMT">
+      <uri>/home/bob/Git/CCHS/OHMC2022/Hardware/Libs/SJ-43516-SMT/SJ-43516-SMT.lib</uri>
+    </library>
+    <library logical="pkl_lattice">
+      <uri>/home/bob/Git/CCHS/OHMC2022/Hardware/Libs/pkl-libs/pkl_lattice.lib</uri>
+    </library>
+    <library logical="pkl_memory">
+      <uri>/home/bob/Git/CCHS/OHMC2022/Hardware/Libs/pkl-libs/pkl_memory.lib</uri>
+    </library>
+    <library logical="pkl_misc">
+      <uri>/home/bob/Git/CCHS/OHMC2022/Hardware/Libs/pkl-libs/pkl_misc.lib</uri>
+    </library>
+    <library logical="tomu-fpga">
+      <uri>/home/bob/Git/CCHS/OHMC2022/Hardware/Libs/tomu-fpga.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/SPI_MOSI">
+      <node ref="U502" pin="14"/>
+      <node ref="U501" pin="5"/>
+      <node ref="J104" pin="9"/>
+    </net>
+    <net code="2" name="+2V5">
+      <node ref="U502" pin="24"/>
+      <node ref="TP102" pin="1"/>
+      <node ref="U602" pin="5"/>
+      <node ref="C603" pin="1"/>
+      <node ref="C604" pin="1"/>
+    </net>
+    <net code="3" name="+1V2">
+      <node ref="L601" pin="2"/>
+      <node ref="R604" pin="1"/>
+      <node ref="C609" pin="1"/>
+      <node ref="C310" pin="1"/>
+      <node ref="U502" pin="30"/>
+      <node ref="TP101" pin="1"/>
+      <node ref="U502" pin="5"/>
+      <node ref="C204" pin="1"/>
+      <node ref="R509" pin="1"/>
+    </net>
+    <net code="4" name="/SPI_SCK">
+      <node ref="J104" pin="8"/>
+      <node ref="U501" pin="6"/>
+      <node ref="U502" pin="15"/>
+    </net>
+    <net code="5" name="/SPI_~CS">
+      <node ref="U502" pin="16"/>
+      <node ref="U501" pin="1"/>
+      <node ref="J104" pin="7"/>
+    </net>
+    <net code="6" name="/SPI_MISO">
+      <node ref="U502" pin="17"/>
+      <node ref="J104" pin="10"/>
+      <node ref="U501" pin="2"/>
+    </net>
+    <net code="7" name="/i2c0_SDA">
+      <node ref="JP104" pin="2"/>
+      <node ref="J104" pin="3"/>
+    </net>
+    <net code="8" name="/i2c1_SDA">
+      <node ref="U502" pin="32"/>
+      <node ref="JP104" pin="1"/>
+      <node ref="TP105" pin="1"/>
+      <node ref="U301" pin="27"/>
+    </net>
+    <net code="9" name="/i2c0_SCL">
+      <node ref="J104" pin="4"/>
+      <node ref="JP103" pin="2"/>
+    </net>
+    <net code="10" name="/Audio/i2s_DIN">
+      <node ref="U301" pin="26"/>
+      <node ref="U502" pin="48"/>
+      <node ref="TP4" pin="1"/>
+    </net>
+    <net code="11" name="/Audio/i2s_DOUT">
+      <node ref="TP3" pin="1"/>
+      <node ref="U301" pin="25"/>
+      <node ref="U502" pin="45"/>
+    </net>
+    <net code="12" name="/Audio/i2s_LRCLK">
+      <node ref="U301" pin="23"/>
+      <node ref="TP2" pin="1"/>
+      <node ref="U502" pin="47"/>
+    </net>
+    <net code="13" name="/Audio/i2s_SCLK">
+      <node ref="TP1" pin="1"/>
+      <node ref="U502" pin="46"/>
+      <node ref="U301" pin="24"/>
+    </net>
+    <net code="14" name="/Audio/MCLK">
+      <node ref="U301" pin="21"/>
+      <node ref="U502" pin="44"/>
+      <node ref="TP5" pin="1"/>
+    </net>
+    <net code="15" name="/i2c1_SCL">
+      <node ref="JP103" pin="1"/>
+      <node ref="TP104" pin="1"/>
+      <node ref="U301" pin="29"/>
+      <node ref="U502" pin="31"/>
+    </net>
+    <net code="16" name="+3V3">
+      <node ref="R109" pin="1"/>
+      <node ref="U801" pin="14"/>
+      <node ref="R201" pin="1"/>
+      <node ref="C502" pin="2"/>
+      <node ref="U602" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C302" pin="1"/>
+      <node ref="C501" pin="1"/>
+      <node ref="R809" pin="2"/>
+      <node ref="U301" pin="30"/>
+      <node ref="JP401" pin="3"/>
+      <node ref="U101" pin="4"/>
+      <node ref="U802" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U502" pin="33"/>
+      <node ref="R202" pin="1"/>
+      <node ref="U602" pin="3"/>
+      <node ref="R104" pin="1"/>
+      <node ref="R106" pin="1"/>
+      <node ref="C305" pin="1"/>
+      <node ref="R105" pin="1"/>
+      <node ref="C203" pin="1"/>
+      <node ref="C202" pin="1"/>
+      <node ref="U501" pin="8"/>
+      <node ref="C815" pin="1"/>
+      <node ref="D602" pin="3"/>
+      <node ref="U603" pin="1"/>
+      <node ref="C602" pin="1"/>
+      <node ref="U301" pin="20"/>
+      <node ref="U502" pin="1"/>
+      <node ref="C610" pin="1"/>
+      <node ref="TP103" pin="1"/>
+      <node ref="R508" pin="1"/>
+      <node ref="U503" pin="4"/>
+      <node ref="U502" pin="22"/>
+      <node ref="JP402" pin="3"/>
+      <node ref="C201" pin="1"/>
+      <node ref="C816" pin="1"/>
+      <node ref="D101" pin="2"/>
+      <node ref="FB601" pin="2"/>
+    </net>
+    <net code="17" name="Net-(BoM-Speakers101-Pad1)">
+      <node ref="BoM-Speakers101" pin="1"/>
+    </net>
+    <net code="18" name="/Tip_Switch">
+      <node ref="J106" pin="5"/>
+      <node ref="U502" pin="3"/>
+    </net>
+    <net code="19" name="/AnalogueFrontEnd/DDS_TH_PITCH">
+      <node ref="U502" pin="21"/>
+      <node ref="R811" pin="1"/>
+    </net>
+    <net code="20" name="/AnalogueFrontEnd/DDS_TH_VOL">
+      <node ref="R810" pin="1"/>
+      <node ref="U502" pin="28"/>
+    </net>
+    <net code="21" name="/CDONE">
+      <node ref="J104" pin="6"/>
+      <node ref="U502" pin="7"/>
+      <node ref="R4" pin="1"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="22" name="/~FPGA_RST">
+      <node ref="J104" pin="5"/>
+      <node ref="U502" pin="8"/>
+      <node ref="R508" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="23" name="Net-(BoM-Speakers101-Pad2)">
+      <node ref="BoM-Speakers101" pin="2"/>
+    </net>
+    <net code="24" name="/AMP_MUTE">
+      <node ref="P1" pin="1"/>
+      <node ref="U401" pin="9"/>
+    </net>
+    <net code="25" name="Net-(P1-Pad2)">
+      <node ref="R109" pin="2"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="26" name="GND">
+      <node ref="U504" pin="2"/>
+      <node ref="C604" pin="2"/>
+      <node ref="C202" pin="2"/>
+      <node ref="C603" pin="2"/>
+      <node ref="U503" pin="2"/>
+      <node ref="C502" pin="1"/>
+      <node ref="U601" pin="9"/>
+      <node ref="C303" pin="2"/>
+      <node ref="R606" pin="2"/>
+      <node ref="C306" pin="2"/>
+      <node ref="U601" pin="13"/>
+      <node ref="U601" pin="3"/>
+      <node ref="C609" pin="2"/>
+      <node ref="C610" pin="2"/>
+      <node ref="R605" pin="2"/>
+      <node ref="C601" pin="1"/>
+      <node ref="C501" pin="2"/>
+      <node ref="C405" pin="2"/>
+      <node ref="C310" pin="2"/>
+      <node ref="R610" pin="2"/>
+      <node ref="C607" pin="2"/>
+      <node ref="C404" pin="2"/>
+      <node ref="U602" pin="2"/>
+      <node ref="U502" pin="49"/>
+      <node ref="C602" pin="2"/>
+      <node ref="U603" pin="5"/>
+      <node ref="U603" pin="2"/>
+      <node ref="C605" pin="2"/>
+      <node ref="U501" pin="4"/>
+      <node ref="R603" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C504" pin="2"/>
+      <node ref="C503" pin="2"/>
+      <node ref="U301" pin="3"/>
+      <node ref="C812" pin="2"/>
+      <node ref="U101" pin="6"/>
+      <node ref="D801" pin="2"/>
+      <node ref="U802" pin="11"/>
+      <node ref="U101" pin="2"/>
+      <node ref="U101" pin="3"/>
+      <node ref="C305" pin="2"/>
+      <node ref="U101" pin="5"/>
+      <node ref="C302" pin="2"/>
+      <node ref="D802" pin="2"/>
+      <node ref="D802" pin="1"/>
+      <node ref="U802" pin="7"/>
+      <node ref="R15" pin="2"/>
+      <node ref="GROUND101" pin="1"/>
+      <node ref="C608" pin="2"/>
+      <node ref="C606" pin="1"/>
+      <node ref="C811" pin="2"/>
+      <node ref="J104" pin="2"/>
+      <node ref="U301" pin="1"/>
+      <node ref="JP301" pin="2"/>
+      <node ref="J103" pin="5"/>
+      <node ref="C611" pin="1"/>
+      <node ref="C307" pin="2"/>
+      <node ref="C820" pin="2"/>
+      <node ref="C802" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C822" pin="2"/>
+      <node ref="C814" pin="2"/>
+      <node ref="C815" pin="2"/>
+      <node ref="C804" pin="2"/>
+      <node ref="C403" pin="2"/>
+      <node ref="C203" pin="2"/>
+      <node ref="U401" pin="10"/>
+      <node ref="C201" pin="2"/>
+      <node ref="C204" pin="2"/>
+      <node ref="U301" pin="32"/>
+      <node ref="U801" pin="7"/>
+      <node ref="U401" pin="6"/>
+      <node ref="U401" pin="21"/>
+      <node ref="U401" pin="18"/>
+      <node ref="JP401" pin="1"/>
+      <node ref="JP402" pin="1"/>
+      <node ref="U301" pin="7"/>
+      <node ref="C402" pin="2"/>
+      <node ref="C806" pin="2"/>
+      <node ref="SW101" pin="2_2"/>
+      <node ref="D801" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C808" pin="2"/>
+      <node ref="C304" pin="2"/>
+      <node ref="SW101" pin="2_1"/>
+      <node ref="C401" pin="2"/>
+      <node ref="C805" pin="2"/>
+      <node ref="C701" pin="2"/>
+      <node ref="C810" pin="2"/>
+      <node ref="C816" pin="2"/>
+      <node ref="R406" pin="1"/>
+      <node ref="U301" pin="33"/>
+      <node ref="C813" pin="2"/>
+      <node ref="R405" pin="2"/>
+    </net>
+    <net code="27" name="VIN">
+      <node ref="D602" pin="1"/>
+      <node ref="J104" pin="1"/>
+      <node ref="JP302" pin="1"/>
+    </net>
+    <net code="28" name="/LINE_IN">
+      <node ref="R602" pin="2"/>
+      <node ref="JP1" pin="1"/>
+    </net>
+    <net code="29" name="/MEMS_IN">
+      <node ref="JP1" pin="2"/>
+      <node ref="U101" pin="1"/>
+      <node ref="JP102" pin="3"/>
+    </net>
+    <net code="30" name="/MIC_IN">
+      <node ref="C301" pin="2"/>
+      <node ref="R301" pin="1"/>
+      <node ref="JP102" pin="2"/>
+    </net>
+    <net code="31" name="/LED_G">
+      <node ref="U502" pin="39"/>
+      <node ref="D101" pin="4"/>
+    </net>
+    <net code="32" name="/LED_R">
+      <node ref="U502" pin="40"/>
+      <node ref="D101" pin="1"/>
+    </net>
+    <net code="33" name="Net-(D1-Pad2)">
+      <node ref="R3" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="34" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="SW101" pin="1_1"/>
+      <node ref="SW101" pin="1_2"/>
+    </net>
+    <net code="35" name="Net-(R104-Pad2)">
+      <node ref="S101" pin="2A"/>
+      <node ref="R104" pin="2"/>
+    </net>
+    <net code="36" name="Net-(R106-Pad2)">
+      <node ref="S101" pin="1A"/>
+      <node ref="R106" pin="2"/>
+    </net>
+    <net code="37" name="/AnalogueFrontEnd/PitchAnt">
+      <node ref="L801" pin="1"/>
+      <node ref="J102" pin="1"/>
+      <node ref="C801" pin="1"/>
+      <node ref="C805" pin="1"/>
+      <node ref="C807" pin="1"/>
+    </net>
+    <net code="38" name="/AnalogueFrontEnd/VolAnt">
+      <node ref="C810" pin="1"/>
+      <node ref="C806" pin="1"/>
+      <node ref="R806" pin="2"/>
+      <node ref="L802" pin="1"/>
+      <node ref="C809" pin="2"/>
+      <node ref="J101" pin="1"/>
+      <node ref="U801" pin="5"/>
+      <node ref="C803" pin="1"/>
+      <node ref="C809" pin="1"/>
+    </net>
+    <net code="39" name="Net-(R105-Pad2)">
+      <node ref="SW102" pin="2_1"/>
+      <node ref="R105" pin="2"/>
+      <node ref="SW102" pin="2_2"/>
+    </net>
+    <net code="40" name="Net-(C1-Pad1)">
+      <node ref="SW102" pin="1_2"/>
+      <node ref="SW102" pin="1_1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="41" name="/Ring1_Switch">
+      <node ref="U502" pin="2"/>
+      <node ref="J106" pin="6"/>
+    </net>
+    <net code="42" name="/LED_B">
+      <node ref="D101" pin="3"/>
+      <node ref="U502" pin="41"/>
+    </net>
+    <net code="43" name="Net-(J103-Pad6)">
+      <node ref="R15" pin="1"/>
+      <node ref="J103" pin="6"/>
+    </net>
+    <net code="44" name="Net-(J103-Pad4)">
+      <node ref="J103" pin="4"/>
+    </net>
+    <net code="45" name="VBUS">
+      <node ref="J103" pin="1"/>
+      <node ref="R608" pin="2"/>
+      <node ref="U504" pin="5"/>
+    </net>
+    <net code="46" name="/AnalogueFrontEnd/VO_PITCH">
+      <node ref="U801" pin="12"/>
+      <node ref="R811" pin="2"/>
+      <node ref="TP801" pin="1"/>
+      <node ref="U502" pin="13"/>
+      <node ref="C822" pin="1"/>
+    </net>
+    <net code="47" name="/Audio/AMP_PL">
+      <node ref="R404" pin="2"/>
+      <node ref="U502" pin="6"/>
+    </net>
+    <net code="48" name="/Audio/AMP_VOL">
+      <node ref="U502" pin="4"/>
+      <node ref="R403" pin="2"/>
+    </net>
+    <net code="49" name="/USB_D-">
+      <node ref="U504" pin="1"/>
+      <node ref="J103" pin="2"/>
+    </net>
+    <net code="50" name="/USB_D+">
+      <node ref="J103" pin="3"/>
+      <node ref="U504" pin="3"/>
+    </net>
+    <net code="51" name="/DIP_1">
+      <node ref="U502" pin="43"/>
+      <node ref="S101" pin="1B"/>
+    </net>
+    <net code="52" name="/DIP_2">
+      <node ref="Sp501" pin="1"/>
+      <node ref="U502" pin="42"/>
+      <node ref="S101" pin="2B"/>
+    </net>
+    <net code="53" name="/BTN_2">
+      <node ref="R2" pin="2"/>
+      <node ref="U502" pin="11"/>
+    </net>
+    <net code="54" name="/AnalogueFrontEnd/VO_VOLUME">
+      <node ref="C820" pin="1"/>
+      <node ref="U502" pin="37"/>
+      <node ref="TP802" pin="1"/>
+      <node ref="R810" pin="2"/>
+      <node ref="U801" pin="2"/>
+    </net>
+    <net code="55" name="/AnalogueFrontEnd/DAC_Latch">
+      <node ref="U802" pin="6"/>
+      <node ref="U502" pin="27"/>
+    </net>
+    <net code="56" name="/AnalogueFrontEnd/i2c0_SCL">
+      <node ref="U502" pin="9"/>
+      <node ref="R202" pin="2"/>
+      <node ref="U802" pin="9"/>
+    </net>
+    <net code="57" name="/AnalogueFrontEnd/i2c0_SDA">
+      <node ref="R201" pin="2"/>
+      <node ref="U502" pin="10"/>
+      <node ref="U802" pin="10"/>
+    </net>
+    <net code="58" name="/Audio/ROut_P">
+      <node ref="U401" pin="19"/>
+      <node ref="J105" pin="4"/>
+      <node ref="R402" pin="1"/>
+    </net>
+    <net code="59" name="/Audio/ROut_N">
+      <node ref="U401" pin="1"/>
+      <node ref="J105" pin="3"/>
+      <node ref="R402" pin="2"/>
+    </net>
+    <net code="60" name="/Audio/LOut_N">
+      <node ref="U401" pin="15"/>
+      <node ref="R401" pin="2"/>
+      <node ref="J105" pin="2"/>
+    </net>
+    <net code="61" name="/Audio/LOut_P">
+      <node ref="J105" pin="1"/>
+      <node ref="R401" pin="1"/>
+      <node ref="U401" pin="17"/>
+    </net>
+    <net code="62" name="/Sleeve">
+      <node ref="JP102" pin="1"/>
+      <node ref="J106" pin="1"/>
+    </net>
+    <net code="63" name="/Ring2">
+      <node ref="U301" pin="4"/>
+      <node ref="J106" pin="4"/>
+    </net>
+    <net code="64" name="/Ring1">
+      <node ref="U301" pin="2"/>
+      <node ref="J106" pin="3"/>
+    </net>
+    <net code="65" name="/Tip">
+      <node ref="U301" pin="6"/>
+      <node ref="J106" pin="2"/>
+    </net>
+    <net code="66" name="/Audio/Amplifier/LineOut_R">
+      <node ref="C309" pin="2"/>
+      <node ref="U401" pin="5"/>
+    </net>
+    <net code="67" name="/Audio/Amplifier/LineOut_L">
+      <node ref="U401" pin="7"/>
+      <node ref="C308" pin="2"/>
+    </net>
+    <net code="68" name="/FPGA/Spare_50b">
+      <node ref="Sp503" pin="1"/>
+      <node ref="U502" pin="38"/>
+    </net>
+    <net code="69" name="/FPGA/Spare_25b_g3">
+      <node ref="U502" pin="20"/>
+      <node ref="Sp506" pin="1"/>
+    </net>
+    <net code="70" name="/FPGA/Spare_44b">
+      <node ref="Sp1" pin="1"/>
+      <node ref="U502" pin="34"/>
+    </net>
+    <net code="71" name="/FPGA/Spare_22a">
+      <node ref="U502" pin="12"/>
+      <node ref="Sp504" pin="1"/>
+    </net>
+    <net code="72" name="/FPGA/SPI_~WP~-IO2">
+      <node ref="U502" pin="18"/>
+      <node ref="U501" pin="3"/>
+    </net>
+    <net code="73" name="/FPGA/SPI_~HLD~-IO3">
+      <node ref="U502" pin="19"/>
+      <node ref="U501" pin="7"/>
+    </net>
+    <net code="74" name="Net-(U503-Pad1)">
+      <node ref="U503" pin="1"/>
+    </net>
+    <net code="75" name="/FPGA/USB_DET">
+      <node ref="U502" pin="26"/>
+      <node ref="R501" pin="2"/>
+    </net>
+    <net code="76" name="/FPGA/USB_D_P">
+      <node ref="U502" pin="25"/>
+      <node ref="R502" pin="1"/>
+    </net>
+    <net code="77" name="/FPGA/USB_D_N">
+      <node ref="R503" pin="2"/>
+      <node ref="U502" pin="23"/>
+    </net>
+    <net code="78" name="/FPGA/Spare_48b">
+      <node ref="Sp505" pin="1"/>
+      <node ref="U502" pin="36"/>
+    </net>
+    <net code="79" name="Net-(C503-Pad1)">
+      <node ref="R509" pin="2"/>
+      <node ref="C504" pin="1"/>
+      <node ref="C503" pin="1"/>
+      <node ref="U502" pin="29"/>
+    </net>
+    <net code="80" name="/FPGA/OSC_IN">
+      <node ref="U502" pin="35"/>
+      <node ref="U503" pin="3"/>
+    </net>
+    <net code="81" name="Net-(R501-Pad1)">
+      <node ref="R501" pin="1"/>
+      <node ref="R502" pin="2"/>
+      <node ref="U504" pin="4"/>
+    </net>
+    <net code="82" name="Net-(R503-Pad1)">
+      <node ref="R503" pin="1"/>
+      <node ref="U504" pin="6"/>
+    </net>
+    <net code="83" name="Net-(D602-Pad4)">
+      <node ref="JP302" pin="2"/>
+      <node ref="D602" pin="4"/>
+    </net>
+    <net code="84" name="Net-(C607-Pad1)">
+      <node ref="C607" pin="1"/>
+      <node ref="R610" pin="1"/>
+      <node ref="U603" pin="3"/>
+      <node ref="R601" pin="2"/>
+    </net>
+    <net code="85" name="Net-(C601-Pad2)">
+      <node ref="U601" pin="7"/>
+      <node ref="U601" pin="6"/>
+      <node ref="R302" pin="1"/>
+      <node ref="C601" pin="2"/>
+    </net>
+    <net code="86" name="+5V">
+      <node ref="U601" pin="1"/>
+      <node ref="U401" pin="20"/>
+      <node ref="U401" pin="16"/>
+      <node ref="U601" pin="12"/>
+      <node ref="D601" pin="1"/>
+      <node ref="U401" pin="13"/>
+      <node ref="C303" pin="1"/>
+      <node ref="R606" pin="1"/>
+      <node ref="C403" pin="1"/>
+      <node ref="C405" pin="1"/>
+      <node ref="R608" pin="1"/>
+    </net>
+    <net code="87" name="Net-(U601-Pad11)">
+      <node ref="U601" pin="11"/>
+    </net>
+    <net code="88" name="Net-(U601-Pad5)">
+      <node ref="U601" pin="5"/>
+    </net>
+    <net code="89" name="Net-(C306-Pad1)">
+      <node ref="R302" pin="2"/>
+      <node ref="D601" pin="5"/>
+      <node ref="C306" pin="1"/>
+      <node ref="D601" pin="4"/>
+    </net>
+    <net code="90" name="/Power/FB1">
+      <node ref="R604" pin="2"/>
+      <node ref="R605" pin="1"/>
+      <node ref="U601" pin="4"/>
+    </net>
+    <net code="91" name="/Power/FB2">
+      <node ref="U601" pin="10"/>
+      <node ref="R612" pin="2"/>
+      <node ref="R603" pin="1"/>
+    </net>
+    <net code="92" name="Net-(L602-Pad1)">
+      <node ref="L602" pin="1"/>
+      <node ref="U601" pin="2"/>
+    </net>
+    <net code="93" name="Net-(L601-Pad1)">
+      <node ref="L601" pin="1"/>
+      <node ref="U601" pin="8"/>
+    </net>
+    <net code="94" name="Net-(U602-Pad4)">
+      <node ref="U602" pin="4"/>
+    </net>
+    <net code="95" name="Net-(U603-Pad6)">
+      <node ref="U603" pin="6"/>
+    </net>
+    <net code="96" name="Net-(D602-Pad2)">
+      <node ref="D602" pin="2"/>
+    </net>
+    <net code="97" name="Net-(D601-Pad2)">
+      <node ref="D601" pin="2"/>
+    </net>
+    <net code="98" name="Net-(D602-Pad5)">
+      <node ref="D602" pin="5"/>
+      <node ref="R609" pin="2"/>
+    </net>
+    <net code="99" name="VCCQ">
+      <node ref="U603" pin="4"/>
+      <node ref="C605" pin="1"/>
+      <node ref="R609" pin="1"/>
+      <node ref="D601" pin="3"/>
+      <node ref="R601" pin="1"/>
+      <node ref="L602" pin="2"/>
+      <node ref="R612" pin="1"/>
+    </net>
+    <net code="100" name="/AnalogueFrontEnd/VOutA">
+      <node ref="R803" pin="2"/>
+      <node ref="U802" pin="4"/>
+    </net>
+    <net code="101" name="/AnalogueFrontEnd/VOutB">
+      <node ref="R804" pin="2"/>
+      <node ref="U802" pin="5"/>
+    </net>
+    <net code="102" name="/AnalogueFrontEnd/Vref">
+      <node ref="C701" pin="1"/>
+      <node ref="R809" pin="1"/>
+      <node ref="U802" pin="3"/>
+    </net>
+    <net code="103" name="Net-(C804-Pad1)">
+      <node ref="R804" pin="1"/>
+      <node ref="C804" pin="1"/>
+      <node ref="R802" pin="2"/>
+    </net>
+    <net code="104" name="Net-(C802-Pad1)">
+      <node ref="C802" pin="1"/>
+      <node ref="R803" pin="1"/>
+      <node ref="R801" pin="2"/>
+    </net>
+    <net code="105" name="Net-(C801-Pad2)">
+      <node ref="R801" pin="1"/>
+      <node ref="D801" pin="3"/>
+      <node ref="C801" pin="2"/>
+    </net>
+    <net code="106" name="Net-(JP401-Pad2)">
+      <node ref="R701" pin="1"/>
+      <node ref="JP401" pin="2"/>
+    </net>
+    <net code="107" name="Net-(JP402-Pad2)">
+      <node ref="R702" pin="2"/>
+      <node ref="JP402" pin="2"/>
+    </net>
+    <net code="108" name="Net-(C811-Pad1)">
+      <node ref="R808" pin="1"/>
+      <node ref="C811" pin="1"/>
+      <node ref="C814" pin="1"/>
+      <node ref="L802" pin="2"/>
+    </net>
+    <net code="109" name="Net-(R701-Pad2)">
+      <node ref="R701" pin="2"/>
+      <node ref="U802" pin="2"/>
+    </net>
+    <net code="110" name="Net-(R702-Pad1)">
+      <node ref="R702" pin="1"/>
+      <node ref="U802" pin="8"/>
+    </net>
+    <net code="111" name="Net-(U801-Pad10)">
+      <node ref="U801" pin="13"/>
+      <node ref="U801" pin="10"/>
+    </net>
+    <net code="112" name="Net-(C803-Pad2)">
+      <node ref="R802" pin="1"/>
+      <node ref="D802" pin="3"/>
+      <node ref="C803" pin="2"/>
+    </net>
+    <net code="113" name="Net-(C807-Pad2)">
+      <node ref="C808" pin="1"/>
+      <node ref="U801" pin="9"/>
+      <node ref="C807" pin="2"/>
+      <node ref="R805" pin="2"/>
+    </net>
+    <net code="114" name="Net-(C812-Pad1)">
+      <node ref="R807" pin="1"/>
+      <node ref="C812" pin="1"/>
+      <node ref="C813" pin="1"/>
+      <node ref="L801" pin="2"/>
+    </net>
+    <net code="115" name="Net-(U801-Pad1)">
+      <node ref="U801" pin="1"/>
+      <node ref="U801" pin="4"/>
+    </net>
+    <net code="116" name="Net-(R806-Pad1)">
+      <node ref="R806" pin="1"/>
+      <node ref="R808" pin="2"/>
+      <node ref="U801" pin="6"/>
+      <node ref="U801" pin="3"/>
+    </net>
+    <net code="117" name="Net-(R805-Pad1)">
+      <node ref="R807" pin="2"/>
+      <node ref="R805" pin="1"/>
+      <node ref="U801" pin="8"/>
+      <node ref="U801" pin="11"/>
+    </net>
+    <net code="118" name="Net-(JP301-Pad1)">
+      <node ref="U301" pin="31"/>
+      <node ref="JP301" pin="1"/>
+    </net>
+    <net code="119" name="Net-(U301-Pad18)">
+      <node ref="U301" pin="18"/>
+    </net>
+    <net code="120" name="Net-(U301-Pad14)">
+      <node ref="U301" pin="14"/>
+    </net>
+    <net code="121" name="Net-(R602-Pad1)">
+      <node ref="U301" pin="13"/>
+      <node ref="R602" pin="1"/>
+    </net>
+    <net code="122" name="/Audio/Codec/Codec_VDDA">
+      <node ref="C606" pin="2"/>
+      <node ref="U301" pin="5"/>
+      <node ref="FB601" pin="1"/>
+      <node ref="C611" pin="2"/>
+      <node ref="C608" pin="1"/>
+    </net>
+    <net code="123" name="Net-(C307-Pad1)">
+      <node ref="C307" pin="1"/>
+      <node ref="U301" pin="10"/>
+    </net>
+    <net code="124" name="Net-(C309-Pad1)">
+      <node ref="C309" pin="1"/>
+      <node ref="U301" pin="11"/>
+    </net>
+    <net code="125" name="Net-(C308-Pad1)">
+      <node ref="C308" pin="1"/>
+      <node ref="U301" pin="12"/>
+    </net>
+    <net code="126" name="Net-(C304-Pad1)">
+      <node ref="U301" pin="16"/>
+      <node ref="C304" pin="1"/>
+      <node ref="R301" pin="2"/>
+    </net>
+    <net code="127" name="Net-(C301-Pad1)">
+      <node ref="C301" pin="1"/>
+      <node ref="U301" pin="15"/>
+    </net>
+    <net code="128" name="Net-(C401-Pad1)">
+      <node ref="R403" pin="1"/>
+      <node ref="R405" pin="1"/>
+      <node ref="C401" pin="1"/>
+      <node ref="U401" pin="8"/>
+    </net>
+    <net code="129" name="Net-(U401-Pad2)">
+      <node ref="U401" pin="2"/>
+    </net>
+    <net code="130" name="Net-(U401-Pad14)">
+      <node ref="U401" pin="14"/>
+    </net>
+    <net code="131" name="Net-(U401-Pad3)">
+      <node ref="U401" pin="3"/>
+    </net>
+    <net code="132" name="Net-(U401-Pad12)">
+      <node ref="U401" pin="12"/>
+    </net>
+    <net code="133" name="Net-(C402-Pad1)">
+      <node ref="R404" pin="1"/>
+      <node ref="U401" pin="11"/>
+      <node ref="R406" pin="2"/>
+      <node ref="C402" pin="1"/>
+    </net>
+    <net code="134" name="Net-(C404-Pad1)">
+      <node ref="U401" pin="4"/>
+      <node ref="C404" pin="1"/>
+    </net>
+  </nets>
+</export>
