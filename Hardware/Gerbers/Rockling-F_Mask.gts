@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,5.1.10-88a1d61d58~88~ubuntu18.04.1*%
-%TF.CreationDate,2021-09-10T11:39:44+10:00*%
+%TF.CreationDate,2021-11-09T17:01:34+11:00*%
 %TF.ProjectId,Rockling,526f636b-6c69-46e6-972e-6b696361645f,rev?*%
 %TF.SameCoordinates,PX42c1d80PY7bfa480*%
 %TF.FileFunction,Soldermask,Top*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 5.1.10-88a1d61d58~88~ubuntu18.04.1) date 2021-09-10 11:39:44*
+G04 Created by KiCad (PCBNEW 5.1.10-88a1d61d58~88~ubuntu18.04.1) date 2021-11-09 17:01:34*
 %MOMM*%
 %LPD*%
 G01*
@@ -387,9 +387,9 @@ G37*
 %TD*%
 D14*
 %TO.C,P1*%
-X71790000Y16970000D03*
+X70840000Y16900000D03*
 D15*
-X69250000Y16970000D03*
+X68300000Y16900000D03*
 %TD*%
 D11*
 %TO.C,JP302*%
